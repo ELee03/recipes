@@ -1,0 +1,139 @@
+id: chicken-piccata
+name: Chicken Piccata
+cuisine: italian
+difficulty: medium
+time: 30
+servings: 2
+
+methods:
+  - pan-sear
+  - deglaze
+  - simmer
+
+tags:
+  - high-protein
+  - no-marinate
+  - one-pan
+
+description: >
+  Bright, lemony, slightly briny from capers. The sauce is built in the pan after searing the
+  chicken — deglazing with wine or broth, adding lemon juice and capers. It's one of those dishes
+  that tastes way more involved than it is. Lean, flavorful, light. Works over pasta or with a
+  simple salad.
+
+keyIngredients:
+  - chicken breast
+  - capers
+  - lemon juice
+  - dry white wine
+  - chicken broth
+  - garlic
+
+ingredientGroups:
+  - emoji: 🍗
+    label: Protein prep
+    actionNote: season and dredge before searing
+    ingredients:
+      - amount: 2
+        name: chicken breasts, halved horizontally and pounded thin
+        note: butterflied into cutlets
+        alternatives: []
+      - amount: null
+        name: salt and pepper
+        note: null
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: flour
+        note: for dredging
+        alternatives: []
+
+  - emoji: 🧄
+    label: Aromatics
+    actionNote: added to pan after removing chicken
+    ingredients:
+      - amount: 2 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: convenient substitute, works fine here
+
+  - emoji: 🫙
+    label: Bowl 1 — Pan sauce
+    actionNote: pre-measure, added to pan in sequence
+    ingredients:
+      - amount: 100ml
+        name: dry white wine
+        note: null
+        alternatives:
+          - amount: 100ml
+            name: chicken broth
+            note: less complex but still good — use all broth if skipping wine
+      - amount: 100ml
+        name: chicken broth
+        note: null
+        alternatives:
+          - amount: 100ml
+            name: bouillon cube dissolved in hot water
+            note: 1 cube dissolved in 100ml hot water
+      - amount: "2–3 tbsp"
+        name: fresh lemon juice
+        note: about 1 lemon
+        alternatives:
+          - amount: "2–3 tbsp"
+            name: bottled lemon juice
+            note: fine since it's cooked into the sauce
+      - amount: "1–2 tbsp"
+        name: capers, drained
+        note: null
+        alternatives: []
+
+  - emoji: 🍳
+    label: Cooking
+    actionNote: heat before adding chicken
+    ingredients:
+      - amount: "1–2 tbsp"
+        name: olive oil
+        note: null
+        alternatives: []
+
+  - emoji: ✨
+    label: Finish
+    actionNote: added off heat to finish the sauce
+    ingredients:
+      - amount: null
+        name: butter
+        note: a small knob — optional, adds richness, keep it small
+        alternatives: []
+      - amount: null
+        name: fresh parsley, chopped
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Season chicken cutlets with salt and pepper. Dredge lightly in flour, shaking off excess.
+  - step: Heat olive oil in a pan over medium-high. Sear chicken cutlets ~3 min per side until golden and cooked through. Remove and set aside.
+  - step: Lower heat to medium. Add garlic and cook 30 seconds.
+  - step: Deglaze with white wine, scraping up any browned bits. Let reduce by half (~2 min).
+  - step: Add chicken broth, lemon juice, and capers. Simmer 3–4 min.
+  - step: Swirl in butter if using (off heat). Taste and adjust — more lemon if it needs brightness, more salt if flat.
+  - step: Return chicken to the pan and spoon sauce over it. Finish with parsley.
+
+protein:
+  grams: "55–65"
+  note: per serving with two chicken breast cutlets
+
+tips:
+  - keyword: pound the chicken thin
+    text: Pounding the chicken thin (between plastic wrap or in a zip-lock bag) ensures it cooks evenly and fast. Skip this and you'll end up with dry edges and an undercooked center.
+  - keyword: skip the wine
+    text: If you don't drink, skip the wine and just use all chicken broth. The dish will be less complex but still good.
+  - keyword: capers are essential
+    text: Capers are essential here — don't sub them out. They provide the brininess that defines piccata.
+  - keyword: serving suggestion
+    text: This pairs well over angel hair pasta (toss pasta in the extra sauce) or just eaten with a simple green salad.
+
+firstAttemptNotes:
+  date: null
+  notes: []

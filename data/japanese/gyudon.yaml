@@ -1,0 +1,127 @@
+id: gyudon
+name: Gyudon (Beef Rice Bowl)
+cuisine: japanese
+difficulty: easy
+time: 20
+servings: 2
+
+methods:
+  - simmer
+
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+
+description: >
+  Thinly sliced beef and onion simmered in a sweet-savory dashi broth, spooned over a bowl of
+  rice — this is Japanese fast food done right at home. The broth does double duty, seasoning both
+  the meat and soaking into the rice beneath it. Serve with a soft-boiled egg or raw egg yolk on
+  top for the full yoshinoya experience.
+
+keyIngredients:
+  - thinly sliced beef
+  - dashi stock
+  - soy sauce
+  - mirin
+  - onion
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Broth
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 150ml
+        name: dashi stock
+        note: 1 tsp hondashi powder + 150ml water
+        alternatives: []
+      - amount: 3 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 3 tbsp
+        name: mirin
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: sugar
+        note: null
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: use as-is; add directly to pan
+    ingredients:
+      - amount: "200–250g"
+        name: thinly sliced beef
+        note: shabu-shabu or sukiyaki cut from Asian grocery
+        alternatives:
+          - amount: "200–250g"
+            name: frozen pre-sliced beef
+            note: completely valid, often easier to find; thaw before use
+          - amount: "200–250g"
+            name: ribeye or sirloin block
+            note: freeze ~30 min then slice as thin as possible with a sharp knife
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: null
+    ingredients:
+      - amount: ½
+        name: onion, sliced thin (half-moons)
+        note: null
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add right before serving
+    ingredients:
+      - amount: 1
+        name: green onion, sliced thin
+        note: null
+        alternatives: []
+      - amount: null
+        name: pickled ginger (beni shoga)
+        note: optional but traditional
+        alternatives: []
+      - amount: 1
+        name: soft-boiled egg or raw egg yolk
+        note: optional
+        alternatives: []
+
+  - emoji: 🍚
+    label: Serving
+    actionNote: null
+    ingredients:
+      - amount: null
+        name: cooked white rice
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Mix all broth ingredients together in a small bowl and set aside.
+  - step: In a medium pan or skillet over medium heat, add the broth and sliced onion. Bring to a simmer.
+  - step: Cook onion ~3–4 min until softened and slightly translucent.
+  - step: Add the beef slices, spreading them out so they cook evenly. Simmer ~3–4 min, skimming any foam that rises.
+  - step: Taste the broth — it should be noticeably savory and slightly sweet. Adjust with a splash more soy sauce if needed.
+  - step: Ladle the beef, onion, and plenty of broth over a bowl of rice.
+  - step: Top with green onion, pickled ginger, and egg if using. Eat immediately.
+
+protein:
+  grams: "45–55"
+  note: per serving (200–250g beef); add a soft-boiled egg for an extra ~6g
+
+tips:
+  - keyword: Season the broth aggressively
+    text: It's flavoring the rice underneath it, so if it tastes right on its own, it'll taste underseasoned on the bowl. Push it saltier and sweeter than you think.
+  - keyword: Thin beef is non-negotiable
+    text: Thick slices won't absorb the broth the same way and take longer to cook. Asian grocery freezer sections almost always have pre-sliced beef labelled "shabu-shabu" or "sukiyaki" — that's the one.
+  - keyword: Don't overcook the beef
+    text: It's thin and goes from perfect to rubbery fast. Once it's no longer pink, it's done.
+  - keyword: Egg yolk on top
+    text: Melts into the hot broth and adds richness. Totally optional but worth trying once.
+
+firstAttemptNotes:
+  date: null
+  notes: []

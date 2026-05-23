@@ -1,0 +1,108 @@
+id: carbonara
+name: Carbonara
+cuisine: italian
+difficulty: medium
+time: 25
+servings: 2
+
+methods:
+  - boil
+  - sauté
+  - toss
+
+tags:
+  - high-protein
+  - no-marinate
+
+description: >
+  The most technically demanding weeknight pasta — but once you get it, it's untouchable. Guanciale
+  (or pancetta or bacon) renders down in its own fat, then pasta and a whisked egg-and-pecorino
+  mixture get tossed together off the heat, using the residual warmth and starchy pasta water to
+  emulsify into a glossy, silky sauce. No cream. Never cream. The whole point is that eggs and
+  cheese become the sauce — and if you keep the heat off, it works perfectly every time.
+
+keyIngredients:
+  - guanciale
+  - pecorino romano
+  - eggs
+  - rigatoni
+  - black pepper
+
+ingredientGroups:
+  - emoji: 🥩
+    label: Protein
+    actionNote: rendered in the pan first — the fat becomes the cooking fat for everything else
+    ingredients:
+      - amount: "100–150g"
+        name: guanciale, cut into lardons or cubes
+        note: null
+        alternatives:
+          - amount: "100–150g"
+            name: pancetta
+            note: very similar, slightly less funky; nearly identical result
+          - amount: "100–150g"
+            name: bacon
+            note: more widely available; smokier flavor, works great
+
+  - emoji: 🫙
+    label: Egg mixture
+    actionNote: whisked together in a bowl before you start cooking — must be ready to go
+    ingredients:
+      - amount: 2 whole + 2 yolks
+        name: eggs
+        note: yolks add richness and emulsification
+        alternatives: []
+      - amount: 50g
+        name: pecorino romano, very finely grated
+        note: the finer the better — it needs to melt into the sauce
+        alternatives:
+          - amount: 50g
+            name: parmesan
+            note: milder and slightly less sharp; works well
+          - amount: 50g
+            name: half pecorino, half parmesan
+            note: the classic restaurant approach
+      - amount: at least 1 tsp
+        name: freshly cracked black pepper
+        note: generous amount — this is a flavor, not a seasoning
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cook until 1–2 min before al dente; it finishes in the pan
+    ingredients:
+      - amount: "180–200g"
+        name: rigatoni or spaghetti
+        note: rigatoni holds the sauce inside the tubes and is highly recommended; spaghetti is more traditional
+        alternatives: []
+
+instructions:
+  - step: Bring a large pot of well-salted water to a boil. Cook pasta until 1–2 minutes before al dente (it will finish in the pan).
+  - step: While pasta cooks, whisk together eggs, egg yolks, grated cheese, and black pepper in a bowl. Set aside at room temperature — cold eggs scramble faster.
+  - step: In a large pan or skillet over medium heat, cook guanciale (or substitute) until the fat has rendered and the meat is golden and slightly crispy, ~5–7 min. Turn off the heat and leave the meat and fat in the pan.
+  - step: Reserve at least 1 full cup of pasta water before draining. Drain pasta.
+  - step: Add pasta directly to the pan with the guanciale. Toss to coat in the fat. The pan should still be warm but off heat — wait 30 seconds if it's steaming too aggressively.
+  - step: Pour the egg-and-cheese mixture over the pasta. Immediately toss constantly and vigorously, adding pasta water splash by splash (~4–6 tbsp total) to loosen the sauce. The starchy water helps the emulsion form.
+  - step: Keep tossing until the sauce is glossy and clings to every piece of pasta — not wet, not dry. Add more pasta water if it tightens up too much.
+  - step: Taste and adjust salt (the guanciale and cheese are already salty — you may not need any).
+  - step: Plate immediately. Crack more black pepper over the top.
+
+protein:
+  grams: "45–55"
+  note: per serving; guanciale or bacon ~15–20g, eggs ~12g, pecorino ~10g
+
+tips:
+  - keyword: never add the egg mixture over direct heat
+    text: This is the single rule. The eggs need warmth, not heat — off heat + pasta water is enough. If the eggs scramble, the dish is over.
+  - keyword: room temperature eggs
+    text: Room temperature eggs emulsify more easily and are less likely to seize when they hit the warm pasta. Take them out when you start cooking.
+  - keyword: reserve more pasta water than you think
+    text: You'll need at least 4–6 tbsp for the sauce, but keep a full cup on hand in case the sauce tightens.
+  - keyword: grate the cheese very finely
+    text: Coarsely grated cheese won't melt into the sauce and will clump. A microplane or fine box grater works best.
+  - keyword: the sauce should be glossy, not runny
+    text: If it's too loose, toss for another 30 seconds — the starch will thicken it. If it's too tight, add a splash more pasta water.
+
+firstAttemptNotes:
+  date: null
+  notes: []

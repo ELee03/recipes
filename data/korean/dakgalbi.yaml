@@ -1,0 +1,129 @@
+id: dakgalbi
+name: Dakgalbi (Korean Spicy Stir-Fried Chicken)
+cuisine: korean
+difficulty: medium
+time: 40
+servings: 2
+
+methods:
+  - marinate
+  - stir-fry
+
+tags:
+  - high-protein
+  - meal-prep
+  - one-pan
+
+description: >
+  Classic Korean street food. Spicy, slightly sweet, smoky from the gochujang. Cabbage and sweet potato bulk it up without adding much fat. Use chicken breast to keep it lean — the sauce does all the heavy lifting.
+
+keyIngredients:
+  - chicken breast
+  - gochujang
+  - gochugaru
+  - cabbage
+  - sweet potato
+  - soy sauce
+  - sesame oil
+  - mirin
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Chicken & marinade
+    actionNote: mix together, let sit 15+ min
+    ingredients:
+      - amount: "300–350g"
+        name: chicken breast
+        note: cut into bite-sized pieces
+        alternatives: []
+      - amount: 2 tbsp
+        name: gochujang
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: gochugaru
+        note: Korean chili flakes — adjust to heat preference
+        alternatives: []
+      - amount: 1 tsp
+        name: sesame oil
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: mirin or rice wine
+        note: null
+        alternatives:
+          - amount: 1 tbsp
+            name: dry sherry
+            note: works as a substitute for mirin or rice wine
+      - amount: 1 tsp
+        name: sugar or honey
+        note: null
+        alternatives: []
+      - amount: "4–5 cloves"
+        name: garlic
+        note: minced
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: convenient substitute
+      - amount: 1 tsp
+        name: ginger
+        note: grated
+        alternatives:
+          - amount: null
+            name: jarred minced ginger
+            note: or freeze a knob and grate from frozen
+
+  - emoji: 🥬
+    label: Vegetables
+    actionNote: added to the pan during cooking
+    ingredients:
+      - amount: ½
+        name: onion
+        note: sliced
+        alternatives: []
+      - amount: ¼ head
+        name: cabbage
+        note: roughly chopped
+        alternatives: []
+      - amount: ½
+        name: sweet potato or regular potato
+        note: cut into thin rounds; optional but traditional
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add just before serving
+    ingredients:
+      - amount: 1
+        name: green onion
+        note: chopped
+        alternatives: []
+
+instructions:
+  - step: Mix all marinade ingredients. Toss chicken and let sit at least 15 min (longer is better — up to overnight in the fridge).
+  - step: If using sweet potato, either microwave the slices 2–3 min first to soften, or add them to the pan early with a splash of water.
+  - step: Heat pan on medium-high with a little oil. Add marinated chicken and onion.
+  - step: Cook ~5 min, stirring occasionally. Add cabbage and sweet potato.
+  - step: Stir-fry everything together until chicken is cooked through and cabbage is wilted (~8–10 min total).
+  - step: Top with green onion. Serve with rice or eat as-is.
+
+protein:
+  grams: "55–65"
+  note: per serving with chicken breast + rice on the side
+
+tips:
+  - keyword: don't crowd the pan
+    text: Don't crowd the pan — you want some char on the chicken, not steaming.
+  - keyword: cheese topping
+    text: Cheese topping (mozzarella) is popular in restaurants. Skip it to keep things lighter, or add it as a treat.
+  - keyword: leftover dakgalbi
+    text: Leftover dakgalbi makes incredible fried rice the next day.
+
+firstAttemptNotes:
+  date: null
+  notes: []

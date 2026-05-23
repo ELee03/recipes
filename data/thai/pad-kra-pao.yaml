@@ -1,0 +1,125 @@
+id: pad-kra-pao
+name: Pad Kra Pao (Thai Basil Ground Meat)
+cuisine: thai
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - stir-fry
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+
+description: >
+  Thailand's most popular everyday dish. Aggressively flavored — garlic, chili, fish sauce,
+  oyster sauce — and ready in 20 minutes. Ground meat makes this ideal for the fat-drain
+  technique; drain and rinse before adding to the pan, then let the Thai seasonings do the
+  rest. Always served with a fried egg on top. Non-negotiable.
+
+keyIngredients:
+  - ground chicken
+  - fish sauce
+  - oyster sauce
+  - Thai basil
+  - bird's eye chilies
+  - garlic
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Sauce
+    actionNote: mix together and set aside before cooking
+    ingredients:
+      - amount: 1 tbsp
+        name: fish sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: oyster sauce
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: sugar
+        note: null
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: cook first, drain fat, return to pan
+    ingredients:
+      - amount: "250–300g"
+        name: ground chicken, pork, or beef
+        note: null
+        alternatives: []
+
+  - emoji: 🌶️
+    label: Aromatics
+    actionNote: added to the pan with the drained meat, stir-fried on high heat
+    ingredients:
+      - amount: "3–4 cloves"
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: null
+      - amount: "3–5"
+        name: Thai bird's eye chilies, minced
+        note: adjust to heat preference — this dish should be spicy
+        alternatives:
+          - amount: "½–1 tsp"
+            name: red chili flakes or cayenne powder
+            note: less fresh heat but works
+
+  - emoji: 🌿
+    label: Finish
+    actionNote: added off heat — residual heat wilts it in ~30 seconds
+    ingredients:
+      - amount: null
+        name: Thai basil leaves (holy basil / krapao is authentic)
+        note: regular Italian basil works in a pinch but tastes different
+        alternatives: []
+
+  - emoji: 🍳
+    label: Serving
+    actionNote: fry egg separately; serve over rice with egg on top
+    ingredients:
+      - amount: 1 per person
+        name: fried egg (over-easy or sunny side up, runny yolk)
+        note: null
+        alternatives: []
+      - amount: null
+        name: cooked rice
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Cook ground meat in a pan over medium-high heat. Break it up as it cooks.
+  - step: Drain fat (and rinse if you prefer), then return to pan.
+  - step: Add garlic and chili directly to the meat. Stir-fry 1–2 min over high heat.
+  - step: Add fish sauce, oyster sauce, soy sauce, and sugar. Toss to coat everything.
+  - step: Turn off heat. Add Thai basil and toss — the residual heat wilts it in ~30 seconds.
+  - step: Fry an egg separately (over-easy or sunny side up, runny yolk). Serve over rice with the egg on top and the yolk running into the meat.
+
+protein:
+  grams: "55–65"
+  note: per serving with ground chicken or beef plus egg
+
+tips:
+  - keyword: Holy basil (krapao)
+    text: Is the authentic choice and tastes noticeably different from Italian basil. Worth seeking out at Asian grocery stores if you can.
+  - keyword: The fried egg is not garnish
+    text: It's structural. The runny yolk mixes into the meat and rice and ties everything together.
+  - keyword: Cook on high heat
+    text: This dish should be cooked on high heat the whole time. You want some char, not steaming.
+  - keyword: Add a splash of water
+    text: If the sauce gets too thick or sticky, a small splash of water loosens it immediately.
+
+firstAttemptNotes:
+  date: null
+  notes: []

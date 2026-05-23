@@ -1,0 +1,132 @@
+id: gochujang-chicken-pasta
+name: Gochujang Chicken Pasta
+cuisine: korean
+difficulty: easy
+time: 25
+servings: 2
+
+methods:
+  - boil
+  - pan-sear
+  - sauté
+
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+  - fusion
+
+description: >
+  A Korean-Italian mashup that actually works. Gochujang brings deep fermented heat, Greek yogurt keeps it creamy without heaviness. High protein, one pan (plus the pasta pot).
+
+keyIngredients:
+  - chicken breast
+  - gochujang
+  - Greek yogurt
+  - pasta
+  - soy sauce
+  - garlic
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Sauce
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 1 tbsp
+        name: gochujang
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: honey or sugar
+        note: null
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: Greek yogurt
+        note: plain, full-fat or low-fat both work
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: season and pan-sear before making the sauce
+    ingredients:
+      - amount: "150–200g"
+        name: chicken breast
+        note: sliced thin
+        alternatives: []
+
+  - emoji: 🧄
+    label: Aromatics
+    actionNote: go in the pan together
+    ingredients:
+      - amount: "3–4 cloves"
+        name: garlic
+        note: minced
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: convenient substitute
+      - amount: ½
+        name: onion
+        note: diced
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cook in salted water; reserve pasta water before draining
+    ingredients:
+      - amount: 120g
+        name: pasta
+        note: rigatoni, cavatappi, or fusilli recommended
+        alternatives: []
+      - amount: "~3–4 tbsp"
+        name: pasta water
+        note: reserve before draining
+        alternatives: []
+
+  - emoji: 🍳
+    label: Cooking
+    actionNote: use as needed
+    ingredients:
+      - amount: null
+        name: oil for cooking
+        note: minimal
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: optional — add at plating
+    ingredients:
+      - amount: null
+        name: green onion or sesame seeds
+        note: optional
+        alternatives: []
+
+instructions:
+  - step: Cook pasta in salted water. Reserve a cup of pasta water before draining.
+  - step: Season chicken with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside.
+  - step: In the same pan, sauté garlic and onion until softened (~2 min).
+  - step: Add gochujang, soy sauce, and honey. Stir and cook 1 min.
+  - step: Lower heat. Add Greek yogurt and pasta water. Stir until a smooth sauce forms — don't let it boil or the yogurt will break.
+  - step: Add pasta and chicken back in. Toss to coat. Add more pasta water if too thick.
+  - step: Plate and top with green onion or sesame seeds if using.
+
+protein:
+  grams: "50–60"
+  note: per serving with 200g chicken breast + Greek yogurt; add egg whites to sauce for more
+
+tips:
+  - keyword: thin-sliced chicken
+    text: Thin-sliced chicken cooks faster and stays tender. Slice against the grain.
+  - keyword: pasta water
+    text: Don't skip the pasta water — it's the glue that binds the sauce.
+  - keyword: gochujang heat
+    text: Gochujang varies in heat level by brand; taste and adjust.
+
+firstAttemptNotes:
+  date: null
+  notes: []

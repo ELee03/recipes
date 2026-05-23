@@ -1,0 +1,139 @@
+id: gochujang-glazed-salmon
+name: Gochujang Glazed Salmon
+cuisine: korean
+difficulty: easy
+time: 20
+servings: 2
+
+methods:
+  - pan-sear
+  - air-fry
+  - broil
+
+tags:
+  - quick
+  - high-protein
+  - no-marinate
+  - air-fryer
+
+description: >
+  High-protein, weeknight-fast, and genuinely impressive-looking for how little effort it takes. The gochujang glaze — sweet, spicy, fermented — caramelizes against the salmon's natural fat to form a sticky, deeply savory crust. Serve over rice with a pile of green onion and you have a full meal in 20 minutes. The only real risk here is burning the glaze: keep the heat at medium, not high, and watch the last couple minutes closely.
+
+keyIngredients:
+  - salmon
+  - gochujang
+  - soy sauce
+  - honey
+  - sesame oil
+  - mirin
+  - garlic
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Glaze
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 2 tbsp
+        name: gochujang
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: honey
+        note: or sugar
+        alternatives: []
+      - amount: 1 tsp
+        name: sesame oil
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: jarred minced garlic
+        note: null
+        alternatives:
+          - amount: 2 cloves
+            name: fresh garlic
+            note: minced
+      - amount: 1 tsp
+        name: mirin
+        note: optional — adds gloss and a little sweetness
+        alternatives: []
+
+  - emoji: 🐟
+    label: Protein
+    actionNote: pat dry before cooking — moisture is the enemy of a good sear
+    ingredients:
+      - amount: "2 fillets (~150–180g each)"
+        name: salmon
+        note: skin-on or off — skin-on is easier to handle
+        alternatives: []
+
+  - emoji: 🍚
+    label: Serving
+    actionNote: serve the salmon on top
+    ingredients:
+      - amount: 2 portions
+        name: cooked rice
+        note: null
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add at plating
+    ingredients:
+      - amount: "2–3"
+        name: green onions
+        note: thinly sliced
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+      - amount: null
+        name: lemon or lime wedge
+        note: optional
+        alternatives: []
+
+instructions:
+  - section: Pan-sear (recommended)
+    steps:
+      - Pat salmon dry with paper towel — moisture is the enemy of a good sear. Season lightly with a pinch of salt and pepper.
+      - Mix glaze ingredients together.
+      - Heat a pan over medium heat with a thin film of neutral oil.
+      - Place salmon skin-side down (if skin-on) and cook ~4 min without moving.
+      - Flip. Spoon or brush half the glaze over the cooked side.
+      - Cook another 2 min. Add remaining glaze and let it bubble and caramelize ~1 min, tilting the pan to baste. Watch it — the sugar burns fast at this stage.
+      - Rest 1–2 min before serving.
+  - section: Air fryer
+    steps:
+      - Pat salmon dry. Brush glaze generously on top and sides.
+      - Air fry at 200°C (390°F) for 8–10 min depending on thickness. No flipping needed. Check at 8 min.
+  - section: Broil
+    steps:
+      - Pat salmon dry. Place on a foil-lined baking sheet. Brush glaze generously on top.
+      - Broil on a rack ~15cm from the element for 8–10 min. Watch closely in the last 2 min — the glaze can char quickly.
+  - section: To serve
+    steps:
+      - Place salmon over rice. Spoon any pan glaze over the top. Finish with green onion, sesame seeds, and a squeeze of citrus if you have it.
+
+protein:
+  grams: "45–55"
+  note: per serving with 2 fillets (~150–180g each); salmon is also rich in omega-3s and remains filling without being heavy
+
+tips:
+  - keyword: Medium heat, not high
+    text: The gochujang has sugar in it and the glaze scorches fast. If you see it going dark too quickly, pull the pan off the heat for a few seconds.
+  - keyword: Pat the salmon dry
+    text: This is the difference between a sear and a steam. Takes 10 seconds and matters a lot.
+  - keyword: Skin-on fillets are more forgiving
+    text: The skin acts as a buffer — harder to overcook the flesh. Peel it off on the plate if you don't like eating it.
+  - keyword: Don't skip the rest
+    text: 1–2 min off heat lets the carryover cooking finish gently and keeps the fish from falling apart on the plate.
+  - keyword: Frozen salmon works fine
+    text: Thaw overnight in the fridge or under cold running water. Salmon is one of the best freezer proteins.
+
+firstAttemptNotes:
+  date: null
+  notes: []

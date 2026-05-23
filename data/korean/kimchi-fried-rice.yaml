@@ -1,0 +1,150 @@
+id: kimchi-fried-rice
+name: Kimchi Fried Rice
+cuisine: korean
+difficulty: easy
+time: 15
+servings: 2
+
+methods:
+  - pan-fry
+  - stir-fry
+
+tags:
+  - quick
+  - meal-prep
+  - one-pan
+  - pantry-friendly
+
+description: >
+  The ultimate use-what-you-have Korean meal — deeply savory, a little spicy, and endlessly flexible depending on what protein you throw in. Day-old rice is non-negotiable here: fresh rice is too wet and steams instead of frying, giving you mush instead of the slightly crispy, individual grains you want. Gochujang adds fermented depth, kimchi juice does the heavy lifting on seasoning, and a fried egg on top turns it into a complete meal.
+
+keyIngredients:
+  - kimchi
+  - day-old rice
+  - gochujang
+  - soy sauce
+  - sesame oil
+  - kimchi juice
+  - egg
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Sauce
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 1 tbsp
+        name: gochujang
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: sesame oil
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: sugar or honey
+        note: null
+        alternatives: []
+
+  - emoji: 🍚
+    label: Rice & Kimchi
+    actionNote: the base — have ready before cooking starts
+    ingredients:
+      - amount: 2 cups
+        name: cooked rice
+        note: day-old, refrigerated overnight — this is essential
+        alternatives: []
+      - amount: ¾ cup
+        name: kimchi
+        note: roughly chopped
+        alternatives: []
+      - amount: "3–4 tbsp"
+        name: kimchi juice
+        note: from the jar — the best free seasoning you have
+        alternatives: []
+
+  - emoji: 🧄
+    label: Aromatics
+    actionNote: cooked first
+    ingredients:
+      - amount: ½
+        name: onion
+        note: diced
+        alternatives: []
+      - amount: 2
+        name: green onions
+        note: white parts sliced thin; green parts reserved for garnish
+        alternatives: []
+      - amount: 1 tsp
+        name: jarred minced garlic
+        note: null
+        alternatives:
+          - amount: 2 cloves
+            name: fresh garlic
+            note: minced
+
+  - emoji: 🥩
+    label: Optional Protein
+    actionNote: add early — cook through before rice goes in
+    ingredients:
+      - amount: ~100g
+        name: diced SPAM, bacon, leftover cooked meat, or canned tuna
+        note: any protein works; tuna should be drained well
+        alternatives:
+          - amount: null
+            name: skip protein
+            note: still filling with an egg on top for a vegetarian version
+
+  - emoji: ✨
+    label: Garnish & Finish
+    actionNote: add at plating after heat is off
+    ingredients:
+      - amount: "1–2"
+        name: fried eggs
+        note: one per serving — cook separately
+        alternatives: []
+      - amount: 2
+        name: green onion tops
+        note: sliced
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+      - amount: null
+        name: sesame oil
+        note: a few drops to finish
+        alternatives: []
+
+instructions:
+  - step: Heat a pan or wok over medium-high heat. Add a neutral oil (or a little from the kimchi jar).
+  - step: If using protein, cook it first until browned. Remove and set aside.
+  - step: Sauté onion and garlic until translucent, ~2 min. Add the white parts of green onion.
+  - step: Add kimchi and cook ~2 min until it starts to caramelize slightly on the edges.
+  - step: Push everything to the side. Add the cold rice to the pan and break it up with a spatula. Let it sit untouched ~1 min to get a little crust, then toss everything together.
+  - step: Add the sauce and kimchi juice. Stir-fry 2–3 min until everything is well-coated and the rice looks glossy. Add protein back in and toss.
+  - step: Turn off heat. Drizzle a little sesame oil and toss one more time.
+  - step: Fry eggs separately to your liking (runny yolk is classic). Plate rice, top with fried egg, green onion tops, and sesame seeds.
+
+protein:
+  grams: "30–40"
+  note: per serving with egg + SPAM or canned tuna; ~20–25g with egg only; double the protein or add two eggs to push higher
+
+tips:
+  - keyword: Day-old rice is the whole game
+    text: Fresh rice has too much moisture — it steams and clumps instead of frying. Always make extra rice the night before if you're planning this.
+  - keyword: Kimchi juice is free seasoning
+    text: Don't skip it — it adds acidity, heat, and fermented funk that you can't replicate any other way.
+  - keyword: Don't crowd the pan
+    text: If you add rice and there's too much steam, the rice won't crisp. Wok or large skillet at high heat is ideal.
+  - keyword: Taste before adding salt
+    text: Kimchi juice and soy sauce together are usually enough — add more only if needed.
+  - keyword: Runny yolk = sauce
+    text: Breaking a runny yolk over fried rice is the move. Hard yolk is fine but you miss the richness.
+
+firstAttemptNotes:
+  date: null
+  notes: []

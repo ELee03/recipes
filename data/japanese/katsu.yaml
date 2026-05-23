@@ -1,0 +1,147 @@
+id: katsu
+name: Katsu (Breaded Chicken or Pork Cutlet)
+cuisine: japanese
+difficulty: easy
+time: 25
+servings: 2
+methods:
+  - pan-fry
+  - air-fry
+tags:
+  - high-protein
+  - air-fryer
+  - quick
+
+description: >
+  A thin cutlet of chicken or pork, coated in the classic flour → egg → panko sequence
+  and pan-fried to a golden, crackly crust. Served with tonkatsu sauce, a mound of
+  shredded cabbage, and rice — it's filling, high-protein, and way more satisfying than
+  it has any right to be for how simple it is. Panko (not regular breadcrumbs) is what
+  makes the crust light and airy instead of dense and bready.
+
+keyIngredients:
+  - chicken breast
+  - panko
+  - eggs
+  - tonkatsu sauce
+  - cabbage
+
+ingredientGroups:
+  - emoji: 🍗
+    label: Protein
+    actionNote: pound to even thickness before breading
+    ingredients:
+      - amount: "1–2"
+        name: boneless chicken breasts (150–180g each), pounded to ~1.5cm thickness
+        note: null
+        alternatives:
+          - amount: "1–2"
+            name: chicken thighs
+            note: harder to pound evenly but more forgiving and juicier
+          - amount: "1–2"
+            name: pork loin chops (150–180g each), pounded to ~1.5cm thickness
+            note: null
+          - amount: "1–2"
+            name: pork tenderloin medallions, pounded flat
+            note: null
+
+  - emoji: 🫙
+    label: Bowl 1 — Breading station
+    actionNote: set up three separate shallow plates before starting
+    ingredients:
+      - amount: ¼ cup
+        name: all-purpose flour, seasoned with salt and pepper
+        note: Plate 1
+        alternatives: []
+      - amount: "1"
+        name: egg, beaten
+        note: Plate 2
+        alternatives: []
+      - amount: "½–¾ cup"
+        name: panko breadcrumbs
+        note: Plate 3
+        alternatives: []
+
+  - emoji: 🧄
+    label: Pan
+    actionNote: heat in pan before adding cutlet
+    ingredients:
+      - amount: null
+        name: neutral oil for pan-frying (vegetable, canola, or sunflower)
+        note: enough to come ~5mm up the side of the pan
+        alternatives: []
+
+  - emoji: 🫙
+    label: Bowl 2 — Tonkatsu sauce
+    actionNote: mix together; or use bottled
+    ingredients:
+      - amount: 2 tbsp
+        name: Worcestershire sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: ketchup
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: sugar
+        note: null
+        alternatives:
+          - amount: null
+            name: Bulldog Tonkatsu Sauce (bottled)
+            note: the standard version; sold at any Asian grocery — better call if you have it
+
+  - emoji: ✨
+    label: Serving
+    actionNote: serve alongside
+    ingredients:
+      - amount: null
+        name: shredded raw cabbage
+        note: a generous pile — this is not optional garnish, it's part of the dish
+        alternatives: []
+      - amount: null
+        name: cooked white rice
+        note: null
+        alternatives: []
+      - amount: null
+        name: lemon wedge
+        note: optional
+        alternatives: []
+
+instructions:
+  - step: Pound the meat to ~1.5cm thickness using a meat mallet, heavy pan, or rolling pin. Even thickness means even cooking.
+  - step: Season lightly with salt and pepper on both sides.
+  - step: Set up the breading station — flour on one plate, beaten egg in a bowl, panko on another plate.
+  - step: Coat each piece — press into flour (shake off excess) → dip in egg (let excess drip off) → press firmly into panko on both sides. The panko should fully cover with no bare spots.
+  - step: Heat oil in a skillet over medium heat. Test readiness by dropping a panko crumb in — it should sizzle immediately.
+  - step: Add the cutlet. Pan-fry ~3–4 min per side until deep golden brown. Don't press down or move it — let it sit.
+  - step: Transfer to a wire rack or paper towel to drain briefly.
+  - step: Slice into strips, plate with cabbage and rice, and spoon tonkatsu sauce over the top.
+  - section: Air Fryer (Alternative)
+    steps:
+      - After breading, spray the cutlet generously on both sides with neutral cooking oil spray.
+      - Cook at 200°C (400°F) for 15–18 min, flipping once halfway. The crust won't be as deeply golden as pan-fried but is still very good.
+
+protein:
+  grams: "45–55"
+  note: per serving with chicken breast; pork loin is similar at ~40–50g
+
+tips:
+  - keyword: Pound the meat evenly
+    text: This is the most important step. Uneven thickness means one part overcooks while another stays raw. Use a zip-lock bag around the meat to avoid mess.
+  - keyword: Panko only
+    text: Regular fine breadcrumbs make a dense, greasy crust. Panko is coarser, creates air pockets, and stays crispy longer after cooking.
+  - keyword: Press the panko firmly
+    text: Into the meat — don't just roll it. Pieces that fall off during frying are pieces that weren't pressed in.
+  - keyword: Oil temperature matters
+    text: Too low and the crust absorbs oil and goes soggy. Too high and it burns before the meat cooks through. Medium heat with a properly pre-heated pan is the target.
+  - keyword: Shredded cabbage isn't optional
+    text: The raw, crunchy cabbage cuts the richness of the katsu. Pile it high.
+
+firstAttemptNotes:
+  date: null
+  notes: []

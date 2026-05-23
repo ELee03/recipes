@@ -1,0 +1,137 @@
+id: soba
+name: Soba Noodles (Zaru Soba — Cold Dipping Noodles)
+cuisine: japanese
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - boil
+  - simmer
+tags:
+  - quick
+  - pantry-friendly
+
+description: >
+  Cold soba is one of the most elegant simple dishes in Japanese cooking — chilled
+  buckwheat noodles served on a plate, dipped into a cold savory tsuyu sauce with
+  wasabi and green onion stirred in. It's light, clean, high in protein if you add
+  toppings, and genuinely refreshing. The tsuyu sauce is three pantry ingredients
+  plus water; or buy bottled mentsuyu from any Asian grocery and dilute it in
+  30 seconds. Either way works.
+
+keyIngredients:
+  - soba noodles
+  - soy sauce
+  - mirin
+  - hondashi
+  - wasabi
+
+ingredientGroups:
+  - emoji: 🍜
+    label: Noodles
+    actionNote: boil, then rinse cold and drain
+    ingredients:
+      - amount: "100–150g"
+        name: dried soba noodles
+        note: buckwheat noodles — sold at any Asian grocery or well-stocked supermarket
+        alternatives: []
+
+  - emoji: 🫙
+    label: Bowl 1 — Tsuyu dipping sauce
+    actionNote: make ahead and chill; needs to be cold when served
+    ingredients:
+      - amount: 200ml
+        name: dashi stock
+        note: ½ tsp hondashi powder dissolved in 200ml water
+        alternatives: []
+      - amount: 3 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 2 tbsp
+        name: mirin
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: sugar
+        note: null
+        alternatives:
+          - amount: null
+            name: bottled mentsuyu (tsuyu concentrate)
+            note: dilute per bottle instructions (typically 1 part tsuyu to 3 parts water for dipping) — a completely valid shortcut, often better than homemade
+
+  - emoji: ✨
+    label: Garnish / Dipping additions
+    actionNote: add to tsuyu or serve alongside
+    ingredients:
+      - amount: "2–3"
+        name: green onions, sliced thin
+        note: null
+        alternatives: []
+      - amount: null
+        name: wasabi (tube wasabi is fine)
+        note: stir a small amount into the tsuyu
+        alternatives: []
+      - amount: null
+        name: toasted nori strips
+        note: optional
+        alternatives: []
+      - amount: null
+        name: grated daikon radish
+        note: optional but traditional
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein boost
+    actionNote: optional — pick one; serve on top of the noodles
+    ingredients:
+      - amount: null
+        name: cold poached chicken breast, sliced thin
+        note: poach ahead, chill, then slice
+        alternatives:
+          - amount: "1–2"
+            name: soft-boiled eggs, halved and chilled
+            note: null
+          - amount: null
+            name: chilled cooked shrimp
+            note: null
+
+instructions:
+  - section: Make the Tsuyu (skip if using bottled)
+    steps:
+      - Combine dashi stock, soy sauce, mirin, and sugar in a small saucepan. Bring to a brief simmer over medium heat, stirring until sugar dissolves (~2 min). Remove from heat and let cool completely, then refrigerate until cold. Can be made 1–2 days ahead.
+  - section: Cook the Soba
+    steps:
+      - Bring a large pot of unsalted water to a boil. Add soba noodles and cook per package instructions — typically 4–5 min. Soba goes mushy fast, so start checking 1 min early.
+      - Immediately drain and rinse aggressively under cold running water, rubbing the noodles together with your hands. Rinse until the noodles are fully chilled and the water runs clear. This removes excess starch and stops cooking.
+      - Drain well and arrange on a plate or in a bowl.
+  - section: Serve
+    steps:
+      - Pour chilled tsuyu into a small bowl or cup for dipping.
+      - Add green onion and a small dab of wasabi to the tsuyu. Stir.
+      - Dip bundles of soba into the tsuyu and eat. Add nori and daikon on top of the noodles if using.
+      - Add protein on top of the noodles if boosting.
+  - section: Hot Soba Variation
+    steps:
+      - Skip chilling the tsuyu. Instead, thin it with an extra 150–200ml of hot dashi to make a light broth.
+      - Serve the hot noodles in the broth (don't rinse them cold). Top with green onion, a soft-boiled egg, or sliced chicken.
+
+protein:
+  grams: "15–20"
+  note: soba noodles alone — buckwheat is relatively protein-rich; add cold chicken (+30–35g) or a soft-boiled egg (+6g) to hit a meaningful target
+
+tips:
+  - keyword: Don't overcook the soba
+    text: This is the single most common mistake. Soba turns mushy within a minute of being overdone. Set a timer and taste early.
+  - keyword: Rinse immediately and aggressively
+    text: The cold-water rinse is not optional — it stops cooking, removes surface starch (which makes noodles clump), and chills the noodles for serving. Rub them between your palms under the water.
+  - keyword: Mentsuyu is a legitimate shortcut
+    text: Bottled tsuyu concentrate (mentsuyu) is sold at any Asian grocery and tastes great — often better than homemade unless you're using real kombu dashi. Just dilute per the bottle.
+  - keyword: Dip, don't drown
+    text: The soba should be partially dipped into the tsuyu, not submerged. You can adjust wasabi intensity in the dipping bowl to taste.
+  - keyword: Tsuyu keeps well
+    text: Make a double batch and refrigerate — it keeps 4–5 days and works as a sauce for other dishes (drizzle over tofu, use as a quick noodle sauce, etc.).
+
+firstAttemptNotes:
+  date: null
+  notes: []

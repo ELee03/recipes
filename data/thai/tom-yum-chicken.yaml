@@ -1,0 +1,147 @@
+id: tom-yum-chicken
+name: Tom Yum Chicken
+cuisine: thai
+difficulty: medium
+time: 35
+servings: 2
+methods:
+  - simmer
+tags:
+  - high-protein
+  - pantry-friendly
+
+description: >
+  Hot and sour Thai soup. Clear broth, intensely aromatic — lemongrass, galangal, kaffir
+  lime leaves, fish sauce, lime. Not heavy at all; it's basically a broth with protein and
+  mushrooms. The aromatics are the hard part — finding them. Once you have them it's just
+  assembling and simmering.
+
+keyIngredients:
+  - chicken breast
+  - lemongrass
+  - galangal
+  - kaffir lime leaves
+  - fish sauce
+  - mushrooms
+  - nam prik pao
+
+ingredientGroups:
+  - emoji: 🥛
+    label: Pot — Broth base
+    actionNote: bring to simmer before adding aromatics
+    ingredients:
+      - amount: 700ml
+        name: chicken broth or water
+        note: null
+        alternatives:
+          - amount: 700ml
+            name: water + 1 bouillon cube
+            note: dissolve cube in hot water first
+
+  - emoji: 🌿
+    label: Aromatics bundle
+    actionNote: add to broth together; not eaten — remove or avoid when serving
+    ingredients:
+      - amount: 2 stalks
+        name: lemongrass, cut into 2-inch pieces and lightly bruised
+        note: freeze immediately after buying — use straight from frozen
+        alternatives: []
+      - amount: "3–4 slices"
+        name: galangal
+        note: freeze if you buy it; use straight from frozen
+        alternatives:
+          - amount: "3–4 slices"
+            name: fresh ginger
+            note: different flavor but works
+      - amount: "4–5"
+        name: kaffir lime leaves, torn
+        note: freeze immediately — use straight from frozen
+        alternatives: []
+      - amount: "3–4"
+        name: Thai bird's eye chilies, halved
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: add after aromatics have infused; thin slices cook fast
+    ingredients:
+      - amount: "250–300g"
+        name: chicken breast, sliced thin
+        note: null
+        alternatives:
+          - amount: "250–300g"
+            name: shrimp
+            note: faster-cooking; add in last 2–3 min only
+
+  - emoji: 🍄
+    label: Vegetables
+    actionNote: added before the protein
+    ingredients:
+      - amount: 150g
+        name: mushrooms
+        note: straw, oyster, or button
+        alternatives: []
+
+  - emoji: 🧂
+    label: Seasoning
+    actionNote: stir in near the end; taste and adjust
+    ingredients:
+      - amount: 3 tbsp
+        name: fish sauce
+        note: adjust to taste
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: fresh lime juice
+        note: null
+        alternatives:
+          - amount: "2–3 tbsp"
+            name: bottled lime juice
+            note: fine for a cooked soup
+      - amount: 1 tsp
+        name: sugar
+        note: null
+        alternatives: []
+      - amount: "1–2 tbsp"
+        name: Thai roasted chili paste (nam prik pao)
+        note: optional but recommended — adds depth and color
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add at serving
+    ingredients:
+      - amount: null
+        name: cilantro
+        note: null
+        alternatives: []
+      - amount: null
+        name: green onion
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Bring broth to a simmer in a medium pot. Add lemongrass, galangal, kaffir lime leaves, and chilies. Simmer 10–15 min to infuse.
+  - step: Add mushrooms and cook ~3 min.
+  - step: Add chicken and cook until just done, ~3–4 min. Don't overcook — thin slices go fast.
+  - step: Stir in fish sauce, lime juice, sugar, and roasted chili paste if using.
+  - step: Taste — it should be assertively sour and salty. Adjust fish sauce and lime as needed.
+  - step: Ladle into bowls. Top with cilantro and green onion. Eat with rice or just the soup.
+
+protein:
+  grams: "45–55"
+  note: per serving
+
+tips:
+  - keyword: The aromatics are for flavor only
+    text: Lemongrass, galangal, and kaffir lime leaves are tough and fibrous — don't eat them. They're in the soup to infuse flavor into the broth.
+  - keyword: Freeze the aromatics
+    text: All three (lemongrass, galangal, kaffir lime leaves) are available at any Korean or Asian grocery and freeze well. Buy extra and freeze immediately — use straight from frozen.
+  - keyword: Nam prik pao makes a difference
+    text: Roasted chili paste in a jar adds a smoky depth that elevates the soup significantly. It's inexpensive and lasts a long time in the fridge.
+  - keyword: Very light macro profile
+    text: This soup is low in fat and calories — perfect for a high-protein, low-calorie meal or post-workout.
+
+firstAttemptNotes:
+  date: null
+  notes: []

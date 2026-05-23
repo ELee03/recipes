@@ -1,0 +1,156 @@
+id: spicy-korean-pork
+name: Spicy Korean Pork (Daeji Bulgogi)
+cuisine: korean
+difficulty: medium
+time: 55
+servings: 2
+methods:
+  - marinate
+  - pan-fry
+  - stir-fry
+tags:
+  - meal-prep
+  - high-protein
+
+description: >
+  Daeji bulgogi is Korean street food at its best — thin pork strips in a bold,
+  spicy-sweet marinade that caramelizes in a hot pan into something sticky and
+  slightly charred at the edges. Where regular bulgogi is mild and family-friendly,
+  this one brings the gochujang heat front and center. Pork belly is the classic,
+  richer choice; shoulder is leaner and still great. Ground pork skips the marinate
+  time entirely and works on a busy weeknight. Serve over rice or in lettuce wraps
+  with sesame seeds and green onion.
+
+keyIngredients:
+  - pork shoulder
+  - gochujang
+  - gochugaru
+  - soy sauce
+  - mirin
+  - sesame oil
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Marinade
+    actionNote: mix together first
+    ingredients:
+      - amount: 2 tbsp
+        name: gochujang
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: sesame oil
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: sugar or honey
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: mirin
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: gochugaru
+        note: adjust to heat preference
+        alternatives: []
+      - amount: 1 tsp
+        name: jarred minced garlic
+        note: null
+        alternatives:
+          - amount: 3 cloves
+            name: fresh garlic, minced
+            note: null
+      - amount: 1 tsp
+        name: ginger, grated or minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced ginger
+            note: or grate directly from a frozen knob
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: toss in marinade and marinate at least 30 min
+    ingredients:
+      - amount: 400g
+        name: pork shoulder, thinly sliced
+        note: lean, good caramelization — the everyday choice
+        alternatives:
+          - amount: 400g
+            name: pork belly, thinly sliced
+            note: fattier, richer, more traditional; trim if you want it lighter
+          - amount: 400g
+            name: ground pork
+            note: skip the marinate; cook pork first then add sauce — fastest version
+
+  - emoji: 🧄
+    label: Aromatics
+    actionNote: add to pan with the pork
+    ingredients:
+      - amount: ½
+        name: onion, thinly sliced
+        note: null
+        alternatives: []
+      - amount: "2"
+        name: green onions, white parts sliced; green parts reserved for garnish
+        note: null
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish & Serving
+    actionNote: serve alongside or on top
+    ingredients:
+      - amount: null
+        name: green onion tops, sliced thin
+        note: null
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+      - amount: null
+        name: cooked rice
+        note: null
+        alternatives:
+          - amount: null
+            name: large lettuce leaves
+            note: butter lettuce, romaine, or perilla for wraps
+
+instructions:
+  - step: Mix all marinade ingredients together in a bowl.
+  - step: Add sliced pork and onion to the marinade. Mix well so everything is coated. Marinate at least 30 min at room temperature, or overnight in the fridge.
+  - step: Heat a large pan or wok over high heat until very hot. Add a small amount of neutral oil.
+  - step: Add pork in a single layer — cook in batches if needed. Don't overcrowd or the meat steams instead of searing. Let it sit 1–2 min before moving to get some caramelization.
+  - step: Stir-fry ~4–5 min total until cooked through and edges are slightly charred. Add white parts of green onion in the last minute.
+  - step: Plate over rice or serve with lettuce wraps. Top with green onion and sesame seeds.
+  - section: Ground Pork Version
+    steps:
+      - Cook ground pork in a hot pan, breaking it apart, until fully cooked and any moisture has evaporated (~5 min).
+      - Mix marinade ingredients and pour directly over the cooked pork. Stir-fry another 2–3 min until the sauce cooks down and coats everything.
+
+protein:
+  grams: "40–50"
+  note: per serving with pork shoulder; pork belly closer to 30–35g due to higher fat content; ground pork in between
+
+tips:
+  - keyword: Thin slices are the whole point
+    text: Thick slices won't caramelize the same way — the exterior dries out before the center cooks. Partially freeze the pork (~30 min) before slicing to make thin cuts much easier.
+  - keyword: Pork shoulder vs. belly
+    text: Shoulder is leaner and easier to keep light; belly is more indulgent. Neither is wrong — it just depends on what you're after that day.
+  - keyword: Cook in batches
+    text: One batch that sears beats two batches that steam. If the pan has too much moisture (steam rising), take some pork out and let the liquid cook off before adding it back.
+  - keyword: Char is flavor
+    text: A little dark caramelization on the edges is the goal — that's where all the sticky, sweet-spicy depth comes from. Don't be afraid of it.
+  - keyword: Lettuce wraps cut the richness
+    text: If pork belly feels heavy on its own, wrapping it in cool lettuce with rice balances it out perfectly.
+  - keyword: Overnight marinate is noticeably better
+    text: The gochujang and soy sauce penetrate deeper, and the pork softens slightly. If you have time, do it the night before.
+
+firstAttemptNotes:
+  date: null
+  notes: []

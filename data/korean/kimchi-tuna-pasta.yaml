@@ -1,0 +1,121 @@
+id: kimchi-tuna-pasta
+name: Kimchi Tuna Pasta
+cuisine: korean
+difficulty: easy
+time: 20
+servings: 2
+
+methods:
+  - boil
+  - sauté
+
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+  - pantry-friendly
+  - fusion
+
+description: >
+  Fast, cheap, and punchy. Kimchi does most of the flavoring work — sour, fermented, spicy. Tuna keeps it high-protein with zero fuss. One of the best "nothing in the fridge" meals.
+
+keyIngredients:
+  - tuna
+  - kimchi
+  - pasta
+  - gochujang
+  - soy sauce
+  - sesame oil
+  - garlic
+
+ingredientGroups:
+  - emoji: 🐟
+    label: Protein
+    actionNote: drain well before adding to the pan
+    ingredients:
+      - amount: 1 can (~150g)
+        name: tuna in water
+        note: drained
+        alternatives:
+          - amount: 2 cans
+            name: tuna in water
+            note: use two cans to boost protein
+
+  - emoji: 🥬
+    label: Pan additions
+    actionNote: added in sequence during cooking
+    ingredients:
+      - amount: "100–150g"
+        name: kimchi
+        note: roughly chopped; use well-fermented kimchi for better flavor
+        alternatives: []
+      - amount: "3–4 cloves"
+        name: garlic
+        note: minced
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: convenient substitute
+      - amount: 1 tsp
+        name: gochujang
+        note: optional, for more heat
+        alternatives: []
+      - amount: 1 tsp
+        name: soy sauce
+        note: null
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cook in salted water; reserve pasta water before draining
+    ingredients:
+      - amount: 120g
+        name: pasta
+        note: null
+        alternatives: []
+      - amount: "~3–4 tbsp"
+        name: pasta water
+        note: reserve before draining
+        alternatives: []
+
+  - emoji: ✨
+    label: Finish & garnish
+    actionNote: add at the end after heat is off or just before serving
+    ingredients:
+      - amount: null
+        name: sesame oil
+        note: a few drops at the end
+        alternatives: []
+      - amount: 1
+        name: egg
+        note: soft poached or soft-boiled; optional but great
+        alternatives: []
+      - amount: null
+        name: green onion
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Cook pasta in salted water. Reserve pasta water before draining.
+  - step: In a pan over medium heat, add a small amount of oil. Sauté garlic ~1 min.
+  - step: Add kimchi and cook 2–3 min until slightly caramelized and fragrant.
+  - step: Add tuna, gochujang if using, and soy sauce. Stir and cook another 1–2 min.
+  - step: Add pasta and pasta water. Toss everything together.
+  - step: Finish with a few drops of sesame oil. Top with soft egg and green onion.
+
+protein:
+  grams: "45–55"
+  note: per serving with tuna + egg; use two cans of tuna to push higher
+
+tips:
+  - keyword: well-fermented kimchi
+    text: Well-fermented (older, sour) kimchi is better here than fresh — it has more depth.
+  - keyword: rinsing tuna
+    text: Don't over-rinse the tuna. You want some brine for flavor.
+  - keyword: egg on top
+    text: The egg on top is optional but transforms the dish — break it into the hot pasta.
+
+firstAttemptNotes:
+  date: null
+  notes: []

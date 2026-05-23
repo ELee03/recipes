@@ -1,0 +1,125 @@
+id: pasta-al-pomodoro
+name: Pasta al Pomodoro
+cuisine: italian
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - boil
+  - sauté
+  - simmer
+tags:
+  - quick
+  - pantry-friendly
+
+description: >
+  The simplest Italian pasta, and the one where ingredient quality matters most. No meat,
+  no cream — just canned tomatoes, garlic, olive oil, and fresh basil. When the
+  ingredients are good, this is stunning. Use the best canned tomatoes you can find
+  (San Marzano if available), good olive oil, and actual fresh basil — dried basil does
+  not work here. Two paths: a quick 15-minute weeknight version that's light and bright,
+  or a slow-cooked 45-minute version that gets deeper, slightly jammy, and more complex.
+
+keyIngredients:
+  - pasta
+  - crushed tomatoes
+  - garlic
+  - olive oil
+  - fresh basil
+
+ingredientGroups:
+  - emoji: 🧄
+    label: Aromatics
+    actionNote: cooked in olive oil at the start — cook low and slow until fragrant, not burnt
+    ingredients:
+      - amount: "3–4 cloves"
+        name: garlic, thinly sliced or lightly smashed
+        note: null
+        alternatives:
+          - amount: 1.5 tsp
+            name: jarred minced garlic
+            note: add carefully, it can brown faster
+      - amount: "2–3 tbsp"
+        name: olive oil
+        note: use good olive oil — this is the sauce
+        alternatives: []
+      - amount: ½ tsp
+        name: red chili flakes
+        note: optional — adds warmth without much heat
+        alternatives: []
+
+  - emoji: 🫙
+    label: Sauce
+    actionNote: added once the garlic is fragrant
+    ingredients:
+      - amount: 400g
+        name: canned crushed tomatoes
+        note: San Marzano if possible — noticeably sweeter and less acidic
+        alternatives:
+          - amount: 400g
+            name: whole peeled canned tomatoes
+            note: crush by hand before adding
+      - amount: ½ tsp
+        name: sugar
+        note: optional — add if the tomatoes taste sharp or acidic
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: boil in well-salted water; reserve pasta water before draining
+    ingredients:
+      - amount: "180–200g"
+        name: spaghetti or rigatoni
+        note: null
+        alternatives: []
+
+  - emoji: 🌿
+    label: Finish
+    actionNote: added completely off heat at the very end
+    ingredients:
+      - amount: null
+        name: fresh basil leaves, torn (not chopped)
+        note: tearing is gentler and preserves more aroma
+        alternatives: []
+      - amount: "1–2 tbsp"
+        name: good olive oil, drizzled raw
+        note: finishing with unheated olive oil adds flavor that cooked oil loses
+        alternatives: []
+      - amount: null
+        name: freshly grated parmesan or pecorino
+        note: optional
+        alternatives: []
+
+instructions:
+  - section: Quick version (~20 min)
+    steps:
+      - Cook pasta in well-salted water.
+      - In a wide pan over medium heat, warm olive oil. Add garlic and chili flakes. Cook low and slow until garlic is golden and fragrant — ~3 minutes. Watch it; golden is sweet, brown is bitter.
+      - Add crushed tomatoes. Season with salt. Simmer for 10–12 minutes until slightly thickened. Taste — add a pinch of sugar if needed.
+      - Reserve pasta water before draining. Drain pasta and add directly to the sauce. Toss, adding a splash of pasta water to loosen. Cook together 1 minute.
+      - Off heat — tear in fresh basil and drizzle with raw olive oil. Serve immediately.
+  - section: Slow-cooked version (~45 min)
+    steps:
+      - Follow steps 1–2 of the quick version.
+      - After adding tomatoes, reduce heat to low. Simmer uncovered for 35–40 minutes, stirring occasionally. The sauce will reduce, deepen in color, and become slightly jammy. Add a splash of water if it gets too thick.
+      - Proceed from step 4 of the quick version.
+
+protein:
+  grams: "10–12"
+  note: from pasta only; intentionally low — treat as a base or side; easy additions are pan-seared shrimp (+25–30g), grilled chicken (+30–40g), or a fried egg (+7g)
+
+tips:
+  - keyword: Use good canned tomatoes
+    text: The tomatoes are 80% of this dish. San Marzano (look for "DOP" on the label) are sweeter, less watery, and less acidic. They are worth it here.
+  - keyword: Fresh basil only
+    text: Dried basil cannot replace fresh in this dish — it tastes musty and adds nothing. If you don't have fresh basil, skip it entirely rather than substituting dried.
+  - keyword: Raw olive oil at the end
+    text: Finishing with a drizzle of good olive oil that hasn't been heated adds a grassy, fruity flavor that cooked olive oil loses. Don't skip this step.
+  - keyword: Tear, don't chop, the basil
+    text: Tearing preserves more of the volatile aromatics and keeps the presentation clean. Chopping bruises it and turns the edges black quickly.
+  - keyword: The slow version is a different dish
+    text: The 45-minute simmer collapses the tomato structure and concentrates the flavor significantly — it becomes jammy, slightly sweet, and deeply savory. Worth the extra time when you have it.
+
+firstAttemptNotes:
+  date: null
+  notes: []

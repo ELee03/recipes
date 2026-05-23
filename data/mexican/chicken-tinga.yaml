@@ -1,0 +1,136 @@
+id: chicken-tinga
+name: Chicken Tinga
+cuisine: mexican
+difficulty: medium
+time: 45
+servings: 3
+methods:
+  - simmer
+  - shred
+  - sauté
+tags:
+  - meal-prep
+  - high-protein
+
+description: >
+  Smoky, chipotle-braised shredded chicken. The kind of thing that works in tacos, burrito
+  bowls, over rice, in lettuce wraps — basically anything. The flavor comes from chipotles
+  in adobo, which add a deep, smoky heat. Very easy to batch-cook and use throughout
+  the week.
+
+keyIngredients:
+  - chicken breast
+  - chipotle peppers in adobo
+  - crushed tomatoes
+  - cumin
+  - oregano
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Chipotle-tomato sauce
+    actionNote: blend or finely chop together and set aside
+    ingredients:
+      - amount: 400g
+        name: canned diced tomatoes
+        note: shelf-stable, recommended
+        alternatives:
+          - amount: 2 medium
+            name: fresh tomatoes, roughly chopped
+            note: null
+      - amount: "2–3"
+        name: chipotle peppers in adobo + 1–2 tbsp of the adobo sauce
+        note: canned — find at Asian or Latin grocery stores; 2 peppers for medium heat, 3 for more
+        alternatives: []
+
+  - emoji: 🥄
+    label: Bowl 2 — Spice mix
+    actionNote: combine dry and set aside
+    ingredients:
+      - amount: 1 tsp
+        name: cumin
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: dried oregano
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: cook whole, then shred with two forks after cooling slightly
+    ingredients:
+      - amount: "300–400g"
+        name: chicken breast
+        note: null
+        alternatives: []
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: sautéed in the pan before adding sauce
+    ingredients:
+      - amount: ½
+        name: onion, sliced thin
+        note: null
+        alternatives: []
+      - amount: 3 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: null
+
+  - emoji: 🥛
+    label: Liquid
+    actionNote: added with the shredded chicken to simmer and meld
+    ingredients:
+      - amount: ~100ml
+        name: chicken broth or water
+        note: null
+        alternatives:
+          - amount: ~100ml
+            name: water + small piece of bouillon cube dissolved
+            note: null
+
+  - emoji: 🌮
+    label: Serving
+    actionNote: pick your format
+    ingredients:
+      - amount: null
+        name: corn tortillas
+        note: for tacos
+        alternatives:
+          - amount: null
+            name: rice + beans
+            note: for a bowl
+          - amount: null
+            name: lettuce leaves
+            note: for wraps
+      - amount: null
+        name: toppings — diced onion, cilantro, lime, sliced avocado, jalapeño
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Season chicken with salt and pepper. In a pan, cook chicken over medium heat in a little oil until cooked through (~12–15 min for whole breasts). Set aside to cool, then shred with two forks.
+  - step: While chicken cooks, blend (or finely chop) the chipotle peppers and adobo sauce with the canned tomatoes until smooth-ish.
+  - step: In the same pan, sauté onion over medium heat ~4–5 min until softened. Add garlic, cumin, and oregano. Cook 1 min.
+  - step: Pour in the tomato-chipotle sauce. Stir and simmer ~5 min.
+  - step: Add shredded chicken and broth. Stir to combine and simmer ~8–10 min until the sauce thickens and the flavors meld.
+  - step: Taste and adjust salt. Serve in your preferred format.
+
+protein:
+  grams: "55–65"
+  note: per serving (2 of 3 servings from this batch)
+
+tips:
+  - keyword: Chipotles in adobo
+    text: Are smoky and moderately spicy. Use 2 peppers for medium heat, 3 for more. Start conservative — you can always add.
+  - keyword: Excellent meal prep
+    text: Makes 2–3 servings, keeps in the fridge 4–5 days, and gets better overnight as the flavors settle.
+  - keyword: Shredding chicken
+    text: Is easiest while it's still warm (not hot). Two forks work fine; a stand mixer with a paddle attachment shreds it in 30 seconds.
+
+firstAttemptNotes:
+  date: null
+  notes: []

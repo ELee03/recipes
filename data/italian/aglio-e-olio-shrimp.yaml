@@ -1,0 +1,122 @@
+id: aglio-e-olio-shrimp
+name: Aglio e Olio with Shrimp
+cuisine: italian
+difficulty: easy
+time: 20
+servings: 2
+
+methods:
+  - boil
+  - sauté
+
+tags:
+  - quick
+  - high-protein
+  - no-marinate
+  - pantry-friendly
+
+description: >
+  The simplest serious pasta dish. No cream, no heavy sauce — just garlic, olive oil, chili flakes,
+  pasta water, and parsley. Adding shrimp turns it into a high-protein meal that still feels light
+  and clean. The technique is everything here: the emulsified sauce (garlic oil + starchy pasta
+  water) coats the noodles without being greasy.
+
+keyIngredients:
+  - shrimp
+  - garlic
+  - olive oil
+  - spaghetti
+  - red chili flakes
+  - parsley
+
+ingredientGroups:
+  - emoji: 🦐
+    label: Protein
+    actionNote: season before searing
+    ingredients:
+      - amount: "150–200g"
+        name: shrimp, peeled and deveined
+        note: fresh or thawed from frozen
+        alternatives:
+          - amount: "150–200g"
+            name: chicken breast
+            note: sliced thin, seared separately — same dish, more protein
+      - amount: null
+        name: salt
+        note: for seasoning before searing
+        alternatives: []
+      - amount: null
+        name: black pepper
+        note: for seasoning before searing
+        alternatives: []
+
+  - emoji: 🧄
+    label: Sauce base
+    actionNote: built in the pan over low heat
+    ingredients:
+      - amount: "4–6 cloves"
+        name: garlic, thinly sliced
+        note: thin slices, not minced — this matters; use fresh garlic only, jarred won't slice and burns differently
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: olive oil
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: red chili flakes
+        note: adjust to taste
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cook in well-salted water; reserve pasta water before draining — this is the sauce base
+    ingredients:
+      - amount: 120g
+        name: pasta
+        note: spaghetti or linguine is traditional
+        alternatives: []
+      - amount: "~4–6 tbsp"
+        name: pasta water
+        note: reserve before draining
+        alternatives: []
+
+  - emoji: ✨
+    label: Finish
+    actionNote: added off heat at the very end
+    ingredients:
+      - amount: null
+        name: fresh parsley, roughly chopped
+        note: a small handful
+        alternatives: []
+      - amount: null
+        name: lemon zest or a squeeze of lemon
+        note: optional
+        alternatives: []
+
+instructions:
+  - step: Cook pasta in well-salted water. Reserve at least a cup of pasta water before draining.
+  - step: Season shrimp with salt and pepper. Quickly sear in a hot pan with minimal oil ~1 min per side. Set aside (they'll finish later). Don't overcook.
+  - step: Lower heat to medium-low. In the same pan, add olive oil and garlic slices. Cook slowly until the garlic is golden and fragrant (~3–4 min). Watch it carefully — golden is right, brown is bitter.
+  - step: Add chili flakes and cook 30 seconds.
+  - step: Add pasta water (start with 4 tbsp). Swirl the pan — the oil and water will emulsify into a light sauce.
+  - step: Add pasta and toss vigorously for 1–2 min. Add more pasta water as needed to keep it saucy.
+  - step: Add shrimp back in. Toss to coat and warm through.
+  - step: Off heat, add parsley (and lemon if using). Taste and adjust salt.
+
+protein:
+  grams: "50–60"
+  note: per serving
+
+tips:
+  - keyword: pasta water is not optional
+    text: The pasta water is not optional — it's what makes the sauce bind. Reserve more than you think you'll need.
+  - keyword: thin garlic slices
+    text: Thin garlic slices (not minced) toast more evenly and have a mellower flavor. Minced garlic burns too easily.
+  - keyword: chicken breast swap
+    text: Chicken breast (sliced thin, seared separately) is an easy swap or addition if you want even more protein.
+  - keyword: no parmesan
+    text: Don't dress this with parmesan — it's not traditional here and doesn't pair well with olive oil-based sauces.
+
+firstAttemptNotes:
+  date: null
+  notes: []

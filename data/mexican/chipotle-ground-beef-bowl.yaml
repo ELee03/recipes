@@ -1,0 +1,156 @@
+id: chipotle-ground-beef-bowl
+name: Chipotle Ground Beef Bowl
+cuisine: mexican
+difficulty: easy
+time: 25
+servings: 2
+methods:
+  - sauté
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+  - meal-prep
+
+description: >
+  Ground beef, drained and rinsed to cut the grease, then hit with chipotle, cumin,
+  garlic, and tomato. Served over rice with whatever toppings you have. A meal-prep-friendly,
+  weeknight go-to — simple, filling, and extremely adjustable.
+
+keyIngredients:
+  - ground beef
+  - chipotle peppers in adobo
+  - cumin
+  - tomato paste
+  - garlic
+
+ingredientGroups:
+  - emoji: 🥄
+    label: Bowl 1 — Spice mix
+    actionNote: combine dry and set aside
+    ingredients:
+      - amount: 1 tsp
+        name: cumin
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: smoked paprika
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: dried oregano
+        note: null
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: cook first, drain fat, optionally rinse, then continue
+    ingredients:
+      - amount: "250–300g"
+        name: lean ground beef (80/20 or leaner)
+        note: null
+        alternatives:
+          - amount: "250–300g"
+            name: ground turkey or ground chicken
+            note: leaner; same seasoning profile works
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: added to the pan after draining the beef
+    ingredients:
+      - amount: ½
+        name: onion, diced
+        note: null
+        alternatives: []
+      - amount: "3–4 cloves"
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: null
+      - amount: "1–2"
+        name: chipotle peppers in adobo, minced + 1 tbsp adobo sauce
+        note: null
+        alternatives: []
+
+  - emoji: 🍅
+    label: Tomato & liquid
+    actionNote: added after aromatics are softened
+    ingredients:
+      - amount: "1–2 tbsp"
+        name: tomato paste
+        note: null
+        alternatives:
+          - amount: 100ml
+            name: canned diced tomatoes
+            note: null
+      - amount: null
+        name: splash of water or broth
+        note: null
+        alternatives: []
+
+  - emoji: 🍚
+    label: Bowl base
+    actionNote: serve underneath
+    ingredients:
+      - amount: null
+        name: cooked rice (white, brown, or cauliflower)
+        note: null
+        alternatives: []
+
+  - emoji: 🥑
+    label: Toppings
+    actionNote: add at serving — optional but recommended
+    ingredients:
+      - amount: null
+        name: diced avocado or guacamole
+        note: null
+        alternatives: []
+      - amount: null
+        name: lime juice
+        note: null
+        alternatives: []
+      - amount: null
+        name: diced white onion + cilantro
+        note: null
+        alternatives: []
+      - amount: null
+        name: jalapeño slices
+        note: null
+        alternatives: []
+      - amount: null
+        name: Greek yogurt or sour cream
+        note: small amount
+        alternatives: []
+      - amount: null
+        name: shredded cheese
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Cook ground beef in a pan over medium-high heat, breaking it up. Cook until no longer pink.
+  - step: Drain fat thoroughly. Optional — do a water rinse by adding a cup of hot water to the pan, stir, then drain through a fine strainer. Return beef to pan.
+  - step: Add onion and cook ~3 min until softened. Add garlic and cook 1 more min.
+  - step: Add chipotle, adobo sauce, cumin, paprika, oregano, salt, and pepper. Stir to coat.
+  - step: Add tomato paste and a splash of water or broth. Stir and cook ~3–4 min until everything is combined and slightly thickened.
+  - step: Serve over rice with your toppings.
+
+protein:
+  grams: "55–65"
+  note: per serving; add a fried or soft-boiled egg for an extra ~6g
+
+tips:
+  - keyword: The water rinse after draining
+    text: Is optional — it removes more fat but doesn't meaningfully affect protein content.
+  - keyword: Chipotle in adobo can vary in heat
+    text: Taste the sauce as you add it and adjust the number of peppers accordingly.
+  - keyword: Great base to build on
+    text: Swap beef for ground turkey (leaner) or ground chicken — all work with the same seasoning profile.
+  - keyword: Scale up easily for meal prep
+    text: Double the recipe and it keeps for 4 days in the fridge.
+
+firstAttemptNotes:
+  date: null
+  notes: []

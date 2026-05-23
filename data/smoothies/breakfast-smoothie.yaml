@@ -1,0 +1,107 @@
+id: breakfast-smoothie
+name: Breakfast Smoothie (Base + Variations)
+cuisine: smoothies
+difficulty: easy
+time: 5
+servings: 1
+methods:
+  - blend
+tags:
+  - quick
+  - high-protein
+  - no-marinate
+  - pantry-friendly
+
+description: >
+  High-protein breakfast smoothie built around naked (unflavored) protein powder — so
+  the fruit carries all the flavor. The base is the same every time; what changes is
+  the fruit. Since there's no sweetness from the powder, riper and sweeter fruit matters
+  more here than it would with vanilla powder. Banana + avocado is the richest, creamiest
+  version. Berry mixes need a small amount of honey to compensate for the tartness.
+
+keyIngredients:
+  - frozen fruit
+  - Greek yogurt
+  - milk
+  - unflavored whey protein powder
+  - banana
+  - avocado
+
+ingredientGroups:
+  - emoji: 🍓
+    label: Fruit base
+    actionNote: microwave 60–90 seconds to soften before blending
+    ingredients:
+      - amount: "150–200g"
+        name: frozen fruit
+        note: any No Frills frozen mix works — berry, tropical, mixed; microwave briefly before blending
+        alternatives:
+          - amount: 1 banana + ½ avocado
+            name: banana + avocado (fresh, frozen)
+            note: the richest, creamiest version; no sweetener needed since banana carries it
+
+  - emoji: 🥛
+    label: Liquid and protein base
+    actionNote: add to blender first — liquid goes in before everything else
+    ingredients:
+      - amount: 200ml
+        name: milk
+        note: null
+        alternatives:
+          - amount: 200ml
+            name: oat milk or soy milk
+            note: if keeping it dairy-light
+      - amount: 150g
+        name: plain Greek yogurt (high-protein)
+        note: null
+        alternatives: []
+      - amount: "1 scoop (~25–30g)"
+        name: unflavored (naked) whey protein powder
+        note: null
+        alternatives: []
+
+  - emoji: ✨
+    label: Optional add-ins
+    actionNote: blend in with everything else
+    ingredients:
+      - amount: 1 tsp
+        name: honey
+        note: only if the fruit isn't sweet enough — see sweetening notes in tips
+        alternatives:
+          - amount: 1
+            name: Medjool date, pitted
+            note: blends smooth, very sweet, adds fiber
+      - amount: null
+        name: handful of spinach
+        note: adds basically no flavor, bumps nutrients; frozen spinach works
+        alternatives: []
+      - amount: 1 tbsp
+        name: nut butter
+        note: adds healthy fat and makes it more filling; pairs well with banana combos
+        alternatives: []
+
+instructions:
+  - step: Microwave frozen fruit 60–90 seconds. Let it sit a moment — you want softened, not hot.
+  - step: Add liquid to the Ninja cup first (helps blending), then yogurt, protein powder, and fruit.
+  - step: Blend until smooth. If too thick, add a splash more milk. If too thin, add more yogurt.
+  - step: Drink immediately.
+
+protein:
+  grams: "45–50"
+  note: Greek yogurt (~15g) + protein powder (~25g) + milk (~7g); one of the highest-protein breakfasts you can make with minimal effort
+
+tips:
+  - keyword: Sweetening with banana-free mixes
+    text: Sweet mixes (mango, pineapple, peach-heavy) are usually fine without sweetener. Tart mixes (berry-heavy) likely need ½–1 tsp honey — naked powder has no sweetness to fall back on so tart fruit can taste flat or slightly chalky. If the mix includes banana, no sweetener needed at all.
+  - keyword: Liquid first
+    text: In the Ninja — it prevents the powder from clumping at the bottom and helps everything blend smoothly.
+  - keyword: Banana + avocado setup
+    text: Order fresh bananas and avocados on PC Express, freeze immediately when they arrive. Peel and slice bananas; scoop and portion avocados when just ripe. Freeze flat. Eliminates ripeness timing stress and makes this combo as convenient as any other.
+  - keyword: Protein powder clumping
+    text: If naked powder tends to clump, mix it with the milk in the cup first with a spoon before adding everything else.
+  - keyword: Microwave timing
+    text: Microwave briefly (not fully thawing) gives you a cold, thick smoothie without destroying the blender motor on rock-solid frozen chunks.
+
+firstAttemptNotes:
+  date: null
+  notes: []

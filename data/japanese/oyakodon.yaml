@@ -1,0 +1,118 @@
+id: oyakodon
+name: Oyakodon (Chicken & Egg Rice Bowl)
+cuisine: japanese
+difficulty: easy
+time: 25
+servings: 2
+
+methods:
+  - simmer
+
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+
+description: >
+  "Parent and child bowl" — chicken and egg, cooked together in a savory dashi broth, served over
+  rice. One of the most comforting Japanese home-cooking dishes and genuinely fast to make. Light,
+  deeply savory, and high protein.
+
+keyIngredients:
+  - chicken breast
+  - eggs
+  - dashi stock
+  - soy sauce
+  - mirin
+  - onion
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Broth
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 150ml
+        name: dashi stock
+        note: instant dashi powder + water is fine, widely available at Asian grocery stores
+        alternatives: []
+      - amount: 2 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 2 tbsp
+        name: mirin
+        note: null
+        alternatives:
+          - amount: null
+            name: 1 tsp sugar + a splash of sake or dry white wine
+            note: or just add an extra tsp of sugar and skip the sake
+      - amount: 1 tsp
+        name: sugar
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: null
+    ingredients:
+      - amount: "150–200g"
+        name: chicken breast or thigh, cut into bite-sized pieces
+        note: thigh is juicier; breast is leaner
+        alternatives: []
+
+  - emoji: 🥚
+    label: Eggs
+    actionNote: beat lightly just before using — some streaks of white and yolk is correct
+    ingredients:
+      - amount: 3
+        name: eggs
+        note: per serving — yes, 3; this dish is egg-forward
+        alternatives: []
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: null
+    ingredients:
+      - amount: ½
+        name: onion, sliced thin
+        note: null
+        alternatives: []
+
+  - emoji: 🍚
+    label: Serving
+    actionNote: null
+    ingredients:
+      - amount: null
+        name: cooked white rice
+        note: null
+        alternatives: []
+      - amount: 1
+        name: green onion, sliced thin
+        note: for garnish
+        alternatives: []
+
+instructions:
+  - step: Mix broth ingredients in a small bowl. Set aside.
+  - step: In a medium pan (or small sauté pan), add the broth and onion slices. Bring to a simmer over medium heat.
+  - step: Add chicken. Cook ~4–5 min until mostly cooked through.
+  - step: Beat eggs lightly — you don't want them fully homogenized; some streaks of white and yolk is correct.
+  - step: Pour eggs over the chicken and onion in a circular motion. Cover with a lid.
+  - step: Cook ~1–2 min until eggs are just barely set — you want them soft and custardy, not fully cooked. This is the make-or-break step.
+  - step: Slide over a bowl of rice. Garnish with green onion. Eat immediately.
+
+protein:
+  grams: "55–65"
+  note: per serving (3 eggs + chicken breast)
+
+tips:
+  - keyword: Soft eggs
+    text: The eggs should be soft and slightly runny in the center — think loose scramble, not frittata. Pull the pan off heat while they still look underdone; they finish from residual heat.
+  - keyword: Instant dashi
+    text: Instant dashi (hondashi) is easy to find at any Asian grocery. It's a pantry essential for Japanese cooking.
+  - keyword: Mirin substitute
+    text: If you don't have mirin, substitute with 1 tsp sugar + a splash of sake or white wine. In a pinch, skip the sake.
+
+firstAttemptNotes:
+  date: null
+  notes: []

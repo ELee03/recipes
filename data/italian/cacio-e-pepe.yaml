@@ -1,0 +1,92 @@
+id: cacio-e-pepe
+name: Cacio e Pepe
+cuisine: italian
+difficulty: medium
+time: 20
+servings: 2
+methods:
+  - boil
+  - toss
+tags:
+  - quick
+  - pantry-friendly
+
+description: >
+  Three ingredients, one technique, infinite ways to get it wrong. Cacio e pepe is just
+  pasta, pecorino romano, parmesan, and black pepper — but the technique is everything.
+  The cheese has to be whisked into cold pasta water into a smooth paste before it ever
+  touches heat, otherwise it seizes into a clumpy mess. Toast the pepper dry in the pan
+  before anything else — this is what gives it that bold, punchy warmth that makes the
+  dish. Get the technique right once and you'll make this constantly.
+
+keyIngredients:
+  - pasta
+  - pecorino romano
+  - parmesan
+  - black pepper
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Cheese paste
+    actionNote: made in a bowl with cold pasta water — do this off heat, never in the pan
+    ingredients:
+      - amount: 50g
+        name: pecorino romano, very finely grated
+        note: microplane or fine box grater — this is critical
+        alternatives: []
+      - amount: 30g
+        name: parmesan, very finely grated
+        note: null
+        alternatives: []
+      - amount: "3–4 tbsp"
+        name: cold pasta water
+        note: added gradually to form a smooth, pourable paste
+        alternatives: []
+
+  - emoji: 🌶️
+    label: Pepper base
+    actionNote: toasted dry in the pan — the very first thing you do
+    ingredients:
+      - amount: "1.5–2 tsp"
+        name: coarsely cracked black pepper
+        note: freshly cracked, not pre-ground — the flavor is completely different
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: boil in lightly salted water (cheese is very salty — use less salt than usual)
+    ingredients:
+      - amount: "180–200g"
+        name: spaghetti or rigatoni
+        note: tonnarelli (thick square spaghetti) is traditional; spaghetti works well; rigatoni holds up nicely
+        alternatives: []
+
+instructions:
+  - step: Bring a large pot of lightly salted water to a boil. Use slightly less salt than usual — the cheese is very salty.
+  - step: Cook pasta until just al dente. Reserve at least 1 full cup of pasta water — use some immediately (it needs to be hot when you mix it into the cheese).
+  - step: While pasta cooks, crack or coarsely grind the black pepper. Toast it dry in a large pan over medium heat for ~1 minute until fragrant. Remove from heat.
+  - step: In a bowl, combine finely grated pecorino and parmesan. Add 3–4 tbsp of hot pasta water gradually, whisking constantly, until a smooth, creamy paste forms. It should be pourable, not thick. If it seizes, add more hot water.
+  - step: Drain pasta (keep your pasta water). Add pasta to the pan with the toasted pepper over low heat. Add a splash of pasta water and toss to coat.
+  - step: Take the pan fully off heat. Wait 15–20 seconds to let it cool slightly — this is important.
+  - step: Pour the cheese paste over the pasta. Toss constantly and vigorously, adding pasta water a splash at a time to keep it moving. The sauce should turn glossy and creamy and coat every strand.
+  - step: Plate immediately. Crack a little more black pepper on top if desired.
+
+protein:
+  grams: "20–25"
+  note: from cheese only; low on its own — add a fried egg (+7g) or serve alongside grilled chicken (+30–40g)
+
+tips:
+  - keyword: The cheese paste step is non-negotiable
+    text: Throwing grated cheese directly into the hot pan is the number one mistake — it clumps instantly. Always make the paste with cold-to-warm water off heat first.
+  - keyword: Toast the pepper
+    text: Dry-toasting whole cracked pepper for 60 seconds unlocks a completely different flavor — floral, pungent, warm. Don't skip it.
+  - keyword: If the sauce clumps
+    text: You're too hot. Pull the pan off heat, add more pasta water, and toss harder. The sauce recovers if you catch it early.
+  - keyword: If the sauce is too thin
+    text: Add more cheese paste. If too thick, add a small splash of pasta water and toss.
+  - keyword: Grate the cheese very finely
+    text: Coarser cheese won't dissolve into the paste smoothly. A microplane is ideal.
+
+firstAttemptNotes:
+  date: null
+  notes: []

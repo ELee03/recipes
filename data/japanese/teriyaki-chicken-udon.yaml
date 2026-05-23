@@ -1,0 +1,119 @@
+id: teriyaki-chicken-udon
+name: Teriyaki Chicken Udon
+cuisine: japanese
+difficulty: easy
+time: 25
+servings: 2
+
+methods:
+  - boil
+  - stir-fry
+
+tags:
+  - quick
+  - high-protein
+  - one-pan
+  - no-marinate
+
+description: >
+  Simple weeknight stir-fry. The teriyaki sauce is just three ingredients and comes together in
+  minutes. Udon noodles are satisfying without being heavy, and the vegetables add crunch and
+  volume.
+
+keyIngredients:
+  - chicken breast
+  - udon noodles
+  - soy sauce
+  - mirin
+  - onion
+  - cabbage
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Teriyaki sauce
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 2 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: mirin
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: sugar or honey
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: null
+    ingredients:
+      - amount: 200g
+        name: chicken breast, sliced thin
+        note: null
+        alternatives:
+          - amount: 200g
+            name: firm tofu, cubed
+            note: replace or supplement the chicken — same sauce, works well
+
+  - emoji: 🥬
+    label: Vegetables
+    actionNote: stir-fried in this order
+    ingredients:
+      - amount: ½
+        name: onion, sliced
+        note: null
+        alternatives: []
+      - amount: 1
+        name: carrot, julienned or sliced thin
+        note: null
+        alternatives: []
+      - amount: null
+        name: cabbage, roughly chopped
+        note: a handful
+        alternatives: []
+
+  - emoji: 🍜
+    label: Noodles
+    actionNote: cook according to package instructions, drain and set aside
+    ingredients:
+      - amount: "1–2 portions"
+        name: udon noodles, fresh or frozen
+        note: fresh > frozen > dried
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add right before serving
+    ingredients:
+      - amount: 2
+        name: green onions, chopped
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Cook udon according to package instructions. Drain and set aside.
+  - step: In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside.
+  - step: Add onion and carrot to the pan. Stir-fry ~2–3 min.
+  - step: Add cabbage and cook another 1–2 min.
+  - step: Add chicken back in, then the udon. Pour teriyaki sauce over everything.
+  - step: Toss and stir-fry over high heat ~1–2 min until everything is coated and slightly caramelized.
+  - step: Top with green onion. Serve immediately.
+
+protein:
+  grams: "~50"
+  note: per serving; add a soft-boiled or fried egg on top for an easy boost
+
+tips:
+  - keyword: High heat
+    text: High heat is key — you want some caramelization on the sauce, not just steaming.
+  - keyword: Fresh udon
+    text: Fresh udon from the refrigerator section is much better than dried. Most Asian grocery stores carry it.
+  - keyword: Tofu
+    text: Tofu can replace or supplement the chicken for additional protein variety.
+
+firstAttemptNotes:
+  date: null
+  notes: []

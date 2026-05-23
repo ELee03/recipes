@@ -1,0 +1,153 @@
+id: jollof-rice
+name: Jollof Rice
+cuisine: west-african
+difficulty: medium
+time: 60
+servings: 4
+methods:
+  - blend
+  - fry
+  - simmer
+  - steam
+tags:
+  - meal-prep
+  - pantry-friendly
+
+description: >
+  The dish. A one-pot rice cooked directly in a seasoned tomato-pepper base — it absorbs
+  everything as it steams. The hallmark of good jollof is the smoky bottom crust (the
+  "party jollof" layer) that forms when the liquid runs out and the rice toasts slightly
+  against the pot. Don't be alarmed when you smell it — that's the goal. Serve with
+  grilled or fried chicken, fried plantains, coleslaw, or whatever protein you like.
+
+keyIngredients:
+  - parboiled rice
+  - crushed tomatoes
+  - roasted red peppers
+  - tomato paste
+  - curry powder
+  - bouillon cube
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Blender base
+    actionNote: blend until smooth and set aside
+    ingredients:
+      - amount: ~400ml
+        name: canned crushed or diced tomatoes
+        note: null
+        alternatives:
+          - amount: 3 medium
+            name: fresh tomatoes, roughly chopped
+            note: null
+      - amount: null
+        name: jarred roasted red peppers, drained (~equivalent of 2 red bell peppers)
+        note: null
+        alternatives:
+          - amount: null
+            name: frozen bell pepper strips
+            note: both work fine once blended
+      - amount: "¼–½ tsp"
+        name: cayenne powder
+        note: adjust to heat preference
+        alternatives:
+          - amount: "1–2"
+            name: scotch bonnet / habanero peppers
+            note: very hot — add cautiously
+      - amount: 1 medium
+        name: onion, roughly chopped
+        note: blender only — NOT the same as the sliced onion below
+        alternatives: []
+
+  - emoji: 🥄
+    label: Bowl 2 — Spice mix
+    actionNote: combine dry and set aside
+    ingredients:
+      - amount: 1 tsp
+        name: curry powder
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: dried thyme
+        note: null
+        alternatives: []
+      - amount: 2
+        name: bay leaves
+        note: null
+        alternatives: []
+
+  - emoji: 🥛
+    label: Cup — Liquid
+    actionNote: prepare before you start cooking; pick one, not both
+    ingredients:
+      - amount: 400ml
+        name: chicken stock (carton)
+        note: next time consider starting with 350ml — 400ml was too much on first attempt
+        alternatives:
+          - amount: 400ml
+            name: water + 1 Maggi/Knorr/Aurora bouillon cube dissolved
+            note: consider half a cube if using no-salt-added tomatoes — a full cube made it slightly too salty on first attempt
+
+  - emoji: 🍳
+    label: Pot ingredients
+    actionNote: added during cooking in this order
+    ingredients:
+      - amount: "3–4 tbsp"
+        name: vegetable oil or avocado oil
+        note: null
+        alternatives: []
+      - amount: ½
+        name: onion, thinly sliced
+        note: pot only — NOT the blender onion
+        alternatives: []
+      - amount: 2 tbsp
+        name: tomato paste
+        note: null
+        alternatives: []
+
+  - emoji: 🍚
+    label: Rice
+    actionNote: rinse under cold water until the water runs clear; drain just before adding
+    ingredients:
+      - amount: 2 cups
+        name: long-grain parboiled rice
+        note: must say "parboiled" or "converted" on the bag — No Name, Uncle Ben's Original, or PC parboiled. Do NOT use jasmine, basmati, or regular long grain.
+        alternatives: []
+
+instructions:
+  - step: "Blend the base: blend tomatoes, bell peppers, scotch bonnet, and onion until smooth. Set aside."
+  - step: "Fry the tomato base: heat oil in a wide, heavy-bottomed pot over medium-high heat. Add sliced onion and fry ~3 min. Add tomato paste and stir-fry ~2 min until it darkens slightly."
+  - step: Pour in the blended tomato mixture. It will splatter — stir immediately and reduce heat to medium. Let this fry/simmer uncovered, stirring occasionally, for 20–25 min until it deepens in color, the raw tomato smell is gone, and the oil starts to float on top. This step is not optional — undercooked tomato base = sour jollof.
+  - step: "Season the base: add curry powder, thyme, salt, white pepper, and bay leaves. Stir and cook 2 more min."
+  - step: "Add stock and rice: pour in chicken stock. Bring to a boil. Taste the liquid — it should be well-seasoned. Add the washed and drained rice. Stir once to distribute. If the pot looks too wet, simmer uncovered for a minute or two before putting the lid on."
+  - step: "Steam the rice: reduce heat to low. Cover the pot tightly (use foil under the lid for a better seal if your lid isn't tight). Cook ~30 min without lifting the lid."
+  - step: "Check and finish: after 30 min, the rice should be cooked and liquid mostly absorbed. If still soupy, re-cover and cook another 5–10 min. For the smoky bottom crust, turn heat to medium-low for ~5 min. You'll hear a light sizzle and smell a subtle smokiness. Remove from heat."
+  - step: Stir from the bottom to incorporate the crust throughout. Remove bay leaves. Rest 5 min, then serve.
+
+protein:
+  grams: null
+  note: jollof rice itself is mostly carbs — serve with protein on the side (spiced chicken, chicken tikka, etc.)
+
+tips:
+  - keyword: Parboiled long-grain rice is non-negotiable
+    text: Jasmine or regular white rice will turn to mush. Look for "converted" or "parboiled" on the bag. Uncle Ben's Original is the most common; PC and No Name both make parboiled versions.
+  - keyword: Tomato paste tip
+    text: If you can find a tube, great — lasts months in the fridge. If buying a can (more common), get the smallest size (156ml) and freeze the rest in 1 tbsp portions in an ice cube tray. Use straight from frozen.
+  - keyword: On the scotch bonnets
+    text: If you skipped them and used cayenne instead, start with ¼ tsp and taste before adding more — easier to add heat than take it away.
+  - keyword: The tomato-frying step is the whole game
+    text: Raw, under-fried tomato base makes the rice taste sour and thin. Fry until the oil separates from the tomato — that's your cue it's done.
+  - keyword: Don't lift the lid
+    text: Steam is everything. Every time you open the pot you lose steam and extend cooking time.
+  - keyword: The smoky bottom crust
+    text: Is called "party jollof" in Nigerian cooking — it's the most prized part. If you get it, you did it right. Scrape it up and mix it in.
+
+firstAttemptNotes:
+  date: "2026-05-19"
+  notes:
+    - Too much liquid — used 400ml stock plus topped up with extra water during cooking due to lid not being fully sealed. Rice came out clumpy. Next time start with 350ml and don't top up.
+    - Lid seal — lid wasn't airtight so steam escaped throughout, which triggered the urge to add water. Try to seal tighter, or use foil under the lid as the recipe suggests.
+    - Tomato sauce pooled on top after the 30 min steam — normal when lid isn't fully sealed, just stir it in.
+    - Clumpy texture — caused by too much liquid and not rinsing the rice enough. Next time rinse until the water runs clear.
+    - Slightly too salty — the bouillon cube is the main salt source and it's quite salty on its own. Consider using half a cube next time, especially if using no-salt-added tomatoes.
+    - If the pot looks too wet when you add the rice — simmer uncovered for a minute or two first before putting the lid on.

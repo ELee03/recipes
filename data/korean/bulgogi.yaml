@@ -1,0 +1,138 @@
+id: bulgogi
+name: Bulgogi (Korean Marinated Beef)
+cuisine: korean
+difficulty: medium
+time: 55
+servings: 2
+
+methods:
+  - marinate
+  - pan-fry
+
+tags:
+  - high-protein
+  - meal-prep
+
+description: >
+  The classic. Sweet, savory, lightly smoky — one of the most approachable Korean dishes to make at home. Goes over rice, in lettuce wraps, or just straight out of the pan. Use lean beef cuts and trim visible fat if you want to keep it light.
+
+keyIngredients:
+  - beef
+  - soy sauce
+  - sesame oil
+  - Asian pear
+  - garlic
+  - ginger
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Marinade
+    actionNote: mix together first
+    ingredients:
+      - amount: ½
+        name: Asian pear or apple
+        note: grated; this is the tenderizer — don't skip it
+        alternatives: []
+      - amount: 3 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: sesame oil
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: sugar or honey
+        note: null
+        alternatives: []
+      - amount: 4 cloves
+        name: garlic
+        note: minced
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: convenient substitute
+      - amount: 1 tsp
+        name: ginger
+        note: grated
+        alternatives:
+          - amount: null
+            name: jarred minced ginger
+            note: or freeze a knob and grate from frozen
+      - amount: null
+        name: black pepper
+        note: to taste
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein & aromatics
+    actionNote: add to marinade, toss well, marinate 30 min–overnight
+    ingredients:
+      - amount: 300g
+        name: beef
+        note: ribeye, sirloin, or any thin-sliced cut
+        alternatives:
+          - amount: 300g
+            name: bulgogi-cut beef from Korean grocery store
+            note: comes pre-sliced, saves a lot of work
+      - amount: ½
+        name: onion
+        note: thinly sliced
+        alternatives: []
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add just before serving
+    ingredients:
+      - amount: 2
+        name: green onions
+        note: chopped
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+
+  - emoji: 🍽️
+    label: Serving
+    actionNote: optional accompaniments for serving
+    ingredients:
+      - amount: null
+        name: rice
+        note: optional
+        alternatives: []
+      - amount: null
+        name: lettuce leaves
+        note: optional — for wraps
+        alternatives: []
+      - amount: null
+        name: perilla (kkaennip)
+        note: optional
+        alternatives: []
+      - amount: null
+        name: sliced chili
+        note: optional
+        alternatives: []
+
+instructions:
+  - step: If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain.
+  - step: Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper.
+  - step: Add beef and onion slices. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better.
+  - step: Cook in a hot pan (or grill) in batches — don't overcrowd or it steams instead of sears. High heat, quick cook, ~2–3 min per batch.
+  - step: Finish with sesame seeds and green onion. Serve over rice.
+
+protein:
+  grams: "50–55"
+  note: per serving; pair with a fried egg or tofu side for more
+
+tips:
+  - keyword: pear/apple tenderizer
+    text: The pear/apple is not optional — the enzymes genuinely tenderize the beef. No good substitutes.
+  - keyword: pre-cut beef
+    text: Korean grocery stores sell pre-cut bulgogi beef which saves a lot of time.
+  - keyword: hot dry pan
+    text: Cook in a very hot, dry pan (or cast iron) for the best caramelization. A little char is good.
+
+firstAttemptNotes:
+  date: null
+  notes: []

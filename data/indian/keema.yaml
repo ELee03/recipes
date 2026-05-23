@@ -1,0 +1,167 @@
+id: keema
+name: Keema (Indian Spiced Ground Meat)
+cuisine: indian
+difficulty: medium
+time: 35
+servings: 2
+methods:
+  - sauté
+  - simmer
+tags:
+  - high-protein
+  - one-pan
+  - no-marinate
+  - meal-prep
+
+description: >
+  Keema is a dry-ish spiced ground meat dish — one of the most satisfying things you
+  can make with ground beef or lamb. The whole spice base (cumin, coriander, garam masala,
+  ginger, garlic) does the work. This is exactly the right dish for the drain-and-rinse
+  technique: remove the fat, keep the meat, let the spices carry everything. Serve with
+  rice, roti, naan, or just eat it with a spoon.
+
+keyIngredients:
+  - ground beef
+  - cumin
+  - coriander
+  - garam masala
+  - ginger
+  - garlic
+  - tomato paste
+
+ingredientGroups:
+  - emoji: 🥄
+    label: Bowl 1 — Bloom spices
+    actionNote: combine dry; added to pan with aromatics to bloom in oil
+    ingredients:
+      - amount: 1 tsp
+        name: cumin
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: coriander (ground)
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: turmeric
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: smoked paprika or Kashmiri chili powder
+        note: null
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: cooked first, fat drained, set aside; returned to pan after spice base is built
+    ingredients:
+      - amount: 300g
+        name: ground beef or lamb
+        note: lamb is richer; beef works great
+        alternatives: []
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: sautéed together in oil until onion is golden
+    ingredients:
+      - amount: ½
+        name: onion, finely diced
+        note: null
+        alternatives: []
+      - amount: "3–4 cloves"
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: null
+      - amount: 1 tsp
+        name: ginger, grated or minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced ginger
+            note: or grate directly from a frozen knob
+      - amount: 1
+        name: green chili (serrano or jalapeño), minced
+        note: optional — adjust heat to taste
+        alternatives:
+          - amount: ¼ tsp
+            name: cayenne powder
+            note: null
+
+  - emoji: 🍅
+    label: Tomato
+    actionNote: added after spices bloom; cook until darkened
+    ingredients:
+      - amount: 2 tbsp
+        name: tomato paste (tube recommended)
+        note: null
+        alternatives:
+          - amount: ~100ml
+            name: canned diced tomatoes
+            note: null
+          - amount: 1 medium
+            name: fresh tomato, diced
+            note: null
+
+  - emoji: 🥣
+    label: Add-ins
+    actionNote: added once meat is returned to pan
+    ingredients:
+      - amount: 80g
+        name: frozen peas
+        note: optional but traditional; add straight from frozen
+        alternatives: []
+
+  - emoji: ✨
+    label: Finish
+    actionNote: added completely off heat
+    ingredients:
+      - amount: ½ tsp
+        name: garam masala
+        note: always added at the end — cooking it too long kills the fragrance
+        alternatives: []
+      - amount: null
+        name: juice of ½ lemon
+        note: null
+        alternatives:
+          - amount: null
+            name: bottled lemon juice
+            note: fine here since it's stirred in at the end of a hot dish
+      - amount: null
+        name: fresh cilantro
+        note: null
+        alternatives: []
+      - amount: null
+        name: plain yogurt on top
+        note: optional — balances the heat and adds protein
+        alternatives: []
+
+instructions:
+  - step: Cook ground meat in a pan over medium-high heat. Break it up as it cooks. Once done, drain fat and rinse if preferred. Set aside.
+  - step: In the same pan, sauté onion in a little oil over medium heat until golden, ~5–7 min. Don't rush this — browned onion is flavor.
+  - step: Add garlic, ginger, and green chili. Cook ~2 min.
+  - step: Add cumin, coriander, turmeric, and paprika. Stir and cook ~1 min — the spices bloom in the oil. This is an important step.
+  - step: Add tomato paste or diced tomato. Cook ~3 min until it darkens slightly.
+  - step: Return ground meat to the pan. Stir to coat everything in the spice base.
+  - step: Add frozen peas if using. Add a splash of water if too dry. Simmer ~5–8 min for flavors to meld.
+  - step: Off heat, add garam masala, lemon juice, and cilantro. Taste and adjust salt.
+
+protein:
+  grams: "55–65"
+  note: per serving; a side of plain yogurt adds another ~10–15g and balances the heat
+
+tips:
+  - keyword: Browning the onion properly
+    text: Is the difference between a flat keema and a good one. Medium heat, patience, ~6–7 min until golden.
+  - keyword: Garam masala goes in at the end
+    text: Cooking it too long kills the fragrance. Add it off heat and stir through.
+  - keyword: Keema is excellent the next day
+    text: Reheat with a splash of water. Great for meal prep.
+  - keyword: Keema on toast
+    text: Like a spiced sloppy joe — an underrated quick lunch option.
+
+firstAttemptNotes:
+  date: null
+  notes: []

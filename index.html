@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eugene's Recipes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <h1>Recipes</h1>
+        <span class="recipe-count" id="recipeCount"></span>
+      </div>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search recipes or ingredients…" autocomplete="off">
+        <button class="search-clear" id="searchClear" aria-label="Clear search">×</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- FILTERS -->
+  <div class="filters-bar" id="filtersBar">
+    <div class="filters-inner">
+
+      <div class="filter-group">
+        <span class="filter-label">Cuisine</span>
+        <div class="filter-pills" id="cuisineFilters"></div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Difficulty</span>
+        <div class="filter-pills">
+          <button class="pill" data-filter="difficulty" data-value="easy">🟢 Easy</button>
+          <button class="pill" data-filter="difficulty" data-value="medium">🟡 Medium</button>
+          <button class="pill" data-filter="difficulty" data-value="hard">🔴 Hard</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Time</span>
+        <div class="filter-pills">
+          <button class="pill" data-filter="time" data-value="20">≤ 20 min</button>
+          <button class="pill" data-filter="time" data-value="30">≤ 30 min</button>
+          <button class="pill" data-filter="time" data-value="60">≤ 60 min</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Tags</span>
+        <div class="filter-pills" id="tagFilters"></div>
+      </div>
+
+      <button class="clear-filters" id="clearFilters">Clear all</button>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main-content">
+
+    <!-- RECIPE GRID -->
+    <div class="grid-container" id="gridContainer">
+      <div class="recipe-grid" id="recipeGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <p>No recipes match your filters.</p>
+        <button onclick="clearAllFilters()">Clear filters</button>
+      </div>
+    </div>
+
+    <!-- RECIPE DETAIL DRAWER -->
+    <aside class="detail-drawer" id="detailDrawer" aria-hidden="true">
+      <div class="detail-header">
+        <button class="back-btn" id="backBtn" aria-label="Back to recipes">
+          <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4l-6 6 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          All recipes
+        </button>
+      </div>
+      <div class="detail-content" id="detailContent"></div>
+    </aside>
+
+  </main>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

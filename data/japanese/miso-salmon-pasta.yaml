@@ -1,0 +1,127 @@
+id: miso-salmon-pasta
+name: Miso Salmon Pasta
+cuisine: japanese
+difficulty: easy
+time: 25
+servings: 2
+
+methods:
+  - boil
+  - pan-sear
+  - sauté
+
+tags:
+  - quick
+  - high-protein
+  - fusion
+  - no-marinate
+
+description: >
+  Light, clean, and surprisingly rich-tasting without being heavy. Miso and salmon are a natural
+  pairing — the umami of the miso amplifies the fish without masking it. Great omega-3s and high
+  protein, all in a 25-minute weeknight dish.
+
+keyIngredients:
+  - salmon
+  - white miso paste
+  - pasta
+  - garlic
+  - spinach
+  - milk
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Miso sauce
+    actionNote: mix together, set aside
+    ingredients:
+      - amount: 1 tbsp
+        name: white miso paste
+        note: shiro miso — milder; use red miso for stronger flavor
+        alternatives: []
+      - amount: "3–4 tbsp"
+        name: milk or unsweetened soy milk
+        note: null
+        alternatives: []
+
+  - emoji: 🐟
+    label: Protein
+    actionNote: null
+    ingredients:
+      - amount: "120–150g"
+        name: salmon fillet, skin on or off
+        note: null
+        alternatives:
+          - amount: "120–150g"
+            name: canned salmon
+            note: drain well — works in a pinch, noticeably less good but shelf-stable
+      - amount: null
+        name: black pepper
+        note: for seasoning the salmon — no salt, miso is salty
+        alternatives: []
+
+  - emoji: 🧄
+    label: Pan additions
+    actionNote: added during cooking
+    ingredients:
+      - amount: 3 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: convenient substitute
+      - amount: null
+        name: spinach or sliced mushrooms (or both)
+        note: a handful
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cook pasta and reserve water before draining
+    ingredients:
+      - amount: 120g
+        name: pasta
+        note: null
+        alternatives: []
+      - amount: ~4 tbsp
+        name: pasta water
+        note: reserve before draining
+        alternatives: []
+
+  - emoji: ✨
+    label: Finish
+    actionNote: optional — add at the end to taste
+    ingredients:
+      - amount: null
+        name: soy sauce
+        note: a few drops
+        alternatives: []
+      - amount: null
+        name: lemon
+        note: a squeeze
+        alternatives: []
+
+instructions:
+  - step: Cook pasta in salted water. Reserve pasta water before draining.
+  - step: Season salmon with black pepper (no salt — miso is salty). Pan-sear skin-side down over medium-high heat ~3–4 min, flip and cook another 2 min. Set aside and flake into chunks.
+  - step: In the same pan, sauté garlic ~1 min. Add mushrooms if using and cook until softened.
+  - step: Lower heat. Dissolve miso paste in milk by stirring (or mix them in a small bowl first). Add to the pan with pasta water.
+  - step: Add spinach if using — it wilts in ~30 seconds.
+  - step: Toss pasta in the sauce. Fold in flaked salmon gently.
+  - step: Taste and adjust — a few drops of soy sauce or a squeeze of lemon can brighten it up.
+
+protein:
+  grams: "50–60"
+  note: per serving
+
+tips:
+  - keyword: Don't boil the sauce after adding miso
+    text: Boiling kills the probiotic content and can make the sauce grainy. Lower the heat before adding the miso mixture.
+  - keyword: Canned salmon
+    text: Canned salmon works in a pinch (drain well), though fresh is noticeably better.
+  - keyword: White vs red miso
+    text: White miso is milder and sweeter; red miso is saltier and more intense. Either works here.
+
+firstAttemptNotes:
+  date: null
+  notes: []

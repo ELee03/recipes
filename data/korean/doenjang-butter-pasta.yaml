@@ -1,0 +1,163 @@
+id: doenjang-butter-pasta
+name: Doenjang Butter Pasta
+cuisine: korean
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - boil
+  - sauté
+  - emulsify
+tags:
+  - quick
+  - pantry-friendly
+  - fusion
+  - high-protein
+
+description: >
+  A Korean riff on the miso butter pasta idea — but doenjang is earthier, funkier,
+  and saltier than Japanese miso, so the result is deeper and bolder. Butter and
+  starchy pasta water do all the sauce-building work here: no cream needed, no heavy
+  roux. The emulsion comes together in under a minute and coats every strand. This is
+  a pantry pasta — the only fresh item you really need is butter and pasta. Add
+  mushrooms for more umami layers, or top with a soft-boiled egg for easy extra protein.
+
+keyIngredients:
+  - doenjang
+  - pasta
+  - butter
+  - shallots
+  - mushrooms
+  - sesame oil
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Doenjang sauce
+    actionNote: mix together and set aside
+    ingredients:
+      - amount: "1–1.5 tsp"
+        name: doenjang
+        note: start with 1 tsp — taste and add more; it's saltier than miso
+        alternatives: []
+      - amount: 2 tbsp
+        name: unsalted butter, softened
+        note: null
+        alternatives:
+          - amount: 2 tbsp
+            name: salted butter
+            note: skip any added salt elsewhere if using
+      - amount: 1 tsp
+        name: soy sauce
+        note: optional — adds gloss and saltiness; doenjang alone may be enough
+        alternatives: []
+      - amount: 1 tsp
+        name: sesame oil
+        note: null
+        alternatives: []
+
+  - emoji: 🧄
+    label: Aromatics
+    actionNote: cooked in butter before adding sauce
+    ingredients:
+      - amount: "2–3"
+        name: shallots, thinly sliced
+        note: null
+        alternatives:
+          - amount: ½ small
+            name: onion, diced
+            note: shallots are sweeter and melt down better
+      - amount: 1 tsp
+        name: jarred minced garlic
+        note: null
+        alternatives:
+          - amount: "2–3 cloves"
+            name: fresh garlic, minced
+            note: null
+
+  - emoji: 🍄
+    label: Pan additions
+    actionNote: optional but recommended — add after aromatics
+    ingredients:
+      - amount: 1 cup
+        name: mushrooms, sliced
+        note: shiitake, cremini, oyster — any work; shiitake is the best match
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: boil in salted water; reserve pasta water before draining
+    ingredients:
+      - amount: 200g
+        name: pasta
+        note: spaghetti, linguine, or any long pasta
+        alternatives: []
+      - amount: ½ cup
+        name: pasta water
+        note: reserve before draining — this is the sauce
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: optional — pick one or combine
+    ingredients:
+      - amount: 200g
+        name: cooked chicken breast or thigh, sliced or shredded
+        note: null
+        alternatives:
+          - amount: 150g
+            name: shrimp, peeled
+            note: cook in the same pan before the aromatics
+          - amount: "2"
+            name: soft-boiled eggs, halved
+            note: 6–7 min boil, ice bath, peel
+
+  - emoji: ✨
+    label: Garnish
+    actionNote: add at the end before serving
+    ingredients:
+      - amount: null
+        name: parmesan or grana padano, grated
+        note: optional — adds another umami layer, works surprisingly well
+        alternatives: []
+      - amount: null
+        name: green onion, sliced thin
+        note: null
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+      - amount: null
+        name: gochugaru flakes
+        note: optional — for heat
+        alternatives: []
+
+instructions:
+  - step: Boil pasta in salted water. Reserve at least ½ cup pasta water before draining.
+  - step: While pasta cooks, if adding shrimp, cook in a lightly oiled pan over medium-high heat 2 min per side until pink. Set aside.
+  - step: In the same pan over medium heat, melt 1 tbsp butter. Add shallots and cook ~3 min until soft and translucent. Add garlic, cook 1 more min.
+  - step: Add mushrooms if using. Cook ~3–4 min until softened and starting to brown.
+  - step: Lower heat to medium-low. Add the doenjang-butter mixture and stir to melt into the pan. Don't let it boil — lower heat if needed.
+  - step: Add ¼ cup pasta water and stir. Add drained pasta directly to the pan. Toss to coat. Add more pasta water a splash at a time until the sauce clings to the pasta and looks glossy, not watery.
+  - step: Add protein back in (shrimp, chicken) and toss. Taste — adjust with a tiny bit more doenjang or soy sauce if needed.
+  - step: Plate, top with soft-boiled egg if using, green onion, sesame seeds, gochugaru, and parmesan.
+
+protein:
+  grams: "20–25"
+  note: pasta only with parmesan and egg; ~45–55g with chicken breast added; egg on top adds ~6g per egg
+
+tips:
+  - keyword: Doenjang is not miso — use less
+    text: It's saltier and funkier (fermented longer). Start with 1 tsp per 2 servings and taste. You can always add more; you can't take it out.
+  - keyword: Don't boil the sauce after adding doenjang
+    text: High heat degrades the fermented flavor and can make the paste grainy. Medium-low once the paste goes in.
+  - keyword: Pasta water is the sauce
+    text: The starch emulsifies everything — butter, doenjang, sesame oil — into a silky coating. Don't drain it all; you'll almost certainly need more than you think.
+  - keyword: Shiitake mushrooms are the best match
+    text: Their earthiness pairs with doenjang perfectly. Dried shiitake (rehydrated) work just as well and are shelf-stable.
+  - keyword: Parmesan and doenjang sound weird, taste great
+    text: Both are fermented, umami-forward, funky. They get along well. Don't skip it if you have it.
+
+firstAttemptNotes:
+  date: null
+  notes: []

@@ -1,0 +1,124 @@
+id: spiced-chicken
+name: Spiced Chicken (Jollof Pairing)
+cuisine: west-african
+difficulty: easy
+time: 25
+servings: 2
+methods:
+  - dry-rub
+  - air-fry
+  - pan-fry
+tags:
+  - quick
+  - high-protein
+  - air-fryer
+  - no-marinate
+
+description: >
+  Simple seasoned chicken breast built to go with jollof rice. The spice blend mirrors
+  the flavors already in the jollof — curry powder, thyme, paprika — so everything on
+  the plate tastes like it belongs together. Crispy outside, juicy inside from the air fryer.
+
+keyIngredients:
+  - chicken breast
+  - curry powder
+  - smoked paprika
+  - thyme
+  - bouillon cube
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Spice rub
+    actionNote: mix into a paste, rub all over chicken
+    ingredients:
+      - amount: 1 tsp
+        name: curry powder
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: smoked paprika
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: regular paprika
+            note: null
+      - amount: ½ tsp
+        name: dried thyme
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: garlic powder
+        note: null
+        alternatives:
+          - amount: ½ tsp
+            name: jarred minced garlic, rubbed onto the chicken
+            note: null
+      - amount: ½ tsp
+        name: onion powder
+        note: null
+        alternatives: []
+      - amount: ¼ tsp
+        name: cayenne powder
+        note: adjust to heat preference
+        alternatives:
+          - amount: null
+            name: skip entirely
+            note: for no heat
+      - amount: ½ tsp
+        name: salt
+        note: use either salt OR the bouillon cube — not both (too salty together, per first attempt)
+        alternatives: []
+      - amount: null
+        name: black pepper to taste
+        note: null
+        alternatives: []
+      - amount: ½
+        name: bouillon cube (Maggi/Knorr/Aurora), crumbled dry
+        note: crumble directly into the spice mix — do NOT dissolve in water first; optional but recommended
+        alternatives: []
+      - amount: 1 tsp
+        name: neutral oil
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: pat dry before applying rub
+    ingredients:
+      - amount: "1–2"
+        name: chicken breasts
+        note: null
+        alternatives: []
+
+instructions:
+  - section: Air Fryer (Recommended)
+    steps:
+      - Pat chicken dry with a paper towel — this helps the crust form.
+      - Mix all spices and oil together into a paste. Rub all over the chicken, coating evenly.
+      - Air fry at 200°C (400°F) for 18–22 min, flipping once halfway. Exact time depends on thickness — check that the thickest part is cooked through (no pink). A thicker breast may need the full 22 min.
+      - Rest 3–5 min before slicing or serving. Don't skip this — it keeps the juices in.
+  - section: Pan-Fry (Alternative)
+    steps:
+      - Heat a pan over medium-high with a little oil.
+      - Sear chicken 5–6 min per side until cooked through and deeply browned.
+      - Cover with a lid for the last 2 min if the breast is thick.
+      - Rest 3–5 min before serving.
+
+protein:
+  grams: "50–60"
+  note: per serving (one large chicken breast)
+
+tips:
+  - keyword: The bouillon cube in the rub sounds unusual
+    text: But it's a common West African trick — it adds a savory depth that plain salt doesn't. Just crumble it finely and mix it in with the spices. Do not dissolve it in water first.
+  - keyword: Butterfly thick chicken breasts
+    text: Slice horizontally almost all the way through and open flat for more even cooking and better crust surface area.
+  - keyword: Leftovers
+    text: Slice well cold and work in wraps or on rice the next day.
+
+firstAttemptNotes:
+  date: "2026-05-19"
+  notes:
+    - Too salty — using both the bouillon cube and added salt was too much. Next time use either the cube or the salt, not both. The cube alone is enough.
+    - Watery paste — bouillon cube was accidentally dissolved in water before mixing. The cube should be crumbled dry directly into the spice mix — no water needed.
+    - Chicken itself tasted good and had a solid crust despite the paste being watery going in. The air fryer sorted it out.

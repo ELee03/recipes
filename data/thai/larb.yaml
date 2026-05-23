@@ -1,0 +1,126 @@
+id: larb
+name: Larb (Thai/Lao Minced Meat Salad)
+cuisine: thai
+difficulty: easy
+time: 25
+servings: 2
+methods:
+  - stir-fry
+  - toss
+tags:
+  - quick
+  - high-protein
+  - no-marinate
+  - one-pan
+
+description: >
+  One of the most protein-dense, low-fat dishes you can make. It's essentially seasoned
+  ground meat tossed with herbs, lime juice, and toasted rice powder. No heavy sauces,
+  no cream, no oil to speak of — just pure flavor from the aromatics and fish sauce.
+  Incredibly light, satisfying, and fast.
+
+keyIngredients:
+  - ground chicken
+  - fish sauce
+  - lime juice
+  - mint
+  - cilantro
+  - shallots
+  - toasted rice powder
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Dressing
+    actionNote: mix together and set aside
+    ingredients:
+      - amount: "2–3 tbsp"
+        name: fish sauce
+        note: null
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: fresh lime juice
+        note: null
+        alternatives:
+          - amount: "2–3 tbsp"
+            name: bottled lime juice
+            note: works here since it's being dressed into the meat, not used as a raw finishing squeeze
+      - amount: 1 tsp
+        name: sugar
+        note: null
+        alternatives: []
+      - amount: "1–2 tsp"
+        name: roasted chili flakes
+        note: adjust to taste
+        alternatives: []
+      - amount: 2 tbsp
+        name: toasted rice powder
+        note: see tips for how to make this — do not skip
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: cooked with a splash of water, no oil; drain liquid after
+    ingredients:
+      - amount: "250–300g"
+        name: ground chicken or pork
+        note: both are traditional; chicken is leaner
+        alternatives: []
+
+  - emoji: 🌿
+    label: Herbs & aromatics
+    actionNote: toss in right before serving
+    ingredients:
+      - amount: "3–4"
+        name: shallots, thinly sliced
+        note: null
+        alternatives: []
+      - amount: null
+        name: fresh mint leaves, big handful
+        note: null
+        alternatives: []
+      - amount: null
+        name: fresh cilantro, big handful
+        note: null
+        alternatives: []
+      - amount: "2–3"
+        name: green onions, sliced
+        note: null
+        alternatives: []
+
+  - emoji: 🍚
+    label: Serving
+    actionNote: serve alongside
+    ingredients:
+      - amount: null
+        name: sticky rice or regular rice
+        note: null
+        alternatives:
+          - amount: null
+            name: lettuce leaves
+            note: for a lighter, lower-carb option
+
+instructions:
+  - step: Cook ground meat in a pan over medium heat with a splash of water (no oil needed). Break it up and cook until done. Drain off any liquid.
+  - step: Transfer to a mixing bowl. Let cool slightly — blazing hot will wilt the herbs immediately.
+  - step: Add fish sauce, lime juice, sugar, chili flakes, and toasted rice powder. Toss well.
+  - step: Add shallots, mint, cilantro, and green onion. Toss again.
+  - step: Taste — it should be sour, salty, herbaceous, with a background heat. Adjust fish sauce (salty), lime (sour), or chili as needed.
+  - step: Serve immediately with rice or lettuce.
+
+protein:
+  grams: "55–65"
+  note: per serving; almost entirely from lean ground meat — very favorable macro profile
+
+tips:
+  - keyword: Toasted rice powder
+    text: Put a small handful of uncooked jasmine rice in a dry pan. Toast over medium heat, stirring, until golden brown and nutty-smelling (~5–7 min). Grind in a spice grinder or with a mortar and pestle. It adds a subtle nutty crunch and helps absorb the dressing. Make a batch and store it.
+  - keyword: Larb is best eaten fresh
+    text: The herbs wilt quickly after dressing. Dress and serve immediately.
+  - keyword: Adjust the fish sauce-to-lime ratio
+    text: Based on how salty your fish sauce is. Start conservatively and build up.
+  - keyword: Raw shallot
+    text: Some versions add thin-sliced raw shallot for extra crunch and bite — worth trying.
+
+firstAttemptNotes:
+  date: null
+  notes: []

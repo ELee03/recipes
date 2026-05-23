@@ -1,0 +1,146 @@
+id: karaage
+name: Karaage (Japanese Fried Chicken)
+cuisine: japanese
+difficulty: medium
+time: 50
+servings: 2
+methods:
+  - marinate
+  - air-fry
+  - deep-fry
+tags:
+  - high-protein
+  - air-fryer
+
+description: >
+  Juicy chicken thighs marinated in soy, sake, ginger, and garlic — coated in cornstarch
+  and fried until shatteringly crispy. This is Japan's answer to fried chicken, and it's
+  arguably better: the pieces are bite-sized, the crust is delicate and light (not bready),
+  and the marinade punches all the way through. The air fryer method is the recommended
+  approach here — it comes out surprisingly crispy with far less mess and oil.
+
+keyIngredients:
+  - chicken thighs
+  - soy sauce
+  - sake
+  - ginger
+  - garlic
+  - cornstarch
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Marinade
+    actionNote: mix together and add chicken to marinate
+    ingredients:
+      - amount: 3 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 2 tbsp
+        name: sake
+        note: null
+        alternatives:
+          - amount: 2 tbsp
+            name: mirin
+            note: slightly sweeter, works well
+          - amount: 2 tbsp
+            name: dry sherry or rice wine vinegar
+            note: in a pinch
+      - amount: 1 tsp
+        name: sesame oil
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: fresh ginger, grated
+        note: null
+        alternatives:
+          - amount: ½ tsp
+            name: ginger powder
+            note: null
+      - amount: 2 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced garlic
+            note: fine here since it's in a marinade
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: cut into bite-sized pieces before marinating
+    ingredients:
+      - amount: "400–500g"
+        name: boneless chicken thighs, skin-on preferred
+        note: cut into 4–5cm bite-sized pieces
+        alternatives:
+          - amount: "400–500g"
+            name: skinless chicken thighs
+            note: still great, just slightly less crispy exterior
+
+  - emoji: 🌿
+    label: Coating
+    actionNote: apply just before cooking — do not coat in advance
+    ingredients:
+      - amount: "4–5 tbsp"
+        name: cornstarch
+        note: null
+        alternatives:
+          - amount: "4–5 tbsp"
+            name: potato starch (katakuriko)
+            note: traditional Japanese choice, slightly lighter and crispier
+
+  - emoji: ✨
+    label: Serving
+    actionNote: serve alongside
+    ingredients:
+      - amount: null
+        name: Japanese mayo (Kewpie brand)
+        note: null
+        alternatives: []
+      - amount: null
+        name: lemon wedges
+        note: null
+        alternatives: []
+      - amount: null
+        name: shredded raw cabbage
+        note: null
+        alternatives: []
+
+instructions:
+  - section: Marinate
+    steps:
+      - Mix all marinade ingredients in a bowl. Add chicken pieces, toss to coat, and marinate at least 20 min. 1–2 hours is better; overnight in the fridge is best.
+  - section: Air Fryer (Recommended)
+    steps:
+      - Preheat air fryer to 200°C (400°F).
+      - Remove chicken from marinade, shaking off excess liquid. Toss pieces in cornstarch until fully coated — a light, even layer.
+      - Arrange in a single layer in the air fryer basket. Don't crowd; do two batches if needed.
+      - Cook 18–20 min, flipping halfway through, until golden and crispy.
+      - Serve immediately with Kewpie mayo, lemon, and cabbage.
+  - section: Deep Fry (Alternative)
+    steps:
+      - Heat neutral oil (vegetable, canola, sunflower) in a pot or deep pan to 170°C (340°F). Use enough oil to submerge the pieces.
+      - Coat chicken in cornstarch as above.
+      - Fry in batches ~4–5 min per batch until light golden. Don't crowd the pot.
+      - Remove and rest on a wire rack 2–3 min. For extra crispiness, raise oil to 190°C (375°F) and fry again ~1–2 min until deep golden and shatteringly crispy.
+      - Serve immediately.
+
+protein:
+  grams: "50–60"
+  note: per serving (200–250g chicken thigh per serving)
+
+tips:
+  - keyword: Cornstarch is the secret
+    text: Flour makes fried chicken bready and heavy. Cornstarch creates a thin, crispy, almost glass-like shell. Don't substitute flour.
+  - keyword: Dry the chicken
+    text: Shake off marinade excess or pat lightly before coating — too much liquid prevents the coating from sticking and crisping.
+  - keyword: Don't skip the marinate time
+    text: 20 min is the minimum. The soy-sake marinade is doing real flavor work, not just surface seasoning.
+  - keyword: Air fryer tip
+    text: A light spray of neutral oil on top of the coated pieces before cooking helps achieve a more even golden color.
+  - keyword: Double fry (deep fry method)
+    text: The first fry cooks the chicken through at lower temp; the second fry at high heat crisps the crust. Worth doing if you're already frying in oil.
+
+firstAttemptNotes:
+  date: null
+  notes: []

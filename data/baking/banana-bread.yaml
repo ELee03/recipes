@@ -1,0 +1,129 @@
+id: banana-bread
+name: Banana Bread
+cuisine: baking
+difficulty: easy
+time: 75
+servings: 8
+methods:
+  - mix
+  - bake
+tags:
+  - meal-prep
+  - pantry-friendly
+
+description: >
+  A moist, not-too-sweet banana bread that comes together in one bowl. Uses Greek yogurt
+  for extra moisture and a small protein bump — and optionally swaps some flour for
+  unflavored whey if you want to push the protein higher. Best with very ripe bananas
+  (black-spotted or fully black skin) — the riper they are, the sweeter and more flavorful
+  the bread. Bananas from the freezer work perfectly here.
+
+keyIngredients:
+  - bananas
+  - eggs
+  - Greek yogurt
+  - flour
+  - whey protein powder
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Wet ingredients
+    actionNote: mix together first
+    ingredients:
+      - amount: 3
+        name: very ripe bananas, mashed (~300g peeled)
+        note: frozen and thawed works great — drain any liquid before mashing
+        alternatives: []
+      - amount: 2
+        name: eggs
+        note: null
+        alternatives: []
+      - amount: 60ml
+        name: vegetable oil or avocado oil
+        note: null
+        alternatives:
+          - amount: 60g
+            name: melted butter
+            note: slightly richer, slightly denser
+      - amount: 3 tbsp
+        name: plain Greek yogurt
+        note: adds moisture and a little protein
+        alternatives: []
+      - amount: "80–100g"
+        name: sugar
+        note: 80g is lightly sweet; 100g is standard sweet
+        alternatives:
+          - amount: 60g
+            name: honey or maple syrup
+            note: reduce oil by 1 tbsp if using
+      - amount: 1 tsp
+        name: vanilla extract
+        note: null
+        alternatives: []
+
+  - emoji: 🥣
+    label: Bowl 2 — Dry ingredients
+    actionNote: whisk together, then fold into Bowl 1
+    ingredients:
+      - amount: "190g (1½ cups)"
+        name: all-purpose flour
+        note: null
+        alternatives:
+          - amount: 160g flour + 30g
+            name: unflavored whey protein powder
+            note: boosts protein per slice to ~10–12g; texture is slightly denser but still good. Do not exceed 30g whey or it gets rubbery.
+      - amount: 1 tsp
+        name: baking soda
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: salt
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: cinnamon
+        note: optional but recommended
+        alternatives: []
+
+  - emoji: 🥜
+    label: Add-ins
+    actionNote: fold in last — optional
+    ingredients:
+      - amount: 60g
+        name: chopped walnuts or pecans
+        note: null
+        alternatives:
+          - amount: 60g
+            name: chocolate chips (dark or semi-sweet)
+            note: null
+
+instructions:
+  - step: Preheat oven to 175°C (350°F). Grease a 9×5 inch (23×13 cm) loaf pan lightly with oil or butter. Line with a strip of parchment paper if you have it — makes removal easy.
+  - step: Mash bananas in a large bowl until mostly smooth (a few small lumps are fine). Add eggs, oil, Greek yogurt, sugar, and vanilla. Stir until combined.
+  - step: "Add dry ingredients: sprinkle the flour (or flour + whey), baking soda, salt, and cinnamon directly into the wet bowl. Fold gently with a spatula until just combined — stop as soon as you can't see dry flour. Overmixing = tough bread."
+  - step: Fold in add-ins if using.
+  - step: Pour into loaf pan. Smooth the top. Optional — sprinkle a few banana slices or a pinch of sugar on top for a nicer crust.
+  - step: Bake 55–65 min until a toothpick or knife inserted into the center comes out clean (a few moist crumbs are fine; wet batter means it needs more time). If the top is browning too fast around 40 min, loosely tent with foil.
+  - step: Cool in pan 10 min, then turn out onto a rack. Slice only once fully cool — warm banana bread is crumbly and falls apart.
+
+protein:
+  grams: "6–8"
+  note: per slice (standard); ~10–12g per slice with the whey substitution
+
+tips:
+  - keyword: Riper = better
+    text: If your bananas aren't black-spotted yet, speed-ripen them — bake unpeeled at 150°C (300°F) for 15–20 min until the skin blackens and they're soft. Cool before using.
+  - keyword: Frozen bananas
+    text: Thaw in the fridge overnight or on the counter for an hour. Drain any liquid before mashing.
+  - keyword: Don't overmix
+    text: Once the flour goes in, ten to fifteen folds is enough. Lumpy batter is fine.
+  - keyword: Check early
+    text: Ovens vary — start checking at 50 min. If the toothpick comes out with wet batter at 65 min, cover with foil and go another 10 min.
+  - keyword: Stores well
+    text: Wrap tightly and leave at room temperature up to 3 days, or freeze individual slices. Reheat from frozen at 150°C (300°F) for ~10 min, or just toast it.
+  - keyword: Whey version
+    text: The bread will be slightly denser and less springy than the all-flour version. Still good — just don't expect it to be identical. Add a handful of walnuts if using whey; they improve the texture.
+
+firstAttemptNotes:
+  date: null
+  notes: []

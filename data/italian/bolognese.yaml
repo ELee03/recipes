@@ -1,0 +1,152 @@
+id: bolognese
+name: Bolognese
+cuisine: italian
+difficulty: medium
+time: 120
+servings: 4
+methods:
+  - sauté
+  - simmer
+tags:
+  - meal-prep
+  - high-protein
+
+description: >
+  Bolognese is a slow-cooked meat sauce — humble ingredients, but the long, low simmer
+  turns them into something deeply rich and silky. The technique is less about precision
+  and more about patience: brown the meat well, build the base, add liquid in stages,
+  then walk away and let it go. Whole milk sounds strange but it tenderizes the meat and
+  rounds out any sharpness from the tomatoes. This makes a large batch by design — it
+  freezes perfectly and is even better the next day.
+
+keyIngredients:
+  - ground beef
+  - onion
+  - carrot
+  - celery
+  - crushed tomatoes
+  - red wine
+  - whole milk
+  - pasta
+
+ingredientGroups:
+  - emoji: 🧄
+    label: Soffritto
+    actionNote: cooked low and slow in olive oil until completely soft — the flavor base
+    ingredients:
+      - amount: 1 large
+        name: onion, finely diced
+        note: null
+        alternatives: []
+      - amount: 2 medium
+        name: carrots, finely diced
+        note: null
+        alternatives: []
+      - amount: 2 stalks
+        name: celery, finely diced
+        note: null
+        alternatives: []
+      - amount: 2 tbsp
+        name: olive oil
+        note: null
+        alternatives: []
+      - amount: "3–4 cloves"
+        name: garlic, minced
+        note: optional but recommended — add after the soffritto softens
+        alternatives:
+          - amount: 1.5 tsp
+            name: jarred minced garlic
+            note: add with the vegetables, not after
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: browned in the pot after the soffritto, high heat, in batches if needed
+    ingredients:
+      - amount: 500g
+        name: ground beef (80/20 fat ratio ideal)
+        note: leaner beef dries out in the long simmer
+        alternatives:
+          - amount: 300g + 200g
+            name: ground beef + ground pork
+            note: the traditional mix; slightly richer and more complex
+
+  - emoji: 🫙
+    label: Sauce
+    actionNote: added to the pot after meat is browned; milk goes in last 20–30 min
+    ingredients:
+      - amount: 2 tbsp
+        name: tomato paste
+        note: null
+        alternatives: []
+      - amount: 150ml
+        name: dry red wine
+        note: null
+        alternatives:
+          - amount: 150ml
+            name: beef stock
+            note: adds depth without the acidity; wine is better if you have it
+      - amount: 400g
+        name: canned crushed tomatoes
+        note: null
+        alternatives:
+          - amount: 400g
+            name: whole peeled canned tomatoes, crushed by hand
+            note: null
+      - amount: 150ml
+        name: whole milk
+        note: added in the last 20–30 minutes of simmering only
+        alternatives: []
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cooked separately in salted water; tossed with sauce at serving
+    ingredients:
+      - amount: 200g
+        name: tagliatelle or pappardelle
+        note: wide flat pasta is traditional and grips the sauce beautifully
+        alternatives:
+          - amount: 200g
+            name: rigatoni
+            note: holds sauce well and easier to find
+
+  - emoji: ✨
+    label: Finish
+    actionNote: grate fresh at the table
+    ingredients:
+      - amount: null
+        name: Parmigiano reggiano, freshly grated
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Heat olive oil in a large heavy-bottomed pot or Dutch oven over medium heat. Add onion, carrot, and celery. Cook slowly, stirring occasionally, until completely softened and slightly sweet — about 10–12 minutes. Don't rush this.
+  - step: Add garlic (if using fresh) and cook another 1–2 minutes.
+  - step: Increase heat to medium-high. Add ground meat. Break it up and cook without stirring too much — let it brown properly, not steam. Season with salt and pepper. This takes about 8–10 minutes. Drain excess fat if there's a lot.
+  - step: Add tomato paste and stir into the meat. Cook for 2 minutes — it should darken slightly and coat everything.
+  - step: Pour in the red wine. Scrape any browned bits off the bottom of the pot. Let it bubble and reduce by half, ~3–4 minutes.
+  - step: Add crushed tomatoes. Stir to combine. Bring to a gentle simmer.
+  - step: Reduce heat to low. Cover partially (lid slightly ajar) and simmer for 1–1.5 hours, stirring every 20–30 minutes. The sauce should be slowly bubbling, not rolling. Add a splash of water or stock if it gets too thick before the time is up.
+  - step: In the last 20–30 minutes, pour in the whole milk. Stir in and continue to simmer uncovered until absorbed. The sauce will look slightly lighter — this is correct.
+  - step: Taste and adjust salt. The sauce should be rich, slightly chunky, and not watery.
+  - step: Cook pasta in heavily salted water. Reserve some pasta water. Drain, add pasta to the sauce, and toss briefly with a splash of pasta water to loosen and coat. Don't drown the pasta — use the sauce as a coating, not a pool.
+  - step: Serve with grated parmesan.
+
+protein:
+  grams: "45–55"
+  note: per serving; ground beef is naturally high protein — this dish hits targets without modification
+
+tips:
+  - keyword: Don't rush the soffritto
+    text: Vegetables cooked 10+ minutes on medium-low become sweet and almost melty — they disappear into the sauce and become its backbone. Rushed, they taste raw and harsh.
+  - keyword: Brown the meat, don't steam it
+    text: High heat and not stirring too much = browning. Overcrowding the pan or stirring constantly = grey steamed meat. Brown = flavor.
+  - keyword: The milk is real
+    text: It sounds wrong but it chemically tenderizes the meat proteins and buffers the acidity of the tomatoes. Add it. You won't taste milk — you'll taste a smoother, richer sauce.
+  - keyword: Don't drown the pasta
+    text: Bolognese is a meat sauce that coats pasta, not a pool of liquid. Toss the pasta in the sauce — every strand should be coated but there shouldn't be a puddle.
+  - keyword: This freezes perfectly
+    text: Make a full batch, portion into containers, and freeze. It reheats beautifully with a splash of water or stock.
+
+firstAttemptNotes:
+  date: null
+  notes: []

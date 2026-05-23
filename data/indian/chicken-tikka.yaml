@@ -1,0 +1,154 @@
+id: chicken-tikka
+name: Chicken Tikka (Marinated & Grilled Chicken)
+cuisine: indian
+difficulty: medium
+time: 150
+servings: 2
+methods:
+  - marinate
+  - broil
+  - pan-sear
+tags:
+  - high-protein
+  - meal-prep
+
+description: >
+  Tender chunks of chicken marinated in yogurt and spices, then charred under a broiler
+  or on a grill. This is the preparation that goes into tikka masala (if you want to add
+  a sauce) but it's also excellent completely on its own — just the marinated, charred
+  chicken with some sliced onion, a squeeze of lime, and cilantro. High protein, not heavy,
+  genuinely delicious. The yogurt marinade tenderizes the chicken and keeps it moist
+  even on high heat.
+
+keyIngredients:
+  - chicken breast
+  - Greek yogurt
+  - cumin
+  - coriander
+  - garam masala
+  - Kashmiri chili powder
+  - lemon juice
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Bowl 1 — Marinade
+    actionNote: mix together, coat chicken, marinate 2h–overnight
+    ingredients:
+      - amount: "3–4 tbsp"
+        name: plain yogurt (full-fat works best for grilling)
+        note: null
+        alternatives: []
+      - amount: 3 cloves
+        name: garlic, minced or grated
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced garlic
+            note: null
+      - amount: 1 tsp
+        name: ginger, grated
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced ginger
+            note: or grate directly from a frozen knob
+      - amount: 1 tbsp
+        name: lemon juice
+        note: null
+        alternatives:
+          - amount: 1 tbsp
+            name: bottled lemon juice
+            note: fine for a marinade
+      - amount: 1 tsp
+        name: cumin
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: coriander (ground)
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: Kashmiri chili powder or mild paprika
+        note: for color and mild heat
+        alternatives: []
+      - amount: ½ tsp
+        name: turmeric
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: garam masala
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: oil
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: add to marinade and toss well
+    ingredients:
+      - amount: "300–400g"
+        name: chicken breast, cut into large chunks
+        note: null
+        alternatives:
+          - amount: "300–400g"
+            name: boneless chicken thighs
+            note: more flavor and slightly more forgiving on high heat
+
+  - emoji: 🥗
+    label: Serving
+    actionNote: serve alongside
+    ingredients:
+      - amount: null
+        name: sliced raw onion, soaked in cold water 5 min
+        note: soaking removes the harsh bite
+        alternatives: []
+      - amount: null
+        name: fresh cilantro
+        note: null
+        alternatives: []
+      - amount: null
+        name: lime or lemon wedges
+        note: null
+        alternatives: []
+      - amount: null
+        name: mint yogurt dip (yogurt + mint + a pinch of salt)
+        note: adds ~10–15g protein
+        alternatives: []
+      - amount: null
+        name: warm naan or rice
+        note: or just as-is
+        alternatives: []
+
+instructions:
+  - step: Mix all marinade ingredients. Add chicken and coat thoroughly. Marinate in the fridge at least 2 hours; overnight is significantly better.
+  - step: When ready to cook, remove chicken from fridge 15 min early.
+  - section: Broiler (Recommended)
+    steps:
+      - Set oven to broil. Place chicken on a foil-lined baking tray.
+      - Broil on high, ~10–12 min total, flipping once halfway. You want some char on the edges — that's correct, not burnt.
+  - section: Pan Method
+    steps:
+      - Heat pan on very high heat. Add chicken in a single layer with minimal oil.
+      - Don't move it for ~3–4 min to get a sear. Flip and cook other side ~3–4 min.
+      - Finish in oven at 200°C if chunks are thick.
+  - step: Rest 5 min. Serve with sliced onion, lime, cilantro, and mint yogurt dip.
+
+protein:
+  grams: "55–70"
+  note: per serving with chicken breast; adding a yogurt dip adds another 10–15g
+
+tips:
+  - keyword: The char is intentional and essential
+    text: It's part of the flavor. Don't be afraid of the dark spots.
+  - keyword: Kashmiri chili powder is mild
+    text: It gives the characteristic red-orange color without excessive heat. Substitute with regular paprika or mild chili powder.
+  - keyword: This freezes well
+    text: Marinate a batch, freeze in the marinade, then thaw and cook when needed.
+  - keyword: To turn this into tikka masala
+    text: Sauté onion, garlic, ginger, blend with canned tomato, add cream or yogurt and garam masala, then add the cooked tikka. That's the whole dish.
+
+firstAttemptNotes:
+  date: null
+  notes: []

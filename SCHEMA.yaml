@@ -1,0 +1,100 @@
+# ============================================================
+# RECIPE SCHEMA — Canonical Reference
+# ============================================================
+# Every file in recipe-site/data/**/*.yaml must follow this
+# structure exactly. See comments for rules and allowed values.
+# ============================================================
+
+id: kebab-case-name               # unique slug; must match filename (without .yaml)
+name: Human Readable Recipe Name
+cuisine: korean                   # allowed: korean | japanese | thai | italian | mexican | indian | west-african | smoothies | baking
+difficulty: easy                  # allowed: easy | medium | hard
+time: 20                          # total time in minutes, integer (use longest path for multi-method recipes)
+servings: 2                       # integer
+
+methods:                          # list of cooking techniques used in this recipe
+  - stir-fry                      # e.g. stir-fry, marinate, broil, steam, simmer, bake, air-fry, pan-fry, blend
+
+tags:                             # for filtering UI; add new tags as needed, keep kebab-case
+  - quick                         # ≤20 min active cook time
+  - meal-prep                     # scales well and/or reheats well
+  - high-protein                  # 40g+ protein per serving
+  - one-pan                       # minimal dishes / cleanup
+  - no-marinate                   # ready to cook immediately, no marinating required
+  - air-fryer                     # can be made (or has a variant) in an air fryer
+  - pantry-friendly               # mostly shelf-stable / long-lasting ingredients
+  - fusion                        # genre-crossing dish (e.g. Korean-Italian pasta)
+
+description: >
+  One paragraph max. Punchy, no fluff. Explain what the dish is
+  and why it's worth making.
+
+keyIngredients:                   # 5–10 main ingredients — used for "what can I make?" search
+  - ingredient-one                # plain names only, no amounts
+  - ingredient-two                # focus on meaningful filters (proteins, key sauces, starches)
+  - ingredient-three              # skip generic items like salt, oil, pepper
+
+ingredientGroups:
+  - emoji: 🫙                     # single emoji representing the group
+    label: Bowl 1 — Name          # short label; common: Bowl 1/2, Protein, Aromatics, Marinade,
+                                  # Sauce, Spice mix, Broth, Pasta, Noodles, Garnish, Serving, Finish
+    actionNote: mix together and set aside before cooking  # shown in italics; describes when/how to use this group
+    ingredients:
+      - amount: 2 cups            # string; use null if no specific amount (e.g. "to taste" items)
+        name: day-old rice
+        note: null                # optional clarifying note; null if not needed
+        alternatives:
+          - amount: 2 cups
+            name: fresh rice
+            note: spread on a tray and fan dry before using  # always explain the tradeoff
+      - amount: 1 tbsp
+        name: gochujang
+        note: null
+        alternatives: []          # empty array if no alternatives
+
+  - emoji: 🥚
+    label: Another Group
+    actionNote: another action note
+    ingredients:
+      - amount: "1–2"             # quote ranges to avoid YAML parsing them as numbers
+        name: eggs
+        note: null
+        alternatives: []
+
+# Instructions — two valid formats; mix freely within a recipe:
+#
+# Format A — flat step (use for single-method recipes or simple sequences):
+#   - step: Do this thing.
+#
+# Format B — named section (use when recipe has multiple methods or distinct phases):
+#   - section: Air Fry
+#     steps:
+#       - Do this.
+#       - Then do that.
+
+instructions:
+  - step: First instruction step.
+  - step: Second instruction step.
+  - section: Optional Named Section
+    steps:
+      - First step in this section.
+      - Second step in this section.
+
+protein:
+  grams: "45–55"                  # always a string to allow ranges; quote it
+  note: per serving with one chicken breast  # brief context note
+
+tips:
+  - keyword: the key phrase       # the bolded term from the .md tips format
+    text: Full tip text goes here. Explain the why, not just the what.
+  - keyword: another tip
+    text: Another tip explanation.
+
+firstAttemptNotes:                # leave as shown until the recipe has been cooked once
+  date: null                      # fill with YYYY-MM-DD after first attempt
+  notes: []                       # fill with list of strings after first attempt
+  # Example when filled:
+  # date: 2026-05-19
+  # notes:
+  #   - Too salty — the bouillon cube alone is enough, skip the added salt.
+  #   - Texture was good, crust formed perfectly.
