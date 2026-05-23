@@ -71,23 +71,53 @@ body {
 }
 
 .header-title {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
   flex-shrink: 0;
 }
 
 .header-title h1 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--text);
+}
+
+/* NAV */
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 20px;
+}
+
+.nav-link {
+  height: 30px;
+  padding: 0 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.15s, background 0.15s;
+}
+
+.nav-link:hover {
+  color: var(--text);
+  background: var(--border-light);
+}
+
+.nav-link--active {
+  color: var(--text);
+  background: var(--tag-bg);
 }
 
 .recipe-count {
   font-size: 0.8rem;
   color: var(--text-muted);
   font-weight: 400;
+  margin-left: 4px;
 }
 
 .search-wrap {
@@ -751,6 +781,160 @@ body {
   color: var(--text-secondary);
   padding-left: 12px;
   border-left: 2px solid var(--border);
+}
+
+/* ============================================================
+   PANTRY PAGE
+   ============================================================ */
+
+.pantry-hero {
+  padding: 32px 0 28px;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 36px;
+}
+
+.pantry-hero-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.pantry-hero-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.pantry-legend {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pantry-legend-item {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pantry-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding-bottom: 60px;
+}
+
+.pantry-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.pantry-section-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.pantry-subsection {
+  margin-bottom: 28px;
+}
+
+.pantry-subsection-title {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+.pantry-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.pantry-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  background: var(--surface);
+}
+
+.pantry-table thead th {
+  background: var(--tag-bg);
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.pantry-table tbody tr {
+  border-bottom: 1px solid var(--border-light);
+  transition: background 0.1s;
+}
+
+.pantry-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.pantry-table tbody tr:hover {
+  background: var(--bg);
+}
+
+.pantry-table td {
+  padding: 11px 14px;
+  vertical-align: top;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.pantry-table td:first-child {
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--text);
+  min-width: 160px;
+}
+
+.pantry-table td .note-text {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+.pantry-table td em {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.pantry-table .shelf-long { color: #2d7a3a; font-size: 0.78rem; }
+.pantry-table .shelf-med  { color: #a07c00; font-size: 0.78rem; }
+.pantry-table .shelf-short { color: #c0392b; font-size: 0.78rem; }
+
+.pantry-callout {
+  background: var(--accent-light);
+  border: 1px solid #f0d5bb;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
 }
 
 /* ============================================================
