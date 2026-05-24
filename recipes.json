@@ -5047,6 +5047,179 @@
     }
   },
   {
+    "id": "salsa-rice-burrito-bowl",
+    "name": "Salsa Rice Burrito Bowl",
+    "cuisine": "mexican",
+    "difficulty": "easy",
+    "time": 30,
+    "servings": 2,
+    "tags": [
+      "quick",
+      "one-pan",
+      "pantry-friendly"
+    ],
+    "description": "Salsa-cooked rice toasted with aromatics and spices, built into a bowl with cheddar, Greek yogurt, and optional beans and corn. Minimal effort, maximum flavour.",
+    "keyIngredients": [
+      "rice",
+      "salsa",
+      "black beans",
+      "cumin",
+      "chili powder",
+      "cheddar",
+      "greek yogurt"
+    ],
+    "methods": [
+      "stovetop"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🍚",
+        "label": "Rice base",
+        "ingredients": [
+          {
+            "name": "rice",
+            "amount": "1 cup",
+            "note": "short-grain or long-grain parboiled both work"
+          },
+          {
+            "name": "medium salsa (Tostitos or similar)",
+            "amount": "¾ cup"
+          },
+          {
+            "name": "water",
+            "amount": "1¼ cups"
+          },
+          {
+            "name": "onion",
+            "amount": "½ medium",
+            "note": "diced"
+          },
+          {
+            "name": "garlic",
+            "amount": "2–3 cloves",
+            "note": "minced",
+            "alternatives": [
+              {
+                "name": "frozen garlic shreds",
+                "amount": "1½ tsp"
+              }
+            ]
+          },
+          {
+            "name": "neutral oil",
+            "amount": "1 tbsp"
+          }
+        ]
+      },
+      {
+        "emoji": "🌶️",
+        "label": "Seasonings",
+        "ingredients": [
+          {
+            "name": "cumin",
+            "amount": "1 tsp"
+          },
+          {
+            "name": "chili powder",
+            "amount": "1 tsp"
+          },
+          {
+            "name": "smoked paprika",
+            "amount": "½ tsp"
+          },
+          {
+            "name": "dried oregano",
+            "amount": "¼ tsp",
+            "note": "optional"
+          },
+          {
+            "name": "cayenne",
+            "note": "optional, for heat"
+          },
+          {
+            "name": "salt and black pepper"
+          }
+        ]
+      },
+      {
+        "emoji": "🧀",
+        "label": "Toppings",
+        "ingredients": [
+          {
+            "name": "cheddar cheese, shredded",
+            "note": "as much as you like"
+          },
+          {
+            "name": "Greek yogurt",
+            "amount": "2–3 tbsp per bowl",
+            "note": "sour cream substitute"
+          }
+        ]
+      },
+      {
+        "emoji": "➕",
+        "label": "Optional add-ins",
+        "ingredients": [
+          {
+            "name": "canned black beans or pinto beans",
+            "amount": "1 can (540ml)",
+            "note": "drained and rinsed"
+          },
+          {
+            "name": "frozen corn",
+            "amount": "½ cup"
+          },
+          {
+            "name": "lime juice",
+            "amount": "1 lime",
+            "note": "big difference — worth it"
+          },
+          {
+            "name": "fresh cilantro"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Heat oil in a medium saucepan over medium heat. Add diced onion and cook until softened, about 4–5 minutes. Add garlic and cook 1 more minute until fragrant."
+      },
+      {
+        "step": "Add the uncooked rice and stir with the aromatics for 2 minutes to toast it — adds a subtle nuttiness."
+      },
+      {
+        "step": "Pour in the salsa, water, and all seasonings. Stir to combine and bring to a boil."
+      },
+      {
+        "step": "Reduce heat to low, cover, and cook until rice is done — about 18 minutes for long-grain, 20–22 for short-grain. Don't lift the lid. Rest covered for 5 minutes off the heat."
+      },
+      {
+        "step": "If using beans and/or corn, stir them in during the last 5 minutes of cooking or heat separately and add as toppings."
+      },
+      {
+        "step": "Scoop rice into bowls. Top with shredded cheddar (melts slightly from the heat), a generous dollop of Greek yogurt, and a squeeze of lime."
+      }
+    ],
+    "tips": [
+      {
+        "keyword": "Rice ratio",
+        "text": "Keep the salsa-to-water ratio consistent when scaling — roughly ¾ cup salsa to 1¼ cups water per cup of rice."
+      },
+      {
+        "keyword": "Oregano sub",
+        "text": "Not essential. Skip it, or substitute ½ tsp thyme, ½ tsp Italian seasoning, or a pinch of marjoram."
+      },
+      {
+        "keyword": "Rice type",
+        "text": "Short-grain gives a stickier, more cohesive base. Long-grain parboiled stays fluffier and more separated — both work well."
+      },
+      {
+        "keyword": "Yogurt",
+        "text": "Full-fat Greek yogurt works better here than expected — tangier and thicker than sour cream. Low-fat is fine too."
+      }
+    ]
+  },
+  {
     "id": "chicken-tikka",
     "name": "Chicken Tikka (Marinated & Grilled Chicken)",
     "cuisine": "indian",
