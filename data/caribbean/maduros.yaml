@@ -1,0 +1,72 @@
+id: maduros
+name: Maduros
+cuisine: caribbean
+difficulty: easy
+time: 15
+servings: 2
+methods:
+  - pan-fry
+
+tags:
+  - quick
+  - one-pan
+  - pantry-friendly
+
+description: >
+  Caramelized sweet fried plantains — one of the simplest, most satisfying things you can make.
+  The key is ripe plantains (mostly-black skin) so the sugars are fully developed. Pairs with
+  jerk chicken, rice and beans, or anything that benefits from a sweet contrast. A legitimate
+  carb source at ~35g per serving.
+
+keyIngredients:
+  - ripe plantains
+  - neutral oil
+
+ingredientGroups:
+  - emoji: 🍌
+    label: Plantains
+    actionNote: peel and slice just before cooking — they oxidize quickly once cut
+    ingredients:
+      - amount: 2 large
+        name: ripe plantains
+        note: skin should be mostly yellow-black to fully black; green or yellow won't caramelize
+        alternatives: []
+
+  - emoji: 🫙
+    label: Frying
+    actionNote: null
+    ingredients:
+      - amount: 2–3 tbsp
+        name: neutral oil
+        note: enough to coat the pan; not deep fry
+        alternatives: []
+      - amount: null
+        name: flaky salt, to finish
+        note: optional but recommended
+        alternatives: []
+      - amount: null
+        name: lime wedge
+        note: optional; cuts the sweetness slightly
+        alternatives: []
+
+instructions:
+  - step: Peel plantains — cut off both ends, score the skin lengthwise, and peel off. Slice on the diagonal into ¾–1 inch pieces.
+  - step: Heat oil in a non-stick or cast iron pan over medium heat. When shimmering, add plantain slices in a single layer without crowding.
+  - step: Cook 2–3 min per side without moving them, until deep golden brown and caramelized. They should release easily when ready — if they stick, they need more time.
+  - step: Transfer to paper towel briefly. Finish with flaky salt and a squeeze of lime if desired.
+
+protein:
+  grams: "2"
+  note: this is a carb side — ~30–35g carbs per serving, roughly equivalent to a medium potato
+
+tips:
+  - keyword: Ripeness
+    text: Is everything here. A yellow plantain fries okay but won't caramelize properly. A mostly-black plantain will be sweet, soft, and deeply flavored. Buy yellow and wait 3–5 days at room temp.
+  - keyword: Medium heat
+    text: Not high. High heat burns the outside before the inside softens. Medium gives the sugars time to caramelize without scorching.
+  - keyword: Don't move them
+    text: Let them sit undisturbed for the full 2–3 minutes. Touching them too early tears the developing crust.
+
+firstAttemptNotes:
+  date: null
+  notes: []

@@ -28,7 +28,7 @@ OUTPUT_FILE = Path(__file__).parent / "recipes.json"
 
 CUISINE_ORDER = [
     "korean", "japanese", "thai", "italian", "mexican",
-    "indian", "west-african", "smoothies", "baking"
+    "indian", "west-african", "caribbean", "smoothies", "baking"
 ]
 
 

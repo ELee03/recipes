@@ -7,7 +7,8 @@
 
 id: kebab-case-name               # unique slug; must match filename (without .yaml)
 name: Human Readable Recipe Name
-cuisine: korean                   # allowed: korean | japanese | thai | italian | mexican | indian | west-african | smoothies | baking
+cuisine: korean                   # allowed: korean | japanese | thai | italian | mexican | indian | west-african | caribbean | smoothies | baking
+                                  # New cuisine categories can be added as needed — update this comment, CUISINE_ORDER in build.py, and CLAUDE.md when adding one
 difficulty: easy                  # allowed: easy | medium | hard
 time: 20                          # total time in minutes, integer (use longest path for multi-method recipes)
 servings: 2                       # integer

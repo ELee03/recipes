@@ -1,0 +1,171 @@
+id: jerk-chicken-bowl
+name: Jerk Chicken Bowl
+cuisine: caribbean
+difficulty: medium
+time: 55
+servings: 2
+methods:
+  - marinate
+  - pan-fry
+
+tags:
+  - high-protein
+  - meal-prep
+
+description: >
+  Bold, fiery, smoky jerk chicken — fragrant with allspice, scotch bonnet, and thyme — served
+  over rice or alongside tostones or maduros. This is the real flavor profile: not just spicy,
+  but deeply aromatic with warm spices and a slight sweetness from brown sugar. The char is
+  intentional.
+
+keyIngredients:
+  - chicken thighs
+  - scotch bonnet pepper
+  - allspice
+  - soy sauce
+  - green onions
+  - thyme
+  - ginger
+
+ingredientGroups:
+  - emoji: 🌶️
+    label: Jerk Marinade
+    actionNote: blend or finely mince everything into a paste; marinate chicken at least 30 min (overnight is dramatically better)
+    ingredients:
+      - amount: "3–4"
+        name: green onions, roughly chopped
+        note: null
+        alternatives: []
+      - amount: "1–2"
+        name: scotch bonnet or habanero pepper
+        note: 1 for medium heat, 2 for hot; remove seeds for milder
+        alternatives:
+          - amount: "2–3"
+            name: serrano peppers
+            note: less fruity than scotch bonnet but closer than jalapeño
+      - amount: 4 cloves
+        name: garlic
+        note: null
+        alternatives:
+          - amount: 1½ tsp
+            name: jarred minced garlic
+            note: null
+      - amount: 1 tbsp
+        name: fresh ginger, grated
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: ground ginger
+            note: less bright but works fine
+          - amount: 1 tbsp
+            name: frozen ginger, grated from frozen
+            note: freeze a knob whole and grate straight from the freezer
+      - amount: 1½ tsp
+        name: ground allspice
+        note: the defining flavor of jerk — don't skip it
+        alternatives: []
+      - amount: 1 tsp
+        name: dried thyme
+        note: null
+        alternatives:
+          - amount: 2 sprigs
+            name: fresh thyme, leaves stripped
+            note: null
+      - amount: 1 tbsp
+        name: brown sugar
+        note: null
+        alternatives: []
+      - amount: 2 tbsp
+        name: soy sauce
+        note: shelf-stable
+        alternatives: []
+      - amount: 1 tbsp
+        name: lime juice
+        note: null
+        alternatives:
+          - amount: 1 tbsp
+            name: bottled lime juice
+            note: shelf-stable
+      - amount: ¼ tsp
+        name: cinnamon
+        note: null
+        alternatives: []
+      - amount: ¼ tsp
+        name: black pepper
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: neutral oil
+        note: null
+        alternatives: []
+
+  - emoji: 🍗
+    label: Protein
+    actionNote: coat in marinade and refrigerate; bring to room temp 15 min before cooking
+    ingredients:
+      - amount: 4 boneless
+        name: chicken thighs
+        note: skin-on adds flavor and char; boneless/skinless is easier to slice
+        alternatives:
+          - amount: 2 large
+            name: chicken breasts
+            note: leaner but dries out faster — reduce cook time by ~3 min per side
+
+  - emoji: 🍽️
+    label: Serving
+    actionNote: pick your carb and any extras; cook separately
+    ingredients:
+      - amount: null
+        name: white rice
+        note: cooked separately; neutral base that soaks up the jus
+        alternatives: []
+      - amount: null
+        name: tostones
+        note: see Tostones recipe — crispy, savory, pairs well with the savory heat
+        alternatives:
+          - amount: null
+            name: maduros
+            note: see Maduros recipe — sweeter contrast if you want it
+      - amount: null
+        name: quick cabbage slaw — shredded cabbage, lime juice, pinch of salt
+        note: optional; cuts through the richness
+        alternatives: []
+      - amount: null
+        name: canned black beans, warmed
+        note: optional; adds fiber and rounds it out as a bowl
+        alternatives: []
+
+instructions:
+  - section: Marinate
+    steps:
+      - Blend all marinade ingredients into a rough paste. A small blender or food processor is easiest; finely mincing by hand works but is messier.
+      - Score the chicken thighs with a few shallow cuts so the marinade penetrates. Coat thoroughly.
+      - Marinate in the fridge at least 30 min. Overnight is dramatically better — the flavor goes from surface-level to deep.
+  - section: Cook
+    steps:
+      - Pull chicken from the fridge 15 min before cooking to take the chill off.
+      - Heat a heavy pan (cast iron is ideal) over medium-high with a thin film of oil. When smoking, add chicken in a single layer.
+      - Cook 5–7 min per side for boneless thighs until deeply charred and cooked through (74°C / 165°F internal). The outside should look almost burnt — that caramelized crust is correct.
+      - Rest 5 min before slicing.
+  - section: Serve
+    steps:
+      - Slice chicken and serve over rice, or alongside tostones or maduros.
+      - If making slaw, toss cabbage with lime juice and salt right before serving — it wilts fast.
+
+protein:
+  grams: "55–70"
+  note: per serving with 2 boneless chicken thighs (~160–180g each)
+
+tips:
+  - keyword: Allspice
+    text: Is the non-negotiable flavor of jerk. It smells like cinnamon, cloves, and pepper combined — that's the point. Don't skip it or substitute with a pre-made "jerk seasoning blend" as your only flavor source.
+  - keyword: Dark char
+    text: Is intentional. Jerk chicken should look almost burnt from the sugar and marinade caramelizing. A pale pan-sear means the heat was too low.
+  - keyword: Scotch bonnet
+    text: Has a fruity heat that habanero approximates but serrano or jalapeño don't. Worth seeking out at a Caribbean, African, or South Asian grocery if you want the authentic flavor profile.
+  - keyword: Overnight marinade
+    text: Makes a genuine difference here more than in most recipes. The allspice and thyme need time to work into the meat. If you're doing meal prep, marinate the night before.
+
+firstAttemptNotes:
+  date: null
+  notes: []

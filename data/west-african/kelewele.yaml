@@ -1,0 +1,92 @@
+id: kelewele
+name: Kelewele
+cuisine: west-african
+difficulty: easy
+time: 25
+servings: 2
+methods:
+  - pan-fry
+
+tags:
+  - quick
+  - one-pan
+
+description: >
+  Ghanaian spiced fried plantains — hot, fragrant, and addictive. Ripe plantains tossed in
+  ginger, chili, and anise before frying until caramelized with slightly charred edges. Better
+  than plain maduros when you want heat and complexity alongside the sweetness. Street food,
+  but quick enough to make any night.
+
+keyIngredients:
+  - ripe plantains
+  - ground ginger
+  - cayenne
+  - anise seeds
+
+ingredientGroups:
+  - emoji: 🌶️
+    label: Spice Mix
+    actionNote: combine in a small bowl before you start on the plantains
+    ingredients:
+      - amount: 1 tsp
+        name: ground ginger
+        note: null
+        alternatives: []
+      - amount: ½ tsp
+        name: cayenne or ground chili
+        note: adjust to heat preference
+        alternatives: []
+      - amount: ½ tsp
+        name: anise seeds, lightly crushed
+        note: the signature kelewele flavor — adds a warm, fennel-like fragrance; crush lightly in your palm to release oils
+        alternatives:
+          - amount: ¼ tsp
+            name: ground cloves
+            note: less aromatic but works if you don't have anise
+      - amount: ½ tsp
+        name: salt
+        note: null
+        alternatives: []
+
+  - emoji: 🍌
+    label: Plantains
+    actionNote: peel, slice, and toss in spice mix just before frying
+    ingredients:
+      - amount: 2 large
+        name: ripe plantains
+        note: yellow with heavy black spotting — ripe enough to be sweet but still firm; fully black is too soft and will burn
+        alternatives: []
+
+  - emoji: 🫙
+    label: Frying
+    actionNote: null
+    ingredients:
+      - amount: 3 tbsp
+        name: neutral oil
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Peel plantains, slice into 1-inch diagonal pieces.
+  - step: Toss with the spice mix until evenly coated.
+  - step: Heat oil in a pan over medium-high. Add plantains in a single layer — don't crowd; fry in batches if needed.
+  - step: Fry 2–3 min per side until dark golden with caramelized, slightly charred edges. The sugars will smoke a bit — that's fine.
+  - step: Drain briefly on paper towel and serve immediately.
+
+protein:
+  grams: "2"
+  note: this is a carb/snack side — ~30–35g carbs per serving
+
+tips:
+  - keyword: Ripeness
+    text: Yellow with heavy black spotting is the target. Ripe enough to be sweet and soft-inside, but still firm enough to hold shape in the pan. Fully black plantains are too mushy and will burn before caramelizing.
+  - keyword: Don't crowd
+    text: Fry in batches if your pan is small. Crowding drops the oil temperature and steams the plantains instead of frying them — you lose the char.
+  - keyword: Anise seeds
+    text: Are what makes kelewele distinctive. Find them at South Asian or African grocery stores (often labelled "anise" or "star anise seeds" — use the small seeds, not whole star anise). Lightly crush in your palm to release the oils before adding.
+  - keyword: Serve immediately
+    text: Kelewele is best hot. It softens and loses the texture quickly as it cools.
+
+firstAttemptNotes:
+  date: null
+  notes: []

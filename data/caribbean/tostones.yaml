@@ -1,0 +1,109 @@
+id: tostones
+name: Tostones
+cuisine: caribbean
+difficulty: easy
+time: 25
+servings: 2
+methods:
+  - pan-fry
+
+tags:
+  - quick
+  - one-pan
+
+description: >
+  Twice-fried green plantains — crispy, salty, savory, and satisfying. Smashed flat between two
+  fries, they come out dense and crunchy like a thick plantain chip. A near-universal Latin American
+  and Caribbean side, and the best use of an unripe plantain. Optional garlic mojo takes them up
+  another level.
+
+keyIngredients:
+  - green plantains
+  - neutral oil
+  - garlic
+
+ingredientGroups:
+  - emoji: 🍌
+    label: Plantains
+    actionNote: peel by cutting off both ends, scoring the skin lengthwise 3–4 times, and working your fingers under it — the skin is stiff and will resist
+    ingredients:
+      - amount: 2 large
+        name: green plantains
+        note: fully green or very slightly yellow; yellow plantains are too soft and won't crisp
+        alternatives: []
+
+  - emoji: 🫙
+    label: Frying
+    actionNote: null
+    ingredients:
+      - amount: 4–5 tbsp
+        name: neutral oil
+        note: enough for a shallow fry, about ½ cm depth in the pan
+        alternatives: []
+      - amount: null
+        name: salt
+        note: season immediately after the second fry while still hot and oily — it won't stick once cool
+        alternatives: []
+
+  - emoji: 🧄
+    label: Mojo (optional)
+    actionNote: mix together just before serving; drizzle or dip
+    ingredients:
+      - amount: 3 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced garlic
+            note: null
+      - amount: 2 tbsp
+        name: olive oil
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: lime juice
+        note: null
+        alternatives:
+          - amount: 1 tbsp
+            name: bottled lime juice
+            note: shelf-stable
+      - amount: null
+        name: fresh cilantro, chopped
+        note: optional
+        alternatives: []
+
+instructions:
+  - section: First Fry
+    steps:
+      - Peel the green plantains and slice into rounds about 1 inch thick.
+      - Heat oil in a pan over medium heat. Add plantain slices and fry 2–3 min per side until pale golden — you're softening them, not crisping. They should feel slightly yielding when pressed.
+      - Remove and drain on paper towel.
+  - section: Smash
+    steps:
+      - While still hot, place each slice between two pieces of parchment or plastic wrap and smash flat to about ½ cm thick. Use the bottom of a heavy mug, a small cutting board, or a tostonera.
+      - You want a rough, irregular disc with some texture — not a paper-thin chip.
+  - section: Second Fry
+    steps:
+      - Increase heat to medium-high. Return smashed tostones to the oil and fry 2 min per side until deeply golden and crispy.
+      - Drain on paper towel and season with salt immediately.
+      - Drizzle with mojo or serve as-is.
+
+protein:
+  grams: "2"
+  note: this is a starchy carb side — ~35–40g carbs per serving
+
+tips:
+  - keyword: Green, not yellow
+    text: Yellow plantains will fall apart when smashed and turn mushy instead of crispy. You need the starch of a fully green or very slightly yellow plantain to hold the structure through the second fry.
+  - keyword: Season hot
+    text: Salt right after the second fry while still hot. It won't adhere once the surface cools and dries.
+  - keyword: Peeling green plantains
+    text: The skin is stiff and grips tightly. Cut off both ends, score lengthwise 3–4 times, then work your fingers or a spoon under the skin. A brief soak in warm salted water (5 min) can loosen stubborn skins.
+  - keyword: Smashing
+    text: Firm but not shattering — you want a rough disc, not crumbs. Some cracks are fine and add crunch surface area.
+  - keyword: Oil depth
+    text: The ½ cm shallow pool isn't arbitrary — it lets oil contact the sides of the disc, not just the flat bottom. A thin film like you'd use for a fried egg only fries the contact surface; the edges steam instead of crisping. For maduros (where you want soft and jammy) a thin film is fine. For tostones, where the goal is full crunch including the edges, the shallow pool matters especially on the second fry.
+
+firstAttemptNotes:
+  date: null
+  notes: []
