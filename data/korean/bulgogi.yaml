@@ -115,11 +115,11 @@ ingredientGroups:
         alternatives: []
 
 instructions:
-  - step: If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain.
-  - step: Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper.
-  - step: Add beef and onion slices. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better.
+  - step: If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain. Slice onion thinly.
+  - step: Grate Asian pear/apple. Mince garlic and grate ginger. Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper.
+  - step: Add beef and onion. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better.
   - step: Cook in a hot pan (or grill) in batches — don't overcrowd or it steams instead of sears. High heat, quick cook, ~2–3 min per batch.
-  - step: Finish with sesame seeds and green onion. Serve over rice.
+  - step: Chop green onions. Finish with sesame seeds and green onion. Serve over rice.
 
 protein:
   grams: "50–55"

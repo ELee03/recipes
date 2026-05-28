@@ -163,19 +163,19 @@
     ],
     "instructions": [
       {
-        "step": "If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain."
+        "step": "If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain. Slice onion thinly."
       },
       {
-        "step": "Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper."
+        "step": "Grate Asian pear/apple. Mince garlic and grate ginger. Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper."
       },
       {
-        "step": "Add beef and onion slices. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better."
+        "step": "Add beef and onion. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better."
       },
       {
         "step": "Cook in a hot pan (or grill) in batches — don't overcrowd or it steams instead of sears. High heat, quick cook, ~2–3 min per batch."
       },
       {
-        "step": "Finish with sesame seeds and green onion. Serve over rice."
+        "step": "Chop green onions. Finish with sesame seeds and green onion. Serve over rice."
       }
     ],
     "protein": {
@@ -349,10 +349,10 @@
     ],
     "instructions": [
       {
-        "step": "Mix all marinade ingredients. Toss chicken and let sit at least 15 min (longer is better — up to overnight in the fridge)."
+        "step": "Cut chicken into bite-sized pieces. Mince garlic and grate ginger. Mix all marinade ingredients. Toss chicken and let sit at least 15 min (longer is better — up to overnight in the fridge)."
       },
       {
-        "step": "If using sweet potato, either microwave the slices 2–3 min first to soften, or add them to the pan early with a splash of water."
+        "step": "Slice onion. Roughly chop cabbage. If using sweet potato, cut into thin rounds, then either microwave 2–3 min first to soften, or add to the pan early with a splash of water."
       },
       {
         "step": "Heat pan on medium-high with a little oil. Add marinated chicken and onion."
@@ -364,7 +364,7 @@
         "step": "Stir-fry everything together until chicken is cooked through and cabbage is wilted (~8–10 min total)."
       },
       {
-        "step": "Top with green onion. Serve with rice or eat as-is."
+        "step": "Chop green onion. Top with green onion. Serve with rice or eat as-is."
       }
     ],
     "protein": {
@@ -582,10 +582,10 @@
         "step": "While pasta cooks, if adding shrimp, cook in a lightly oiled pan over medium-high heat 2 min per side until pink. Set aside."
       },
       {
-        "step": "In the same pan over medium heat, melt 1 tbsp butter. Add shallots and cook ~3 min until soft and translucent. Add garlic, cook 1 more min."
+        "step": "Slice shallots thin. Slice mushrooms if using. In the same pan over medium heat, melt 1 tbsp butter. Add shallots and cook ~3 min until soft and translucent. Add garlic, cook 1 more min."
       },
       {
-        "step": "Add mushrooms if using. Cook ~3–4 min until softened and starting to brown."
+        "step": "Add mushrooms. Cook ~3–4 min until softened and starting to brown."
       },
       {
         "step": "Lower heat to medium-low. Add the doenjang-butter mixture and stir to melt into the pan. Don't let it boil — lower heat if needed."
@@ -594,10 +594,10 @@
         "step": "Add ¼ cup pasta water and stir. Add drained pasta directly to the pan. Toss to coat. Add more pasta water a splash at a time until the sauce clings to the pasta and looks glossy, not watery."
       },
       {
-        "step": "Add protein back in (shrimp, chicken) and toss. Taste — adjust with a tiny bit more doenjang or soy sauce if needed."
+        "step": "Slice or shred chicken if using. Add protein back in (shrimp, chicken) and toss. Taste — adjust with a tiny bit more doenjang or soy sauce if needed."
       },
       {
-        "step": "Plate, top with soft-boiled egg if using, green onion, sesame seeds, gochugaru, and parmesan."
+        "step": "Slice green onion thin. Plate, top with soft-boiled egg if using, green onion, sesame seeds, gochugaru, and parmesan."
       }
     ],
     "protein": {
@@ -697,7 +697,7 @@
         "actionNote": "season and pan-sear before making the sauce",
         "ingredients": [
           {
-            "amount": "150–200g",
+            "amount": "350–400g",
             "name": "chicken breast",
             "note": "sliced thin",
             "alternatives": []
@@ -735,9 +735,9 @@
         "actionNote": "cook in salted water; reserve pasta water before draining",
         "ingredients": [
           {
-            "amount": "120g",
+            "amount": "120–160g",
             "name": "pasta",
-            "note": "rigatoni, cavatappi, or fusilli recommended",
+            "note": "rigatoni, cavatappi, or fusilli recommended; lower end for lighter days, higher end on training days",
             "alternatives": []
           },
           {
@@ -780,10 +780,10 @@
         "step": "Cook pasta in salted water. Reserve a cup of pasta water before draining."
       },
       {
-        "step": "Season chicken with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside."
+        "step": "Slice chicken thin against the grain. Season with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside."
       },
       {
-        "step": "In the same pan, sauté garlic and onion until softened (~2 min)."
+        "step": "Mince garlic and dice onion. In the same pan, sauté until softened (~2 min)."
       },
       {
         "step": "Add gochujang, soy sauce, and honey. Stir and cook 1 min."
@@ -799,8 +799,8 @@
       }
     ],
     "protein": {
-      "grams": "50–60",
-      "note": "per serving with 200g chicken breast + Greek yogurt; add egg whites to sauce for more"
+      "grams": "55–65",
+      "note": "per serving with 350–400g chicken breast total + Greek yogurt"
     },
     "tips": [
       {
@@ -981,7 +981,7 @@
       {
         "section": "To serve",
         "steps": [
-          "Place salmon over rice. Spoon any pan glaze over the top. Finish with green onion, sesame seeds, and a squeeze of citrus if you have it."
+          "Thinly slice green onions. Place salmon over rice. Spoon any pan glaze over the top. Finish with green onion, sesame seeds, and a squeeze of citrus if you have it."
         ]
       }
     ],
@@ -1190,7 +1190,7 @@
         "step": "If using protein, cook it first until browned. Remove and set aside."
       },
       {
-        "step": "Sauté onion and garlic until translucent, ~2 min. Add the white parts of green onion."
+        "step": "Dice onion. Slice green onions, separating white and green parts. Roughly chop kimchi. Sauté onion and garlic until translucent, ~2 min. Add the white parts of green onion."
       },
       {
         "step": "Add kimchi and cook ~2 min until it starts to caramelize slightly on the edges."
@@ -1375,7 +1375,7 @@
         "step": "Cook pasta in salted water. Reserve pasta water before draining."
       },
       {
-        "step": "In a pan over medium heat, add a small amount of oil. Sauté garlic ~1 min."
+        "step": "Mince garlic. Roughly chop kimchi. In a pan over medium heat, add a small amount of oil. Sauté garlic ~1 min."
       },
       {
         "step": "Add kimchi and cook 2–3 min until slightly caramelized and fragrant."
@@ -1586,7 +1586,7 @@
         "step": "Mix all marinade ingredients together in a bowl."
       },
       {
-        "step": "Add sliced pork and onion to the marinade. Mix well so everything is coated. Marinate at least 30 min at room temperature, or overnight in the fridge."
+        "step": "Slice pork thinly. Slice onion thinly. Slice green onions, reserving green parts for garnish. Add pork and onion to the marinade. Mix well so everything is coated. Marinate at least 30 min at room temperature, or overnight in the fridge."
       },
       {
         "step": "Heat a large pan or wok over high heat until very hot. Add a small amount of neutral oil."
@@ -1780,7 +1780,7 @@
         "step": "Mix all broth ingredients together in a small bowl and set aside."
       },
       {
-        "step": "In a medium pan or skillet over medium heat, add the broth and sliced onion. Bring to a simmer."
+        "step": "Slice onion thin into half-moons. In a medium pan or skillet over medium heat, add the broth and onion. Bring to a simmer."
       },
       {
         "step": "Cook onion ~3–4 min until softened and slightly translucent."
@@ -1795,7 +1795,7 @@
         "step": "Ladle the beef, onion, and plenty of broth over a bowl of rice."
       },
       {
-        "step": "Top with green onion, pickled ginger, and egg if using. Eat immediately."
+        "step": "Slice green onion thin. Top with green onion, pickled ginger, and egg if using. Eat immediately."
       }
     ],
     "protein": {
@@ -1979,7 +1979,7 @@
       {
         "section": "Marinate",
         "steps": [
-          "Mix all marinade ingredients in a bowl. Add chicken pieces, toss to coat, and marinate at least 20 min. 1–2 hours is better; overnight in the fridge is best."
+          "Cut chicken into 4–5cm bite-sized pieces. Grate ginger and mince garlic. Mix all marinade ingredients in a bowl. Add chicken, toss to coat, and marinate at least 20 min. 1–2 hours is better; overnight in the fridge is best."
         ]
       },
       {
@@ -2397,7 +2397,7 @@
         "step": "Season salmon with black pepper (no salt — miso is salty). Pan-sear skin-side down over medium-high heat ~3–4 min, flip and cook another 2 min. Set aside and flake into chunks."
       },
       {
-        "step": "In the same pan, sauté garlic ~1 min. Add mushrooms if using and cook until softened."
+        "step": "Mince garlic. Slice mushrooms if using. In the same pan, sauté garlic ~1 min. Add mushrooms and cook until softened."
       },
       {
         "step": "Lower heat. Dissolve miso paste in milk by stirring (or mix them in a small bowl first). Add to the pan with pasta water."
@@ -2562,10 +2562,10 @@
         "step": "Mix broth ingredients in a small bowl. Set aside."
       },
       {
-        "step": "In a medium pan (or small sauté pan), add the broth and onion slices. Bring to a simmer over medium heat."
+        "step": "Slice onion thin. In a medium pan (or small sauté pan), add the broth and onion. Bring to a simmer over medium heat."
       },
       {
-        "step": "Add chicken. Cook ~4–5 min until mostly cooked through."
+        "step": "Cut chicken into bite-sized pieces. Add chicken. Cook ~4–5 min until mostly cooked through."
       },
       {
         "step": "Beat eggs lightly — you don't want them fully homogenized; some streaks of white and yolk is correct."
@@ -2577,7 +2577,7 @@
         "step": "Cook ~1–2 min until eggs are just barely set — you want them soft and custardy, not fully cooked. This is the make-or-break step."
       },
       {
-        "step": "Slide over a bowl of rice. Garnish with green onion. Eat immediately."
+        "step": "Slice green onion thin. Slide over a bowl of rice. Garnish with green onion. Eat immediately."
       }
     ],
     "protein": {
@@ -2752,7 +2752,7 @@
         "section": "Serve",
         "steps": [
           "Pour chilled tsuyu into a small bowl or cup for dipping.",
-          "Add green onion and a small dab of wasabi to the tsuyu. Stir.",
+          "Slice green onions thin. Add green onion and a small dab of wasabi to the tsuyu. Stir.",
           "Dip bundles of soba into the tsuyu and eat. Add nori and daikon on top of the noodles if using.",
           "Add protein on top of the noodles if boosting."
         ]
@@ -2924,13 +2924,13 @@
         "step": "Cook udon according to package instructions. Drain and set aside."
       },
       {
-        "step": "In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside."
+        "step": "Slice chicken thin. In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside."
       },
       {
-        "step": "Add onion and carrot to the pan. Stir-fry ~2–3 min."
+        "step": "Slice onion and julienne or slice carrot thin. Add onion and carrot to the pan. Stir-fry ~2–3 min."
       },
       {
-        "step": "Add cabbage and cook another 1–2 min."
+        "step": "Roughly chop cabbage. Add and cook another 1–2 min."
       },
       {
         "step": "Add chicken back in, then the udon. Pour teriyaki sauce over everything."
@@ -2939,7 +2939,7 @@
         "step": "Toss and stir-fry over high heat ~1–2 min until everything is coated and slightly caramelized."
       },
       {
-        "step": "Top with green onion. Serve immediately."
+        "step": "Chop green onions. Top with green onion. Serve immediately."
       }
     ],
     "protein": {
@@ -3111,7 +3111,7 @@
         "step": "Add fish sauce, lime juice, sugar, chili flakes, and toasted rice powder. Toss well."
       },
       {
-        "step": "Add shallots, mint, cilantro, and green onion. Toss again."
+        "step": "Slice shallots thin and slice green onions. Add shallots, mint, cilantro, and green onion. Toss again."
       },
       {
         "step": "Taste — it should be sour, salty, herbaceous, with a background heat. Adjust fish sauce (salty), lime (sour), or chili as needed."
@@ -3289,7 +3289,7 @@
         "step": "Drain fat (and rinse if you prefer), then return to pan."
       },
       {
-        "step": "Add garlic and chili directly to the meat. Stir-fry 1–2 min over high heat."
+        "step": "Mince garlic and mince chilies. Add garlic and chili directly to the meat. Stir-fry 1–2 min over high heat."
       },
       {
         "step": "Add fish sauce, oyster sauce, soy sauce, and sugar. Toss to coat everything."
@@ -3500,13 +3500,13 @@
     ],
     "instructions": [
       {
-        "step": "Bring broth to a simmer in a medium pot. Add lemongrass, galangal, kaffir lime leaves, and chilies. Simmer 10–15 min to infuse."
+        "step": "Cut lemongrass into 2-inch pieces and bruise lightly. Tear kaffir lime leaves. Halve chilies. Bring broth to a simmer in a medium pot. Add lemongrass, galangal, kaffir lime leaves, and chilies. Simmer 10–15 min to infuse."
       },
       {
-        "step": "Add mushrooms and cook ~3 min."
+        "step": "Slice mushrooms if needed. Add mushrooms and cook ~3 min."
       },
       {
-        "step": "Add chicken and cook until just done, ~3–4 min. Don't overcook — thin slices go fast."
+        "step": "Slice chicken thin. Add chicken and cook until just done, ~3–4 min. Don't overcook — thin slices go fast."
       },
       {
         "step": "Stir in fish sauce, lime juice, sugar, and roasted chili paste if using."
@@ -3675,7 +3675,7 @@
         "step": "Season shrimp with salt and pepper. Quickly sear in a hot pan with minimal oil ~1 min per side. Set aside (they'll finish later). Don't overcook."
       },
       {
-        "step": "Lower heat to medium-low. In the same pan, add olive oil and garlic slices. Cook slowly until the garlic is golden and fragrant (~3–4 min). Watch it carefully — golden is right, brown is bitter."
+        "step": "Slice garlic thin. Lower heat to medium-low. In the same pan, add olive oil and garlic slices. Cook slowly until the garlic is golden and fragrant (~3–4 min). Watch it carefully — golden is right, brown is bitter."
       },
       {
         "step": "Add chili flakes and cook 30 seconds."
@@ -3690,7 +3690,7 @@
         "step": "Add shrimp back in. Toss to coat and warm through."
       },
       {
-        "step": "Off heat, add parsley (and lemon if using). Taste and adjust salt."
+        "step": "Roughly chop parsley. Off heat, add parsley (and lemon if using). Taste and adjust salt."
       }
     ],
     "protein": {
@@ -3887,7 +3887,7 @@
     ],
     "instructions": [
       {
-        "step": "Heat olive oil in a large heavy-bottomed pot or Dutch oven over medium heat. Add onion, carrot, and celery. Cook slowly, stirring occasionally, until completely softened and slightly sweet — about 10–12 minutes. Don't rush this."
+        "step": "Finely dice onion, carrots, and celery. Mince garlic. Heat olive oil in a large heavy-bottomed pot or Dutch oven over medium heat. Add onion, carrot, and celery. Cook slowly, stirring occasionally, until completely softened and slightly sweet — about 10–12 minutes. Don't rush this."
       },
       {
         "step": "Add garlic (if using fresh) and cook another 1–2 minutes."
@@ -4187,10 +4187,10 @@
         "step": "Bring a large pot of well-salted water to a boil. Cook pasta until 1–2 minutes before al dente (it will finish in the pan)."
       },
       {
-        "step": "While pasta cooks, whisk together eggs, egg yolks, grated cheese, and black pepper in a bowl. Set aside at room temperature — cold eggs scramble faster."
+        "step": "Very finely grate pecorino and parmesan. While pasta cooks, whisk together eggs, egg yolks, grated cheese, and black pepper in a bowl. Set aside at room temperature — cold eggs scramble faster."
       },
       {
-        "step": "In a large pan or skillet over medium heat, cook guanciale (or substitute) until the fat has rendered and the meat is golden and slightly crispy, ~5–7 min. Turn off the heat and leave the meat and fat in the pan."
+        "step": "Cut guanciale (or substitute) into lardons or cubes. Cook in a large pan or skillet over medium heat until the fat has rendered and the meat is golden and slightly crispy, ~5–7 min. Turn off the heat and leave the meat and fat in the pan."
       },
       {
         "step": "Reserve at least 1 full cup of pasta water before draining. Drain pasta."
@@ -4397,13 +4397,13 @@
     ],
     "instructions": [
       {
-        "step": "Season chicken cutlets with salt and pepper. Dredge lightly in flour, shaking off excess."
+        "step": "Halve chicken breasts horizontally and pound to even thickness. Season with salt and pepper. Dredge lightly in flour, shaking off excess."
       },
       {
         "step": "Heat olive oil in a pan over medium-high. Sear chicken cutlets ~3 min per side until golden and cooked through. Remove and set aside."
       },
       {
-        "step": "Lower heat to medium. Add garlic and cook 30 seconds."
+        "step": "Mince garlic. Lower heat to medium. Add garlic and cook 30 seconds."
       },
       {
         "step": "Deglaze with white wine, scraping up any browned bits. Let reduce by half (~2 min)."
@@ -4415,7 +4415,7 @@
         "step": "Swirl in butter if using (off heat). Taste and adjust — more lemon if it needs brightness, more salt if flat."
       },
       {
-        "step": "Return chicken to the pan and spoon sauce over it. Finish with parsley."
+        "step": "Chop parsley. Return chicken to the pan and spoon sauce over it. Finish with parsley."
       }
     ],
     "protein": {
@@ -4570,7 +4570,7 @@
         "section": "Quick version (~20 min)",
         "steps": [
           "Cook pasta in well-salted water.",
-          "In a wide pan over medium heat, warm olive oil. Add garlic and chili flakes. Cook low and slow until garlic is golden and fragrant — ~3 minutes. Watch it; golden is sweet, brown is bitter.",
+          "Thinly slice or lightly smash garlic. In a wide pan over medium heat, warm olive oil. Add garlic and chili flakes. Cook low and slow until garlic is golden and fragrant — ~3 minutes. Watch it; golden is sweet, brown is bitter.",
           "Add crushed tomatoes. Season with salt. Simmer for 10–12 minutes until slightly thickened. Taste — add a pinch of sugar if needed.",
           "Reserve pasta water before draining. Drain pasta and add directly to the sauce. Toss, adding a splash of pasta water to loosen. Cook together 1 minute.",
           "Off heat — tear in fresh basil and drizzle with raw olive oil. Serve immediately."
@@ -4781,7 +4781,7 @@
         "step": "While chicken cooks, blend (or finely chop) the chipotle peppers and adobo sauce with the canned tomatoes until smooth-ish."
       },
       {
-        "step": "In the same pan, sauté onion over medium heat ~4–5 min until softened. Add garlic, cumin, and oregano. Cook 1 min."
+        "step": "Slice onion thin and mince garlic. In the same pan, sauté onion over medium heat ~4–5 min until softened. Add garlic, cumin, and oregano. Cook 1 min."
       },
       {
         "step": "Pour in the tomato-chipotle sauce. Stir and simmer ~5 min."
@@ -5007,10 +5007,10 @@
         "step": "Drain fat thoroughly. Optional — do a water rinse by adding a cup of hot water to the pan, stir, then drain through a fine strainer. Return beef to pan."
       },
       {
-        "step": "Add onion and cook ~3 min until softened. Add garlic and cook 1 more min."
+        "step": "Dice onion and mince garlic. Add onion and cook ~3 min until softened. Add garlic and cook 1 more min."
       },
       {
-        "step": "Add chipotle, adobo sauce, cumin, paprika, oregano, salt, and pepper. Stir to coat."
+        "step": "Mince chipotle peppers. Add chipotle, adobo sauce, cumin, paprika, oregano, salt, and pepper. Stir to coat."
       },
       {
         "step": "Add tomato paste and a splash of water or broth. Stir and cook ~3–4 min until everything is combined and slightly thickened."
@@ -5182,7 +5182,7 @@
     ],
     "instructions": [
       {
-        "step": "Heat oil in a medium saucepan over medium heat. Add diced onion and cook until softened, about 4–5 minutes. Add garlic and cook 1 more minute until fragrant."
+        "step": "Dice onion and mince garlic. Heat oil in a medium saucepan over medium heat. Add onion and cook until softened, about 4–5 minutes. Add garlic and cook 1 more minute until fragrant."
       },
       {
         "step": "Add the uncooked rice and stir with the aromatics for 2 minutes to toast it — adds a subtle nuttiness."
@@ -5390,7 +5390,7 @@
     ],
     "instructions": [
       {
-        "step": "Mix all marinade ingredients. Add chicken and coat thoroughly. Marinate in the fridge at least 2 hours; overnight is significantly better."
+        "step": "Cut chicken into large chunks. Mince or grate garlic and grate ginger. Mix all marinade ingredients. Add chicken and coat thoroughly. Marinate in the fridge at least 2 hours; overnight is significantly better."
       },
       {
         "step": "When ready to cook, remove chicken from fridge 15 min early."
@@ -5642,7 +5642,7 @@
         "step": "Cook ground meat in a pan over medium-high heat. Break it up as it cooks. Once done, drain fat and rinse if preferred. Set aside."
       },
       {
-        "step": "In the same pan, sauté onion in a little oil over medium heat until golden, ~5–7 min. Don't rush this — browned onion is flavor."
+        "step": "Finely dice onion. Mince garlic, grate or mince ginger, and mince green chili if using. In the same pan, sauté onion in a little oil over medium heat until golden, ~5–7 min. Don't rush this — browned onion is flavor."
       },
       {
         "step": "Add garlic, ginger, and green chili. Cook ~2 min."
@@ -5854,7 +5854,7 @@
         "step": "Blend the base: blend tomatoes, bell peppers, scotch bonnet, and onion until smooth. Set aside."
       },
       {
-        "step": "Fry the tomato base: heat oil in a wide, heavy-bottomed pot over medium-high heat. Add sliced onion and fry ~3 min. Add tomato paste and stir-fry ~2 min until it darkens slightly."
+        "step": "Slice the pot onion thinly (not the blender onion). Fry the tomato base: heat oil in a wide, heavy-bottomed pot over medium-high heat. Add onion and fry ~3 min. Add tomato paste and stir-fry ~2 min until it darkens slightly."
       },
       {
         "step": "Pour in the blended tomato mixture. It will splatter — stir immediately and reduce heat to medium. Let this fry/simmer uncovered, stirring occasionally, for 20–25 min until it deepens in color, the raw tomato smell is gone, and the oil starts to float on top. This step is not optional — undercooked tomato base = sour jollof."

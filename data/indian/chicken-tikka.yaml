@@ -122,7 +122,7 @@ ingredientGroups:
         alternatives: []
 
 instructions:
-  - step: Mix all marinade ingredients. Add chicken and coat thoroughly. Marinate in the fridge at least 2 hours; overnight is significantly better.
+  - step: Cut chicken into large chunks. Mince or grate garlic and grate ginger. Mix all marinade ingredients. Add chicken and coat thoroughly. Marinate in the fridge at least 2 hours; overnight is significantly better.
   - step: When ready to cook, remove chicken from fridge 15 min early.
   - section: Broiler (Recommended)
     steps:

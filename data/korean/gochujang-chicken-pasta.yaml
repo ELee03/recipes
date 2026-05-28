@@ -54,7 +54,7 @@ ingredientGroups:
     label: Protein
     actionNote: season and pan-sear before making the sauce
     ingredients:
-      - amount: "150–200g"
+      - amount: "350–400g"
         name: chicken breast
         note: sliced thin
         alternatives: []
@@ -79,9 +79,9 @@ ingredientGroups:
     label: Pasta
     actionNote: cook in salted water; reserve pasta water before draining
     ingredients:
-      - amount: 120g
+      - amount: "120–160g"
         name: pasta
-        note: rigatoni, cavatappi, or fusilli recommended
+        note: rigatoni, cavatappi, or fusilli recommended; lower end for lighter days, higher end on training days
         alternatives: []
       - amount: "~3–4 tbsp"
         name: pasta water
@@ -108,16 +108,16 @@ ingredientGroups:
 
 instructions:
   - step: Cook pasta in salted water. Reserve a cup of pasta water before draining.
-  - step: Season chicken with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside.
-  - step: In the same pan, sauté garlic and onion until softened (~2 min).
+  - step: Slice chicken thin against the grain. Season with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside.
+  - step: Mince garlic and dice onion. In the same pan, sauté until softened (~2 min).
   - step: Add gochujang, soy sauce, and honey. Stir and cook 1 min.
   - step: Lower heat. Add Greek yogurt and pasta water. Stir until a smooth sauce forms — don't let it boil or the yogurt will break.
   - step: Add pasta and chicken back in. Toss to coat. Add more pasta water if too thick.
   - step: Plate and top with green onion or sesame seeds if using.
 
 protein:
-  grams: "50–60"
-  note: per serving with 200g chicken breast + Greek yogurt; add egg whites to sauce for more
+  grams: "55–65"
+  note: per serving with 350–400g chicken breast total + Greek yogurt
 
 tips:
   - keyword: thin-sliced chicken

@@ -105,12 +105,12 @@ ingredientGroups:
         alternatives: []
 
 instructions:
-  - step: Mix all marinade ingredients. Toss chicken and let sit at least 15 min (longer is better — up to overnight in the fridge).
-  - step: If using sweet potato, either microwave the slices 2–3 min first to soften, or add them to the pan early with a splash of water.
+  - step: Cut chicken into bite-sized pieces. Mince garlic and grate ginger. Mix all marinade ingredients. Toss chicken and let sit at least 15 min (longer is better — up to overnight in the fridge).
+  - step: Slice onion. Roughly chop cabbage. If using sweet potato, cut into thin rounds, then either microwave 2–3 min first to soften, or add to the pan early with a splash of water.
   - step: Heat pan on medium-high with a little oil. Add marinated chicken and onion.
   - step: Cook ~5 min, stirring occasionally. Add cabbage and sweet potato.
   - step: Stir-fry everything together until chicken is cooked through and cabbage is wilted (~8–10 min total).
-  - step: Top with green onion. Serve with rice or eat as-is.
+  - step: Chop green onion. Top with green onion. Serve with rice or eat as-is.
 
 protein:
   grams: "55–65"

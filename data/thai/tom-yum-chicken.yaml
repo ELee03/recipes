@@ -121,9 +121,9 @@ ingredientGroups:
         alternatives: []
 
 instructions:
-  - step: Bring broth to a simmer in a medium pot. Add lemongrass, galangal, kaffir lime leaves, and chilies. Simmer 10–15 min to infuse.
-  - step: Add mushrooms and cook ~3 min.
-  - step: Add chicken and cook until just done, ~3–4 min. Don't overcook — thin slices go fast.
+  - step: Cut lemongrass into 2-inch pieces and bruise lightly. Tear kaffir lime leaves. Halve chilies. Bring broth to a simmer in a medium pot. Add lemongrass, galangal, kaffir lime leaves, and chilies. Simmer 10–15 min to infuse.
+  - step: Slice mushrooms if needed. Add mushrooms and cook ~3 min.
+  - step: Slice chicken thin. Add chicken and cook until just done, ~3–4 min. Don't overcook — thin slices go fast.
   - step: Stir in fish sauce, lime juice, sugar, and roasted chili paste if using.
   - step: Taste — it should be assertively sour and salty. Adjust fish sauce and lime as needed.
   - step: Ladle into bowls. Top with cilantro and green onion. Eat with rice or just the soup.

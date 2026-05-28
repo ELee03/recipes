@@ -112,13 +112,13 @@ ingredientGroups:
         alternatives: []
 
 instructions:
-  - step: Season chicken cutlets with salt and pepper. Dredge lightly in flour, shaking off excess.
+  - step: Halve chicken breasts horizontally and pound to even thickness. Season with salt and pepper. Dredge lightly in flour, shaking off excess.
   - step: Heat olive oil in a pan over medium-high. Sear chicken cutlets ~3 min per side until golden and cooked through. Remove and set aside.
-  - step: Lower heat to medium. Add garlic and cook 30 seconds.
+  - step: Mince garlic. Lower heat to medium. Add garlic and cook 30 seconds.
   - step: Deglaze with white wine, scraping up any browned bits. Let reduce by half (~2 min).
   - step: Add chicken broth, lemon juice, and capers. Simmer 3–4 min.
   - step: Swirl in butter if using (off heat). Taste and adjust — more lemon if it needs brightness, more salt if flat.
-  - step: Return chicken to the pan and spoon sauce over it. Finish with parsley.
+  - step: Chop parsley. Return chicken to the pan and spoon sauce over it. Finish with parsley.
 
 protein:
   grams: "55–65"

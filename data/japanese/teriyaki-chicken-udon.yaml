@@ -95,12 +95,12 @@ ingredientGroups:
 
 instructions:
   - step: Cook udon according to package instructions. Drain and set aside.
-  - step: In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside.
-  - step: Add onion and carrot to the pan. Stir-fry ~2–3 min.
-  - step: Add cabbage and cook another 1–2 min.
+  - step: Slice chicken thin. In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside.
+  - step: Slice onion and julienne or slice carrot thin. Add onion and carrot to the pan. Stir-fry ~2–3 min.
+  - step: Roughly chop cabbage. Add and cook another 1–2 min.
   - step: Add chicken back in, then the udon. Pour teriyaki sauce over everything.
   - step: Toss and stir-fry over high heat ~1–2 min until everything is coated and slightly caramelized.
-  - step: Top with green onion. Serve immediately.
+  - step: Chop green onions. Top with green onion. Serve immediately.
 
 protein:
   grams: "~50"
