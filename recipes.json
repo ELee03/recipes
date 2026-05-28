@@ -789,7 +789,7 @@
         "step": "Add gochujang, soy sauce, and honey. Stir and cook 1 min."
       },
       {
-        "step": "Lower heat. Add Greek yogurt and pasta water. Stir until a smooth sauce forms — don't let it boil or the yogurt will break."
+        "step": "Lower heat to medium-low. Add Greek yogurt and pasta water. Stir until a smooth sauce forms — don't let it boil or the yogurt will break."
       },
       {
         "step": "Add pasta and chicken back in. Toss to coat. Add more pasta water if too thick."
@@ -817,8 +817,11 @@
       }
     ],
     "firstAttemptNotes": {
-      "date": null,
-      "notes": []
+      "date": "2026-05-28",
+      "notes": [
+        "Made 4 servings (doubled). Sauce came out saucy and well-coated, not paste-like — consistency was good.",
+        "Went off-script with seasonings partway through — added more honey than specified, and more of most things in general. Still worked, so the recipe tolerates some looseness. Worth following the amounts more closely next time to get a proper baseline."
+      ]
     }
   },
   {
