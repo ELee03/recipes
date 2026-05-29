@@ -62,11 +62,11 @@ ingredientGroups:
     label: Protein
     actionNote: browned in the pot after the soffritto, high heat, in batches if needed
     ingredients:
-      - amount: 500g
+      - amount: 900g
         name: ground beef (80/20 fat ratio ideal)
         note: leaner beef dries out in the long simmer
         alternatives:
-          - amount: 300g + 200g
+          - amount: 550g + 350g
             name: ground beef + ground pork
             note: the traditional mix; slightly richer and more complex
 
@@ -133,7 +133,7 @@ instructions:
 
 protein:
   grams: "45–55"
-  note: per serving; ground beef is naturally high protein — this dish hits targets without modification
+  note: per serving with 225g ground beef; pasta adds another ~6g on top of the meat
 
 tips:
   - keyword: Don't rush the soffritto
