@@ -53,14 +53,14 @@ ingredientGroups:
     label: Protein
     actionNote: use as-is; add directly to pan
     ingredients:
-      - amount: "200–250g"
+      - amount: "300–400g"
         name: thinly sliced beef
         note: shabu-shabu or sukiyaki cut from Asian grocery
         alternatives:
-          - amount: "200–250g"
+          - amount: "300–400g"
             name: frozen pre-sliced beef
             note: completely valid, often easier to find; thaw before use
-          - amount: "200–250g"
+          - amount: "300–400g"
             name: ribeye or sirloin block
             note: freeze ~30 min then slice as thin as possible with a sharp knife
 
@@ -110,7 +110,7 @@ instructions:
 
 protein:
   grams: "45–55"
-  note: per serving (200–250g beef); add a soft-boiled egg for an extra ~6g
+  note: per serving (150–200g beef each); add a soft-boiled egg for an extra ~6g
 
 tips:
   - keyword: Season the broth aggressively

@@ -292,8 +292,11 @@ function renderCard(r) {
     `<span class="card-tag">${TAG_LABELS[t] || t}</span>`
   ).join('');
 
-  const protein = r.protein && r.protein.grams
-    ? `<div class="card-protein"><strong>${r.protein.grams}g</strong> protein/serving</div>`
+  const proteinG = r.computedMacros
+    ? Math.round(r.computedMacros.protein)
+    : (r.protein && r.protein.grams ? r.protein.grams : null);
+  const protein = proteinG !== null
+    ? `<div class="card-protein"><strong>${proteinG}g</strong> protein/serving</div>`
     : '';
 
   return `
@@ -561,7 +564,7 @@ function renderDetail(r) {
     ${renderMacros(r.computedMacros)}
     ${renderIngredientGroups(r.ingredientGroups)}
     ${renderInstructions(r.instructions)}
-    ${renderProtein(r.protein)}
+    ${renderProtein(r.protein, !!r.computedMacros)}
     ${renderFirstAttempt(r.firstAttemptNotes)}
     ${renderTips(r.tips)}
   `;
@@ -684,6 +687,12 @@ function renderMacroValues(macros, scale) {
   `;
 }
 
+function renderProteinBreakdown(breakdown) {
+  if (!breakdown || breakdown.length === 0) return '';
+  const parts = breakdown.map(b => `${b.name} ${b.protein}g`).join(' · ');
+  return `<div class="protein-breakdown">protein from: ${parts}</div>`;
+}
+
 function renderMacros(macros) {
   if (!macros) return '';
   return `
@@ -695,12 +704,26 @@ function renderMacros(macros) {
       <div id="macrosBox" class="macros-grid">
         ${renderMacroValues(macros, 1)}
       </div>
+      ${renderProteinBreakdown(macros.breakdown)}
     </div>
   `;
 }
 
-function renderProtein(protein) {
+function renderProtein(protein, hasComputedMacros) {
   if (!protein) return '';
+
+  // When computed macros are present, the macros box already shows protein —
+  // only show this section if there's a supplementary note worth reading.
+  if (hasComputedMacros) {
+    if (!protein.note) return '';
+    return `
+      <div class="detail-section">
+        <div class="detail-section-title">Protein note</div>
+        <div class="protein-box">${protein.note}</div>
+      </div>
+    `;
+  }
+
   if (!protein.grams && !protein.note) return '';
 
   const grams = protein.grams

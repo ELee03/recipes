@@ -232,7 +232,13 @@
       "cal": 563,
       "protein": 36.4,
       "fat": 35.3,
-      "carbs": 23.9
+      "carbs": 23.9,
+      "breakdown": [
+        {
+          "name": "pork shoulder",
+          "protein": 34.0
+        }
+      ]
     }
   },
   {
@@ -433,7 +439,21 @@
       "cal": 619,
       "protein": 70.9,
       "fat": 8.0,
-      "carbs": 62.0
+      "carbs": 62.0,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 58.1
+        },
+        {
+          "name": "pasta",
+          "protein": 9.1
+        },
+        {
+          "name": "greek yogurt",
+          "protein": 1.9
+        }
+      ]
     }
   },
   {
@@ -634,7 +654,17 @@
       "cal": 683,
       "protein": 40.0,
       "fat": 24.5,
-      "carbs": 70.2
+      "carbs": 70.2,
+      "breakdown": [
+        {
+          "name": "salmon",
+          "protein": 33.0
+        },
+        {
+          "name": "cooked rice",
+          "protein": 5.0
+        }
+      ]
     }
   },
   {
@@ -863,7 +893,21 @@
       "cal": 403,
       "protein": 14.0,
       "fat": 7.9,
-      "carbs": 68.4
+      "carbs": 68.4,
+      "breakdown": [
+        {
+          "name": "eggs",
+          "protein": 5.9
+        },
+        {
+          "name": "cooked rice",
+          "protein": 5.0
+        },
+        {
+          "name": "kimchi",
+          "protein": 1.0
+        }
+      ]
     }
   },
   {
@@ -1043,7 +1087,25 @@
       "cal": 376,
       "protein": 33.0,
       "fat": 5.1,
-      "carbs": 49.1
+      "carbs": 49.1,
+      "breakdown": [
+        {
+          "name": "tuna",
+          "protein": 19.5
+        },
+        {
+          "name": "pasta",
+          "protein": 7.8
+        },
+        {
+          "name": "egg",
+          "protein": 3.9
+        },
+        {
+          "name": "kimchi",
+          "protein": 1.1
+        }
+      ]
     }
   },
   {
@@ -1238,7 +1300,13 @@
       "cal": 374,
       "protein": 52.9,
       "fat": 8.4,
-      "carbs": 19.0
+      "carbs": 19.0,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 50.4
+        }
+      ]
     }
   },
   {
@@ -1485,7 +1553,21 @@
       "cal": 682,
       "protein": 46.9,
       "fat": 18.9,
-      "carbs": 80.1
+      "carbs": 80.1,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 31.0
+        },
+        {
+          "name": "pasta",
+          "protein": 13.0
+        },
+        {
+          "name": "mushrooms",
+          "protein": 1.1
+        }
+      ]
     }
   },
   {
@@ -1693,7 +1775,17 @@
       "cal": 542,
       "protein": 42.4,
       "fat": 29.8,
-      "carbs": 24.9
+      "carbs": 24.9,
+      "breakdown": [
+        {
+          "name": "beef",
+          "protein": 39.0
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
     }
   },
   {
@@ -1868,7 +1960,17 @@
       "cal": 235,
       "protein": 33.4,
       "fat": 3.8,
-      "carbs": 15.9
+      "carbs": 15.9,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 31.0
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.3
+        }
+      ]
     }
   },
   {
@@ -2067,7 +2169,17 @@
       "cal": 274,
       "protein": 11.1,
       "fat": 0.7,
-      "carbs": 56.2
+      "carbs": 56.2,
+      "breakdown": [
+        {
+          "name": "soba noodles",
+          "protein": 8.8
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
     }
   },
   {
@@ -2292,7 +2404,25 @@
       "cal": 403,
       "protein": 47.2,
       "fat": 8.2,
-      "carbs": 32.1
+      "carbs": 32.1,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 39.5
+        },
+        {
+          "name": "egg",
+          "protein": 3.9
+        },
+        {
+          "name": "panko",
+          "protein": 1.9
+        },
+        {
+          "name": "flour",
+          "protein": 1.5
+        }
+      ]
     }
   },
   {
@@ -2480,7 +2610,17 @@
       "cal": 383,
       "protein": 23.4,
       "fat": 10.7,
-      "carbs": 46.7
+      "carbs": 46.7,
+      "breakdown": [
+        {
+          "name": "salmon",
+          "protein": 13.5
+        },
+        {
+          "name": "pasta",
+          "protein": 7.8
+        }
+      ]
     }
   },
   {
@@ -2695,7 +2835,17 @@
       "cal": 598,
       "protein": 60.8,
       "fat": 26.8,
-      "carbs": 20.2
+      "carbs": 20.2,
+      "breakdown": [
+        {
+          "name": "chicken thigh",
+          "protein": 58.5
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
     }
   },
   {
@@ -2760,17 +2910,17 @@
         "actionNote": "use as-is; add directly to pan",
         "ingredients": [
           {
-            "amount": "200–250g",
+            "amount": "300–400g",
             "name": "thinly sliced beef",
             "note": "shabu-shabu or sukiyaki cut from Asian grocery",
             "alternatives": [
               {
-                "amount": "200–250g",
+                "amount": "300–400g",
                 "name": "frozen pre-sliced beef",
                 "note": "completely valid, often easier to find; thaw before use"
               },
               {
-                "amount": "200–250g",
+                "amount": "300–400g",
                 "name": "ribeye or sirloin block",
                 "note": "freeze ~30 min then slice as thin as possible with a sharp knife"
               }
@@ -2855,7 +3005,7 @@
     ],
     "protein": {
       "grams": "45–55",
-      "note": "per serving (200–250g beef); add a soft-boiled egg for an extra ~6g"
+      "note": "per serving (150–200g beef each); add a soft-boiled egg for an extra ~6g"
     },
     "tips": [
       {
@@ -2880,10 +3030,24 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 406,
-      "protein": 35.7,
-      "fat": 20.0,
-      "carbs": 17.9
+      "cal": 562,
+      "protein": 52.0,
+      "fat": 29.3,
+      "carbs": 17.9,
+      "breakdown": [
+        {
+          "name": "beef",
+          "protein": 45.5
+        },
+        {
+          "name": "egg",
+          "protein": 3.9
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
     }
   },
   {
@@ -3057,7 +3221,21 @@
       "cal": 336,
       "protein": 40.7,
       "fat": 12.2,
-      "carbs": 14.5
+      "carbs": 14.5,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 27.1
+        },
+        {
+          "name": "eggs",
+          "protein": 11.7
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.3
+        }
+      ]
     }
   },
   {
@@ -3245,7 +3423,21 @@
       "cal": 294,
       "protein": 26.2,
       "fat": 15.2,
-      "carbs": 13.2
+      "carbs": 13.2,
+      "breakdown": [
+        {
+          "name": "ground chicken",
+          "protein": 23.4
+        },
+        {
+          "name": "shallot",
+          "protein": 1.3
+        },
+        {
+          "name": "fish sauce",
+          "protein": 1.1
+        }
+      ]
     }
   },
   {
@@ -3432,7 +3624,13 @@
       "cal": 263,
       "protein": 24.7,
       "fat": 15.2,
-      "carbs": 6.1
+      "carbs": 6.1,
+      "breakdown": [
+        {
+          "name": "ground chicken",
+          "protein": 23.4
+        }
+      ]
     }
   },
   {
@@ -3655,7 +3853,25 @@
       "cal": 336,
       "protein": 47.9,
       "fat": 5.6,
-      "carbs": 29.9
+      "carbs": 29.9,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 42.6
+        },
+        {
+          "name": "mushrooms",
+          "protein": 2.3
+        },
+        {
+          "name": "fish sauce",
+          "protein": 1.4
+        },
+        {
+          "name": "lime",
+          "protein": 1.1
+        }
+      ]
     }
   },
   {
@@ -3836,7 +4052,17 @@
       "cal": 464,
       "protein": 29.3,
       "fat": 18.7,
-      "carbs": 45.2
+      "carbs": 45.2,
+      "breakdown": [
+        {
+          "name": "shrimp",
+          "protein": 21.0
+        },
+        {
+          "name": "pasta",
+          "protein": 7.8
+        }
+      ]
     }
   },
   {
@@ -4073,7 +4299,25 @@
       "cal": 596,
       "protein": 33.2,
       "fat": 27.2,
-      "carbs": 53.9
+      "carbs": 53.9,
+      "breakdown": [
+        {
+          "name": "ground beef",
+          "protein": 22.5
+        },
+        {
+          "name": "tagliatelle",
+          "protein": 6.5
+        },
+        {
+          "name": "crushed tomatoes",
+          "protein": 1.6
+        },
+        {
+          "name": "milk",
+          "protein": 1.3
+        }
+      ]
     }
   },
   {
@@ -4211,7 +4455,21 @@
       "cal": 496,
       "protein": 25.1,
       "fat": 12.3,
-      "carbs": 69.0
+      "carbs": 69.0,
+      "breakdown": [
+        {
+          "name": "spaghetti",
+          "protein": 12.3
+        },
+        {
+          "name": "pecorino",
+          "protein": 8.0
+        },
+        {
+          "name": "parmesan",
+          "protein": 4.8
+        }
+      ]
     }
   },
   {
@@ -4376,7 +4634,21 @@
       "cal": 681,
       "protein": 32.9,
       "fat": 29.8,
-      "carbs": 68.5
+      "carbs": 68.5,
+      "breakdown": [
+        {
+          "name": "guanciale",
+          "protein": 12.5
+        },
+        {
+          "name": "spaghetti",
+          "protein": 12.3
+        },
+        {
+          "name": "pecorino",
+          "protein": 8.0
+        }
+      ]
     }
   },
   {
@@ -4585,7 +4857,17 @@
       "cal": 414,
       "protein": 53.9,
       "fat": 16.7,
-      "carbs": 8.6
+      "carbs": 8.6,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 52.7
+        },
+        {
+          "name": "flour",
+          "protein": 1.0
+        }
+      ]
     }
   },
   {
@@ -4762,7 +5044,17 @@
       "cal": 658,
       "protein": 15.9,
       "fat": 29.9,
-      "carbs": 83.6
+      "carbs": 83.6,
+      "breakdown": [
+        {
+          "name": "spaghetti",
+          "protein": 12.3
+        },
+        {
+          "name": "crushed tomatoes",
+          "protein": 3.2
+        }
+      ]
     }
   },
   {
@@ -4968,7 +5260,13 @@
       "cal": 219,
       "protein": 37.3,
       "fat": 4.9,
-      "carbs": 4.6
+      "carbs": 4.6,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 36.2
+        }
+      ]
     }
   },
   {
@@ -5204,7 +5502,13 @@
       "cal": 340,
       "protein": 26.6,
       "fat": 21.3,
-      "carbs": 8.5
+      "carbs": 8.5,
+      "breakdown": [
+        {
+          "name": "ground beef",
+          "protein": 24.8
+        }
+      ]
     }
   },
   {
@@ -5457,7 +5761,21 @@
       "cal": 750,
       "protein": 41.8,
       "fat": 24.2,
-      "carbs": 87.7
+      "carbs": 87.7,
+      "breakdown": [
+        {
+          "name": "ground beef 90/10",
+          "protein": 32.5
+        },
+        {
+          "name": "rice",
+          "protein": 6.6
+        },
+        {
+          "name": "salsa",
+          "protein": 1.5
+        }
+      ]
     }
   },
   {
@@ -5685,7 +6003,13 @@
       "cal": 316,
       "protein": 54.6,
       "fat": 8.6,
-      "carbs": 1.7
+      "carbs": 1.7,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 54.2
+        }
+      ]
     }
   },
   {
@@ -5940,7 +6264,13 @@
       "cal": 359,
       "protein": 28.5,
       "fat": 22.7,
-      "carbs": 8.3
+      "carbs": 8.3,
+      "breakdown": [
+        {
+          "name": "ground beef",
+          "protein": 27.0
+        }
+      ]
     }
   },
   {
@@ -6173,7 +6503,13 @@
       "cal": 477,
       "protein": 7.6,
       "fat": 13.0,
-      "carbs": 81.1
+      "carbs": 81.1,
+      "breakdown": [
+        {
+          "name": "rice",
+          "protein": 6.6
+        }
+      ]
     }
   },
   {
@@ -6313,7 +6649,13 @@
       "cal": 552,
       "protein": 3.9,
       "fat": 22.2,
-      "carbs": 96.2
+      "carbs": 96.2,
+      "breakdown": [
+        {
+          "name": "plantain",
+          "protein": 3.9
+        }
+      ]
     }
   },
   {
@@ -6492,7 +6834,13 @@
       "cal": 232,
       "protein": 39.6,
       "fat": 6.8,
-      "carbs": 0.4
+      "carbs": 0.4,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 39.5
+        }
+      ]
     }
   },
   {
@@ -6748,7 +7096,17 @@
       "cal": 533,
       "protein": 54.2,
       "fat": 28.9,
-      "carbs": 11.9
+      "carbs": 11.9,
+      "breakdown": [
+        {
+          "name": "chicken thigh",
+          "protein": 52.0
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.3
+        }
+      ]
     }
   },
   {
@@ -6859,7 +7217,13 @@
       "cal": 521,
       "protein": 3.9,
       "fat": 18.7,
-      "carbs": 96.0
+      "carbs": 96.0,
+      "breakdown": [
+        {
+          "name": "plantain",
+          "protein": 3.9
+        }
+      ]
     }
   },
   {
@@ -7026,7 +7390,13 @@
       "cal": 644,
       "protein": 3.9,
       "fat": 32.7,
-      "carbs": 96.0
+      "carbs": 96.0,
+      "breakdown": [
+        {
+          "name": "plantain",
+          "protein": 3.9
+        }
+      ]
     }
   },
   {
@@ -7185,7 +7555,21 @@
       "cal": 292,
       "protein": 45.8,
       "fat": 4.1,
-      "carbs": 17.8
+      "carbs": 17.8,
+      "breakdown": [
+        {
+          "name": "protein powder",
+          "protein": 24.0
+        },
+        {
+          "name": "greek yogurt",
+          "protein": 15.0
+        },
+        {
+          "name": "milk",
+          "protein": 6.8
+        }
+      ]
     }
   },
   {
@@ -7385,7 +7769,17 @@
       "cal": 260,
       "protein": 5.4,
       "fat": 9.4,
-      "carbs": 39.8
+      "carbs": 39.8,
+      "breakdown": [
+        {
+          "name": "flour",
+          "protein": 2.4
+        },
+        {
+          "name": "eggs",
+          "protein": 1.9
+        }
+      ]
     }
   }
 ]

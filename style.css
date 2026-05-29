@@ -848,6 +848,13 @@ body {
   letter-spacing: 0.06em;
 }
 
+.protein-breakdown {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
 /* FIRST ATTEMPT NOTES */
 
 .attempt-notes {

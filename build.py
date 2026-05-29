@@ -266,6 +266,7 @@ def compute_macros(recipe, nutrients):
     servings = recipe.get('servings') or 1
     total    = {'cal': 0.0, 'protein': 0.0, 'fat': 0.0, 'carbs': 0.0}
     matched  = 0
+    breakdown_raw = {}  # key -> protein grams (total, pre-serving-divide)
 
     for group in (recipe.get('ingredientGroups') or []):
         # Skip groups labelled as optional
@@ -297,14 +298,27 @@ def compute_macros(recipe, nutrients):
             total['carbs']   += n['carbs']   * factor
             matched          += 1
 
+            protein_contrib = n['protein'] * factor
+            if protein_contrib > 0:
+                breakdown_raw[key] = breakdown_raw.get(key, 0.0) + protein_contrib
+
     if matched == 0:
         return None
 
+    # Build per-serving breakdown; only include items contributing >= 1g protein/serving
+    breakdown = []
+    for key, total_protein in breakdown_raw.items():
+        per_serving = round(total_protein / servings, 1)
+        if per_serving >= 1.0:
+            breakdown.append({'name': key, 'protein': per_serving})
+    breakdown.sort(key=lambda x: -x['protein'])
+
     return {
-        'cal':     round(total['cal']     / servings),
-        'protein': round(total['protein'] / servings, 1),
-        'fat':     round(total['fat']     / servings, 1),
-        'carbs':   round(total['carbs']   / servings, 1),
+        'cal':       round(total['cal']     / servings),
+        'protein':   round(total['protein'] / servings, 1),
+        'fat':       round(total['fat']     / servings, 1),
+        'carbs':     round(total['carbs']   / servings, 1),
+        'breakdown': breakdown,
     }
 
 
