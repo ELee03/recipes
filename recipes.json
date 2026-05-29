@@ -5328,8 +5328,12 @@
             "note": "optional, for heat"
           },
           {
-            "name": "salt and black pepper",
-            "note": "season assertively — this rice needs more salt than you'd expect"
+            "name": "salt",
+            "amount": "1 tsp",
+            "note": "add to the cooking liquid; taste during the rest and add up to ½ tsp more if needed — rice absorbs salt heavily"
+          },
+          {
+            "name": "black pepper"
           }
         ]
       },
@@ -5403,14 +5407,14 @@
     "firstAttemptNotes": {
       "date": "2026-05-29",
       "notes": [
-        "Needed more salt than expected — the salsa and spices aren't enough on their own; season assertively and taste-adjust during the rest",
+        "Needed more salt than expected — 1 tsp in the cooking liquid plus a taste-adjust during the rest; rice absorbs salt heavily and the salsa doesn't contribute much",
         "Mixed the beef in during the rest rather than serving separate — works great, everything melds together"
       ]
     },
     "tips": [
       {
         "keyword": "Salt",
-        "text": "This dish needs more salt than it looks like it should. The salsa and spice mix flavour the rice but don't fully season it — taste after the rest and add more salt before serving. Don't be shy."
+        "text": "Budget 1 tsp in the cooking liquid as a baseline, then taste during the rest and add up to ½ tsp more if needed. Rice absorbs salt heavily and the salsa contributes almost none — don't be shy. If it still tastes flat, try lime juice before adding more salt; missing acid often reads as blandness."
       },
       {
         "keyword": "Rice ratio",
