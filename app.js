@@ -434,7 +434,7 @@ function openDetail(recipe) {
   document.body.style.overflow = 'hidden';
 }
 
-// Re-render ingredient amounts in-place after a servings change.
+// Re-render ingredient amounts and macros in-place after a servings change.
 function updateIngredients() {
   const container = document.getElementById('ingredientGroupsContainer');
   if (!container || !drawerRecipe) return;
@@ -452,6 +452,12 @@ function updateIngredients() {
   const plus  = document.getElementById('servingsPlus');
   if (minus) minus.disabled = drawerServings <= 1;
   if (plus)  plus.disabled  = drawerServings >= 10;
+
+  // Rescale macros
+  const macrosBox = document.getElementById('macrosBox');
+  if (macrosBox && drawerRecipe.computedMacros) {
+    macrosBox.innerHTML = renderMacroValues(drawerRecipe.computedMacros, scale);
+  }
 }
 
 function closeDetail() {
@@ -514,6 +520,7 @@ function renderDetail(r) {
 
     ${r.description ? `<p class="detail-description">${r.description}</p>` : ''}
 
+    ${renderMacros(r.computedMacros)}
     ${renderIngredientGroups(r.ingredientGroups)}
     ${renderInstructions(r.instructions)}
     ${renderProtein(r.protein)}
@@ -608,6 +615,48 @@ function renderInstructions(instructions) {
     <div class="detail-section">
       <div class="detail-section-title">Instructions</div>
       ${html}
+    </div>
+  `;
+}
+
+// Inner HTML for the macros box — called on first render and on every servings change.
+function renderMacroValues(macros, scale) {
+  const cal     = Math.round(macros.cal     * scale);
+  const protein = parseFloat((macros.protein * scale).toFixed(1));
+  const fat     = parseFloat((macros.fat     * scale).toFixed(1));
+  const carbs   = parseFloat((macros.carbs   * scale).toFixed(1));
+
+  return `
+    <div class="macro-item">
+      <span class="macro-value">${cal}</span>
+      <span class="macro-label">cal</span>
+    </div>
+    <div class="macro-item">
+      <span class="macro-value">${protein}g</span>
+      <span class="macro-label">protein</span>
+    </div>
+    <div class="macro-item">
+      <span class="macro-value">${fat}g</span>
+      <span class="macro-label">fat</span>
+    </div>
+    <div class="macro-item">
+      <span class="macro-value">${carbs}g</span>
+      <span class="macro-label">carbs</span>
+    </div>
+  `;
+}
+
+function renderMacros(macros) {
+  if (!macros) return '';
+  return `
+    <div class="detail-section macros-section">
+      <div class="detail-section-title">
+        Estimated macros
+        <span class="macros-per-serving">per serving</span>
+      </div>
+      <div id="macrosBox" class="macros-grid">
+        ${renderMacroValues(macros, 1)}
+      </div>
     </div>
   `;
 }
