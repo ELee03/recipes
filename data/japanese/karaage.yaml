@@ -13,8 +13,8 @@ tags:
   - air-fryer
 
 description: >
-  Juicy chicken thighs marinated in soy, sake, ginger, and garlic — coated in cornstarch
-  and fried until shatteringly crispy. This is Japan's answer to fried chicken, and it's
+  唐揚げ [からあげ] — juicy chicken thighs marinated in soy, sake, ginger, and garlic, coated
+  in cornstarch and fried until shatteringly crispy. Japan's answer to fried chicken, and
   arguably better: the pieces are bite-sized, the crust is delicate and light (not bready),
   and the marinade punches all the way through. The air fryer method is the recommended
   approach here — it comes out surprisingly crispy with far less mess and oil.
@@ -87,7 +87,7 @@ ingredientGroups:
         alternatives:
           - amount: "4–5 tbsp"
             name: potato starch (katakuriko)
-            note: traditional Japanese choice, slightly lighter and crispier
+            note: 片栗粉 [かたくりこ] — traditional Japanese choice, slightly lighter and crispier
 
   - emoji: ✨
     label: Serving

@@ -14,7 +14,7 @@
       "high-protein",
       "meal-prep"
     ],
-    "description": "The classic. Sweet, savory, lightly smoky — one of the most approachable Korean dishes to make at home. Goes over rice, in lettuce wraps, or just straight out of the pan. Use lean beef cuts and trim visible fat if you want to keep it light.\n",
+    "description": "불고기 — the classic. Sweet, savory, lightly smoky — one of the most approachable Korean dishes to make at home. Goes over rice, in lettuce wraps, or just straight out of the pan. Use lean beef cuts and trim visible fat if you want to keep it light.\n",
     "keyIngredients": [
       "beef",
       "soy sauce",
@@ -217,7 +217,7 @@
       "meal-prep",
       "one-pan"
     ],
-    "description": "Classic Korean street food. Spicy, slightly sweet, smoky from the gochujang. Cabbage and sweet potato bulk it up without adding much fat. Use chicken breast to keep it lean — the sauce does all the heavy lifting.\n",
+    "description": "닭갈비 — classic Korean street food. Spicy, slightly sweet, smoky from the 고추장. Cabbage and sweet potato bulk it up without adding much fat. Use chicken breast to keep it lean — the sauce does all the heavy lifting.\n",
     "keyIngredients": [
       "chicken breast",
       "gochujang",
@@ -255,7 +255,7 @@
           {
             "amount": "1 tbsp",
             "name": "gochugaru",
-            "note": "Korean chili flakes — adjust to heat preference",
+            "note": "고추가루 (Korean chili flakes) — adjust to heat preference",
             "alternatives": []
           },
           {
@@ -381,8 +381,8 @@
         "text": "Cheese topping (mozzarella) is popular in restaurants. Skip it to keep things lighter, or add it as a treat."
       },
       {
-        "keyword": "leftover dakgalbi",
-        "text": "Leftover dakgalbi makes incredible fried rice the next day."
+        "keyword": "leftover 닭갈비",
+        "text": "Leftover 닭갈비 makes incredible fried rice the next day."
       }
     ],
     "firstAttemptNotes": {
@@ -408,7 +408,7 @@
       "fusion",
       "high-protein"
     ],
-    "description": "A Korean riff on the miso butter pasta idea — but doenjang is earthier, funkier, and saltier than Japanese miso, so the result is deeper and bolder. Butter and starchy pasta water do all the sauce-building work here: no cream needed, no heavy roux. The emulsion comes together in under a minute and coats every strand. This is a pantry pasta — the only fresh item you really need is butter and pasta. Add mushrooms for more umami layers, or top with a soft-boiled egg for easy extra protein.\n",
+    "description": "A Korean riff on the miso butter pasta idea — but 된장 is earthier, funkier, and saltier than Japanese miso, so the result is deeper and bolder. Butter and starchy pasta water do all the sauce-building work here: no cream needed, no heavy roux. The emulsion comes together in under a minute and coats every strand. This is a pantry pasta — the only fresh item you really need is butter and pasta. Add mushrooms for more umami layers, or top with a soft-boiled egg for easy extra protein.\n",
     "keyIngredients": [
       "doenjang",
       "pasta",
@@ -606,11 +606,11 @@
     },
     "tips": [
       {
-        "keyword": "Doenjang is not miso — use less",
+        "keyword": "된장 is not miso — use less",
         "text": "It's saltier and funkier (fermented longer). Start with 1 tsp per 2 servings and taste. You can always add more; you can't take it out."
       },
       {
-        "keyword": "Don't boil the sauce after adding doenjang",
+        "keyword": "Don't boil the sauce after adding 된장",
         "text": "High heat degrades the fermented flavor and can make the paste grainy. Medium-low once the paste goes in."
       },
       {
@@ -622,7 +622,7 @@
         "text": "Their earthiness pairs with doenjang perfectly. Dried shiitake (rehydrated) work just as well and are shelf-stable."
       },
       {
-        "keyword": "Parmesan and doenjang sound weird, taste great",
+        "keyword": "Parmesan and 된장 sound weird, taste great",
         "text": "Both are fermented, umami-forward, funky. They get along well. Don't skip it if you have it."
       }
     ],
@@ -650,7 +650,7 @@
       "no-marinate",
       "fusion"
     ],
-    "description": "A Korean-Italian mashup that actually works. Gochujang brings deep fermented heat, Greek yogurt keeps it creamy without heaviness. High protein, one pan (plus the pasta pot).\n",
+    "description": "A Korean-Italian mashup that actually works. 고추장 brings deep fermented heat, Greek yogurt keeps it creamy without heaviness. High protein, one pan (plus the pasta pot).\n",
     "keyIngredients": [
       "chicken breast",
       "gochujang",
@@ -813,7 +813,7 @@
       },
       {
         "keyword": "gochujang heat",
-        "text": "Gochujang varies in heat level by brand; taste and adjust."
+        "text": "고추장 varies in heat level by brand; taste and adjust."
       }
     ],
     "firstAttemptNotes": {
@@ -844,7 +844,7 @@
       "no-marinate",
       "air-fryer"
     ],
-    "description": "High-protein, weeknight-fast, and genuinely impressive-looking for how little effort it takes. The gochujang glaze — sweet, spicy, fermented — caramelizes against the salmon's natural fat to form a sticky, deeply savory crust. Serve over rice with a pile of green onion and you have a full meal in 20 minutes. The only real risk here is burning the glaze: keep the heat at medium, not high, and watch the last couple minutes closely.\n",
+    "description": "High-protein, weeknight-fast, and genuinely impressive-looking for how little effort it takes. The 고추장 glaze — sweet, spicy, fermented — caramelizes against the salmon's natural fat to form a sticky, deeply savory crust. Serve over rice with a pile of green onion and you have a full meal in 20 minutes. The only real risk here is burning the glaze: keep the heat at medium, not high, and watch the last couple minutes closely.\n",
     "keyIngredients": [
       "salmon",
       "gochujang",
@@ -1038,7 +1038,7 @@
       "one-pan",
       "pantry-friendly"
     ],
-    "description": "The ultimate use-what-you-have Korean meal — deeply savory, a little spicy, and endlessly flexible depending on what protein you throw in. Day-old rice is non-negotiable here: fresh rice is too wet and steams instead of frying, giving you mush instead of the slightly crispy, individual grains you want. Gochujang adds fermented depth, kimchi juice does the heavy lifting on seasoning, and a fried egg on top turns it into a complete meal.\n",
+    "description": "The ultimate use-what-you-have Korean meal — deeply savory, a little spicy, and endlessly flexible depending on what protein you throw in. Day-old rice is non-negotiable here: fresh rice is too wet and steams instead of frying, giving you mush instead of the slightly crispy, individual grains you want. 고추장 adds fermented depth, 김치 juice does the heavy lifting on seasoning, and a fried egg on top turns it into a complete meal.\n",
     "keyIngredients": [
       "kimchi",
       "day-old rice",
@@ -1263,7 +1263,7 @@
       "pantry-friendly",
       "fusion"
     ],
-    "description": "Fast, cheap, and punchy. Kimchi does most of the flavoring work — sour, fermented, spicy. Tuna keeps it high-protein with zero fuss. One of the best \"nothing in the fridge\" meals.\n",
+    "description": "Fast, cheap, and punchy. 김치 does most of the flavoring work — sour, fermented, spicy. Tuna keeps it high-protein with zero fuss. One of the best \"nothing in the fridge\" meals.\n",
     "keyIngredients": [
       "tuna",
       "kimchi",
@@ -1401,8 +1401,8 @@
     },
     "tips": [
       {
-        "keyword": "well-fermented kimchi",
-        "text": "Well-fermented (older, sour) kimchi is better here than fresh — it has more depth."
+        "keyword": "well-fermented 김치",
+        "text": "Well-fermented 김치 (older, sour) is better here than fresh — it has more depth."
       },
       {
         "keyword": "rinsing tuna",
@@ -1434,7 +1434,7 @@
       "meal-prep",
       "high-protein"
     ],
-    "description": "Daeji bulgogi is Korean street food at its best — thin pork strips in a bold, spicy-sweet marinade that caramelizes in a hot pan into something sticky and slightly charred at the edges. Where regular bulgogi is mild and family-friendly, this one brings the gochujang heat front and center. Pork belly is the classic, richer choice; shoulder is leaner and still great. Ground pork skips the marinate time entirely and works on a busy weeknight. Serve over rice or in lettuce wraps with sesame seeds and green onion.\n",
+    "description": "돼지불고기 — thin pork strips in a bold, spicy-sweet marinade that caramelizes in a hot pan into something sticky and slightly charred at the edges. Where regular 불고기 is mild and family-friendly, this one brings the 고추장 heat front and center. Pork belly is the classic, richer choice; shoulder is leaner and still great. Ground pork skips the marinate time entirely and works on a busy weeknight. Serve over rice or in lettuce wraps with sesame seeds and green onion.\n",
     "keyIngredients": [
       "pork shoulder",
       "gochujang",
@@ -1579,7 +1579,7 @@
               {
                 "amount": null,
                 "name": "large lettuce leaves",
-                "note": "butter lettuce, romaine, or perilla for wraps"
+                "note": "butter lettuce, romaine, or 깻잎 (perilla) for wraps"
               }
             ]
           }
@@ -1636,7 +1636,7 @@
       },
       {
         "keyword": "Lettuce wraps cut the richness",
-        "text": "If pork belly feels heavy on its own, wrapping it in cool lettuce with rice balances it out perfectly."
+        "text": "If pork belly feels heavy on its own, wrapping it in cool lettuce or 깻잎 (perilla) with rice balances it out perfectly."
       },
       {
         "keyword": "Overnight marinate is noticeably better",
@@ -1664,7 +1664,7 @@
       "one-pan",
       "no-marinate"
     ],
-    "description": "Thinly sliced beef and onion simmered in a sweet-savory dashi broth, spooned over a bowl of rice — this is Japanese fast food done right at home. The broth does double duty, seasoning both the meat and soaking into the rice beneath it. Serve with a soft-boiled egg or raw egg yolk on top for the full yoshinoya experience.\n",
+    "description": "牛丼 [ぎゅうどん] — thinly sliced beef and onion simmered in a sweet-savory だし broth, spooned over a bowl of rice. The broth does double duty, seasoning both the meat and soaking into the rice beneath it. Serve with a soft-boiled egg or raw egg yolk on top for the full Yoshinoya experience.\n",
     "keyIngredients": [
       "thinly sliced beef",
       "dashi stock",
@@ -1681,7 +1681,7 @@
           {
             "amount": "150ml",
             "name": "dashi stock",
-            "note": "1 tsp hondashi powder + 150ml water",
+            "note": "1 tsp 本だし [ほんだし] powder + 150ml water",
             "alternatives": []
           },
           {
@@ -1846,7 +1846,7 @@
       "high-protein",
       "air-fryer"
     ],
-    "description": "Juicy chicken thighs marinated in soy, sake, ginger, and garlic — coated in cornstarch and fried until shatteringly crispy. This is Japan's answer to fried chicken, and it's arguably better: the pieces are bite-sized, the crust is delicate and light (not bready), and the marinade punches all the way through. The air fryer method is the recommended approach here — it comes out surprisingly crispy with far less mess and oil.\n",
+    "description": "唐揚げ [からあげ] — juicy chicken thighs marinated in soy, sake, ginger, and garlic, coated in cornstarch and fried until shatteringly crispy. Japan's answer to fried chicken, and arguably better: the pieces are bite-sized, the crust is delicate and light (not bready), and the marinade punches all the way through. The air fryer method is the recommended approach here — it comes out surprisingly crispy with far less mess and oil.\n",
     "keyIngredients": [
       "chicken thighs",
       "soy sauce",
@@ -1948,7 +1948,7 @@
               {
                 "amount": "4–5 tbsp",
                 "name": "potato starch (katakuriko)",
-                "note": "traditional Japanese choice, slightly lighter and crispier"
+                "note": "片栗粉 [かたくりこ] — traditional Japanese choice, slightly lighter and crispier"
               }
             ]
           }
@@ -2055,7 +2055,7 @@
       "air-fryer",
       "quick"
     ],
-    "description": "A thin cutlet of chicken or pork, coated in the classic flour → egg → panko sequence and pan-fried to a golden, crackly crust. Served with tonkatsu sauce, a mound of shredded cabbage, and rice — it's filling, high-protein, and way more satisfying than it has any right to be for how simple it is. Panko (not regular breadcrumbs) is what makes the crust light and airy instead of dense and bready.\n",
+    "description": "カツ — a thin cutlet of chicken or pork, coated in the classic flour → egg → パン粉 [ぱんこ] sequence and pan-fried to a golden, crackly crust. Served with とんかつソース, a mound of shredded cabbage, and rice — filling, high-protein, and way more satisfying than it has any right to be for how simple it is. パン粉 (not regular breadcrumbs) is what makes the crust light and airy instead of dense and bready.\n",
     "keyIngredients": [
       "chicken breast",
       "panko",
@@ -2237,8 +2237,8 @@
         "text": "This is the most important step. Uneven thickness means one part overcooks while another stays raw. Use a zip-lock bag around the meat to avoid mess."
       },
       {
-        "keyword": "Panko only",
-        "text": "Regular fine breadcrumbs make a dense, greasy crust. Panko is coarser, creates air pockets, and stays crispy longer after cooking."
+        "keyword": "パン粉 only",
+        "text": "Regular fine breadcrumbs make a dense, greasy crust. パン粉 [ぱんこ] is coarser, creates air pockets, and stays crispy longer after cooking."
       },
       {
         "keyword": "Press the panko firmly",
@@ -2276,7 +2276,7 @@
       "fusion",
       "no-marinate"
     ],
-    "description": "Light, clean, and surprisingly rich-tasting without being heavy. Miso and salmon are a natural pairing — the umami of the miso amplifies the fish without masking it. Great omega-3s and high protein, all in a 25-minute weeknight dish.\n",
+    "description": "Light, clean, and surprisingly rich-tasting without being heavy. 味噌 [みそ] and salmon are a natural pairing — the umami of the 味噌 amplifies the fish without masking it. Great omega-3s and high protein, all in a 25-minute weeknight dish.\n",
     "keyIngredients": [
       "salmon",
       "white miso paste",
@@ -2294,7 +2294,7 @@
           {
             "amount": "1 tbsp",
             "name": "white miso paste",
-            "note": "shiro miso — milder; use red miso for stronger flavor",
+            "note": "白味噌 [しろみそ] — milder; use 赤味噌 [あかみそ] for stronger flavor",
             "alternatives": []
           },
           {
@@ -2431,8 +2431,8 @@
         "text": "Canned salmon works in a pinch (drain well), though fresh is noticeably better."
       },
       {
-        "keyword": "White vs red miso",
-        "text": "White miso is milder and sweeter; red miso is saltier and more intense. Either works here."
+        "keyword": "白味噌 vs 赤味噌",
+        "text": "白味噌 [しろみそ] is milder and sweeter; 赤味噌 [あかみそ] is saltier and more intense. Either works here."
       }
     ],
     "firstAttemptNotes": {
@@ -2456,7 +2456,7 @@
       "one-pan",
       "no-marinate"
     ],
-    "description": "\"Parent and child bowl\" — chicken and egg, cooked together in a savory dashi broth, served over rice. One of the most comforting Japanese home-cooking dishes and genuinely fast to make. Light, deeply savory, and high protein.\n",
+    "description": "親子丼 [おやこどん] — \"parent and child bowl\" — chicken and egg cooked together in a savory だし broth, served over rice. One of the most comforting Japanese home-cooking dishes and genuinely fast to make. Light, deeply savory, and high protein.\n",
     "keyIngredients": [
       "chicken breast",
       "eggs",
@@ -2474,7 +2474,7 @@
           {
             "amount": "150ml",
             "name": "dashi stock",
-            "note": "instant dashi powder + water is fine, widely available at Asian grocery stores",
+            "note": "本だし [ほんだし] powder + water is fine, widely available at Asian grocery stores",
             "alternatives": []
           },
           {
@@ -2596,7 +2596,7 @@
       },
       {
         "keyword": "Instant dashi",
-        "text": "Instant dashi (hondashi) is easy to find at any Asian grocery. It's a pantry essential for Japanese cooking."
+        "text": "Instant だし (本だし [ほんだし]) is easy to find at any Asian grocery. It's a pantry essential for Japanese cooking."
       },
       {
         "keyword": "Mirin substitute",
@@ -2623,7 +2623,7 @@
       "quick",
       "pantry-friendly"
     ],
-    "description": "Cold soba is one of the most elegant simple dishes in Japanese cooking — chilled buckwheat noodles served on a plate, dipped into a cold savory tsuyu sauce with wasabi and green onion stirred in. It's light, clean, high in protein if you add toppings, and genuinely refreshing. The tsuyu sauce is three pantry ingredients plus water; or buy bottled mentsuyu from any Asian grocery and dilute it in 30 seconds. Either way works.\n",
+    "description": "ざるそば — one of the most elegant simple dishes in Japanese cooking. Chilled buckwheat noodles served on a plate, dipped into a cold savory つゆ sauce with wasabi and green onion stirred in. Light, clean, high in protein if you add toppings, and genuinely refreshing. The つゆ is three pantry ingredients plus water; or buy bottled めんつゆ from any Asian grocery and dilute it in 30 seconds. Either way works.\n",
     "keyIngredients": [
       "soba noodles",
       "soy sauce",
@@ -2653,7 +2653,7 @@
           {
             "amount": "200ml",
             "name": "dashi stock",
-            "note": "½ tsp hondashi powder dissolved in 200ml water",
+            "note": "½ tsp 本だし [ほんだし] powder dissolved in 200ml water",
             "alternatives": []
           },
           {
@@ -2676,7 +2676,7 @@
               {
                 "amount": null,
                 "name": "bottled mentsuyu (tsuyu concentrate)",
-                "note": "dilute per bottle instructions (typically 1 part tsuyu to 3 parts water for dipping) — a completely valid shortcut, often better than homemade"
+                "note": "dilute per bottle instructions (typically 1 part めんつゆ to 3 parts water for dipping) — a completely valid shortcut, often better than homemade"
               }
             ]
           }
@@ -2784,8 +2784,8 @@
         "text": "The cold-water rinse is not optional — it stops cooking, removes surface starch (which makes noodles clump), and chills the noodles for serving. Rub them between your palms under the water."
       },
       {
-        "keyword": "Mentsuyu is a legitimate shortcut",
-        "text": "Bottled tsuyu concentrate (mentsuyu) is sold at any Asian grocery and tastes great — often better than homemade unless you're using real kombu dashi. Just dilute per the bottle."
+        "keyword": "めんつゆ is a legitimate shortcut",
+        "text": "Bottled つゆ concentrate (めんつゆ) is sold at any Asian grocery and tastes great — often better than homemade unless you're using real kombu だし. Just dilute per the bottle."
       },
       {
         "keyword": "Dip, don't drown",
@@ -2818,7 +2818,7 @@
       "one-pan",
       "no-marinate"
     ],
-    "description": "Simple weeknight stir-fry. The teriyaki sauce is just three ingredients and comes together in minutes. Udon noodles are satisfying without being heavy, and the vegetables add crunch and volume.\n",
+    "description": "Simple weeknight stir-fry. The teriyaki sauce is just three ingredients and comes together in minutes. うどん noodles are satisfying without being heavy, and the vegetables add crunch and volume.\n",
     "keyIngredients": [
       "chicken breast",
       "udon noodles",
@@ -2957,8 +2957,8 @@
         "text": "High heat is key — you want some caramelization on the sauce, not just steaming."
       },
       {
-        "keyword": "Fresh udon",
-        "text": "Fresh udon from the refrigerator section is much better than dried. Most Asian grocery stores carry it."
+        "keyword": "Fresh うどん",
+        "text": "Fresh うどん from the refrigerator section is much better than dried. Most Asian grocery stores carry it."
       },
       {
         "keyword": "Tofu",

@@ -15,10 +15,10 @@ tags:
   - no-marinate
 
 description: >
-  Thinly sliced beef and onion simmered in a sweet-savory dashi broth, spooned over a bowl of
-  rice — this is Japanese fast food done right at home. The broth does double duty, seasoning both
-  the meat and soaking into the rice beneath it. Serve with a soft-boiled egg or raw egg yolk on
-  top for the full yoshinoya experience.
+  牛丼 [ぎゅうどん] — thinly sliced beef and onion simmered in a sweet-savory だし broth, spooned
+  over a bowl of rice. The broth does double duty, seasoning both the meat and soaking into the
+  rice beneath it. Serve with a soft-boiled egg or raw egg yolk on top for the full Yoshinoya
+  experience.
 
 keyIngredients:
   - thinly sliced beef
@@ -34,7 +34,7 @@ ingredientGroups:
     ingredients:
       - amount: 150ml
         name: dashi stock
-        note: 1 tsp hondashi powder + 150ml water
+        note: 1 tsp 本だし [ほんだし] powder + 150ml water
         alternatives: []
       - amount: 3 tbsp
         name: soy sauce

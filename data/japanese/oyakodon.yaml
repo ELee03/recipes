@@ -15,9 +15,9 @@ tags:
   - no-marinate
 
 description: >
-  "Parent and child bowl" — chicken and egg, cooked together in a savory dashi broth, served over
-  rice. One of the most comforting Japanese home-cooking dishes and genuinely fast to make. Light,
-  deeply savory, and high protein.
+  親子丼 [おやこどん] — "parent and child bowl" — chicken and egg cooked together in a savory
+  だし broth, served over rice. One of the most comforting Japanese home-cooking dishes and
+  genuinely fast to make. Light, deeply savory, and high protein.
 
 keyIngredients:
   - chicken breast
@@ -34,7 +34,7 @@ ingredientGroups:
     ingredients:
       - amount: 150ml
         name: dashi stock
-        note: instant dashi powder + water is fine, widely available at Asian grocery stores
+        note: 本だし [ほんだし] powder + water is fine, widely available at Asian grocery stores
         alternatives: []
       - amount: 2 tbsp
         name: soy sauce
@@ -109,7 +109,7 @@ tips:
   - keyword: Soft eggs
     text: The eggs should be soft and slightly runny in the center — think loose scramble, not frittata. Pull the pan off heat while they still look underdone; they finish from residual heat.
   - keyword: Instant dashi
-    text: Instant dashi (hondashi) is easy to find at any Asian grocery. It's a pantry essential for Japanese cooking.
+    text: Instant だし (本だし [ほんだし]) is easy to find at any Asian grocery. It's a pantry essential for Japanese cooking.
   - keyword: Mirin substitute
     text: If you don't have mirin, substitute with 1 tsp sugar + a splash of sake or white wine. In a pinch, skip the sake.
 

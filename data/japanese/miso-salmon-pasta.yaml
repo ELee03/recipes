@@ -17,9 +17,9 @@ tags:
   - no-marinate
 
 description: >
-  Light, clean, and surprisingly rich-tasting without being heavy. Miso and salmon are a natural
-  pairing — the umami of the miso amplifies the fish without masking it. Great omega-3s and high
-  protein, all in a 25-minute weeknight dish.
+  Light, clean, and surprisingly rich-tasting without being heavy. 味噌 [みそ] and salmon are a
+  natural pairing — the umami of the 味噌 amplifies the fish without masking it. Great omega-3s
+  and high protein, all in a 25-minute weeknight dish.
 
 keyIngredients:
   - salmon
@@ -36,7 +36,7 @@ ingredientGroups:
     ingredients:
       - amount: 1 tbsp
         name: white miso paste
-        note: shiro miso — milder; use red miso for stronger flavor
+        note: 白味噌 [しろみそ] — milder; use 赤味噌 [あかみそ] for stronger flavor
         alternatives: []
       - amount: "3–4 tbsp"
         name: milk or unsweetened soy milk
@@ -119,8 +119,8 @@ tips:
     text: Boiling kills the probiotic content and can make the sauce grainy. Lower the heat before adding the miso mixture.
   - keyword: Canned salmon
     text: Canned salmon works in a pinch (drain well), though fresh is noticeably better.
-  - keyword: White vs red miso
-    text: White miso is milder and sweeter; red miso is saltier and more intense. Either works here.
+  - keyword: 白味噌 vs 赤味噌
+    text: 白味噌 [しろみそ] is milder and sweeter; 赤味噌 [あかみそ] is saltier and more intense. Either works here.
 
 firstAttemptNotes:
   date: null

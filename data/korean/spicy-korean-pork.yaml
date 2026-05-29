@@ -13,10 +13,9 @@ tags:
   - high-protein
 
 description: >
-  Daeji bulgogi is Korean street food at its best — thin pork strips in a bold,
-  spicy-sweet marinade that caramelizes in a hot pan into something sticky and
-  slightly charred at the edges. Where regular bulgogi is mild and family-friendly,
-  this one brings the gochujang heat front and center. Pork belly is the classic,
+  돼지불고기 — thin pork strips in a bold, spicy-sweet marinade that caramelizes in a hot
+  pan into something sticky and slightly charred at the edges. Where regular 불고기 is
+  mild and family-friendly, this one brings the 고추장 heat front and center. Pork belly is the classic,
   richer choice; shoulder is leaner and still great. Ground pork skips the marinate
   time entirely and works on a busy weeknight. Serve over rice or in lettuce wraps
   with sesame seeds and green onion.
@@ -119,7 +118,7 @@ ingredientGroups:
         alternatives:
           - amount: null
             name: large lettuce leaves
-            note: butter lettuce, romaine, or perilla for wraps
+            note: butter lettuce, romaine, or 깻잎 (perilla) for wraps
 
 instructions:
   - step: Mix all marinade ingredients together in a bowl.
@@ -147,7 +146,7 @@ tips:
   - keyword: Char is flavor
     text: A little dark caramelization on the edges is the goal — that's where all the sticky, sweet-spicy depth comes from. Don't be afraid of it.
   - keyword: Lettuce wraps cut the richness
-    text: If pork belly feels heavy on its own, wrapping it in cool lettuce with rice balances it out perfectly.
+    text: If pork belly feels heavy on its own, wrapping it in cool lettuce or 깻잎 (perilla) with rice balances it out perfectly.
   - keyword: Overnight marinate is noticeably better
     text: The gochujang and soy sauce penetrate deeper, and the pork softens slightly. If you have time, do it the night before.
 

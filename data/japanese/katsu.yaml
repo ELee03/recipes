@@ -13,11 +13,11 @@ tags:
   - quick
 
 description: >
-  A thin cutlet of chicken or pork, coated in the classic flour → egg → panko sequence
-  and pan-fried to a golden, crackly crust. Served with tonkatsu sauce, a mound of
-  shredded cabbage, and rice — it's filling, high-protein, and way more satisfying than
-  it has any right to be for how simple it is. Panko (not regular breadcrumbs) is what
-  makes the crust light and airy instead of dense and bready.
+  カツ — a thin cutlet of chicken or pork, coated in the classic flour → egg →
+  パン粉 [ぱんこ] sequence and pan-fried to a golden, crackly crust. Served with
+  とんかつソース, a mound of shredded cabbage, and rice — filling, high-protein, and way
+  more satisfying than it has any right to be for how simple it is. パン粉 (not regular
+  breadcrumbs) is what makes the crust light and airy instead of dense and bready.
 
 keyIngredients:
   - chicken breast
@@ -133,8 +133,8 @@ protein:
 tips:
   - keyword: Pound the meat evenly
     text: This is the most important step. Uneven thickness means one part overcooks while another stays raw. Use a zip-lock bag around the meat to avoid mess.
-  - keyword: Panko only
-    text: Regular fine breadcrumbs make a dense, greasy crust. Panko is coarser, creates air pockets, and stays crispy longer after cooking.
+  - keyword: パン粉 only
+    text: Regular fine breadcrumbs make a dense, greasy crust. パン粉 [ぱんこ] is coarser, creates air pockets, and stays crispy longer after cooking.
   - keyword: Press the panko firmly
     text: Into the meat — don't just roll it. Pieces that fall off during frying are pieces that weren't pressed in.
   - keyword: Oil temperature matters

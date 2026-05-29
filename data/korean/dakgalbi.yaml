@@ -15,7 +15,7 @@ tags:
   - one-pan
 
 description: >
-  Classic Korean street food. Spicy, slightly sweet, smoky from the gochujang. Cabbage and sweet potato bulk it up without adding much fat. Use chicken breast to keep it lean — the sauce does all the heavy lifting.
+  닭갈비 — classic Korean street food. Spicy, slightly sweet, smoky from the 고추장. Cabbage and sweet potato bulk it up without adding much fat. Use chicken breast to keep it lean — the sauce does all the heavy lifting.
 
 keyIngredients:
   - chicken breast
@@ -46,7 +46,7 @@ ingredientGroups:
         alternatives: []
       - amount: 1 tbsp
         name: gochugaru
-        note: Korean chili flakes — adjust to heat preference
+        note: 고추가루 (Korean chili flakes) — adjust to heat preference
         alternatives: []
       - amount: 1 tsp
         name: sesame oil
@@ -121,8 +121,8 @@ tips:
     text: Don't crowd the pan — you want some char on the chicken, not steaming.
   - keyword: cheese topping
     text: Cheese topping (mozzarella) is popular in restaurants. Skip it to keep things lighter, or add it as a treat.
-  - keyword: leftover dakgalbi
-    text: Leftover dakgalbi makes incredible fried rice the next day.
+  - keyword: leftover 닭갈비
+    text: Leftover 닭갈비 makes incredible fried rice the next day.
 
 firstAttemptNotes:
   date: null
