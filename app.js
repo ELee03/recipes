@@ -11,6 +11,9 @@ let activeFilters = {
   tags: new Set(),
 };
 
+let drawerRecipe = null;
+let drawerServings = 1;
+
 // ============================================================
 // CUISINE DISPLAY NAMES
 // ============================================================
@@ -310,10 +313,104 @@ function renderCard(r) {
 }
 
 // ============================================================
+// AMOUNT SCALING
+// ============================================================
+
+const UNICODE_FRACTIONS = {
+  '½': 1/2, '¼': 1/4, '¾': 3/4,
+  '⅓': 1/3, '⅔': 2/3,
+  '⅛': 1/8, '⅜': 3/8, '⅝': 5/8, '⅞': 7/8,
+};
+
+// Parse a leading number (integer, decimal, or unicode fraction) from a string.
+// Returns { value: number, rest: string } or null if no number found.
+function parseLeadingNumber(s) {
+  // Integer + unicode fraction: "1½", "2 ¾"
+  const intFracRe = /^(\d+)\s*(½|¼|¾|⅓|⅔|⅛|⅜|⅝|⅞)/;
+  let m = s.match(intFracRe);
+  if (m) return { value: parseInt(m[1]) + UNICODE_FRACTIONS[m[2]], rest: s.slice(m[0].length) };
+
+  // Standalone unicode fraction
+  for (const [frac, val] of Object.entries(UNICODE_FRACTIONS)) {
+    if (s.startsWith(frac)) return { value: val, rest: s.slice(frac.length) };
+  }
+
+  // Integer or decimal
+  m = s.match(/^(\d+\.?\d*)/);
+  if (m) return { value: parseFloat(m[1]), rest: s.slice(m[0].length) };
+
+  return null;
+}
+
+// Format a scaled number as a readable string, using unicode fractions where possible.
+function formatNumber(n) {
+  if (n === 0) return '0';
+
+  const FRAC_MAP = [
+    [1/8, '⅛'], [1/4, '¼'], [1/3, '⅓'], [3/8, '⅜'],
+    [1/2, '½'], [5/8, '⅝'], [2/3, '⅔'], [3/4, '¾'], [7/8, '⅞'],
+  ];
+
+  const whole = Math.floor(n);
+  const frac = n - whole;
+
+  if (frac < 0.04) return String(whole);
+
+  for (const [val, sym] of FRAC_MAP) {
+    if (Math.abs(frac - val) < 0.04) {
+      return whole > 0 ? `${whole}${sym}` : sym;
+    }
+  }
+
+  // Fall back to decimal
+  if (n < 10) return parseFloat(n.toFixed(1)).toString();
+  return String(Math.round(n));
+}
+
+// Scale an amount string by the given factor.
+// Handles: "300g", "3 tbsp", "½", "1½ cups", "2–3 tbsp", "~4–5 tbsp", "1 can (540ml)"
+// Returns the original string unchanged if it can't be parsed.
+function scaleAmount(amountStr, scale) {
+  if (scale === 1) return amountStr;
+  if (amountStr === null || amountStr === undefined) return amountStr;
+
+  const str = String(amountStr).trim();
+  if (!str) return str;
+
+  const approx = str.startsWith('~');
+  const s = approx ? str.slice(1).trimStart() : str;
+  const prefix = approx ? '~' : '';
+
+  const first = parseLeadingNumber(s);
+  if (!first) return str; // unparseable — return as-is
+
+  // Check for a range: "2–3 tbsp", "300–350g"
+  const afterFirst = first.rest.trimStart();
+  if (afterFirst.startsWith('–') || (afterFirst.startsWith('-') && /\d/.test(afterFirst[1]))) {
+    const afterDash = afterFirst.slice(1).trimStart();
+    const second = parseLeadingNumber(afterDash);
+    if (second) {
+      const lo = formatNumber(first.value * scale);
+      const hi = formatNumber(second.value * scale);
+      const unit = second.rest.trim();
+      return `${prefix}${lo}–${hi}${unit ? ' ' + unit : ''}`.trim();
+    }
+  }
+
+  // Simple number + unit suffix
+  const scaled = formatNumber(first.value * scale);
+  const unit = first.rest.trim();
+  return `${prefix}${scaled}${unit ? ' ' + unit : ''}`.trim();
+}
+
+// ============================================================
 // RENDER — DETAIL
 // ============================================================
 
 function openDetail(recipe) {
+  drawerRecipe = recipe;
+  drawerServings = recipe.servings || 1;
+
   const drawer = document.getElementById('detailDrawer');
   const overlay = document.getElementById('overlay');
   const content = document.getElementById('detailContent');
@@ -321,13 +418,45 @@ function openDetail(recipe) {
   content.innerHTML = renderDetail(recipe);
   content.scrollTop = 0;
 
+  // Bind stepper buttons (freshly rendered each open)
+  const minus = document.getElementById('servingsMinus');
+  const plus  = document.getElementById('servingsPlus');
+  if (minus) minus.addEventListener('click', () => {
+    if (drawerServings > 1) { drawerServings--; updateIngredients(); }
+  });
+  if (plus) plus.addEventListener('click', () => {
+    if (drawerServings < 10) { drawerServings++; updateIngredients(); }
+  });
+
   drawer.classList.add('open');
   drawer.setAttribute('aria-hidden', 'false');
   overlay.classList.add('visible');
   document.body.style.overflow = 'hidden';
 }
 
+// Re-render ingredient amounts in-place after a servings change.
+function updateIngredients() {
+  const container = document.getElementById('ingredientGroupsContainer');
+  if (!container || !drawerRecipe) return;
+
+  const scale = drawerServings / (drawerRecipe.servings || 1);
+  container.innerHTML = renderIngredientGroupsInner(drawerRecipe.ingredientGroups, scale);
+
+  const countEl = document.getElementById('servingsCount');
+  if (countEl) countEl.textContent = drawerServings;
+
+  const labelEl = document.getElementById('servingsLabel');
+  if (labelEl) labelEl.textContent = drawerServings === 1 ? 'serving' : 'servings';
+
+  const minus = document.getElementById('servingsMinus');
+  const plus  = document.getElementById('servingsPlus');
+  if (minus) minus.disabled = drawerServings <= 1;
+  if (plus)  plus.disabled  = drawerServings >= 10;
+}
+
 function closeDetail() {
+  drawerRecipe = null;
+
   const drawer = document.getElementById('detailDrawer');
   const overlay = document.getElementById('overlay');
 
@@ -347,7 +476,7 @@ function handleHashChange() {
     closeDetail();
     return;
   }
-  if (allRecipes.length === 0) return; // Not loaded yet
+  if (allRecipes.length === 0) return;
 
   const recipe = allRecipes.find(r => r.id === id);
   if (recipe) openDetail(recipe);
@@ -361,6 +490,16 @@ function renderDetail(r) {
     `<span class="method-tag">${m}</span>`
   ).join('');
 
+  const servingsStepper = r.servings ? `
+    <span class="detail-meta-item servings-stepper">
+      🍽
+      <button class="servings-btn" id="servingsMinus" aria-label="Fewer servings"${drawerServings <= 1 ? ' disabled' : ''}>−</button>
+      <span id="servingsCount">${drawerServings}</span>
+      <span id="servingsLabel">${drawerServings === 1 ? 'serving' : 'servings'}</span>
+      <button class="servings-btn" id="servingsPlus" aria-label="More servings"${drawerServings >= 10 ? ' disabled' : ''}>+</button>
+    </span>
+  ` : '';
+
   return `
     <div class="detail-cuisine">${cuisineLabel}</div>
     <h2 class="detail-title">${r.name}</h2>
@@ -368,7 +507,7 @@ function renderDetail(r) {
     <div class="detail-meta">
       <span class="detail-meta-item">${diffLabel}</span>
       <span class="detail-meta-item">⏱ ${r.time} min</span>
-      ${r.servings ? `<span class="detail-meta-item">🍽 ${r.servings} serving${r.servings > 1 ? 's' : ''}</span>` : ''}
+      ${servingsStepper}
     </div>
 
     ${methods ? `<div class="detail-methods">${methods}</div>` : ''}
@@ -386,15 +525,30 @@ function renderDetail(r) {
 function renderIngredientGroups(groups) {
   if (!groups || groups.length === 0) return '';
 
-  const html = groups.map(g => {
+  return `
+    <div class="detail-section">
+      <div class="detail-section-title">Ingredients</div>
+      <div id="ingredientGroupsContainer">
+        ${renderIngredientGroupsInner(groups, 1)}
+      </div>
+    </div>
+  `;
+}
+
+function renderIngredientGroupsInner(groups, scale = 1) {
+  return (groups || []).map(g => {
     const ingredients = (g.ingredients || []).map(ing => {
-      const amount = ing.amount ? `<span class="ingredient-amount">${ing.amount}</span>` : '';
+      const rawAmount = (ing.amount !== null && ing.amount !== undefined) ? String(ing.amount) : null;
+      const displayAmount = rawAmount ? scaleAmount(rawAmount, scale) : null;
+      const amount = displayAmount ? `<span class="ingredient-amount">${displayAmount}</span>` : '';
       const note = ing.note ? `<span class="ingredient-note"> — ${ing.note}</span>` : '';
 
       const alts = (ing.alternatives || []).length > 0
         ? `<ul class="ingredient-alternatives">
             ${ing.alternatives.map(a => {
-              const altAmount = a.amount ? `${a.amount} ` : '';
+              const altRaw = (a.amount !== null && a.amount !== undefined) ? String(a.amount) : null;
+              const altDisplay = altRaw ? scaleAmount(altRaw, scale) : null;
+              const altAmount = altDisplay ? `${altDisplay} ` : '';
               const altNote = a.note ? ` — <em>${a.note}</em>` : '';
               return `<li class="alt-item"><span class="alt-prefix">or</span> ${altAmount}${a.name}${altNote}</li>`;
             }).join('')}
@@ -415,19 +569,11 @@ function renderIngredientGroups(groups) {
       </div>
     `;
   }).join('');
-
-  return `
-    <div class="detail-section">
-      <div class="detail-section-title">Ingredients</div>
-      ${html}
-    </div>
-  `;
 }
 
 function renderInstructions(instructions) {
   if (!instructions || instructions.length === 0) return '';
 
-  // Group consecutive steps vs sections
   let html = '';
   let flatSteps = [];
 

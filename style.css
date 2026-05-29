@@ -752,6 +752,50 @@ body {
   color: var(--text);
 }
 
+/* SERVINGS STEPPER */
+
+.servings-stepper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.servings-btn {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s, border-color 0.12s;
+  font-family: var(--font);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.servings-btn:hover:not(:disabled) {
+  background: var(--border-light);
+  border-color: #aaa;
+}
+
+.servings-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+#servingsCount {
+  font-weight: 600;
+  color: var(--text);
+  min-width: 14px;
+  text-align: center;
+}
+
 /* FIRST ATTEMPT NOTES */
 
 .attempt-notes {
