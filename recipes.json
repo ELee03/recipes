@@ -5060,11 +5060,12 @@
     "servings": 2,
     "tags": [
       "quick",
-      "one-pan",
+      "high-protein",
       "pantry-friendly"
     ],
-    "description": "Salsa-cooked rice toasted with aromatics and spices, built into a bowl with cheddar, Greek yogurt, and optional beans and corn. Minimal effort, maximum flavour.",
+    "description": "Salsa-cooked rice toasted with aromatics and spices, built into a bowl with seasoned ground beef, cheddar, and Greek yogurt. Minimal effort, maximum flavour.",
     "keyIngredients": [
+      "ground beef",
       "rice",
       "salsa",
       "black beans",
@@ -5077,6 +5078,30 @@
       "stovetop"
     ],
     "ingredientGroups": [
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "cook first in a separate pan; drain fat before adding to bowl",
+        "ingredients": [
+          {
+            "name": "ground beef",
+            "amount": "300–350g",
+            "note": "90/10 for lean; 80/20 for more flavour — drain fat after cooking, rinse under hot water if you want it leaner",
+            "alternatives": [
+              {
+                "name": "ground chicken or turkey",
+                "amount": "300–350g",
+                "note": "leaner, same method"
+              },
+              {
+                "name": "canned black beans",
+                "amount": "1 can (540ml)",
+                "note": "drained and rinsed — the vegetarian version"
+              }
+            ]
+          }
+        ]
+      },
       {
         "emoji": "🍚",
         "label": "Rice base",
@@ -5187,6 +5212,9 @@
     ],
     "instructions": [
       {
+        "step": "In a pan over medium-high heat, cook ground beef, breaking it apart, until fully browned (~5–7 min). Drain fat; rinse under hot water if desired. Season with a pinch of the spice mix. Set aside."
+      },
+      {
         "step": "Dice onion and mince garlic. Heat oil in a medium saucepan over medium heat. Add onion and cook until softened, about 4–5 minutes. Add garlic and cook 1 more minute until fragrant."
       },
       {
@@ -5202,9 +5230,17 @@
         "step": "If using beans and/or corn, stir them in during the last 5 minutes of cooking or heat separately and add as toppings."
       },
       {
-        "step": "Scoop rice into bowls. Top with shredded cheddar (melts slightly from the heat), a generous dollop of Greek yogurt, and a squeeze of lime."
+        "step": "Scoop rice into bowls. Add ground beef. Top with shredded cheddar (melts slightly from the heat), a generous dollop of Greek yogurt, and a squeeze of lime."
       }
     ],
+    "protein": {
+      "grams": "35–45",
+      "note": "per serving with 300–350g ground beef 90/10; add beans for another ~8g per serving"
+    },
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
     "tips": [
       {
         "keyword": "Rice ratio",
