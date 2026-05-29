@@ -367,6 +367,44 @@ function formatNumber(n) {
   return String(Math.round(n));
 }
 
+// Append a parenthetical ml equivalent when an amount is in cups.
+// Called after scaleAmount so the ml reflects the scaled value.
+// 1 US cup = 240 ml.
+function appendCupMl(amountStr) {
+  if (!amountStr) return amountStr;
+  const str = String(amountStr).trim();
+
+  // Only act on strings that end with cup/cups
+  if (!/cups?$/i.test(str)) return str;
+  // Don't double-add
+  if (str.includes('ml')) return str;
+
+  // Strip the unit suffix to isolate the numeric part
+  const numPart = str.replace(/\s*cups?$/i, '').trim();
+  const approx = numPart.startsWith('~');
+  const clean = approx ? numPart.slice(1).trim() : numPart;
+
+  const first = parseLeadingNumber(clean);
+  if (!first) return str;
+
+  const rest = first.rest.trim();
+  let ml;
+
+  // Range: "2–3 cups" → "(480–720ml)"
+  if (rest.startsWith('–') || (rest.startsWith('-') && rest.length > 1 && /\d/.test(rest[1]))) {
+    const second = parseLeadingNumber(rest.slice(1));
+    if (second) {
+      const lo = Math.round(first.value * 240);
+      const hi = Math.round(second.value * 240);
+      ml = `${lo}–${hi}ml`;
+    }
+  }
+
+  if (!ml) ml = `${Math.round(first.value * 240)}ml`;
+
+  return `${str} (${ml})`;
+}
+
 // Scale an amount string by the given factor.
 // Handles: "300g", "3 tbsp", "½", "1½ cups", "2–3 tbsp", "~4–5 tbsp", "1 can (540ml)"
 // Returns the original string unchanged if it can't be parsed.
@@ -546,7 +584,7 @@ function renderIngredientGroupsInner(groups, scale = 1) {
   return (groups || []).map(g => {
     const ingredients = (g.ingredients || []).map(ing => {
       const rawAmount = (ing.amount !== null && ing.amount !== undefined) ? String(ing.amount) : null;
-      const displayAmount = rawAmount ? scaleAmount(rawAmount, scale) : null;
+      const displayAmount = rawAmount ? appendCupMl(scaleAmount(rawAmount, scale)) : null;
       const amount = displayAmount ? `<span class="ingredient-amount">${displayAmount}</span>` : '';
       const note = ing.note ? `<span class="ingredient-note"> — ${ing.note}</span>` : '';
 
@@ -554,7 +592,7 @@ function renderIngredientGroupsInner(groups, scale = 1) {
         ? `<ul class="ingredient-alternatives">
             ${ing.alternatives.map(a => {
               const altRaw = (a.amount !== null && a.amount !== undefined) ? String(a.amount) : null;
-              const altDisplay = altRaw ? scaleAmount(altRaw, scale) : null;
+              const altDisplay = altRaw ? appendCupMl(scaleAmount(altRaw, scale)) : null;
               const altAmount = altDisplay ? `${altDisplay} ` : '';
               const altNote = a.note ? ` — <em>${a.note}</em>` : '';
               return `<li class="alt-item"><span class="alt-prefix">or</span> ${altAmount}${a.name}${altNote}</li>`;
