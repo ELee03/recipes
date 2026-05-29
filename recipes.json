@@ -5084,10 +5084,15 @@
         "actionNote": "cook first in a separate pan; drain fat before adding to bowl",
         "ingredients": [
           {
-            "name": "ground beef",
+            "name": "ground beef 90/10",
             "amount": "300–350g",
-            "note": "90/10 for lean; 80/20 for more flavour — drain fat after cooking, rinse under hot water if you want it leaner",
+            "note": "lean — drain fat after cooking, rinse if desired; minimal weight loss",
             "alternatives": [
+              {
+                "name": "ground beef 80/20",
+                "amount": "375–400g",
+                "note": "more flavour but loses 25–35% to fat when drained and rinsed — start with more to compensate"
+              },
               {
                 "name": "ground chicken or turkey",
                 "amount": "300–350g",
