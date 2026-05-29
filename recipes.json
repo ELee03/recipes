@@ -5326,12 +5326,12 @@
         "actionNote": "cook first, drain fat, optionally rinse, then continue",
         "ingredients": [
           {
-            "amount": "250–300g",
+            "amount": "450g",
             "name": "lean ground beef (80/20 or leaner)",
             "note": null,
             "alternatives": [
               {
-                "amount": "250–300g",
+                "amount": "450g",
                 "name": "ground turkey or ground chicken",
                 "note": "leaner; same seasoning profile works"
               }
@@ -5473,8 +5473,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving; add a fried or soft-boiled egg for an extra ~6g"
+      "grams": "40–45",
+      "note": "per serving with 225g ground beef; add a fried or soft-boiled egg for an extra ~6g"
     },
     "tips": [
       {
@@ -5499,14 +5499,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 340,
-      "protein": 26.6,
-      "fat": 21.3,
+      "cal": 528,
+      "protein": 42.3,
+      "fat": 34.4,
       "carbs": 8.5,
       "breakdown": [
         {
           "name": "ground beef",
-          "protein": 24.8
+          "protein": 40.5
         }
       ]
     }
@@ -5545,17 +5545,17 @@
         "ingredients": [
           {
             "name": "ground beef 90/10",
-            "amount": "300–350g",
+            "amount": "450g",
             "note": "lean — drain fat after cooking, rinse under hot water if desired; minimal weight loss",
             "alternatives": [
               {
                 "name": "ground beef 80/20",
-                "amount": "375–400g",
+                "amount": "550–575g",
                 "note": "more flavour but loses 25–35% to fat when drained and rinsed — start with more to compensate"
               },
               {
                 "name": "ground chicken or turkey",
-                "amount": "300–350g",
+                "amount": "450g",
                 "note": "leaner, same method"
               },
               {
@@ -5715,8 +5715,8 @@
       }
     ],
     "protein": {
-      "grams": "35–45",
-      "note": "per serving with 300–350g ground beef 90/10; add beans for another ~8g per serving"
+      "grams": "45–50",
+      "note": "per serving with 225g ground beef 90/10; add beans for another ~8g per serving"
     },
     "firstAttemptNotes": {
       "date": "2026-05-29",
@@ -5758,14 +5758,14 @@
       }
     ],
     "computedMacros": {
-      "cal": 750,
-      "protein": 41.8,
-      "fat": 24.2,
+      "cal": 860,
+      "protein": 54.3,
+      "fat": 30.4,
       "carbs": 87.7,
       "breakdown": [
         {
           "name": "ground beef 90/10",
-          "protein": 32.5
+          "protein": 45.0
         },
         {
           "name": "rice",
@@ -6077,7 +6077,7 @@
         "actionNote": "cooked first, fat drained, set aside; returned to pan after spice base is built",
         "ingredients": [
           {
-            "amount": "300g",
+            "amount": "450g",
             "name": "ground beef or lamb",
             "note": "lamb is richer; beef works great",
             "alternatives": []
@@ -6235,8 +6235,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving; a side of plain yogurt adds another ~10–15g and balances the heat"
+      "grams": "40–45",
+      "note": "per serving with 225g ground beef; a side of plain yogurt adds another ~10–15g and balances the heat"
     },
     "tips": [
       {
@@ -6261,14 +6261,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 359,
-      "protein": 28.5,
-      "fat": 22.7,
+      "cal": 520,
+      "protein": 42.0,
+      "fat": 33.9,
       "carbs": 8.3,
       "breakdown": [
         {
           "name": "ground beef",
-          "protein": 27.0
+          "protein": 40.5
         }
       ]
     }

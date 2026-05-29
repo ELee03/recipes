@@ -47,11 +47,11 @@ ingredientGroups:
     label: Protein
     actionNote: cook first, drain fat, optionally rinse, then continue
     ingredients:
-      - amount: "250–300g"
+      - amount: "450g"
         name: lean ground beef (80/20 or leaner)
         note: null
         alternatives:
-          - amount: "250–300g"
+          - amount: "450g"
             name: ground turkey or ground chicken
             note: leaner; same seasoning profile works
 
@@ -138,8 +138,8 @@ instructions:
   - step: Serve over rice with your toppings.
 
 protein:
-  grams: "55–65"
-  note: per serving; add a fried or soft-boiled egg for an extra ~6g
+  grams: "40–45"
+  note: per serving with 225g ground beef; add a fried or soft-boiled egg for an extra ~6g
 
 tips:
   - keyword: The water rinse after draining

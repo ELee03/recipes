@@ -55,7 +55,7 @@ ingredientGroups:
     label: Protein
     actionNote: cooked first, fat drained, set aside; returned to pan after spice base is built
     ingredients:
-      - amount: 300g
+      - amount: 450g
         name: ground beef or lamb
         note: lamb is richer; beef works great
         alternatives: []
@@ -149,8 +149,8 @@ instructions:
   - step: Off heat, add garam masala, lemon juice, and cilantro. Taste and adjust salt.
 
 protein:
-  grams: "55–65"
-  note: per serving; a side of plain yogurt adds another ~10–15g and balances the heat
+  grams: "40–45"
+  note: per serving with 225g ground beef; a side of plain yogurt adds another ~10–15g and balances the heat
 
 tips:
   - keyword: Browning the onion properly

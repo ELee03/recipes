@@ -15,14 +15,14 @@ ingredientGroups:
     actionNote: cook in a separate pan, drain and rinse, then fold into rice during the rest
     ingredients:
       - name: ground beef 90/10
-        amount: 300–350g
+        amount: 450g
         note: lean — drain fat after cooking, rinse under hot water if desired; minimal weight loss
         alternatives:
           - name: ground beef 80/20
-            amount: 375–400g
+            amount: 550–575g
             note: more flavour but loses 25–35% to fat when drained and rinsed — start with more to compensate
           - name: ground chicken or turkey
-            amount: 300–350g
+            amount: 450g
             note: leaner, same method
           - name: canned black beans
             amount: 1 can (540ml)
@@ -108,8 +108,8 @@ instructions:
   - step: Scoop into bowls. Top with shredded cheddar (melts from the heat), a generous dollop of Greek yogurt, and a squeeze of lime.
 
 protein:
-  grams: 35–45
-  note: per serving with 300–350g ground beef 90/10; add beans for another ~8g per serving
+  grams: 45–50
+  note: per serving with 225g ground beef 90/10; add beans for another ~8g per serving
 
 firstAttemptNotes:
   date: "2026-05-29"
