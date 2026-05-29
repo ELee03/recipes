@@ -2297,7 +2297,7 @@
   },
   {
     "id": "miso-salmon-pasta",
-    "name": "味噌 Salmon Pasta",
+    "name": "味噌 [みそ] Salmon Pasta",
     "cuisine": "japanese",
     "difficulty": "easy",
     "time": 25,
@@ -2485,7 +2485,7 @@
   },
   {
     "id": "karaage",
-    "name": "唐揚げ (Japanese Fried Chicken)",
+    "name": "唐揚げ [からあげ] (Japanese Fried Chicken)",
     "cuisine": "japanese",
     "difficulty": "medium",
     "time": 50,
@@ -2700,7 +2700,7 @@
   },
   {
     "id": "gyudon",
-    "name": "牛丼 (Beef Rice Bowl)",
+    "name": "牛丼 [ぎゅうどん] (Beef Rice Bowl)",
     "cuisine": "japanese",
     "difficulty": "easy",
     "time": 20,
@@ -2888,7 +2888,7 @@
   },
   {
     "id": "oyakodon",
-    "name": "親子丼 (Chicken & Egg Rice Bowl)",
+    "name": "親子丼 [おやこどん] (Chicken & Egg Rice Bowl)",
     "cuisine": "japanese",
     "difficulty": "easy",
     "time": 25,
