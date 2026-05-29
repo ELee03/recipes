@@ -5,18 +5,18 @@ difficulty: easy
 time: 30
 servings: 2
 tags: [quick, high-protein, pantry-friendly]
-description: Salsa-cooked rice toasted with aromatics and spices, built into a bowl with seasoned ground beef, cheddar, and Greek yogurt. Minimal effort, maximum flavour.
+description: Spiced salsa rice with ground beef folded in during the rest — everything melds together in the pot. Top with cheddar and Greek yogurt. Minimal effort, maximum flavour.
 keyIngredients: [ground beef, rice, salsa, black beans, cumin, chili powder, cheddar, greek yogurt]
 methods: [stovetop]
 
 ingredientGroups:
   - emoji: 🥩
     label: Protein
-    actionNote: cook first in a separate pan; drain fat before adding to bowl
+    actionNote: cook in a separate pan, drain and rinse, then fold into rice during the rest
     ingredients:
       - name: ground beef 90/10
         amount: 300–350g
-        note: lean — drain fat after cooking, rinse if desired; minimal weight loss
+        note: lean — drain fat after cooking, rinse under hot water if desired; minimal weight loss
         alternatives:
           - name: ground beef 80/20
             amount: 375–400g
@@ -26,7 +26,7 @@ ingredientGroups:
             note: leaner, same method
           - name: canned black beans
             amount: 1 can (540ml)
-            note: drained and rinsed — the vegetarian version
+            note: drained and rinsed — the vegetarian version; fold in with the rice the same way
 
   - emoji: 🍚
     label: Rice base
@@ -65,6 +65,7 @@ ingredientGroups:
       - name: cayenne
         note: optional, for heat
       - name: salt and black pepper
+        note: season assertively — this rice needs more salt than you'd expect
 
   - emoji: 🧀
     label: Toppings
@@ -80,32 +81,37 @@ ingredientGroups:
     ingredients:
       - name: canned black beans or pinto beans
         amount: 1 can (540ml)
-        note: drained and rinsed
+        note: drained and rinsed; fold in with the beef during the rest
       - name: frozen corn
         amount: ½ cup
+        note: fold in with the beef during the rest
       - name: lime juice
         amount: 1 lime
         note: big difference — worth it
       - name: fresh cilantro
 
 instructions:
-  - step: In a pan over medium-high heat, cook ground beef, breaking it apart, until fully browned (~5–7 min). Drain fat; rinse under hot water if desired. Season with a pinch of the spice mix. Set aside.
+  - step: In a pan over medium-high heat, cook ground beef, breaking it apart, until fully browned (~5–7 min). Drain fat; rinse under hot water if desired. Set aside.
   - step: Dice onion and mince garlic. Heat oil in a medium saucepan over medium heat. Add onion and cook until softened, about 4–5 minutes. Add garlic and cook 1 more minute until fragrant.
   - step: Add the uncooked rice and stir with the aromatics for 2 minutes to toast it — adds a subtle nuttiness.
   - step: Pour in the salsa, water, and all seasonings. Stir to combine and bring to a boil.
-  - step: Reduce heat to low, cover, and cook until rice is done — about 18 minutes for long-grain, 20–22 for short-grain. Don't lift the lid. Rest covered for 5 minutes off the heat.
-  - step: If using beans and/or corn, stir them in during the last 5 minutes of cooking or heat separately and add as toppings.
-  - step: Scoop rice into bowls. Add ground beef. Top with shredded cheddar (melts slightly from the heat), a generous dollop of Greek yogurt, and a squeeze of lime.
+  - step: Reduce heat to low, cover, and cook until rice is done — about 18 minutes for long-grain, 20–22 for short-grain. Don't lift the lid while it cooks.
+  - step: Pull off heat. Lift the lid, stir in the beef (and beans and/or corn if using), cover again, and rest for 5 minutes — the residual heat warms everything through and the beef absorbs the spiced rice flavour. Taste and adjust salt now.
+  - step: Scoop into bowls. Top with shredded cheddar (melts from the heat), a generous dollop of Greek yogurt, and a squeeze of lime.
 
 protein:
   grams: 35–45
   note: per serving with 300–350g ground beef 90/10; add beans for another ~8g per serving
 
 firstAttemptNotes:
-  date: null
-  notes: []
+  date: "2026-05-29"
+  notes:
+    - Needed more salt than expected — the salsa and spices aren't enough on their own; season assertively and taste-adjust during the rest
+    - Mixed the beef in during the rest rather than serving separate — works great, everything melds together
 
 tips:
+  - keyword: Salt
+    text: This dish needs more salt than it looks like it should. The salsa and spice mix flavour the rice but don't fully season it — taste after the rest and add more salt before serving. Don't be shy.
   - keyword: Rice ratio
     text: Keep the salsa-to-water ratio consistent when scaling — roughly ¾ cup salsa to 1¼ cups water per cup of rice.
   - keyword: Oregano sub
