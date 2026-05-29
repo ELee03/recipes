@@ -195,8 +195,8 @@
       }
     ],
     "protein": {
-      "grams": "40–50",
-      "note": "per serving with pork shoulder; pork belly closer to 30–35g due to higher fat content; ground pork in between"
+      "grams": "~36",
+      "note": "per serving with pork shoulder — below target; pork belly will be lower still due to fat ratio. Add a fried egg or side of Greek yogurt to push higher"
     },
     "tips": [
       {
@@ -409,8 +409,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving with 350–400g chicken breast total + Greek yogurt"
+      "grams": "~71",
+      "note": "per serving with 350–400g chicken breast total + Greek yogurt — well above target"
     },
     "tips": [
       {
@@ -621,8 +621,8 @@
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving with 2 fillets (~150–180g each); salmon is also rich in omega-3s and remains filling without being heavy"
+      "grams": "~40",
+      "note": "per serving with 2 fillets (~150–180g each) — close to target; add a soft-boiled egg or side of Greek yogurt to close the gap. Rich in omega-3s"
     },
     "tips": [
       {
@@ -860,8 +860,8 @@
       }
     ],
     "protein": {
-      "grams": "30–40",
-      "note": "per serving with egg + SPAM or canned tuna; ~20–25g with egg only; double the protein or add two eggs to push higher"
+      "grams": "~14",
+      "note": "per serving — intentionally low; rice-forward dish. Add a second egg or switch to two cans of tuna to push toward 30g; still needs a protein side to hit the 50g target"
     },
     "tips": [
       {
@@ -1062,8 +1062,8 @@
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving with tuna + egg; use two cans of tuna to push higher"
+      "grams": "~33",
+      "note": "per serving — below target; use two cans of tuna or add a second egg to push toward 45g"
     },
     "tips": [
       {
@@ -1520,8 +1520,8 @@
       }
     ],
     "protein": {
-      "grams": "20–25",
-      "note": "pasta only with parmesan and egg; ~45–55g with chicken breast added; egg on top adds ~6g per egg"
+      "grams": "45–50",
+      "note": "per serving with chicken breast; pasta base alone (egg + parmesan) is ~20–25g — chicken is what gets this to target"
     },
     "tips": [
       {
@@ -1750,8 +1750,8 @@
       }
     ],
     "protein": {
-      "grams": "50–55",
-      "note": "per serving; pair with a fried egg or tofu side for more"
+      "grams": "~42",
+      "note": "per serving — below target; pair with a fried egg or rice + egg to push toward 50g"
     },
     "tips": [
       {
@@ -1935,8 +1935,8 @@
       }
     ],
     "protein": {
-      "grams": "~50",
-      "note": "per serving; add a soft-boiled or fried egg on top for an easy boost"
+      "grams": "~33",
+      "note": "per serving — below target; add a soft-boiled egg (+6g) or increase chicken to push higher"
     },
     "tips": [
       {
@@ -2585,8 +2585,8 @@
       }
     ],
     "protein": {
-      "grams": "50–60",
-      "note": "per serving"
+      "grams": "~23",
+      "note": "per serving — below target; the salmon portion (60–75g per serving) is modest. Add a second fillet or serve with a soft-boiled egg to push higher"
     },
     "tips": [
       {
@@ -2802,8 +2802,8 @@
       }
     ],
     "protein": {
-      "grams": "50–60",
-      "note": "per serving (200–250g chicken thigh per serving)"
+      "grams": "~61",
+      "note": "per serving (200–250g chicken thigh per serving) — above target"
     },
     "tips": [
       {
@@ -3196,8 +3196,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving (3 eggs + chicken breast)"
+      "grams": "~41",
+      "note": "per serving (3 eggs + 75–100g chicken breast) — add more chicken or a fourth egg to push toward 50g"
     },
     "tips": [
       {
@@ -3394,8 +3394,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving; almost entirely from lean ground meat — very favorable macro profile"
+      "grams": "~26",
+      "note": "per serving — below target; increase ground meat to 400–450g total to push toward 50g per serving"
     },
     "tips": [
       {
@@ -3595,8 +3595,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving with ground chicken or beef plus egg"
+      "grams": "~25",
+      "note": "per serving — below target; increase meat to 400–450g total, or add a second fried egg to push higher"
     },
     "tips": [
       {
@@ -4023,8 +4023,8 @@
       }
     ],
     "protein": {
-      "grams": "50–60",
-      "note": "per serving"
+      "grams": "~29",
+      "note": "per serving — below target; shrimp is lean but the portion is modest. Double the shrimp or add a soft-boiled egg on the side to push higher"
     },
     "tips": [
       {
@@ -4601,8 +4601,8 @@
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving; guanciale or bacon ~15–20g, eggs ~12g, pecorino ~10g"
+      "grams": "~33",
+      "note": "per serving — intentionally below target; carbonara is a rich dish that doesn't take well to added protein. Serve with a light side if needed"
     },
     "tips": [
       {
@@ -5235,8 +5235,8 @@
       }
     ],
     "protein": {
-      "grams": "55–65",
-      "note": "per serving (2 of 3 servings from this batch)"
+      "grams": "~37",
+      "note": "per serving (2 of 3 servings from this batch) — below target; serve with black beans or a fried egg to push toward 50g"
     },
     "tips": [
       {
@@ -5715,7 +5715,7 @@
       }
     ],
     "protein": {
-      "grams": "45–50",
+      "grams": "50–55",
       "note": "per serving with 225g ground beef 90/10; add beans for another ~8g per serving"
     },
     "firstAttemptNotes": {
@@ -6805,8 +6805,8 @@
       }
     ],
     "protein": {
-      "grams": "50–60",
-      "note": "per serving (one large chicken breast)"
+      "grams": "~40",
+      "note": "per serving (one large chicken breast) — below target; pairs with jollof rice, add a fried egg or serve with beans to reach 50g"
     },
     "tips": [
       {
