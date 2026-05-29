@@ -453,10 +453,10 @@ function updateIngredients() {
   if (minus) minus.disabled = drawerServings <= 1;
   if (plus)  plus.disabled  = drawerServings >= 10;
 
-  // Rescale macros
+  // Macros always show per-serving — do not rescale with servings count
   const macrosBox = document.getElementById('macrosBox');
   if (macrosBox && drawerRecipe.computedMacros) {
-    macrosBox.innerHTML = renderMacroValues(drawerRecipe.computedMacros, scale);
+    macrosBox.innerHTML = renderMacroValues(drawerRecipe.computedMacros, 1);
   }
 }
 
