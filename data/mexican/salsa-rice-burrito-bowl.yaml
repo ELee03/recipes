@@ -34,10 +34,15 @@ ingredientGroups:
       - name: rice
         amount: 1 cup
         note: short-grain or long-grain parboiled both work
+      - name: tomato paste
+        amount: 1–2 tbsp
+        note: fry in the oil with garlic for 1–2 min before adding liquid — caramelizes it, kills the tinny taste, adds depth and color; same technique as jollof
       - name: medium salsa (Tostitos or similar)
         amount: ¾ cup
+        note: can push to 1 cup and reduce water to 1 cup for more salsa flavor — the salsa cooks down and integrates fully
       - name: water
         amount: 1¼ cups
+        note: reduce to 1 cup if using more salsa
       - name: onion
         amount: ½ medium
         note: diced
@@ -95,6 +100,7 @@ ingredientGroups:
 instructions:
   - step: In a pan over medium-high heat, cook ground beef, breaking it apart, until fully browned (~5–7 min). Drain fat; rinse under hot water if desired. Set aside.
   - step: Dice onion and mince garlic. Heat oil in a medium saucepan over medium heat. Add onion and cook until softened, about 4–5 minutes. Add garlic and cook 1 more minute until fragrant.
+  - step: Add the tomato paste and fry it in the oil with the aromatics for 1–2 minutes, stirring constantly — it should darken slightly and smell less sharp. This caramelizes the paste and is the main flavor-building step.
   - step: Add the uncooked rice and stir with the aromatics for 2 minutes to toast it — adds a subtle nuttiness.
   - step: Pour in the salsa, water, and all seasonings. Stir to combine and bring to a boil.
   - step: Reduce heat to low, cover, and cook until rice is done — about 18 minutes for long-grain, 20–22 for short-grain. Don't lift the lid while it cooks.
@@ -114,8 +120,10 @@ firstAttemptNotes:
 tips:
   - keyword: Salt
     text: Budget 1 tsp in the cooking liquid as a baseline, then taste during the rest and add up to ½ tsp more if needed. Rice absorbs salt heavily and the salsa contributes almost none — don't be shy. If it still tastes flat, try lime juice before adding more salt; missing acid often reads as blandness.
+  - keyword: Tomato paste
+    text: Don't skip the fry step — add the paste to the oil and cook it for 1–2 min before any liquid goes in. Raw tomato paste tastes tinny; fried paste tastes deep and savory. Same principle as jollof rice where it's the flavor foundation.
   - keyword: Rice ratio
-    text: Keep the salsa-to-water ratio consistent when scaling — roughly ¾ cup salsa to 1¼ cups water per cup of rice.
+    text: Base ratio is ¾ cup salsa to 1¼ cups water per cup of rice. For more salsa flavor, push to 1 cup salsa and 1 cup water — the salsa cooks down fully so there's no textural issue.
   - keyword: Oregano sub
     text: Not essential. Skip it, or substitute ½ tsp thyme, ½ tsp Italian seasoning, or a pinch of marjoram.
   - keyword: Rice type
