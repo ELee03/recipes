@@ -347,7 +347,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(recipes, f, ensure_ascii=False, indent=2)
 
-    print(f"✓ Built {len(recipes)} recipes → recipes.json")
+    print(f"Built {len(recipes)} recipes -> recipes.json")
 
     if errors:
         print(f"  ({len(errors)} file(s) skipped due to errors)")

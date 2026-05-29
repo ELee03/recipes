@@ -1,27 +1,28 @@
 [
   {
-    "id": "bulgogi",
-    "name": "Bulgogi (Korean Marinated Beef)",
+    "id": "spicy-korean-pork",
+    "name": "Spicy Korean Pork (돼지불고기)",
     "cuisine": "korean",
     "difficulty": "medium",
     "time": 55,
     "servings": 2,
     "methods": [
       "marinate",
-      "pan-fry"
+      "pan-fry",
+      "stir-fry"
     ],
     "tags": [
-      "high-protein",
-      "meal-prep"
+      "meal-prep",
+      "high-protein"
     ],
-    "description": "불고기 — the classic. Sweet, savory, lightly smoky — one of the most approachable Korean dishes to make at home. Goes over rice, in lettuce wraps, or just straight out of the pan. Use lean beef cuts and trim visible fat if you want to keep it light.\n",
+    "description": "돼지불고기 — thin pork strips in a bold, spicy-sweet marinade that caramelizes in a hot pan into something sticky and slightly charred at the edges. Where regular 불고기 is mild and family-friendly, this one brings the 고추장 heat front and center. Pork belly is the classic, richer choice; shoulder is leaner and still great. Ground pork skips the marinate time entirely and works on a busy weeknight. Serve over rice or in lettuce wraps with sesame seeds and green onion.\n",
     "keyIngredients": [
-      "beef",
+      "pork shoulder",
+      "gochujang",
+      "gochugaru",
       "soy sauce",
-      "sesame oil",
-      "Asian pear",
-      "garlic",
-      "ginger"
+      "mirin",
+      "sesame oil"
     ],
     "ingredientGroups": [
       {
@@ -30,13 +31,13 @@
         "actionNote": "mix together first",
         "ingredients": [
           {
-            "amount": "½",
-            "name": "Asian pear or apple",
-            "note": "grated; this is the tenderizer — don't skip it",
+            "amount": "2 tbsp",
+            "name": "gochujang",
+            "note": null,
             "alternatives": []
           },
           {
-            "amount": "3 tbsp",
+            "amount": "1 tbsp",
             "name": "soy sauce",
             "note": null,
             "alternatives": []
@@ -54,7 +55,879 @@
             "alternatives": []
           },
           {
-            "amount": "4 cloves",
+            "amount": "1 tbsp",
+            "name": "mirin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "gochugaru",
+            "note": "adjust to heat preference",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "jarred minced garlic",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "3 cloves",
+                "name": "fresh garlic, minced",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "ginger, grated or minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "jarred minced ginger",
+                "note": "or grate directly from a frozen knob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "toss in marinade and marinate at least 30 min",
+        "ingredients": [
+          {
+            "amount": "400g",
+            "name": "pork shoulder, thinly sliced",
+            "note": "lean, good caramelization — the everyday choice",
+            "alternatives": [
+              {
+                "amount": "400g",
+                "name": "pork belly, thinly sliced",
+                "note": "fattier, richer, more traditional; trim if you want it lighter"
+              },
+              {
+                "amount": "400g",
+                "name": "ground pork",
+                "note": "skip the marinate; cook pork first then add sauce — fastest version"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧄",
+        "label": "Aromatics",
+        "actionNote": "add to pan with the pork",
+        "ingredients": [
+          {
+            "amount": "½",
+            "name": "onion, thinly sliced",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "2",
+            "name": "green onions, white parts sliced; green parts reserved for garnish",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Garnish & Serving",
+        "actionNote": "serve alongside or on top",
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "green onion tops, sliced thin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame seeds",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "cooked rice",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "large lettuce leaves",
+                "note": "butter lettuce, romaine, or 깻잎 (perilla) for wraps"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Mix all marinade ingredients together in a bowl."
+      },
+      {
+        "step": "Slice pork thinly. Slice onion thinly. Slice green onions, reserving green parts for garnish. Add pork and onion to the marinade. Mix well so everything is coated. Marinate at least 30 min at room temperature, or overnight in the fridge."
+      },
+      {
+        "step": "Heat a large pan or wok over high heat until very hot. Add a small amount of neutral oil."
+      },
+      {
+        "step": "Add pork in a single layer — cook in batches if needed. Don't overcrowd or the meat steams instead of searing. Let it sit 1–2 min before moving to get some caramelization."
+      },
+      {
+        "step": "Stir-fry ~4–5 min total until cooked through and edges are slightly charred. Add white parts of green onion in the last minute."
+      },
+      {
+        "step": "Plate over rice or serve with lettuce wraps. Top with green onion and sesame seeds."
+      },
+      {
+        "section": "Ground Pork Version",
+        "steps": [
+          "Cook ground pork in a hot pan, breaking it apart, until fully cooked and any moisture has evaporated (~5 min).",
+          "Mix marinade ingredients and pour directly over the cooked pork. Stir-fry another 2–3 min until the sauce cooks down and coats everything."
+        ]
+      }
+    ],
+    "protein": {
+      "grams": "40–50",
+      "note": "per serving with pork shoulder; pork belly closer to 30–35g due to higher fat content; ground pork in between"
+    },
+    "tips": [
+      {
+        "keyword": "Thin slices are the whole point",
+        "text": "Thick slices won't caramelize the same way — the exterior dries out before the center cooks. Partially freeze the pork (~30 min) before slicing to make thin cuts much easier."
+      },
+      {
+        "keyword": "Pork shoulder vs. belly",
+        "text": "Shoulder is leaner and easier to keep light; belly is more indulgent. Neither is wrong — it just depends on what you're after that day."
+      },
+      {
+        "keyword": "Cook in batches",
+        "text": "One batch that sears beats two batches that steam. If the pan has too much moisture (steam rising), take some pork out and let the liquid cook off before adding it back."
+      },
+      {
+        "keyword": "Char is flavor",
+        "text": "A little dark caramelization on the edges is the goal — that's where all the sticky, sweet-spicy depth comes from. Don't be afraid of it."
+      },
+      {
+        "keyword": "Lettuce wraps cut the richness",
+        "text": "If pork belly feels heavy on its own, wrapping it in cool lettuce or 깻잎 (perilla) with rice balances it out perfectly."
+      },
+      {
+        "keyword": "Overnight marinate is noticeably better",
+        "text": "The gochujang and soy sauce penetrate deeper, and the pork softens slightly. If you have time, do it the night before."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 563,
+      "protein": 36.4,
+      "fat": 35.3,
+      "carbs": 23.9
+    }
+  },
+  {
+    "id": "gochujang-chicken-pasta",
+    "name": "고추장 Chicken Pasta",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 25,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "pan-sear",
+      "sauté"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "one-pan",
+      "no-marinate",
+      "fusion"
+    ],
+    "description": "A Korean-Italian mashup that actually works. 고추장 brings deep fermented heat, Greek yogurt keeps it creamy without heaviness. High protein, one pan (plus the pasta pot).\n",
+    "keyIngredients": [
+      "chicken breast",
+      "gochujang",
+      "Greek yogurt",
+      "pasta",
+      "soy sauce",
+      "garlic"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Bowl 1 — Sauce",
+        "actionNote": "mix together, set aside",
+        "ingredients": [
+          {
+            "amount": "1 tbsp",
+            "name": "gochujang",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "honey or sugar",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "Greek yogurt",
+            "note": "plain, full-fat or low-fat both work",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍗",
+        "label": "Protein",
+        "actionNote": "season and pan-sear before making the sauce",
+        "ingredients": [
+          {
+            "amount": "350–400g",
+            "name": "chicken breast",
+            "note": "sliced thin",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🧄",
+        "label": "Aromatics",
+        "actionNote": "go in the pan together",
+        "ingredients": [
+          {
+            "amount": "3–4 cloves",
+            "name": "garlic",
+            "note": "minced",
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "jarred minced garlic",
+                "note": "convenient substitute"
+              }
+            ]
+          },
+          {
+            "amount": "½",
+            "name": "onion",
+            "note": "diced",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍝",
+        "label": "Pasta",
+        "actionNote": "cook in salted water; reserve pasta water before draining",
+        "ingredients": [
+          {
+            "amount": "120–160g",
+            "name": "pasta",
+            "note": "rigatoni, cavatappi, or fusilli recommended; lower end for lighter days, higher end on training days",
+            "alternatives": []
+          },
+          {
+            "amount": "~3–4 tbsp",
+            "name": "pasta water",
+            "note": "reserve before draining",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍳",
+        "label": "Cooking",
+        "actionNote": "use as needed",
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "oil for cooking",
+            "note": "minimal",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Garnish",
+        "actionNote": "optional — add at plating",
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "green onion or sesame seeds",
+            "note": "optional",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Cook pasta in salted water. Reserve a cup of pasta water before draining."
+      },
+      {
+        "step": "Slice chicken thin against the grain. Season with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside."
+      },
+      {
+        "step": "Mince garlic and dice onion. In the same pan, sauté until softened (~2 min)."
+      },
+      {
+        "step": "Add gochujang, soy sauce, and honey. Stir and cook 1 min."
+      },
+      {
+        "step": "Lower heat to medium-low. Add Greek yogurt and pasta water. Stir until a smooth sauce forms — don't let it boil or the yogurt will break."
+      },
+      {
+        "step": "Add pasta and chicken back in. Toss to coat. Add more pasta water if too thick."
+      },
+      {
+        "step": "Plate and top with green onion or sesame seeds if using."
+      }
+    ],
+    "protein": {
+      "grams": "55–65",
+      "note": "per serving with 350–400g chicken breast total + Greek yogurt"
+    },
+    "tips": [
+      {
+        "keyword": "thin-sliced chicken",
+        "text": "Thin-sliced chicken cooks faster and stays tender. Slice against the grain."
+      },
+      {
+        "keyword": "pasta water",
+        "text": "Don't skip the pasta water — it's the glue that binds the sauce."
+      },
+      {
+        "keyword": "gochujang heat",
+        "text": "고추장 varies in heat level by brand; taste and adjust."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": "2026-05-28",
+      "notes": [
+        "Made 4 servings (doubled). Sauce came out saucy and well-coated, not paste-like — consistency was good.",
+        "Gochujang was roughly as specified. Soy sauce was more than specified. Honey was significantly more — added by taste until it balanced out.",
+        "Was noticeably salty until the extra honey brought it into balance. The written soy sauce amount may be fine but watch it — with any extra it tips salty fast. Honey is the fix.",
+        "Tasted good overall once the honey was dialed in. Consider reducing soy sauce slightly next time and tasting before adding honey, to see if the base recipe needs adjustment."
+      ]
+    },
+    "computedMacros": {
+      "cal": 619,
+      "protein": 70.9,
+      "fat": 8.0,
+      "carbs": 62.0
+    }
+  },
+  {
+    "id": "gochujang-glazed-salmon",
+    "name": "고추장 Glazed Salmon",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "pan-sear",
+      "air-fry",
+      "broil"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "no-marinate",
+      "air-fryer"
+    ],
+    "description": "High-protein, weeknight-fast, and genuinely impressive-looking for how little effort it takes. The 고추장 glaze — sweet, spicy, fermented — caramelizes against the salmon's natural fat to form a sticky, deeply savory crust. Serve over rice with a pile of green onion and you have a full meal in 20 minutes. The only real risk here is burning the glaze: keep the heat at medium, not high, and watch the last couple minutes closely.\n",
+    "keyIngredients": [
+      "salmon",
+      "gochujang",
+      "soy sauce",
+      "honey",
+      "sesame oil",
+      "mirin",
+      "garlic"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Bowl 1 — Glaze",
+        "actionNote": "mix together, set aside",
+        "ingredients": [
+          {
+            "amount": "2 tbsp",
+            "name": "gochujang",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "honey",
+            "note": "or sugar",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "sesame oil",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "jarred minced garlic",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "2 cloves",
+                "name": "fresh garlic",
+                "note": "minced"
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "mirin",
+            "note": "optional — adds gloss and a little sweetness",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🐟",
+        "label": "Protein",
+        "actionNote": "pat dry before cooking — moisture is the enemy of a good sear",
+        "ingredients": [
+          {
+            "amount": "2 fillets (~150–180g each)",
+            "name": "salmon",
+            "note": "skin-on or off — skin-on is easier to handle",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍚",
+        "label": "Serving",
+        "actionNote": "serve the salmon on top",
+        "ingredients": [
+          {
+            "amount": "2 portions",
+            "name": "cooked rice",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Garnish",
+        "actionNote": "add at plating",
+        "ingredients": [
+          {
+            "amount": "2–3",
+            "name": "green onions",
+            "note": "thinly sliced",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame seeds",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "lemon or lime wedge",
+            "note": "optional",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "section": "Pan-sear (recommended)",
+        "steps": [
+          "Pat salmon dry with paper towel — moisture is the enemy of a good sear. Season lightly with a pinch of salt and pepper.",
+          "Mix glaze ingredients together.",
+          "Heat a pan over medium heat with a thin film of neutral oil.",
+          "Place salmon skin-side down (if skin-on) and cook ~4 min without moving.",
+          "Flip. Spoon or brush half the glaze over the cooked side.",
+          "Cook another 2 min. Add remaining glaze and let it bubble and caramelize ~1 min, tilting the pan to baste. Watch it — the sugar burns fast at this stage.",
+          "Rest 1–2 min before serving."
+        ]
+      },
+      {
+        "section": "Air fryer",
+        "steps": [
+          "Pat salmon dry. Brush glaze generously on top and sides.",
+          "Air fry at 200°C (390°F) for 8–10 min depending on thickness. No flipping needed. Check at 8 min."
+        ]
+      },
+      {
+        "section": "Broil",
+        "steps": [
+          "Pat salmon dry. Place on a foil-lined baking sheet. Brush glaze generously on top.",
+          "Broil on a rack ~15cm from the element for 8–10 min. Watch closely in the last 2 min — the glaze can char quickly."
+        ]
+      },
+      {
+        "section": "To serve",
+        "steps": [
+          "Thinly slice green onions. Place salmon over rice. Spoon any pan glaze over the top. Finish with green onion, sesame seeds, and a squeeze of citrus if you have it."
+        ]
+      }
+    ],
+    "protein": {
+      "grams": "45–55",
+      "note": "per serving with 2 fillets (~150–180g each); salmon is also rich in omega-3s and remains filling without being heavy"
+    },
+    "tips": [
+      {
+        "keyword": "Medium heat, not high",
+        "text": "The gochujang has sugar in it and the glaze scorches fast. If you see it going dark too quickly, pull the pan off the heat for a few seconds."
+      },
+      {
+        "keyword": "Pat the salmon dry",
+        "text": "This is the difference between a sear and a steam. Takes 10 seconds and matters a lot."
+      },
+      {
+        "keyword": "Skin-on fillets are more forgiving",
+        "text": "The skin acts as a buffer — harder to overcook the flesh. Peel it off on the plate if you don't like eating it."
+      },
+      {
+        "keyword": "Don't skip the rest",
+        "text": "1–2 min off heat lets the carryover cooking finish gently and keeps the fish from falling apart on the plate."
+      },
+      {
+        "keyword": "Frozen salmon works fine",
+        "text": "Thaw overnight in the fridge or under cold running water. Salmon is one of the best freezer proteins."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 683,
+      "protein": 40.0,
+      "fat": 24.5,
+      "carbs": 70.2
+    }
+  },
+  {
+    "id": "kimchi-fried-rice",
+    "name": "김치 Fried Rice",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 15,
+    "servings": 2,
+    "methods": [
+      "pan-fry",
+      "stir-fry"
+    ],
+    "tags": [
+      "quick",
+      "meal-prep",
+      "one-pan",
+      "pantry-friendly"
+    ],
+    "description": "The ultimate use-what-you-have Korean meal — deeply savory, a little spicy, and endlessly flexible depending on what protein you throw in. Day-old rice is non-negotiable here: fresh rice is too wet and steams instead of frying, giving you mush instead of the slightly crispy, individual grains you want. 고추장 adds fermented depth, 김치 juice does the heavy lifting on seasoning, and a fried egg on top turns it into a complete meal.\n",
+    "keyIngredients": [
+      "kimchi",
+      "day-old rice",
+      "gochujang",
+      "soy sauce",
+      "sesame oil",
+      "kimchi juice",
+      "egg"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Bowl 1 — Sauce",
+        "actionNote": "mix together, set aside",
+        "ingredients": [
+          {
+            "amount": "1 tbsp",
+            "name": "gochujang",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "sesame oil",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "sugar or honey",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍚",
+        "label": "Rice & Kimchi",
+        "actionNote": "the base — have ready before cooking starts",
+        "ingredients": [
+          {
+            "amount": "2 cups",
+            "name": "cooked rice",
+            "note": "day-old, refrigerated overnight — this is essential",
+            "alternatives": []
+          },
+          {
+            "amount": "¾ cup",
+            "name": "kimchi",
+            "note": "roughly chopped",
+            "alternatives": []
+          },
+          {
+            "amount": "3–4 tbsp",
+            "name": "kimchi juice",
+            "note": "from the jar — the best free seasoning you have",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🧄",
+        "label": "Aromatics",
+        "actionNote": "cooked first",
+        "ingredients": [
+          {
+            "amount": "½",
+            "name": "onion",
+            "note": "diced",
+            "alternatives": []
+          },
+          {
+            "amount": 2,
+            "name": "green onions",
+            "note": "white parts sliced thin; green parts reserved for garnish",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "jarred minced garlic",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "2 cloves",
+                "name": "fresh garlic",
+                "note": "minced"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Optional Protein",
+        "actionNote": "add early — cook through before rice goes in",
+        "ingredients": [
+          {
+            "amount": "~100g",
+            "name": "diced SPAM, bacon, leftover cooked meat, or canned tuna",
+            "note": "any protein works; tuna should be drained well",
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "skip protein",
+                "note": "still filling with an egg on top for a vegetarian version"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Garnish & Finish",
+        "actionNote": "add at plating after heat is off",
+        "ingredients": [
+          {
+            "amount": "1–2",
+            "name": "fried eggs",
+            "note": "one per serving — cook separately",
+            "alternatives": []
+          },
+          {
+            "amount": 2,
+            "name": "green onion tops",
+            "note": "sliced",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame seeds",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame oil",
+            "note": "a few drops to finish",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Heat a pan or wok over medium-high heat. Add a neutral oil (or a little from the kimchi jar)."
+      },
+      {
+        "step": "If using protein, cook it first until browned. Remove and set aside."
+      },
+      {
+        "step": "Dice onion. Slice green onions, separating white and green parts. Roughly chop kimchi. Sauté onion and garlic until translucent, ~2 min. Add the white parts of green onion."
+      },
+      {
+        "step": "Add kimchi and cook ~2 min until it starts to caramelize slightly on the edges."
+      },
+      {
+        "step": "Push everything to the side. Add the cold rice to the pan and break it up with a spatula. Let it sit untouched ~1 min to get a little crust, then toss everything together."
+      },
+      {
+        "step": "Add the sauce and kimchi juice. Stir-fry 2–3 min until everything is well-coated and the rice looks glossy. Add protein back in and toss."
+      },
+      {
+        "step": "Turn off heat. Drizzle a little sesame oil and toss one more time."
+      },
+      {
+        "step": "Fry eggs separately to your liking (runny yolk is classic). Plate rice, top with fried egg, green onion tops, and sesame seeds."
+      }
+    ],
+    "protein": {
+      "grams": "30–40",
+      "note": "per serving with egg + SPAM or canned tuna; ~20–25g with egg only; double the protein or add two eggs to push higher"
+    },
+    "tips": [
+      {
+        "keyword": "Day-old rice is the whole game",
+        "text": "Fresh rice has too much moisture — it steams and clumps instead of frying. Always make extra rice the night before if you're planning this."
+      },
+      {
+        "keyword": "Kimchi juice is free seasoning",
+        "text": "Don't skip it — it adds acidity, heat, and fermented funk that you can't replicate any other way."
+      },
+      {
+        "keyword": "Don't crowd the pan",
+        "text": "If you add rice and there's too much steam, the rice won't crisp. Wok or large skillet at high heat is ideal."
+      },
+      {
+        "keyword": "Taste before adding salt",
+        "text": "Kimchi juice and soy sauce together are usually enough — add more only if needed."
+      },
+      {
+        "keyword": "Runny yolk = sauce",
+        "text": "Breaking a runny yolk over fried rice is the move. Hard yolk is fine but you miss the richness."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 403,
+      "protein": 14.0,
+      "fat": 7.9,
+      "carbs": 68.4
+    }
+  },
+  {
+    "id": "kimchi-tuna-pasta",
+    "name": "김치 Tuna Pasta",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "sauté"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "one-pan",
+      "no-marinate",
+      "pantry-friendly",
+      "fusion"
+    ],
+    "description": "Fast, cheap, and punchy. 김치 does most of the flavoring work — sour, fermented, spicy. Tuna keeps it high-protein with zero fuss. One of the best \"nothing in the fridge\" meals.\n",
+    "keyIngredients": [
+      "tuna",
+      "kimchi",
+      "pasta",
+      "gochujang",
+      "soy sauce",
+      "sesame oil",
+      "garlic"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🐟",
+        "label": "Protein",
+        "actionNote": "drain well before adding to the pan",
+        "ingredients": [
+          {
+            "amount": "1 can (~150g)",
+            "name": "tuna in water",
+            "note": "drained",
+            "alternatives": [
+              {
+                "amount": "2 cans",
+                "name": "tuna in water",
+                "note": "use two cans to boost protein"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥬",
+        "label": "Pan additions",
+        "actionNote": "added in sequence during cooking",
+        "ingredients": [
+          {
+            "amount": "100–150g",
+            "name": "kimchi",
+            "note": "roughly chopped; use well-fermented kimchi for better flavor",
+            "alternatives": []
+          },
+          {
+            "amount": "3–4 cloves",
             "name": "garlic",
             "note": "minced",
             "alternatives": [
@@ -67,95 +940,58 @@
           },
           {
             "amount": "1 tsp",
-            "name": "ginger",
-            "note": "grated",
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "jarred minced ginger",
-                "note": "or freeze a knob and grate from frozen"
-              }
-            ]
-          },
-          {
-            "amount": null,
-            "name": "black pepper",
-            "note": "to taste",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🥩",
-        "label": "Protein & aromatics",
-        "actionNote": "add to marinade, toss well, marinate 30 min–overnight",
-        "ingredients": [
-          {
-            "amount": "300g",
-            "name": "beef",
-            "note": "ribeye, sirloin, or any thin-sliced cut",
-            "alternatives": [
-              {
-                "amount": "300g",
-                "name": "bulgogi-cut beef from Korean grocery store",
-                "note": "comes pre-sliced, saves a lot of work"
-              }
-            ]
-          },
-          {
-            "amount": "½",
-            "name": "onion",
-            "note": "thinly sliced",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Garnish",
-        "actionNote": "add just before serving",
-        "ingredients": [
-          {
-            "amount": 2,
-            "name": "green onions",
-            "note": "chopped",
+            "name": "gochujang",
+            "note": "optional, for more heat",
             "alternatives": []
           },
           {
-            "amount": null,
-            "name": "sesame seeds",
+            "amount": "1 tsp",
+            "name": "soy sauce",
             "note": null,
             "alternatives": []
           }
         ]
       },
       {
-        "emoji": "🍽️",
-        "label": "Serving",
-        "actionNote": "optional accompaniments for serving",
+        "emoji": "🍝",
+        "label": "Pasta",
+        "actionNote": "cook in salted water; reserve pasta water before draining",
+        "ingredients": [
+          {
+            "amount": "120g",
+            "name": "pasta",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "~3–4 tbsp",
+            "name": "pasta water",
+            "note": "reserve before draining",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Finish & garnish",
+        "actionNote": "add at the end after heat is off or just before serving",
         "ingredients": [
           {
             "amount": null,
-            "name": "rice",
-            "note": "optional",
+            "name": "sesame oil",
+            "note": "a few drops at the end",
+            "alternatives": []
+          },
+          {
+            "amount": 1,
+            "name": "egg",
+            "note": "soft poached or soft-boiled; optional but great",
             "alternatives": []
           },
           {
             "amount": null,
-            "name": "lettuce leaves",
-            "note": "optional — for wraps",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "perilla (kkaennip)",
-            "note": "optional",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "sliced chili",
-            "note": "optional",
+            "name": "green onion",
+            "note": null,
             "alternatives": []
           }
         ]
@@ -163,37 +999,40 @@
     ],
     "instructions": [
       {
-        "step": "If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain. Slice onion thinly."
+        "step": "Cook pasta in salted water. Reserve pasta water before draining."
       },
       {
-        "step": "Grate Asian pear/apple. Mince garlic and grate ginger. Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper."
+        "step": "Mince garlic. Roughly chop kimchi. In a pan over medium heat, add a small amount of oil. Sauté garlic ~1 min."
       },
       {
-        "step": "Add beef and onion. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better."
+        "step": "Add kimchi and cook 2–3 min until slightly caramelized and fragrant."
       },
       {
-        "step": "Cook in a hot pan (or grill) in batches — don't overcrowd or it steams instead of sears. High heat, quick cook, ~2–3 min per batch."
+        "step": "Add tuna, gochujang if using, and soy sauce. Stir and cook another 1–2 min."
       },
       {
-        "step": "Chop green onions. Finish with sesame seeds and green onion. Serve over rice."
+        "step": "Add pasta and pasta water. Toss everything together."
+      },
+      {
+        "step": "Finish with a few drops of sesame oil. Top with soft egg and green onion."
       }
     ],
     "protein": {
-      "grams": "50–55",
-      "note": "per serving; pair with a fried egg or tofu side for more"
+      "grams": "45–55",
+      "note": "per serving with tuna + egg; use two cans of tuna to push higher"
     },
     "tips": [
       {
-        "keyword": "pear/apple tenderizer",
-        "text": "The pear/apple is not optional — the enzymes genuinely tenderize the beef. No good substitutes."
+        "keyword": "well-fermented 김치",
+        "text": "Well-fermented 김치 (older, sour) is better here than fresh — it has more depth."
       },
       {
-        "keyword": "pre-cut beef",
-        "text": "Korean grocery stores sell pre-cut bulgogi beef which saves a lot of time."
+        "keyword": "rinsing tuna",
+        "text": "Don't over-rinse the tuna. You want some brine for flavor."
       },
       {
-        "keyword": "hot dry pan",
-        "text": "Cook in a very hot, dry pan (or cast iron) for the best caramelization. A little char is good."
+        "keyword": "egg on top",
+        "text": "The egg on top is optional but transforms the dish — break it into the hot pasta."
       }
     ],
     "firstAttemptNotes": {
@@ -201,15 +1040,15 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 542,
-      "protein": 42.4,
-      "fat": 29.8,
-      "carbs": 24.9
+      "cal": 376,
+      "protein": 33.0,
+      "fat": 5.1,
+      "carbs": 49.1
     }
   },
   {
     "id": "dakgalbi",
-    "name": "Dakgalbi (Korean Spicy Stir-Fried Chicken)",
+    "name": "닭갈비 (Korean Spicy Stir-Fried Chicken)",
     "cuisine": "korean",
     "difficulty": "medium",
     "time": 40,
@@ -404,7 +1243,7 @@
   },
   {
     "id": "doenjang-butter-pasta",
-    "name": "Doenjang Butter Pasta",
+    "name": "된장 Butter Pasta",
     "cuisine": "korean",
     "difficulty": "easy",
     "time": 20,
@@ -650,840 +1489,28 @@
     }
   },
   {
-    "id": "gochujang-chicken-pasta",
-    "name": "Gochujang Chicken Pasta",
-    "cuisine": "korean",
-    "difficulty": "easy",
-    "time": 25,
-    "servings": 2,
-    "methods": [
-      "boil",
-      "pan-sear",
-      "sauté"
-    ],
-    "tags": [
-      "quick",
-      "high-protein",
-      "one-pan",
-      "no-marinate",
-      "fusion"
-    ],
-    "description": "A Korean-Italian mashup that actually works. 고추장 brings deep fermented heat, Greek yogurt keeps it creamy without heaviness. High protein, one pan (plus the pasta pot).\n",
-    "keyIngredients": [
-      "chicken breast",
-      "gochujang",
-      "Greek yogurt",
-      "pasta",
-      "soy sauce",
-      "garlic"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🫙",
-        "label": "Bowl 1 — Sauce",
-        "actionNote": "mix together, set aside",
-        "ingredients": [
-          {
-            "amount": "1 tbsp",
-            "name": "gochujang",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tbsp",
-            "name": "soy sauce",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "honey or sugar",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "2–3 tbsp",
-            "name": "Greek yogurt",
-            "note": "plain, full-fat or low-fat both work",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍗",
-        "label": "Protein",
-        "actionNote": "season and pan-sear before making the sauce",
-        "ingredients": [
-          {
-            "amount": "350–400g",
-            "name": "chicken breast",
-            "note": "sliced thin",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🧄",
-        "label": "Aromatics",
-        "actionNote": "go in the pan together",
-        "ingredients": [
-          {
-            "amount": "3–4 cloves",
-            "name": "garlic",
-            "note": "minced",
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "jarred minced garlic",
-                "note": "convenient substitute"
-              }
-            ]
-          },
-          {
-            "amount": "½",
-            "name": "onion",
-            "note": "diced",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍝",
-        "label": "Pasta",
-        "actionNote": "cook in salted water; reserve pasta water before draining",
-        "ingredients": [
-          {
-            "amount": "120–160g",
-            "name": "pasta",
-            "note": "rigatoni, cavatappi, or fusilli recommended; lower end for lighter days, higher end on training days",
-            "alternatives": []
-          },
-          {
-            "amount": "~3–4 tbsp",
-            "name": "pasta water",
-            "note": "reserve before draining",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍳",
-        "label": "Cooking",
-        "actionNote": "use as needed",
-        "ingredients": [
-          {
-            "amount": null,
-            "name": "oil for cooking",
-            "note": "minimal",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Garnish",
-        "actionNote": "optional — add at plating",
-        "ingredients": [
-          {
-            "amount": null,
-            "name": "green onion or sesame seeds",
-            "note": "optional",
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "step": "Cook pasta in salted water. Reserve a cup of pasta water before draining."
-      },
-      {
-        "step": "Slice chicken thin against the grain. Season with a pinch of salt. Pan-sear in a lightly oiled pan over medium-high until cooked through (~4–5 min). Set aside."
-      },
-      {
-        "step": "Mince garlic and dice onion. In the same pan, sauté until softened (~2 min)."
-      },
-      {
-        "step": "Add gochujang, soy sauce, and honey. Stir and cook 1 min."
-      },
-      {
-        "step": "Lower heat to medium-low. Add Greek yogurt and pasta water. Stir until a smooth sauce forms — don't let it boil or the yogurt will break."
-      },
-      {
-        "step": "Add pasta and chicken back in. Toss to coat. Add more pasta water if too thick."
-      },
-      {
-        "step": "Plate and top with green onion or sesame seeds if using."
-      }
-    ],
-    "protein": {
-      "grams": "55–65",
-      "note": "per serving with 350–400g chicken breast total + Greek yogurt"
-    },
-    "tips": [
-      {
-        "keyword": "thin-sliced chicken",
-        "text": "Thin-sliced chicken cooks faster and stays tender. Slice against the grain."
-      },
-      {
-        "keyword": "pasta water",
-        "text": "Don't skip the pasta water — it's the glue that binds the sauce."
-      },
-      {
-        "keyword": "gochujang heat",
-        "text": "고추장 varies in heat level by brand; taste and adjust."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": "2026-05-28",
-      "notes": [
-        "Made 4 servings (doubled). Sauce came out saucy and well-coated, not paste-like — consistency was good.",
-        "Gochujang was roughly as specified. Soy sauce was more than specified. Honey was significantly more — added by taste until it balanced out.",
-        "Was noticeably salty until the extra honey brought it into balance. The written soy sauce amount may be fine but watch it — with any extra it tips salty fast. Honey is the fix.",
-        "Tasted good overall once the honey was dialed in. Consider reducing soy sauce slightly next time and tasting before adding honey, to see if the base recipe needs adjustment."
-      ]
-    },
-    "computedMacros": {
-      "cal": 619,
-      "protein": 70.9,
-      "fat": 8.0,
-      "carbs": 62.0
-    }
-  },
-  {
-    "id": "gochujang-glazed-salmon",
-    "name": "Gochujang Glazed Salmon",
-    "cuisine": "korean",
-    "difficulty": "easy",
-    "time": 20,
-    "servings": 2,
-    "methods": [
-      "pan-sear",
-      "air-fry",
-      "broil"
-    ],
-    "tags": [
-      "quick",
-      "high-protein",
-      "no-marinate",
-      "air-fryer"
-    ],
-    "description": "High-protein, weeknight-fast, and genuinely impressive-looking for how little effort it takes. The 고추장 glaze — sweet, spicy, fermented — caramelizes against the salmon's natural fat to form a sticky, deeply savory crust. Serve over rice with a pile of green onion and you have a full meal in 20 minutes. The only real risk here is burning the glaze: keep the heat at medium, not high, and watch the last couple minutes closely.\n",
-    "keyIngredients": [
-      "salmon",
-      "gochujang",
-      "soy sauce",
-      "honey",
-      "sesame oil",
-      "mirin",
-      "garlic"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🫙",
-        "label": "Bowl 1 — Glaze",
-        "actionNote": "mix together, set aside",
-        "ingredients": [
-          {
-            "amount": "2 tbsp",
-            "name": "gochujang",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tbsp",
-            "name": "soy sauce",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tbsp",
-            "name": "honey",
-            "note": "or sugar",
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "sesame oil",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "jarred minced garlic",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "2 cloves",
-                "name": "fresh garlic",
-                "note": "minced"
-              }
-            ]
-          },
-          {
-            "amount": "1 tsp",
-            "name": "mirin",
-            "note": "optional — adds gloss and a little sweetness",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🐟",
-        "label": "Protein",
-        "actionNote": "pat dry before cooking — moisture is the enemy of a good sear",
-        "ingredients": [
-          {
-            "amount": "2 fillets (~150–180g each)",
-            "name": "salmon",
-            "note": "skin-on or off — skin-on is easier to handle",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍚",
-        "label": "Serving",
-        "actionNote": "serve the salmon on top",
-        "ingredients": [
-          {
-            "amount": "2 portions",
-            "name": "cooked rice",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Garnish",
-        "actionNote": "add at plating",
-        "ingredients": [
-          {
-            "amount": "2–3",
-            "name": "green onions",
-            "note": "thinly sliced",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "sesame seeds",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "lemon or lime wedge",
-            "note": "optional",
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "section": "Pan-sear (recommended)",
-        "steps": [
-          "Pat salmon dry with paper towel — moisture is the enemy of a good sear. Season lightly with a pinch of salt and pepper.",
-          "Mix glaze ingredients together.",
-          "Heat a pan over medium heat with a thin film of neutral oil.",
-          "Place salmon skin-side down (if skin-on) and cook ~4 min without moving.",
-          "Flip. Spoon or brush half the glaze over the cooked side.",
-          "Cook another 2 min. Add remaining glaze and let it bubble and caramelize ~1 min, tilting the pan to baste. Watch it — the sugar burns fast at this stage.",
-          "Rest 1–2 min before serving."
-        ]
-      },
-      {
-        "section": "Air fryer",
-        "steps": [
-          "Pat salmon dry. Brush glaze generously on top and sides.",
-          "Air fry at 200°C (390°F) for 8–10 min depending on thickness. No flipping needed. Check at 8 min."
-        ]
-      },
-      {
-        "section": "Broil",
-        "steps": [
-          "Pat salmon dry. Place on a foil-lined baking sheet. Brush glaze generously on top.",
-          "Broil on a rack ~15cm from the element for 8–10 min. Watch closely in the last 2 min — the glaze can char quickly."
-        ]
-      },
-      {
-        "section": "To serve",
-        "steps": [
-          "Thinly slice green onions. Place salmon over rice. Spoon any pan glaze over the top. Finish with green onion, sesame seeds, and a squeeze of citrus if you have it."
-        ]
-      }
-    ],
-    "protein": {
-      "grams": "45–55",
-      "note": "per serving with 2 fillets (~150–180g each); salmon is also rich in omega-3s and remains filling without being heavy"
-    },
-    "tips": [
-      {
-        "keyword": "Medium heat, not high",
-        "text": "The gochujang has sugar in it and the glaze scorches fast. If you see it going dark too quickly, pull the pan off the heat for a few seconds."
-      },
-      {
-        "keyword": "Pat the salmon dry",
-        "text": "This is the difference between a sear and a steam. Takes 10 seconds and matters a lot."
-      },
-      {
-        "keyword": "Skin-on fillets are more forgiving",
-        "text": "The skin acts as a buffer — harder to overcook the flesh. Peel it off on the plate if you don't like eating it."
-      },
-      {
-        "keyword": "Don't skip the rest",
-        "text": "1–2 min off heat lets the carryover cooking finish gently and keeps the fish from falling apart on the plate."
-      },
-      {
-        "keyword": "Frozen salmon works fine",
-        "text": "Thaw overnight in the fridge or under cold running water. Salmon is one of the best freezer proteins."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 683,
-      "protein": 40.0,
-      "fat": 24.5,
-      "carbs": 70.2
-    }
-  },
-  {
-    "id": "kimchi-fried-rice",
-    "name": "Kimchi Fried Rice",
-    "cuisine": "korean",
-    "difficulty": "easy",
-    "time": 15,
-    "servings": 2,
-    "methods": [
-      "pan-fry",
-      "stir-fry"
-    ],
-    "tags": [
-      "quick",
-      "meal-prep",
-      "one-pan",
-      "pantry-friendly"
-    ],
-    "description": "The ultimate use-what-you-have Korean meal — deeply savory, a little spicy, and endlessly flexible depending on what protein you throw in. Day-old rice is non-negotiable here: fresh rice is too wet and steams instead of frying, giving you mush instead of the slightly crispy, individual grains you want. 고추장 adds fermented depth, 김치 juice does the heavy lifting on seasoning, and a fried egg on top turns it into a complete meal.\n",
-    "keyIngredients": [
-      "kimchi",
-      "day-old rice",
-      "gochujang",
-      "soy sauce",
-      "sesame oil",
-      "kimchi juice",
-      "egg"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🫙",
-        "label": "Bowl 1 — Sauce",
-        "actionNote": "mix together, set aside",
-        "ingredients": [
-          {
-            "amount": "1 tbsp",
-            "name": "gochujang",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tbsp",
-            "name": "soy sauce",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "sesame oil",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "sugar or honey",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍚",
-        "label": "Rice & Kimchi",
-        "actionNote": "the base — have ready before cooking starts",
-        "ingredients": [
-          {
-            "amount": "2 cups",
-            "name": "cooked rice",
-            "note": "day-old, refrigerated overnight — this is essential",
-            "alternatives": []
-          },
-          {
-            "amount": "¾ cup",
-            "name": "kimchi",
-            "note": "roughly chopped",
-            "alternatives": []
-          },
-          {
-            "amount": "3–4 tbsp",
-            "name": "kimchi juice",
-            "note": "from the jar — the best free seasoning you have",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🧄",
-        "label": "Aromatics",
-        "actionNote": "cooked first",
-        "ingredients": [
-          {
-            "amount": "½",
-            "name": "onion",
-            "note": "diced",
-            "alternatives": []
-          },
-          {
-            "amount": 2,
-            "name": "green onions",
-            "note": "white parts sliced thin; green parts reserved for garnish",
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "jarred minced garlic",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "2 cloves",
-                "name": "fresh garlic",
-                "note": "minced"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🥩",
-        "label": "Optional Protein",
-        "actionNote": "add early — cook through before rice goes in",
-        "ingredients": [
-          {
-            "amount": "~100g",
-            "name": "diced SPAM, bacon, leftover cooked meat, or canned tuna",
-            "note": "any protein works; tuna should be drained well",
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "skip protein",
-                "note": "still filling with an egg on top for a vegetarian version"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Garnish & Finish",
-        "actionNote": "add at plating after heat is off",
-        "ingredients": [
-          {
-            "amount": "1–2",
-            "name": "fried eggs",
-            "note": "one per serving — cook separately",
-            "alternatives": []
-          },
-          {
-            "amount": 2,
-            "name": "green onion tops",
-            "note": "sliced",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "sesame seeds",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "sesame oil",
-            "note": "a few drops to finish",
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "step": "Heat a pan or wok over medium-high heat. Add a neutral oil (or a little from the kimchi jar)."
-      },
-      {
-        "step": "If using protein, cook it first until browned. Remove and set aside."
-      },
-      {
-        "step": "Dice onion. Slice green onions, separating white and green parts. Roughly chop kimchi. Sauté onion and garlic until translucent, ~2 min. Add the white parts of green onion."
-      },
-      {
-        "step": "Add kimchi and cook ~2 min until it starts to caramelize slightly on the edges."
-      },
-      {
-        "step": "Push everything to the side. Add the cold rice to the pan and break it up with a spatula. Let it sit untouched ~1 min to get a little crust, then toss everything together."
-      },
-      {
-        "step": "Add the sauce and kimchi juice. Stir-fry 2–3 min until everything is well-coated and the rice looks glossy. Add protein back in and toss."
-      },
-      {
-        "step": "Turn off heat. Drizzle a little sesame oil and toss one more time."
-      },
-      {
-        "step": "Fry eggs separately to your liking (runny yolk is classic). Plate rice, top with fried egg, green onion tops, and sesame seeds."
-      }
-    ],
-    "protein": {
-      "grams": "30–40",
-      "note": "per serving with egg + SPAM or canned tuna; ~20–25g with egg only; double the protein or add two eggs to push higher"
-    },
-    "tips": [
-      {
-        "keyword": "Day-old rice is the whole game",
-        "text": "Fresh rice has too much moisture — it steams and clumps instead of frying. Always make extra rice the night before if you're planning this."
-      },
-      {
-        "keyword": "Kimchi juice is free seasoning",
-        "text": "Don't skip it — it adds acidity, heat, and fermented funk that you can't replicate any other way."
-      },
-      {
-        "keyword": "Don't crowd the pan",
-        "text": "If you add rice and there's too much steam, the rice won't crisp. Wok or large skillet at high heat is ideal."
-      },
-      {
-        "keyword": "Taste before adding salt",
-        "text": "Kimchi juice and soy sauce together are usually enough — add more only if needed."
-      },
-      {
-        "keyword": "Runny yolk = sauce",
-        "text": "Breaking a runny yolk over fried rice is the move. Hard yolk is fine but you miss the richness."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 403,
-      "protein": 14.0,
-      "fat": 7.9,
-      "carbs": 68.4
-    }
-  },
-  {
-    "id": "kimchi-tuna-pasta",
-    "name": "Kimchi Tuna Pasta",
-    "cuisine": "korean",
-    "difficulty": "easy",
-    "time": 20,
-    "servings": 2,
-    "methods": [
-      "boil",
-      "sauté"
-    ],
-    "tags": [
-      "quick",
-      "high-protein",
-      "one-pan",
-      "no-marinate",
-      "pantry-friendly",
-      "fusion"
-    ],
-    "description": "Fast, cheap, and punchy. 김치 does most of the flavoring work — sour, fermented, spicy. Tuna keeps it high-protein with zero fuss. One of the best \"nothing in the fridge\" meals.\n",
-    "keyIngredients": [
-      "tuna",
-      "kimchi",
-      "pasta",
-      "gochujang",
-      "soy sauce",
-      "sesame oil",
-      "garlic"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🐟",
-        "label": "Protein",
-        "actionNote": "drain well before adding to the pan",
-        "ingredients": [
-          {
-            "amount": "1 can (~150g)",
-            "name": "tuna in water",
-            "note": "drained",
-            "alternatives": [
-              {
-                "amount": "2 cans",
-                "name": "tuna in water",
-                "note": "use two cans to boost protein"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🥬",
-        "label": "Pan additions",
-        "actionNote": "added in sequence during cooking",
-        "ingredients": [
-          {
-            "amount": "100–150g",
-            "name": "kimchi",
-            "note": "roughly chopped; use well-fermented kimchi for better flavor",
-            "alternatives": []
-          },
-          {
-            "amount": "3–4 cloves",
-            "name": "garlic",
-            "note": "minced",
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "jarred minced garlic",
-                "note": "convenient substitute"
-              }
-            ]
-          },
-          {
-            "amount": "1 tsp",
-            "name": "gochujang",
-            "note": "optional, for more heat",
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "soy sauce",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍝",
-        "label": "Pasta",
-        "actionNote": "cook in salted water; reserve pasta water before draining",
-        "ingredients": [
-          {
-            "amount": "120g",
-            "name": "pasta",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "~3–4 tbsp",
-            "name": "pasta water",
-            "note": "reserve before draining",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Finish & garnish",
-        "actionNote": "add at the end after heat is off or just before serving",
-        "ingredients": [
-          {
-            "amount": null,
-            "name": "sesame oil",
-            "note": "a few drops at the end",
-            "alternatives": []
-          },
-          {
-            "amount": 1,
-            "name": "egg",
-            "note": "soft poached or soft-boiled; optional but great",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "green onion",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "step": "Cook pasta in salted water. Reserve pasta water before draining."
-      },
-      {
-        "step": "Mince garlic. Roughly chop kimchi. In a pan over medium heat, add a small amount of oil. Sauté garlic ~1 min."
-      },
-      {
-        "step": "Add kimchi and cook 2–3 min until slightly caramelized and fragrant."
-      },
-      {
-        "step": "Add tuna, gochujang if using, and soy sauce. Stir and cook another 1–2 min."
-      },
-      {
-        "step": "Add pasta and pasta water. Toss everything together."
-      },
-      {
-        "step": "Finish with a few drops of sesame oil. Top with soft egg and green onion."
-      }
-    ],
-    "protein": {
-      "grams": "45–55",
-      "note": "per serving with tuna + egg; use two cans of tuna to push higher"
-    },
-    "tips": [
-      {
-        "keyword": "well-fermented 김치",
-        "text": "Well-fermented 김치 (older, sour) is better here than fresh — it has more depth."
-      },
-      {
-        "keyword": "rinsing tuna",
-        "text": "Don't over-rinse the tuna. You want some brine for flavor."
-      },
-      {
-        "keyword": "egg on top",
-        "text": "The egg on top is optional but transforms the dish — break it into the hot pasta."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 376,
-      "protein": 33.0,
-      "fat": 5.1,
-      "carbs": 49.1
-    }
-  },
-  {
-    "id": "spicy-korean-pork",
-    "name": "Spicy Korean Pork (Daeji Bulgogi)",
+    "id": "bulgogi",
+    "name": "불고기 (Korean Marinated Beef)",
     "cuisine": "korean",
     "difficulty": "medium",
     "time": 55,
     "servings": 2,
     "methods": [
       "marinate",
-      "pan-fry",
-      "stir-fry"
+      "pan-fry"
     ],
     "tags": [
-      "meal-prep",
-      "high-protein"
+      "high-protein",
+      "meal-prep"
     ],
-    "description": "돼지불고기 — thin pork strips in a bold, spicy-sweet marinade that caramelizes in a hot pan into something sticky and slightly charred at the edges. Where regular 불고기 is mild and family-friendly, this one brings the 고추장 heat front and center. Pork belly is the classic, richer choice; shoulder is leaner and still great. Ground pork skips the marinate time entirely and works on a busy weeknight. Serve over rice or in lettuce wraps with sesame seeds and green onion.\n",
+    "description": "불고기 — the classic. Sweet, savory, lightly smoky — one of the most approachable Korean dishes to make at home. Goes over rice, in lettuce wraps, or just straight out of the pan. Use lean beef cuts and trim visible fat if you want to keep it light.\n",
     "keyIngredients": [
-      "pork shoulder",
-      "gochujang",
-      "gochugaru",
+      "beef",
       "soy sauce",
-      "mirin",
-      "sesame oil"
+      "sesame oil",
+      "Asian pear",
+      "garlic",
+      "ginger"
     ],
     "ingredientGroups": [
       {
@@ -1492,13 +1519,13 @@
         "actionNote": "mix together first",
         "ingredients": [
           {
-            "amount": "2 tbsp",
-            "name": "gochujang",
-            "note": null,
+            "amount": "½",
+            "name": "Asian pear or apple",
+            "note": "grated; this is the tenderizer — don't skip it",
             "alternatives": []
           },
           {
-            "amount": "1 tbsp",
+            "amount": "3 tbsp",
             "name": "soy sauce",
             "note": null,
             "alternatives": []
@@ -1516,95 +1543,71 @@
             "alternatives": []
           },
           {
-            "amount": "1 tbsp",
-            "name": "mirin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "gochugaru",
-            "note": "adjust to heat preference",
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "jarred minced garlic",
-            "note": null,
+            "amount": "4 cloves",
+            "name": "garlic",
+            "note": "minced",
             "alternatives": [
               {
-                "amount": "3 cloves",
-                "name": "fresh garlic, minced",
-                "note": null
+                "amount": null,
+                "name": "jarred minced garlic",
+                "note": "convenient substitute"
               }
             ]
           },
           {
             "amount": "1 tsp",
-            "name": "ginger, grated or minced",
-            "note": null,
+            "name": "ginger",
+            "note": "grated",
             "alternatives": [
               {
-                "amount": "1 tsp",
+                "amount": null,
                 "name": "jarred minced ginger",
-                "note": "or grate directly from a frozen knob"
+                "note": "or freeze a knob and grate from frozen"
               }
             ]
+          },
+          {
+            "amount": null,
+            "name": "black pepper",
+            "note": "to taste",
+            "alternatives": []
           }
         ]
       },
       {
         "emoji": "🥩",
-        "label": "Protein",
-        "actionNote": "toss in marinade and marinate at least 30 min",
+        "label": "Protein & aromatics",
+        "actionNote": "add to marinade, toss well, marinate 30 min–overnight",
         "ingredients": [
           {
-            "amount": "400g",
-            "name": "pork shoulder, thinly sliced",
-            "note": "lean, good caramelization — the everyday choice",
+            "amount": "300g",
+            "name": "beef",
+            "note": "ribeye, sirloin, or any thin-sliced cut",
             "alternatives": [
               {
-                "amount": "400g",
-                "name": "pork belly, thinly sliced",
-                "note": "fattier, richer, more traditional; trim if you want it lighter"
-              },
-              {
-                "amount": "400g",
-                "name": "ground pork",
-                "note": "skip the marinate; cook pork first then add sauce — fastest version"
+                "amount": "300g",
+                "name": "bulgogi-cut beef from Korean grocery store",
+                "note": "comes pre-sliced, saves a lot of work"
               }
             ]
-          }
-        ]
-      },
-      {
-        "emoji": "🧄",
-        "label": "Aromatics",
-        "actionNote": "add to pan with the pork",
-        "ingredients": [
-          {
-            "amount": "½",
-            "name": "onion, thinly sliced",
-            "note": null,
-            "alternatives": []
           },
           {
-            "amount": "2",
-            "name": "green onions, white parts sliced; green parts reserved for garnish",
-            "note": null,
+            "amount": "½",
+            "name": "onion",
+            "note": "thinly sliced",
             "alternatives": []
           }
         ]
       },
       {
         "emoji": "✨",
-        "label": "Garnish & Serving",
-        "actionNote": "serve alongside or on top",
+        "label": "Garnish",
+        "actionNote": "add just before serving",
         "ingredients": [
           {
-            "amount": null,
-            "name": "green onion tops, sliced thin",
-            "note": null,
+            "amount": 2,
+            "name": "green onions",
+            "note": "chopped",
             "alternatives": []
           },
           {
@@ -1612,77 +1615,74 @@
             "name": "sesame seeds",
             "note": null,
             "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍽️",
+        "label": "Serving",
+        "actionNote": "optional accompaniments for serving",
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "rice",
+            "note": "optional",
+            "alternatives": []
           },
           {
             "amount": null,
-            "name": "cooked rice",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "large lettuce leaves",
-                "note": "butter lettuce, romaine, or 깻잎 (perilla) for wraps"
-              }
-            ]
+            "name": "lettuce leaves",
+            "note": "optional — for wraps",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "perilla (kkaennip)",
+            "note": "optional",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sliced chili",
+            "note": "optional",
+            "alternatives": []
           }
         ]
       }
     ],
     "instructions": [
       {
-        "step": "Mix all marinade ingredients together in a bowl."
+        "step": "If beef isn't pre-sliced thin, partially freeze it (~30 min) then slice as thin as possible against the grain. Slice onion thinly."
       },
       {
-        "step": "Slice pork thinly. Slice onion thinly. Slice green onions, reserving green parts for garnish. Add pork and onion to the marinade. Mix well so everything is coated. Marinate at least 30 min at room temperature, or overnight in the fridge."
+        "step": "Grate Asian pear/apple. Mince garlic and grate ginger. Mix soy sauce, sesame oil, sugar, garlic, ginger, pear/apple, and pepper."
       },
       {
-        "step": "Heat a large pan or wok over high heat until very hot. Add a small amount of neutral oil."
+        "step": "Add beef and onion. Mix well and marinate at least 30 min; overnight in the fridge is noticeably better."
       },
       {
-        "step": "Add pork in a single layer — cook in batches if needed. Don't overcrowd or the meat steams instead of searing. Let it sit 1–2 min before moving to get some caramelization."
+        "step": "Cook in a hot pan (or grill) in batches — don't overcrowd or it steams instead of sears. High heat, quick cook, ~2–3 min per batch."
       },
       {
-        "step": "Stir-fry ~4–5 min total until cooked through and edges are slightly charred. Add white parts of green onion in the last minute."
-      },
-      {
-        "step": "Plate over rice or serve with lettuce wraps. Top with green onion and sesame seeds."
-      },
-      {
-        "section": "Ground Pork Version",
-        "steps": [
-          "Cook ground pork in a hot pan, breaking it apart, until fully cooked and any moisture has evaporated (~5 min).",
-          "Mix marinade ingredients and pour directly over the cooked pork. Stir-fry another 2–3 min until the sauce cooks down and coats everything."
-        ]
+        "step": "Chop green onions. Finish with sesame seeds and green onion. Serve over rice."
       }
     ],
     "protein": {
-      "grams": "40–50",
-      "note": "per serving with pork shoulder; pork belly closer to 30–35g due to higher fat content; ground pork in between"
+      "grams": "50–55",
+      "note": "per serving; pair with a fried egg or tofu side for more"
     },
     "tips": [
       {
-        "keyword": "Thin slices are the whole point",
-        "text": "Thick slices won't caramelize the same way — the exterior dries out before the center cooks. Partially freeze the pork (~30 min) before slicing to make thin cuts much easier."
+        "keyword": "pear/apple tenderizer",
+        "text": "The pear/apple is not optional — the enzymes genuinely tenderize the beef. No good substitutes."
       },
       {
-        "keyword": "Pork shoulder vs. belly",
-        "text": "Shoulder is leaner and easier to keep light; belly is more indulgent. Neither is wrong — it just depends on what you're after that day."
+        "keyword": "pre-cut beef",
+        "text": "Korean grocery stores sell pre-cut bulgogi beef which saves a lot of time."
       },
       {
-        "keyword": "Cook in batches",
-        "text": "One batch that sears beats two batches that steam. If the pan has too much moisture (steam rising), take some pork out and let the liquid cook off before adding it back."
-      },
-      {
-        "keyword": "Char is flavor",
-        "text": "A little dark caramelization on the edges is the goal — that's where all the sticky, sweet-spicy depth comes from. Don't be afraid of it."
-      },
-      {
-        "keyword": "Lettuce wraps cut the richness",
-        "text": "If pork belly feels heavy on its own, wrapping it in cool lettuce or 깻잎 (perilla) with rice balances it out perfectly."
-      },
-      {
-        "keyword": "Overnight marinate is noticeably better",
-        "text": "The gochujang and soy sauce penetrate deeper, and the pork softens slightly. If you have time, do it the night before."
+        "keyword": "hot dry pan",
+        "text": "Cook in a very hot, dry pan (or cast iron) for the best caramelization. A little char is good."
       }
     ],
     "firstAttemptNotes": {
@@ -1690,21 +1690,22 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 563,
-      "protein": 36.4,
-      "fat": 35.3,
-      "carbs": 23.9
+      "cal": 542,
+      "protein": 42.4,
+      "fat": 29.8,
+      "carbs": 24.9
     }
   },
   {
-    "id": "gyudon",
-    "name": "Gyudon (Beef Rice Bowl)",
+    "id": "teriyaki-chicken-udon",
+    "name": "Teriyaki Chicken うどん",
     "cuisine": "japanese",
     "difficulty": "easy",
-    "time": 20,
+    "time": 25,
     "servings": 2,
     "methods": [
-      "simmer"
+      "boil",
+      "stir-fry"
     ],
     "tags": [
       "quick",
@@ -1712,79 +1713,94 @@
       "one-pan",
       "no-marinate"
     ],
-    "description": "牛丼 [ぎゅうどん] — thinly sliced beef and onion simmered in a sweet-savory だし broth, spooned over a bowl of rice. The broth does double duty, seasoning both the meat and soaking into the rice beneath it. Serve with a soft-boiled egg or raw egg yolk on top for the full Yoshinoya experience.\n",
+    "description": "Simple weeknight stir-fry. The teriyaki sauce is just three ingredients and comes together in minutes. うどん noodles are satisfying without being heavy, and the vegetables add crunch and volume.\n",
     "keyIngredients": [
-      "thinly sliced beef",
-      "dashi stock",
+      "chicken breast",
+      "udon noodles",
       "soy sauce",
       "mirin",
-      "onion"
+      "onion",
+      "cabbage"
     ],
     "ingredientGroups": [
       {
         "emoji": "🫙",
-        "label": "Bowl 1 — Broth",
+        "label": "Bowl 1 — Teriyaki sauce",
         "actionNote": "mix together, set aside",
         "ingredients": [
           {
-            "amount": "150ml",
-            "name": "dashi stock",
-            "note": "1 tsp 本だし [ほんだし] powder + 150ml water",
-            "alternatives": []
-          },
-          {
-            "amount": "3 tbsp",
+            "amount": "2 tbsp",
             "name": "soy sauce",
             "note": null,
             "alternatives": []
           },
           {
-            "amount": "3 tbsp",
+            "amount": "1 tbsp",
             "name": "mirin",
             "note": null,
             "alternatives": []
           },
           {
             "amount": "1 tsp",
-            "name": "sugar",
+            "name": "sugar or honey",
             "note": null,
             "alternatives": []
           }
         ]
       },
       {
-        "emoji": "🥩",
+        "emoji": "🍗",
         "label": "Protein",
-        "actionNote": "use as-is; add directly to pan",
+        "actionNote": null,
         "ingredients": [
           {
-            "amount": "200–250g",
-            "name": "thinly sliced beef",
-            "note": "shabu-shabu or sukiyaki cut from Asian grocery",
+            "amount": "200g",
+            "name": "chicken breast, sliced thin",
+            "note": null,
             "alternatives": [
               {
-                "amount": "200–250g",
-                "name": "frozen pre-sliced beef",
-                "note": "completely valid, often easier to find; thaw before use"
-              },
-              {
-                "amount": "200–250g",
-                "name": "ribeye or sirloin block",
-                "note": "freeze ~30 min then slice as thin as possible with a sharp knife"
+                "amount": "200g",
+                "name": "firm tofu, cubed",
+                "note": "replace or supplement the chicken — same sauce, works well"
               }
             ]
           }
         ]
       },
       {
-        "emoji": "🧅",
-        "label": "Aromatics",
-        "actionNote": null,
+        "emoji": "🥬",
+        "label": "Vegetables",
+        "actionNote": "stir-fried in this order",
         "ingredients": [
           {
             "amount": "½",
-            "name": "onion, sliced thin (half-moons)",
+            "name": "onion, sliced",
             "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": 1,
+            "name": "carrot, julienned or sliced thin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "cabbage, roughly chopped",
+            "note": "a handful",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍜",
+        "label": "Noodles",
+        "actionNote": "cook according to package instructions, drain and set aside",
+        "ingredients": [
+          {
+            "amount": "1–2 portions",
+            "name": "udon noodles, fresh or frozen",
+            "note": "fresh > frozen > dried",
             "alternatives": []
           }
         ]
@@ -1795,33 +1811,8 @@
         "actionNote": "add right before serving",
         "ingredients": [
           {
-            "amount": 1,
-            "name": "green onion, sliced thin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "pickled ginger (beni shoga)",
-            "note": "optional but traditional",
-            "alternatives": []
-          },
-          {
-            "amount": 1,
-            "name": "soft-boiled egg or raw egg yolk",
-            "note": "optional",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍚",
-        "label": "Serving",
-        "actionNote": null,
-        "ingredients": [
-          {
-            "amount": null,
-            "name": "cooked white rice",
+            "amount": 2,
+            "name": "green onions, chopped",
             "note": null,
             "alternatives": []
           }
@@ -1830,47 +1821,43 @@
     ],
     "instructions": [
       {
-        "step": "Mix all broth ingredients together in a small bowl and set aside."
+        "step": "Cook udon according to package instructions. Drain and set aside."
       },
       {
-        "step": "Slice onion thin into half-moons. In a medium pan or skillet over medium heat, add the broth and onion. Bring to a simmer."
+        "step": "Slice chicken thin. In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside."
       },
       {
-        "step": "Cook onion ~3–4 min until softened and slightly translucent."
+        "step": "Slice onion and julienne or slice carrot thin. Add onion and carrot to the pan. Stir-fry ~2–3 min."
       },
       {
-        "step": "Add the beef slices, spreading them out so they cook evenly. Simmer ~3–4 min, skimming any foam that rises."
+        "step": "Roughly chop cabbage. Add and cook another 1–2 min."
       },
       {
-        "step": "Taste the broth — it should be noticeably savory and slightly sweet. Adjust with a splash more soy sauce if needed."
+        "step": "Add chicken back in, then the udon. Pour teriyaki sauce over everything."
       },
       {
-        "step": "Ladle the beef, onion, and plenty of broth over a bowl of rice."
+        "step": "Toss and stir-fry over high heat ~1–2 min until everything is coated and slightly caramelized."
       },
       {
-        "step": "Slice green onion thin. Top with green onion, pickled ginger, and egg if using. Eat immediately."
+        "step": "Chop green onions. Top with green onion. Serve immediately."
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving (200–250g beef); add a soft-boiled egg for an extra ~6g"
+      "grams": "~50",
+      "note": "per serving; add a soft-boiled or fried egg on top for an easy boost"
     },
     "tips": [
       {
-        "keyword": "Season the broth aggressively",
-        "text": "It's flavoring the rice underneath it, so if it tastes right on its own, it'll taste underseasoned on the bowl. Push it saltier and sweeter than you think."
+        "keyword": "High heat",
+        "text": "High heat is key — you want some caramelization on the sauce, not just steaming."
       },
       {
-        "keyword": "Thin beef is non-negotiable",
-        "text": "Thick slices won't absorb the broth the same way and take longer to cook. Asian grocery freezer sections almost always have pre-sliced beef labelled \"shabu-shabu\" or \"sukiyaki\" — that's the one."
+        "keyword": "Fresh うどん",
+        "text": "Fresh うどん from the refrigerator section is much better than dried. Most Asian grocery stores carry it."
       },
       {
-        "keyword": "Don't overcook the beef",
-        "text": "It's thin and goes from perfect to rubbery fast. Once it's no longer pink, it's done."
-      },
-      {
-        "keyword": "Egg yolk on top",
-        "text": "Melts into the hot broth and adds richness. Totally optional but worth trying once."
+        "keyword": "Tofu",
+        "text": "Tofu can replace or supplement the chicken for additional protein variety."
       }
     ],
     "firstAttemptNotes": {
@@ -1878,43 +1865,60 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 406,
-      "protein": 35.7,
-      "fat": 20.0,
-      "carbs": 17.9
+      "cal": 235,
+      "protein": 33.4,
+      "fat": 3.8,
+      "carbs": 15.9
     }
   },
   {
-    "id": "karaage",
-    "name": "Karaage (Japanese Fried Chicken)",
+    "id": "soba",
+    "name": "ざるそば (Cold Dipping Noodles)",
     "cuisine": "japanese",
-    "difficulty": "medium",
-    "time": 50,
+    "difficulty": "easy",
+    "time": 20,
     "servings": 2,
     "methods": [
-      "marinate",
-      "air-fry",
-      "deep-fry"
+      "boil",
+      "simmer"
     ],
     "tags": [
-      "high-protein",
-      "air-fryer"
+      "quick",
+      "pantry-friendly"
     ],
-    "description": "唐揚げ [からあげ] — juicy chicken thighs marinated in soy, sake, ginger, and garlic, coated in cornstarch and fried until shatteringly crispy. Japan's answer to fried chicken, and arguably better: the pieces are bite-sized, the crust is delicate and light (not bready), and the marinade punches all the way through. The air fryer method is the recommended approach here — it comes out surprisingly crispy with far less mess and oil.\n",
+    "description": "ざるそば — one of the most elegant simple dishes in Japanese cooking. Chilled buckwheat noodles served on a plate, dipped into a cold savory つゆ sauce with wasabi and green onion stirred in. Light, clean, high in protein if you add toppings, and genuinely refreshing. The つゆ is three pantry ingredients plus water; or buy bottled めんつゆ from any Asian grocery and dilute it in 30 seconds. Either way works.\n",
     "keyIngredients": [
-      "chicken thighs",
+      "soba noodles",
       "soy sauce",
-      "sake",
-      "ginger",
-      "garlic",
-      "cornstarch"
+      "mirin",
+      "hondashi",
+      "wasabi"
     ],
     "ingredientGroups": [
       {
-        "emoji": "🫙",
-        "label": "Bowl 1 — Marinade",
-        "actionNote": "mix together and add chicken to marinate",
+        "emoji": "🍜",
+        "label": "Noodles",
+        "actionNote": "boil, then rinse cold and drain",
         "ingredients": [
+          {
+            "amount": "100–150g",
+            "name": "dried soba noodles",
+            "note": "buckwheat noodles — sold at any Asian grocery or well-stocked supermarket",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🫙",
+        "label": "Bowl 1 — Tsuyu dipping sauce",
+        "actionNote": "make ahead and chill; needs to be cold when served",
+        "ingredients": [
+          {
+            "amount": "200ml",
+            "name": "dashi stock",
+            "note": "½ tsp 本だし [ほんだし] powder dissolved in 200ml water",
+            "alternatives": []
+          },
           {
             "amount": "3 tbsp",
             "name": "soy sauce",
@@ -1923,86 +1927,19 @@
           },
           {
             "amount": "2 tbsp",
-            "name": "sake",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "2 tbsp",
-                "name": "mirin",
-                "note": "slightly sweeter, works well"
-              },
-              {
-                "amount": "2 tbsp",
-                "name": "dry sherry or rice wine vinegar",
-                "note": "in a pinch"
-              }
-            ]
-          },
-          {
-            "amount": "1 tsp",
-            "name": "sesame oil",
+            "name": "mirin",
             "note": null,
             "alternatives": []
           },
           {
             "amount": "1 tsp",
-            "name": "fresh ginger, grated",
+            "name": "sugar",
             "note": null,
             "alternatives": [
               {
-                "amount": "½ tsp",
-                "name": "ginger powder",
-                "note": null
-              }
-            ]
-          },
-          {
-            "amount": "2 cloves",
-            "name": "garlic, minced",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "1 tsp",
-                "name": "jarred minced garlic",
-                "note": "fine here since it's in a marinade"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🍗",
-        "label": "Protein",
-        "actionNote": "cut into bite-sized pieces before marinating",
-        "ingredients": [
-          {
-            "amount": "400–500g",
-            "name": "boneless chicken thighs, skin-on preferred",
-            "note": "cut into 4–5cm bite-sized pieces",
-            "alternatives": [
-              {
-                "amount": "400–500g",
-                "name": "skinless chicken thighs",
-                "note": "still great, just slightly less crispy exterior"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🌿",
-        "label": "Coating",
-        "actionNote": "apply just before cooking — do not coat in advance",
-        "ingredients": [
-          {
-            "amount": "4–5 tbsp",
-            "name": "cornstarch",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "4–5 tbsp",
-                "name": "potato starch (katakuriko)",
-                "note": "片栗粉 [かたくりこ] — traditional Japanese choice, slightly lighter and crispier"
+                "amount": null,
+                "name": "bottled mentsuyu (tsuyu concentrate)",
+                "note": "dilute per bottle instructions (typically 1 part めんつゆ to 3 parts water for dipping) — a completely valid shortcut, often better than homemade"
               }
             ]
           }
@@ -2010,82 +1947,116 @@
       },
       {
         "emoji": "✨",
-        "label": "Serving",
-        "actionNote": "serve alongside",
+        "label": "Garnish / Dipping additions",
+        "actionNote": "add to tsuyu or serve alongside",
+        "ingredients": [
+          {
+            "amount": "2–3",
+            "name": "green onions, sliced thin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "wasabi (tube wasabi is fine)",
+            "note": "stir a small amount into the tsuyu",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "toasted nori strips",
+            "note": "optional",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "grated daikon radish",
+            "note": "optional but traditional",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍗",
+        "label": "Protein boost",
+        "actionNote": "optional — pick one; serve on top of the noodles",
         "ingredients": [
           {
             "amount": null,
-            "name": "Japanese mayo (Kewpie brand)",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "lemon wedges",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "shredded raw cabbage",
-            "note": null,
-            "alternatives": []
+            "name": "cold poached chicken breast, sliced thin",
+            "note": "poach ahead, chill, then slice",
+            "alternatives": [
+              {
+                "amount": "1–2",
+                "name": "soft-boiled eggs, halved and chilled",
+                "note": null
+              },
+              {
+                "amount": null,
+                "name": "chilled cooked shrimp",
+                "note": null
+              }
+            ]
           }
         ]
       }
     ],
     "instructions": [
       {
-        "section": "Marinate",
+        "section": "Make the Tsuyu (skip if using bottled)",
         "steps": [
-          "Cut chicken into 4–5cm bite-sized pieces. Grate ginger and mince garlic. Mix all marinade ingredients in a bowl. Add chicken, toss to coat, and marinate at least 20 min. 1–2 hours is better; overnight in the fridge is best."
+          "Combine dashi stock, soy sauce, mirin, and sugar in a small saucepan. Bring to a brief simmer over medium heat, stirring until sugar dissolves (~2 min). Remove from heat and let cool completely, then refrigerate until cold. Can be made 1–2 days ahead."
         ]
       },
       {
-        "section": "Air Fryer (Recommended)",
+        "section": "Cook the Soba",
         "steps": [
-          "Preheat air fryer to 200°C (400°F).",
-          "Remove chicken from marinade, shaking off excess liquid. Toss pieces in cornstarch until fully coated — a light, even layer.",
-          "Arrange in a single layer in the air fryer basket. Don't crowd; do two batches if needed.",
-          "Cook 18–20 min, flipping halfway through, until golden and crispy.",
-          "Serve immediately with Kewpie mayo, lemon, and cabbage."
+          "Bring a large pot of unsalted water to a boil. Add soba noodles and cook per package instructions — typically 4–5 min. Soba goes mushy fast, so start checking 1 min early.",
+          "Immediately drain and rinse aggressively under cold running water, rubbing the noodles together with your hands. Rinse until the noodles are fully chilled and the water runs clear. This removes excess starch and stops cooking.",
+          "Drain well and arrange on a plate or in a bowl."
         ]
       },
       {
-        "section": "Deep Fry (Alternative)",
+        "section": "Serve",
         "steps": [
-          "Heat neutral oil (vegetable, canola, sunflower) in a pot or deep pan to 170°C (340°F). Use enough oil to submerge the pieces.",
-          "Coat chicken in cornstarch as above.",
-          "Fry in batches ~4–5 min per batch until light golden. Don't crowd the pot.",
-          "Remove and rest on a wire rack 2–3 min. For extra crispiness, raise oil to 190°C (375°F) and fry again ~1–2 min until deep golden and shatteringly crispy.",
-          "Serve immediately."
+          "Pour chilled tsuyu into a small bowl or cup for dipping.",
+          "Slice green onions thin. Add green onion and a small dab of wasabi to the tsuyu. Stir.",
+          "Dip bundles of soba into the tsuyu and eat. Add nori and daikon on top of the noodles if using.",
+          "Add protein on top of the noodles if boosting."
+        ]
+      },
+      {
+        "section": "Hot Soba Variation",
+        "steps": [
+          "Skip chilling the tsuyu. Instead, thin it with an extra 150–200ml of hot dashi to make a light broth.",
+          "Serve the hot noodles in the broth (don't rinse them cold). Top with green onion, a soft-boiled egg, or sliced chicken."
         ]
       }
     ],
     "protein": {
-      "grams": "50–60",
-      "note": "per serving (200–250g chicken thigh per serving)"
+      "grams": "15–20",
+      "note": "soba noodles alone — buckwheat is relatively protein-rich; add cold chicken (+30–35g) or a soft-boiled egg (+6g) to hit a meaningful target"
     },
     "tips": [
       {
-        "keyword": "Cornstarch is the secret",
-        "text": "Flour makes fried chicken bready and heavy. Cornstarch creates a thin, crispy, almost glass-like shell. Don't substitute flour."
+        "keyword": "Don't overcook the soba",
+        "text": "This is the single most common mistake. Soba turns mushy within a minute of being overdone. Set a timer and taste early."
       },
       {
-        "keyword": "Dry the chicken",
-        "text": "Shake off marinade excess or pat lightly before coating — too much liquid prevents the coating from sticking and crisping."
+        "keyword": "Rinse immediately and aggressively",
+        "text": "The cold-water rinse is not optional — it stops cooking, removes surface starch (which makes noodles clump), and chills the noodles for serving. Rub them between your palms under the water."
       },
       {
-        "keyword": "Don't skip the marinate time",
-        "text": "20 min is the minimum. The soy-sake marinade is doing real flavor work, not just surface seasoning."
+        "keyword": "めんつゆ is a legitimate shortcut",
+        "text": "Bottled つゆ concentrate (めんつゆ) is sold at any Asian grocery and tastes great — often better than homemade unless you're using real kombu だし. Just dilute per the bottle."
       },
       {
-        "keyword": "Air fryer tip",
-        "text": "A light spray of neutral oil on top of the coated pieces before cooking helps achieve a more even golden color."
+        "keyword": "Dip, don't drown",
+        "text": "The soba should be partially dipped into the tsuyu, not submerged. You can adjust wasabi intensity in the dipping bowl to taste."
       },
       {
-        "keyword": "Double fry (deep fry method)",
-        "text": "The first fry cooks the chicken through at lower temp; the second fry at high heat crisps the crust. Worth doing if you're already frying in oil."
+        "keyword": "Tsuyu keeps well",
+        "text": "Make a double batch and refrigerate — it keeps 4–5 days and works as a sauce for other dishes (drizzle over tofu, use as a quick noodle sauce, etc.)."
       }
     ],
     "firstAttemptNotes": {
@@ -2093,15 +2064,15 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 598,
-      "protein": 60.8,
-      "fat": 26.8,
-      "carbs": 20.2
+      "cal": 274,
+      "protein": 11.1,
+      "fat": 0.7,
+      "carbs": 56.2
     }
   },
   {
     "id": "katsu",
-    "name": "Katsu (Breaded Chicken or Pork Cutlet)",
+    "name": "カツ (Breaded Chicken or Pork Cutlet)",
     "cuisine": "japanese",
     "difficulty": "easy",
     "time": 25,
@@ -2326,7 +2297,7 @@
   },
   {
     "id": "miso-salmon-pasta",
-    "name": "Miso Salmon Pasta",
+    "name": "味噌 Salmon Pasta",
     "cuisine": "japanese",
     "difficulty": "easy",
     "time": 25,
@@ -2513,8 +2484,411 @@
     }
   },
   {
+    "id": "karaage",
+    "name": "唐揚げ (Japanese Fried Chicken)",
+    "cuisine": "japanese",
+    "difficulty": "medium",
+    "time": 50,
+    "servings": 2,
+    "methods": [
+      "marinate",
+      "air-fry",
+      "deep-fry"
+    ],
+    "tags": [
+      "high-protein",
+      "air-fryer"
+    ],
+    "description": "唐揚げ [からあげ] — juicy chicken thighs marinated in soy, sake, ginger, and garlic, coated in cornstarch and fried until shatteringly crispy. Japan's answer to fried chicken, and arguably better: the pieces are bite-sized, the crust is delicate and light (not bready), and the marinade punches all the way through. The air fryer method is the recommended approach here — it comes out surprisingly crispy with far less mess and oil.\n",
+    "keyIngredients": [
+      "chicken thighs",
+      "soy sauce",
+      "sake",
+      "ginger",
+      "garlic",
+      "cornstarch"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Bowl 1 — Marinade",
+        "actionNote": "mix together and add chicken to marinate",
+        "ingredients": [
+          {
+            "amount": "3 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "2 tbsp",
+            "name": "sake",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "2 tbsp",
+                "name": "mirin",
+                "note": "slightly sweeter, works well"
+              },
+              {
+                "amount": "2 tbsp",
+                "name": "dry sherry or rice wine vinegar",
+                "note": "in a pinch"
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "sesame oil",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "fresh ginger, grated",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "ginger powder",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "2 cloves",
+            "name": "garlic, minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "jarred minced garlic",
+                "note": "fine here since it's in a marinade"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🍗",
+        "label": "Protein",
+        "actionNote": "cut into bite-sized pieces before marinating",
+        "ingredients": [
+          {
+            "amount": "400–500g",
+            "name": "boneless chicken thighs, skin-on preferred",
+            "note": "cut into 4–5cm bite-sized pieces",
+            "alternatives": [
+              {
+                "amount": "400–500g",
+                "name": "skinless chicken thighs",
+                "note": "still great, just slightly less crispy exterior"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🌿",
+        "label": "Coating",
+        "actionNote": "apply just before cooking — do not coat in advance",
+        "ingredients": [
+          {
+            "amount": "4–5 tbsp",
+            "name": "cornstarch",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "4–5 tbsp",
+                "name": "potato starch (katakuriko)",
+                "note": "片栗粉 [かたくりこ] — traditional Japanese choice, slightly lighter and crispier"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Serving",
+        "actionNote": "serve alongside",
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "Japanese mayo (Kewpie brand)",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "lemon wedges",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "shredded raw cabbage",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "section": "Marinate",
+        "steps": [
+          "Cut chicken into 4–5cm bite-sized pieces. Grate ginger and mince garlic. Mix all marinade ingredients in a bowl. Add chicken, toss to coat, and marinate at least 20 min. 1–2 hours is better; overnight in the fridge is best."
+        ]
+      },
+      {
+        "section": "Air Fryer (Recommended)",
+        "steps": [
+          "Preheat air fryer to 200°C (400°F).",
+          "Remove chicken from marinade, shaking off excess liquid. Toss pieces in cornstarch until fully coated — a light, even layer.",
+          "Arrange in a single layer in the air fryer basket. Don't crowd; do two batches if needed.",
+          "Cook 18–20 min, flipping halfway through, until golden and crispy.",
+          "Serve immediately with Kewpie mayo, lemon, and cabbage."
+        ]
+      },
+      {
+        "section": "Deep Fry (Alternative)",
+        "steps": [
+          "Heat neutral oil (vegetable, canola, sunflower) in a pot or deep pan to 170°C (340°F). Use enough oil to submerge the pieces.",
+          "Coat chicken in cornstarch as above.",
+          "Fry in batches ~4–5 min per batch until light golden. Don't crowd the pot.",
+          "Remove and rest on a wire rack 2–3 min. For extra crispiness, raise oil to 190°C (375°F) and fry again ~1–2 min until deep golden and shatteringly crispy.",
+          "Serve immediately."
+        ]
+      }
+    ],
+    "protein": {
+      "grams": "50–60",
+      "note": "per serving (200–250g chicken thigh per serving)"
+    },
+    "tips": [
+      {
+        "keyword": "Cornstarch is the secret",
+        "text": "Flour makes fried chicken bready and heavy. Cornstarch creates a thin, crispy, almost glass-like shell. Don't substitute flour."
+      },
+      {
+        "keyword": "Dry the chicken",
+        "text": "Shake off marinade excess or pat lightly before coating — too much liquid prevents the coating from sticking and crisping."
+      },
+      {
+        "keyword": "Don't skip the marinate time",
+        "text": "20 min is the minimum. The soy-sake marinade is doing real flavor work, not just surface seasoning."
+      },
+      {
+        "keyword": "Air fryer tip",
+        "text": "A light spray of neutral oil on top of the coated pieces before cooking helps achieve a more even golden color."
+      },
+      {
+        "keyword": "Double fry (deep fry method)",
+        "text": "The first fry cooks the chicken through at lower temp; the second fry at high heat crisps the crust. Worth doing if you're already frying in oil."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 598,
+      "protein": 60.8,
+      "fat": 26.8,
+      "carbs": 20.2
+    }
+  },
+  {
+    "id": "gyudon",
+    "name": "牛丼 (Beef Rice Bowl)",
+    "cuisine": "japanese",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "simmer"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "one-pan",
+      "no-marinate"
+    ],
+    "description": "牛丼 [ぎゅうどん] — thinly sliced beef and onion simmered in a sweet-savory だし broth, spooned over a bowl of rice. The broth does double duty, seasoning both the meat and soaking into the rice beneath it. Serve with a soft-boiled egg or raw egg yolk on top for the full Yoshinoya experience.\n",
+    "keyIngredients": [
+      "thinly sliced beef",
+      "dashi stock",
+      "soy sauce",
+      "mirin",
+      "onion"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Bowl 1 — Broth",
+        "actionNote": "mix together, set aside",
+        "ingredients": [
+          {
+            "amount": "150ml",
+            "name": "dashi stock",
+            "note": "1 tsp 本だし [ほんだし] powder + 150ml water",
+            "alternatives": []
+          },
+          {
+            "amount": "3 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "3 tbsp",
+            "name": "mirin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "sugar",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "use as-is; add directly to pan",
+        "ingredients": [
+          {
+            "amount": "200–250g",
+            "name": "thinly sliced beef",
+            "note": "shabu-shabu or sukiyaki cut from Asian grocery",
+            "alternatives": [
+              {
+                "amount": "200–250g",
+                "name": "frozen pre-sliced beef",
+                "note": "completely valid, often easier to find; thaw before use"
+              },
+              {
+                "amount": "200–250g",
+                "name": "ribeye or sirloin block",
+                "note": "freeze ~30 min then slice as thin as possible with a sharp knife"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧅",
+        "label": "Aromatics",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": "½",
+            "name": "onion, sliced thin (half-moons)",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Garnish",
+        "actionNote": "add right before serving",
+        "ingredients": [
+          {
+            "amount": 1,
+            "name": "green onion, sliced thin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "pickled ginger (beni shoga)",
+            "note": "optional but traditional",
+            "alternatives": []
+          },
+          {
+            "amount": 1,
+            "name": "soft-boiled egg or raw egg yolk",
+            "note": "optional",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍚",
+        "label": "Serving",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "cooked white rice",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Mix all broth ingredients together in a small bowl and set aside."
+      },
+      {
+        "step": "Slice onion thin into half-moons. In a medium pan or skillet over medium heat, add the broth and onion. Bring to a simmer."
+      },
+      {
+        "step": "Cook onion ~3–4 min until softened and slightly translucent."
+      },
+      {
+        "step": "Add the beef slices, spreading them out so they cook evenly. Simmer ~3–4 min, skimming any foam that rises."
+      },
+      {
+        "step": "Taste the broth — it should be noticeably savory and slightly sweet. Adjust with a splash more soy sauce if needed."
+      },
+      {
+        "step": "Ladle the beef, onion, and plenty of broth over a bowl of rice."
+      },
+      {
+        "step": "Slice green onion thin. Top with green onion, pickled ginger, and egg if using. Eat immediately."
+      }
+    ],
+    "protein": {
+      "grams": "45–55",
+      "note": "per serving (200–250g beef); add a soft-boiled egg for an extra ~6g"
+    },
+    "tips": [
+      {
+        "keyword": "Season the broth aggressively",
+        "text": "It's flavoring the rice underneath it, so if it tastes right on its own, it'll taste underseasoned on the bowl. Push it saltier and sweeter than you think."
+      },
+      {
+        "keyword": "Thin beef is non-negotiable",
+        "text": "Thick slices won't absorb the broth the same way and take longer to cook. Asian grocery freezer sections almost always have pre-sliced beef labelled \"shabu-shabu\" or \"sukiyaki\" — that's the one."
+      },
+      {
+        "keyword": "Don't overcook the beef",
+        "text": "It's thin and goes from perfect to rubbery fast. Once it's no longer pink, it's done."
+      },
+      {
+        "keyword": "Egg yolk on top",
+        "text": "Melts into the hot broth and adds richness. Totally optional but worth trying once."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 406,
+      "protein": 35.7,
+      "fat": 20.0,
+      "carbs": 17.9
+    }
+  },
+  {
     "id": "oyakodon",
-    "name": "Oyakodon (Chicken & Egg Rice Bowl)",
+    "name": "親子丼 (Chicken & Egg Rice Bowl)",
     "cuisine": "japanese",
     "difficulty": "easy",
     "time": 25,
@@ -2684,380 +3058,6 @@
       "protein": 40.7,
       "fat": 12.2,
       "carbs": 14.5
-    }
-  },
-  {
-    "id": "soba",
-    "name": "Soba Noodles (Zaru Soba — Cold Dipping Noodles)",
-    "cuisine": "japanese",
-    "difficulty": "easy",
-    "time": 20,
-    "servings": 2,
-    "methods": [
-      "boil",
-      "simmer"
-    ],
-    "tags": [
-      "quick",
-      "pantry-friendly"
-    ],
-    "description": "ざるそば — one of the most elegant simple dishes in Japanese cooking. Chilled buckwheat noodles served on a plate, dipped into a cold savory つゆ sauce with wasabi and green onion stirred in. Light, clean, high in protein if you add toppings, and genuinely refreshing. The つゆ is three pantry ingredients plus water; or buy bottled めんつゆ from any Asian grocery and dilute it in 30 seconds. Either way works.\n",
-    "keyIngredients": [
-      "soba noodles",
-      "soy sauce",
-      "mirin",
-      "hondashi",
-      "wasabi"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🍜",
-        "label": "Noodles",
-        "actionNote": "boil, then rinse cold and drain",
-        "ingredients": [
-          {
-            "amount": "100–150g",
-            "name": "dried soba noodles",
-            "note": "buckwheat noodles — sold at any Asian grocery or well-stocked supermarket",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🫙",
-        "label": "Bowl 1 — Tsuyu dipping sauce",
-        "actionNote": "make ahead and chill; needs to be cold when served",
-        "ingredients": [
-          {
-            "amount": "200ml",
-            "name": "dashi stock",
-            "note": "½ tsp 本だし [ほんだし] powder dissolved in 200ml water",
-            "alternatives": []
-          },
-          {
-            "amount": "3 tbsp",
-            "name": "soy sauce",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "2 tbsp",
-            "name": "mirin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "sugar",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "bottled mentsuyu (tsuyu concentrate)",
-                "note": "dilute per bottle instructions (typically 1 part めんつゆ to 3 parts water for dipping) — a completely valid shortcut, often better than homemade"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Garnish / Dipping additions",
-        "actionNote": "add to tsuyu or serve alongside",
-        "ingredients": [
-          {
-            "amount": "2–3",
-            "name": "green onions, sliced thin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "wasabi (tube wasabi is fine)",
-            "note": "stir a small amount into the tsuyu",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "toasted nori strips",
-            "note": "optional",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "grated daikon radish",
-            "note": "optional but traditional",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍗",
-        "label": "Protein boost",
-        "actionNote": "optional — pick one; serve on top of the noodles",
-        "ingredients": [
-          {
-            "amount": null,
-            "name": "cold poached chicken breast, sliced thin",
-            "note": "poach ahead, chill, then slice",
-            "alternatives": [
-              {
-                "amount": "1–2",
-                "name": "soft-boiled eggs, halved and chilled",
-                "note": null
-              },
-              {
-                "amount": null,
-                "name": "chilled cooked shrimp",
-                "note": null
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "section": "Make the Tsuyu (skip if using bottled)",
-        "steps": [
-          "Combine dashi stock, soy sauce, mirin, and sugar in a small saucepan. Bring to a brief simmer over medium heat, stirring until sugar dissolves (~2 min). Remove from heat and let cool completely, then refrigerate until cold. Can be made 1–2 days ahead."
-        ]
-      },
-      {
-        "section": "Cook the Soba",
-        "steps": [
-          "Bring a large pot of unsalted water to a boil. Add soba noodles and cook per package instructions — typically 4–5 min. Soba goes mushy fast, so start checking 1 min early.",
-          "Immediately drain and rinse aggressively under cold running water, rubbing the noodles together with your hands. Rinse until the noodles are fully chilled and the water runs clear. This removes excess starch and stops cooking.",
-          "Drain well and arrange on a plate or in a bowl."
-        ]
-      },
-      {
-        "section": "Serve",
-        "steps": [
-          "Pour chilled tsuyu into a small bowl or cup for dipping.",
-          "Slice green onions thin. Add green onion and a small dab of wasabi to the tsuyu. Stir.",
-          "Dip bundles of soba into the tsuyu and eat. Add nori and daikon on top of the noodles if using.",
-          "Add protein on top of the noodles if boosting."
-        ]
-      },
-      {
-        "section": "Hot Soba Variation",
-        "steps": [
-          "Skip chilling the tsuyu. Instead, thin it with an extra 150–200ml of hot dashi to make a light broth.",
-          "Serve the hot noodles in the broth (don't rinse them cold). Top with green onion, a soft-boiled egg, or sliced chicken."
-        ]
-      }
-    ],
-    "protein": {
-      "grams": "15–20",
-      "note": "soba noodles alone — buckwheat is relatively protein-rich; add cold chicken (+30–35g) or a soft-boiled egg (+6g) to hit a meaningful target"
-    },
-    "tips": [
-      {
-        "keyword": "Don't overcook the soba",
-        "text": "This is the single most common mistake. Soba turns mushy within a minute of being overdone. Set a timer and taste early."
-      },
-      {
-        "keyword": "Rinse immediately and aggressively",
-        "text": "The cold-water rinse is not optional — it stops cooking, removes surface starch (which makes noodles clump), and chills the noodles for serving. Rub them between your palms under the water."
-      },
-      {
-        "keyword": "めんつゆ is a legitimate shortcut",
-        "text": "Bottled つゆ concentrate (めんつゆ) is sold at any Asian grocery and tastes great — often better than homemade unless you're using real kombu だし. Just dilute per the bottle."
-      },
-      {
-        "keyword": "Dip, don't drown",
-        "text": "The soba should be partially dipped into the tsuyu, not submerged. You can adjust wasabi intensity in the dipping bowl to taste."
-      },
-      {
-        "keyword": "Tsuyu keeps well",
-        "text": "Make a double batch and refrigerate — it keeps 4–5 days and works as a sauce for other dishes (drizzle over tofu, use as a quick noodle sauce, etc.)."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 274,
-      "protein": 11.1,
-      "fat": 0.7,
-      "carbs": 56.2
-    }
-  },
-  {
-    "id": "teriyaki-chicken-udon",
-    "name": "Teriyaki Chicken Udon",
-    "cuisine": "japanese",
-    "difficulty": "easy",
-    "time": 25,
-    "servings": 2,
-    "methods": [
-      "boil",
-      "stir-fry"
-    ],
-    "tags": [
-      "quick",
-      "high-protein",
-      "one-pan",
-      "no-marinate"
-    ],
-    "description": "Simple weeknight stir-fry. The teriyaki sauce is just three ingredients and comes together in minutes. うどん noodles are satisfying without being heavy, and the vegetables add crunch and volume.\n",
-    "keyIngredients": [
-      "chicken breast",
-      "udon noodles",
-      "soy sauce",
-      "mirin",
-      "onion",
-      "cabbage"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🫙",
-        "label": "Bowl 1 — Teriyaki sauce",
-        "actionNote": "mix together, set aside",
-        "ingredients": [
-          {
-            "amount": "2 tbsp",
-            "name": "soy sauce",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tbsp",
-            "name": "mirin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "sugar or honey",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍗",
-        "label": "Protein",
-        "actionNote": null,
-        "ingredients": [
-          {
-            "amount": "200g",
-            "name": "chicken breast, sliced thin",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "200g",
-                "name": "firm tofu, cubed",
-                "note": "replace or supplement the chicken — same sauce, works well"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🥬",
-        "label": "Vegetables",
-        "actionNote": "stir-fried in this order",
-        "ingredients": [
-          {
-            "amount": "½",
-            "name": "onion, sliced",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": 1,
-            "name": "carrot, julienned or sliced thin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "cabbage, roughly chopped",
-            "note": "a handful",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍜",
-        "label": "Noodles",
-        "actionNote": "cook according to package instructions, drain and set aside",
-        "ingredients": [
-          {
-            "amount": "1–2 portions",
-            "name": "udon noodles, fresh or frozen",
-            "note": "fresh > frozen > dried",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Garnish",
-        "actionNote": "add right before serving",
-        "ingredients": [
-          {
-            "amount": 2,
-            "name": "green onions, chopped",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "step": "Cook udon according to package instructions. Drain and set aside."
-      },
-      {
-        "step": "Slice chicken thin. In a hot pan with minimal oil, cook chicken until cooked through (~4–5 min). Set aside."
-      },
-      {
-        "step": "Slice onion and julienne or slice carrot thin. Add onion and carrot to the pan. Stir-fry ~2–3 min."
-      },
-      {
-        "step": "Roughly chop cabbage. Add and cook another 1–2 min."
-      },
-      {
-        "step": "Add chicken back in, then the udon. Pour teriyaki sauce over everything."
-      },
-      {
-        "step": "Toss and stir-fry over high heat ~1–2 min until everything is coated and slightly caramelized."
-      },
-      {
-        "step": "Chop green onions. Top with green onion. Serve immediately."
-      }
-    ],
-    "protein": {
-      "grams": "~50",
-      "note": "per serving; add a soft-boiled or fried egg on top for an easy boost"
-    },
-    "tips": [
-      {
-        "keyword": "High heat",
-        "text": "High heat is key — you want some caramelization on the sauce, not just steaming."
-      },
-      {
-        "keyword": "Fresh うどん",
-        "text": "Fresh うどん from the refrigerator section is much better than dried. Most Asian grocery stores carry it."
-      },
-      {
-        "keyword": "Tofu",
-        "text": "Tofu can replace or supplement the chicken for additional protein variety."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 235,
-      "protein": 33.4,
-      "fat": 3.8,
-      "carbs": 15.9
     }
   },
   {
