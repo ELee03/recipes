@@ -222,6 +222,10 @@
       {
         "keyword": "Overnight marinate is noticeably better",
         "text": "The gochujang and soy sauce penetrate deeper, and the pork softens slightly. If you have time, do it the night before."
+      },
+      {
+        "keyword": "Capsaicin and heat receptors",
+        "text": "고추장's capsaicin activates TRPV1 receptors — the same ones triggered by actual heat — which is why spicy food makes you sweat and flush. The response also triggers endorphin release and a brief metabolic bump. Spice tolerance is just desensitization of those same receptors over repeated exposure."
       }
     ],
     "firstAttemptNotes": {
@@ -424,6 +428,10 @@
       {
         "keyword": "gochujang heat",
         "text": "고추장 varies in heat level by brand; taste and adjust."
+      },
+      {
+        "keyword": "Fermentation survives cooking",
+        "text": "고추장 is a living ferment — lactic acid bacteria produce organic acids, bioactive peptides, and free glutamates over months. Cooking kills the bacteria, but the flavor compounds they produced survive heat. This is why fermented pastes taste more complex than fresh chili paste even after being fully cooked."
       }
     ],
     "firstAttemptNotes": {
@@ -644,6 +652,10 @@
       {
         "keyword": "Frozen salmon works fine",
         "text": "Thaw overnight in the fridge or under cold running water. Salmon is one of the best freezer proteins."
+      },
+      {
+        "keyword": "Astaxanthin and fat absorption",
+        "text": "Salmon's pink-orange color comes from astaxanthin, a fat-soluble carotenoid and potent antioxidant. Fat-soluble nutrients need dietary fat to cross the intestinal wall — cooking salmon with the glaze (which contains oil and honey) increases how much astaxanthin your body actually absorbs compared to poached or plain-baked salmon."
       }
     ],
     "firstAttemptNotes": {
@@ -883,6 +895,10 @@
       {
         "keyword": "Runny yolk = sauce",
         "text": "Breaking a runny yolk over fried rice is the move. Hard yolk is fine but you miss the richness."
+      },
+      {
+        "keyword": "Starch retrogradation",
+        "text": "Day-old rice isn't just drier — the starch has changed structure. Freshly cooked starch is soft and amorphous (gel-like); refrigerated overnight, it partially recrystallizes into a firmer lattice (retrogradation). That structure holds up to the heat and movement of frying instead of clumping. You can't replicate this by spreading fresh rice to dry — the crystalline structure only forms with time and cold."
       }
     ],
     "firstAttemptNotes": {
@@ -1070,6 +1086,10 @@
       {
         "keyword": "egg on top",
         "text": "The egg on top is optional but transforms the dish — break it into the hot pasta."
+      },
+      {
+        "keyword": "Kimchi fermentation",
+        "text": "김치's sour flavor comes from lactic acid produced by Lactobacillus bacteria over weeks of fermentation. Older, more fermented kimchi has higher acidity and more complex flavor compounds — which is exactly what you want when cooking it. The sharp acidity mellows and caramelizes under heat, shifting from raw-sour to savory-tangy. Fresh kimchi lacks that depth."
       }
     ],
     "firstAttemptNotes": {
@@ -1283,6 +1303,10 @@
       {
         "keyword": "leftover 닭갈비",
         "text": "Leftover 닭갈비 makes incredible fried rice the next day."
+      },
+      {
+        "keyword": "Maillard reaction",
+        "text": "The char on 닭갈비 is the Maillard reaction — a cascade of hundreds of chemical reactions between amino acids and reducing sugars above ~140°C. It's distinct from caramelization (which is sugar only) and from burning. Those dark, slightly bitter, deeply savory edges are hundreds of new flavor compounds that don't exist anywhere in the raw ingredients."
       }
     ],
     "firstAttemptNotes": {
@@ -1536,6 +1560,10 @@
       {
         "keyword": "Parmesan and 된장 sound weird, taste great",
         "text": "Both are fermented, umami-forward, funky. They get along well. Don't skip it if you have it."
+      },
+      {
+        "keyword": "Glutamate synergy",
+        "text": "된장 and parmesan are both exceptionally high in free glutamates — the amino acid behind umami. Glutamates synergize with inosinates (from meat) and guanylates (from shiitake) to produce a perceived umami intensity researchers have measured at up to 8× stronger than any single source. This is the science behind why the combination tastes so much bigger than it should."
       }
     ],
     "firstAttemptNotes": {
@@ -1758,6 +1786,10 @@
       {
         "keyword": "hot dry pan",
         "text": "Cook in a very hot, dry pan (or cast iron) for the best caramelization. A little char is good."
+      },
+      {
+        "keyword": "Proteolytic enzymes",
+        "text": "Asian pear contains proteases — enzymes that break peptide bonds in muscle protein, physically shortening the fibres and making the meat noticeably more tender. The same mechanism is at work in papain (papaya) and bromelain (pineapple). These enzymes denature at cooking temperatures, so the tenderizing effect only happens during the marinate window — not after cooking starts."
       }
     ],
     "firstAttemptNotes": {
@@ -1943,6 +1975,10 @@
       {
         "keyword": "Tofu",
         "text": "Tofu can replace or supplement the chicken for additional protein variety."
+      },
+      {
+        "keyword": "Caramelization vs Maillard",
+        "text": "The teriyaki glaze browns via two simultaneous reactions at high heat. Caramelization (sugar only, above ~160°C) produces sweetness and butter-like notes. The Maillard reaction (amino acids + reducing sugars, above ~140°C) produces savory, meaty, complex flavor compounds. They're chemically distinct processes happening at the same time — which is why caramelized teriyaki tastes far richer than the raw sauce alone."
       }
     ],
     "firstAttemptNotes": {
@@ -2152,6 +2188,10 @@
       {
         "keyword": "Tsuyu keeps well",
         "text": "Make a double batch and refrigerate — it keeps 4–5 days and works as a sauce for other dishes (drizzle over tofu, use as a quick noodle sauce, etc.)."
+      },
+      {
+        "keyword": "Buckwheat's complete amino acid profile",
+        "text": "Buckwheat is one of the few plant foods with a complete amino acid profile — it contains all nine essential amino acids including lysine, which most grains lack entirely. It's not high-protein overall (~5g per 100g cooked), but the protein quality is unusually good for something that looks like a grain. Technically it's a pseudocereal, not a grass."
       }
     ],
     "firstAttemptNotes": {
@@ -2387,6 +2427,10 @@
       {
         "keyword": "Shredded cabbage isn't optional",
         "text": "The raw, crunchy cabbage cuts the richness of the katsu. Pile it high."
+      },
+      {
+        "keyword": "Why panko stays crispier",
+        "text": "パン粉 is made from crustless bread baked by electrical current rather than conventional heat — the process produces an unusually light, coarse crumb. Those large air pockets don't compact under hot oil; they trap steam from the meat and stay open. Fine breadcrumbs compact and absorb oil instead, producing a dense, greasy shell. The texture difference is structural, not cosmetic."
       }
     ],
     "firstAttemptNotes": {
@@ -2593,6 +2637,10 @@
       {
         "keyword": "白味噌 vs 赤味噌",
         "text": "白味噌 [しろみそ] is milder and sweeter; 赤味噌 [あかみそ] is saltier and more intense. Either works here."
+      },
+      {
+        "keyword": "Don't boil miso",
+        "text": "Miso is a living fermented paste — boiling destroys both the probiotic bacteria and the active enzymes that contribute to its layered flavor. Even a few minutes at a rolling boil noticeably dulls the complexity. Add it off heat or at a gentle simmer below 85°C and stir through; the residual heat is enough to incorporate it into the sauce without cooking out what makes it interesting."
       }
     ],
     "firstAttemptNotes": {
@@ -2818,6 +2866,10 @@
       {
         "keyword": "Double fry (deep fry method)",
         "text": "The first fry cooks the chicken through at lower temp; the second fry at high heat crisps the crust. Worth doing if you're already frying in oil."
+      },
+      {
+        "keyword": "Why the double fry works",
+        "text": "First fry (~170°C) gelatinizes the cornstarch coating and cooks the chicken through. The rest period lets internal steam escape — skip it and re-frying immediately traps that steam, which softens the crust from inside. Second fry at higher heat drives off surface moisture and runs the Maillard reaction across the now-dry crust. Two separate reactions, two separate temperature windows."
       }
     ],
     "firstAttemptNotes": {
@@ -3016,6 +3068,10 @@
       {
         "keyword": "Egg yolk on top",
         "text": "Melts into the hot broth and adds richness. Totally optional but worth trying once."
+      },
+      {
+        "keyword": "Dashi umami synergy",
+        "text": "ほんだし works through umami synergy — kombu contributes glutamates, bonito flakes contribute inosinates. These two compound classes bind to different umami receptors and together produce a perceived intensity up to 8× stronger than either alone. It's why a dashi broth with three ingredients tastes deeper than many sauces made from dozens."
       }
     ],
     "firstAttemptNotes": {
@@ -3204,6 +3260,10 @@
       {
         "keyword": "Mirin substitute",
         "text": "If you don't have mirin, substitute with 1 tsp sugar + a splash of sake or white wine. In a pinch, skip the sake."
+      },
+      {
+        "keyword": "Egg coagulation temperature",
+        "text": "The custardy texture in 親子丼 is egg protein coagulation, controlled by temperature. Whites begin to set around 62°C; yolks around 65–70°C. Pulling the pan off heat while the eggs still look underdone uses residual heat to bring them into the soft-set zone without crossing into rubbery. Once egg proteins over-coagulate, they tighten further — there's no way to reverse it. Pull early."
       }
     ],
     "firstAttemptNotes": {
@@ -3406,6 +3466,10 @@
       {
         "keyword": "Raw shallot",
         "text": "Some versions add thin-sliced raw shallot for extra crunch and bite — worth trying."
+      },
+      {
+        "keyword": "Toasted rice powder as emulsifier",
+        "text": "Toasted rice powder does more than add texture — it acts as an emulsifier. The gelatinized starch granules have both hydrophilic and hydrophobic regions, so they bind the lime juice, fish sauce, and released meat juices into a cohesive coating rather than a pool of liquid at the bottom of the bowl. This is why larb with rice powder coats the meat differently than larb without it."
       }
     ],
     "firstAttemptNotes": {
@@ -3607,6 +3671,10 @@
       {
         "keyword": "Add a splash of water",
         "text": "If the sauce gets too thick or sticky, a small splash of water loosens it immediately."
+      },
+      {
+        "keyword": "Wok hei approximation",
+        "text": "The smoky, slightly charred aroma of authentic pad kra pao is \"wok hei\" (鑊氣) — caused by oil droplets becoming airborne and partially combusting in a commercial wok at temperatures home stoves can't reach. The closest home approximation is cooking a small amount of meat in a very hot pan so the pan surface stays extremely hot. More meat = more temperature drop = less wok hei."
       }
     ],
     "firstAttemptNotes": {
@@ -3836,6 +3904,10 @@
       {
         "keyword": "Very light macro profile",
         "text": "This soup is low in fat and calories — perfect for a high-protein, low-calorie meal or post-workout."
+      },
+      {
+        "keyword": "Volatile aromatics and heat",
+        "text": "Lemongrass, galangal, and kaffir lime leaves are rich in volatile aromatic compounds — citral, terpene alcohols, limonene — that are fat-soluble and heat-sensitive. Simmering for 10–15 min extracts them into the broth efficiently; much longer simmering drives them off entirely. This is why the aromatics go in early but the soup doesn't cook for an hour. Time the simmer and you keep the fragrance."
       }
     ],
     "firstAttemptNotes": {
@@ -4035,6 +4107,10 @@
       {
         "keyword": "no parmesan",
         "text": "Don't dress this with parmesan — it's not traditional here and doesn't pair well with olive oil-based sauces."
+      },
+      {
+        "keyword": "Allicin and heat",
+        "text": "Garlic's pungency comes from allicin, which only forms when cells are crushed or cut — it's absent in an intact clove. Allicin is heat-sensitive and begins breaking down immediately when cooked. Low, slow cooking (as in this recipe) converts it into milder, sweeter sulfur compounds. This is why properly cooked garlic tastes completely different from raw, and why burning it makes it bitter — the pleasant compounds oxidize fast at high heat."
       }
     ],
     "firstAttemptNotes": {
@@ -4282,6 +4358,10 @@
       {
         "keyword": "This freezes perfectly",
         "text": "Make a full batch, portion into containers, and freeze. It reheats beautifully with a splash of water or stock."
+      },
+      {
+        "keyword": "Why milk tenderizes the meat",
+        "text": "Whole milk in bolognese isn't a mistake — it's chemistry. Casein proteins in milk coat the meat fibres during the long simmer, physically preventing them from tightening further. The milk also buffers the tomato's acidity, which would otherwise continue denaturing and toughening the meat proteins. The result is noticeably silkier, more tender meat than the same recipe made without it."
       }
     ],
     "firstAttemptNotes": {
@@ -4438,6 +4518,10 @@
       {
         "keyword": "Grate the cheese very finely",
         "text": "Coarser cheese won't dissolve into the paste smoothly. A microplane is ideal."
+      },
+      {
+        "keyword": "Starch emulsification",
+        "text": "Pasta water is doing specific chemistry here. Dissolved starch molecules have both hydrophilic (water-loving) and hydrophobic (fat-loving) regions — they bridge between the water and the cheese fat, holding them together in an emulsion. Too little starch (water added too early, or not enough) and the sauce breaks into a greasy pool. This is also why the cheese paste is made with pasta water, not tap water."
       }
     ],
     "firstAttemptNotes": {
@@ -4461,185 +4545,6 @@
         {
           "name": "parmesan",
           "protein": 4.8
-        }
-      ]
-    }
-  },
-  {
-    "id": "carbonara",
-    "name": "Carbonara",
-    "cuisine": "italian",
-    "difficulty": "medium",
-    "time": 25,
-    "servings": 2,
-    "methods": [
-      "boil",
-      "sauté",
-      "toss"
-    ],
-    "tags": [
-      "high-protein",
-      "no-marinate"
-    ],
-    "description": "The most technically demanding weeknight pasta — but once you get it, it's untouchable. Guanciale (or pancetta or bacon) renders down in its own fat, then pasta and a whisked egg-and-pecorino mixture get tossed together off the heat, using the residual warmth and starchy pasta water to emulsify into a glossy, silky sauce. No cream. Never cream. The whole point is that eggs and cheese become the sauce — and if you keep the heat off, it works perfectly every time.\n",
-    "keyIngredients": [
-      "guanciale",
-      "pecorino romano",
-      "eggs",
-      "rigatoni",
-      "black pepper"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🥩",
-        "label": "Protein",
-        "actionNote": "rendered in the pan first — the fat becomes the cooking fat for everything else",
-        "ingredients": [
-          {
-            "amount": "100–150g",
-            "name": "guanciale, cut into lardons or cubes",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "100–150g",
-                "name": "pancetta",
-                "note": "very similar, slightly less funky; nearly identical result"
-              },
-              {
-                "amount": "100–150g",
-                "name": "bacon",
-                "note": "more widely available; smokier flavor, works great"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🫙",
-        "label": "Egg mixture",
-        "actionNote": "whisked together in a bowl before you start cooking — must be ready to go",
-        "ingredients": [
-          {
-            "amount": "2 whole + 2 yolks",
-            "name": "eggs",
-            "note": "yolks add richness and emulsification",
-            "alternatives": []
-          },
-          {
-            "amount": "50g",
-            "name": "pecorino romano, very finely grated",
-            "note": "the finer the better — it needs to melt into the sauce",
-            "alternatives": [
-              {
-                "amount": "50g",
-                "name": "parmesan",
-                "note": "milder and slightly less sharp; works well"
-              },
-              {
-                "amount": "50g",
-                "name": "half pecorino, half parmesan",
-                "note": "the classic restaurant approach"
-              }
-            ]
-          },
-          {
-            "amount": "at least 1 tsp",
-            "name": "freshly cracked black pepper",
-            "note": "generous amount — this is a flavor, not a seasoning",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🍝",
-        "label": "Pasta",
-        "actionNote": "cook until 1–2 min before al dente; it finishes in the pan",
-        "ingredients": [
-          {
-            "amount": "180–200g",
-            "name": "rigatoni or spaghetti",
-            "note": "rigatoni holds the sauce inside the tubes and is highly recommended; spaghetti is more traditional",
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "step": "Bring a large pot of well-salted water to a boil. Cook pasta until 1–2 minutes before al dente (it will finish in the pan)."
-      },
-      {
-        "step": "Very finely grate pecorino and parmesan. While pasta cooks, whisk together eggs, egg yolks, grated cheese, and black pepper in a bowl. Set aside at room temperature — cold eggs scramble faster."
-      },
-      {
-        "step": "Cut guanciale (or substitute) into lardons or cubes. Cook in a large pan or skillet over medium heat until the fat has rendered and the meat is golden and slightly crispy, ~5–7 min. Turn off the heat and leave the meat and fat in the pan."
-      },
-      {
-        "step": "Reserve at least 1 full cup of pasta water before draining. Drain pasta."
-      },
-      {
-        "step": "Add pasta directly to the pan with the guanciale. Toss to coat in the fat. The pan should still be warm but off heat — wait 30 seconds if it's steaming too aggressively."
-      },
-      {
-        "step": "Pour the egg-and-cheese mixture over the pasta. Immediately toss constantly and vigorously, adding pasta water splash by splash (~4–6 tbsp total) to loosen the sauce. The starchy water helps the emulsion form."
-      },
-      {
-        "step": "Keep tossing until the sauce is glossy and clings to every piece of pasta — not wet, not dry. Add more pasta water if it tightens up too much."
-      },
-      {
-        "step": "Taste and adjust salt (the guanciale and cheese are already salty — you may not need any)."
-      },
-      {
-        "step": "Plate immediately. Crack more black pepper over the top."
-      }
-    ],
-    "protein": {
-      "grams": "~33",
-      "note": "per serving — intentionally below target; carbonara is a rich dish that doesn't take well to added protein. Serve with a light side if needed"
-    },
-    "tips": [
-      {
-        "keyword": "never add the egg mixture over direct heat",
-        "text": "This is the single rule. The eggs need warmth, not heat — off heat + pasta water is enough. If the eggs scramble, the dish is over."
-      },
-      {
-        "keyword": "room temperature eggs",
-        "text": "Room temperature eggs emulsify more easily and are less likely to seize when they hit the warm pasta. Take them out when you start cooking."
-      },
-      {
-        "keyword": "reserve more pasta water than you think",
-        "text": "You'll need at least 4–6 tbsp for the sauce, but keep a full cup on hand in case the sauce tightens."
-      },
-      {
-        "keyword": "grate the cheese very finely",
-        "text": "Coarsely grated cheese won't melt into the sauce and will clump. A microplane or fine box grater works best."
-      },
-      {
-        "keyword": "the sauce should be glossy, not runny",
-        "text": "If it's too loose, toss for another 30 seconds — the starch will thicken it. If it's too tight, add a splash more pasta water."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 681,
-      "protein": 32.9,
-      "fat": 29.8,
-      "carbs": 68.5,
-      "breakdown": [
-        {
-          "name": "guanciale",
-          "protein": 12.5
-        },
-        {
-          "name": "spaghetti",
-          "protein": 12.3
-        },
-        {
-          "name": "pecorino",
-          "protein": 8.0
         }
       ]
     }
@@ -4840,6 +4745,10 @@
       {
         "keyword": "serving suggestion",
         "text": "This pairs well over angel hair pasta (toss pasta in the extra sauce) or just eaten with a simple green salad."
+      },
+      {
+        "keyword": "Acid and protein denaturation",
+        "text": "The lemon juice in piccata partially denatures surface proteins via acid hydrolysis — the same mechanism that \"cooks\" fish in ceviche. At the concentrations used here, heat does the real work, but the acid in the pan sauce prevents the chicken from tightening further during the brief simmer. This is why the finished chicken stays tender even after being returned to the acidic sauce."
       }
     ],
     "firstAttemptNotes": {
@@ -5027,6 +4936,10 @@
       {
         "keyword": "The slow version is a different dish",
         "text": "The 45-minute simmer collapses the tomato structure and concentrates the flavor significantly — it becomes jammy, slightly sweet, and deeply savory. Worth the extra time when you have it."
+      },
+      {
+        "keyword": "Lycopene bioavailability",
+        "text": "Tomatoes cooked in olive oil are a dramatically better lycopene source than raw tomatoes. Lycopene is fat-soluble and tightly bound inside raw tomato cell walls — cooking breaks the cell structure, and oil provides the fat needed for absorption. Studies show 3–5× more bioavailable lycopene from cooked-in-oil tomatoes versus raw. The slow version, with longer cooking and more olive oil, maximizes this effect."
       }
     ],
     "firstAttemptNotes": {
@@ -5243,6 +5156,10 @@
       {
         "keyword": "Shredding chicken",
         "text": "Is easiest while it's still warm (not hot). Two forks work fine; a stand mixer with a paddle attachment shreds it in 30 seconds."
+      },
+      {
+        "keyword": "Chipotle smoking chemistry",
+        "text": "Chipotles are jalapeños that have been smoke-dried — the smoking creates guaiacol and syringol (the signature \"smoky\" flavor compounds found in all wood smoke) while simultaneously concentrating and chemically transforming the capsaicin. The adobo sauce (vinegar, tomatoes, spices) then adds a second acidic layer. This is why chipotles have a flavor profile that far exceeds plain dried chili."
       }
     ],
     "firstAttemptNotes": {
@@ -5485,6 +5402,10 @@
       {
         "keyword": "Scale up easily for meal prep",
         "text": "Double the recipe and it keeps for 4 days in the fridge."
+      },
+      {
+        "keyword": "Fat-soluble flavor compounds",
+        "text": "Cumin's cuminaldehyde and paprika's capsanthins are fat-soluble — they dissolve into fat, not water. When the spices hit the beef and its remaining fat, those flavor compounds distribute throughout every bite. Adding spices to a rinsed, fat-free beef and then a watery sauce results in noticeably flatter flavor. The small amount of residual fat after draining is doing real work."
       }
     ],
     "firstAttemptNotes": {
@@ -5748,6 +5669,10 @@
       {
         "keyword": "Yogurt",
         "text": "Full-fat Greek yogurt works better here than expected — tangier and thicker than sour cream. You can dollop it on top at serving or fold it into the rice at the rest step (off heat) for a creamier, more integrated result. Either way the nutrition is identical — folded-in yogurt just coats the rice and \"disappears\" visually but is fully present. Helps with blandness since the tang gets into the rice itself rather than just sitting on top."
+      },
+      {
+        "keyword": "Lime juice and iron absorption",
+        "text": "Lime juice does more than add brightness — its ascorbic acid converts non-heme iron (Fe³⁺, the form in rice and beans) into the more absorbable Fe²⁺ form. Ground beef contains heme iron (already well-absorbed regardless), but the rice and beans here are non-heme sources. The lime can roughly double the iron you absorb from those components."
       }
     ],
     "computedMacros": {
@@ -5986,6 +5911,10 @@
       {
         "keyword": "To turn this into tikka masala",
         "text": "Sauté onion, garlic, ginger, blend with canned tomato, add cream or yogurt and garam masala, then add the cooked tikka. That's the whole dish."
+      },
+      {
+        "keyword": "Yogurt marinade mechanics",
+        "text": "The yogurt marinade works on two levels simultaneously. Lactic acid (from yogurt's fermentation) mildly denatures surface proteins, improving the crust and texture. Separately, proteolytic enzymes naturally present in yogurt cleave peptide bonds in muscle fibres over the marinate window. Together they produce noticeably more tender chicken than a dry-spice rub alone — and why overnight marinating is meaningfully better than 2 hours."
       }
     ],
     "firstAttemptNotes": {
@@ -6001,267 +5930,6 @@
         {
           "name": "chicken breast",
           "protein": 54.2
-        }
-      ]
-    }
-  },
-  {
-    "id": "keema",
-    "name": "Keema (Indian Spiced Ground Meat)",
-    "cuisine": "indian",
-    "difficulty": "medium",
-    "time": 35,
-    "servings": 2,
-    "methods": [
-      "sauté",
-      "simmer"
-    ],
-    "tags": [
-      "high-protein",
-      "one-pan",
-      "no-marinate",
-      "meal-prep"
-    ],
-    "description": "Keema is a dry-ish spiced ground meat dish — one of the most satisfying things you can make with ground beef or lamb. The whole spice base (cumin, coriander, garam masala, ginger, garlic) does the work. This is exactly the right dish for the drain-and-rinse technique: remove the fat, keep the meat, let the spices carry everything. Serve with rice, roti, naan, or just eat it with a spoon.\n",
-    "keyIngredients": [
-      "ground beef",
-      "cumin",
-      "coriander",
-      "garam masala",
-      "ginger",
-      "garlic",
-      "tomato paste"
-    ],
-    "ingredientGroups": [
-      {
-        "emoji": "🥄",
-        "label": "Bowl 1 — Bloom spices",
-        "actionNote": "combine dry; added to pan with aromatics to bloom in oil",
-        "ingredients": [
-          {
-            "amount": "1 tsp",
-            "name": "cumin",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "1 tsp",
-            "name": "coriander (ground)",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "½ tsp",
-            "name": "turmeric",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "½ tsp",
-            "name": "smoked paprika or Kashmiri chili powder",
-            "note": null,
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🥩",
-        "label": "Protein",
-        "actionNote": "cooked first, fat drained, set aside; returned to pan after spice base is built",
-        "ingredients": [
-          {
-            "amount": "450g",
-            "name": "ground beef or lamb",
-            "note": "lamb is richer; beef works great",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "🧅",
-        "label": "Aromatics",
-        "actionNote": "sautéed together in oil until onion is golden",
-        "ingredients": [
-          {
-            "amount": "½",
-            "name": "onion, finely diced",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": "3–4 cloves",
-            "name": "garlic, minced",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "jarred minced garlic",
-                "note": null
-              }
-            ]
-          },
-          {
-            "amount": "1 tsp",
-            "name": "ginger, grated or minced",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "jarred minced ginger",
-                "note": "or grate directly from a frozen knob"
-              }
-            ]
-          },
-          {
-            "amount": 1,
-            "name": "green chili (serrano or jalapeño), minced",
-            "note": "optional — adjust heat to taste",
-            "alternatives": [
-              {
-                "amount": "¼ tsp",
-                "name": "cayenne powder",
-                "note": null
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🍅",
-        "label": "Tomato",
-        "actionNote": "added after spices bloom; cook until darkened",
-        "ingredients": [
-          {
-            "amount": "2 tbsp",
-            "name": "tomato paste (tube recommended)",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": "~100ml",
-                "name": "canned diced tomatoes",
-                "note": null
-              },
-              {
-                "amount": "1 medium",
-                "name": "fresh tomato, diced",
-                "note": null
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "emoji": "🥣",
-        "label": "Add-ins",
-        "actionNote": "added once meat is returned to pan",
-        "ingredients": [
-          {
-            "amount": "80g",
-            "name": "frozen peas",
-            "note": "optional but traditional; add straight from frozen",
-            "alternatives": []
-          }
-        ]
-      },
-      {
-        "emoji": "✨",
-        "label": "Finish",
-        "actionNote": "added completely off heat",
-        "ingredients": [
-          {
-            "amount": "½ tsp",
-            "name": "garam masala",
-            "note": "always added at the end — cooking it too long kills the fragrance",
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "juice of ½ lemon",
-            "note": null,
-            "alternatives": [
-              {
-                "amount": null,
-                "name": "bottled lemon juice",
-                "note": "fine here since it's stirred in at the end of a hot dish"
-              }
-            ]
-          },
-          {
-            "amount": null,
-            "name": "fresh cilantro",
-            "note": null,
-            "alternatives": []
-          },
-          {
-            "amount": null,
-            "name": "plain yogurt on top",
-            "note": "optional — balances the heat and adds protein",
-            "alternatives": []
-          }
-        ]
-      }
-    ],
-    "instructions": [
-      {
-        "step": "Cook ground meat in a pan over medium-high heat. Break it up as it cooks. Once done, drain fat and rinse if preferred. Set aside."
-      },
-      {
-        "step": "Finely dice onion. Mince garlic, grate or mince ginger, and mince green chili if using. In the same pan, sauté onion in a little oil over medium heat until golden, ~5–7 min. Don't rush this — browned onion is flavor."
-      },
-      {
-        "step": "Add garlic, ginger, and green chili. Cook ~2 min."
-      },
-      {
-        "step": "Add cumin, coriander, turmeric, and paprika. Stir and cook ~1 min — the spices bloom in the oil. This is an important step."
-      },
-      {
-        "step": "Add tomato paste or diced tomato. Cook ~3 min until it darkens slightly."
-      },
-      {
-        "step": "Return ground meat to the pan. Stir to coat everything in the spice base."
-      },
-      {
-        "step": "Add frozen peas if using. Add a splash of water if too dry. Simmer ~5–8 min for flavors to meld."
-      },
-      {
-        "step": "Off heat, add garam masala, lemon juice, and cilantro. Taste and adjust salt."
-      }
-    ],
-    "protein": {
-      "grams": "40–45",
-      "note": "per serving with 225g ground beef; a side of plain yogurt adds another ~10–15g and balances the heat"
-    },
-    "tips": [
-      {
-        "keyword": "Browning the onion properly",
-        "text": "Is the difference between a flat keema and a good one. Medium heat, patience, ~6–7 min until golden."
-      },
-      {
-        "keyword": "Garam masala goes in at the end",
-        "text": "Cooking it too long kills the fragrance. Add it off heat and stir through."
-      },
-      {
-        "keyword": "Keema is excellent the next day",
-        "text": "Reheat with a splash of water. Great for meal prep."
-      },
-      {
-        "keyword": "Keema on toast",
-        "text": "Like a spiced sloppy joe — an underrated quick lunch option."
-      }
-    ],
-    "firstAttemptNotes": {
-      "date": null,
-      "notes": []
-    },
-    "computedMacros": {
-      "cal": 520,
-      "protein": 42.0,
-      "fat": 33.9,
-      "carbs": 8.3,
-      "breakdown": [
-        {
-          "name": "ground beef",
-          "protein": 40.5
         }
       ]
     }
@@ -6479,6 +6147,10 @@
       {
         "keyword": "The smoky bottom crust",
         "text": "Is called \"party jollof\" in Nigerian cooking — it's the most prized part. If you get it, you did it right. Scrape it up and mix it in."
+      },
+      {
+        "keyword": "Lycopene bioavailability",
+        "text": "Cooking tomatoes in oil dramatically increases lycopene absorption. Lycopene is fat-soluble and tightly bound inside raw tomato cell walls — your body absorbs almost none of it uncooked. Prolonged high heat breaks the cell structure, and the oil provides the fat needed for the lycopene to cross the intestinal wall. The 20-minute frying step in jollof is extracting far more than flavor."
       }
     ],
     "firstAttemptNotes": {
@@ -6632,6 +6304,10 @@
       {
         "keyword": "Serve immediately",
         "text": "Kelewele is best hot. It softens and loses the texture quickly as it cools."
+      },
+      {
+        "keyword": "Gingerol transforms when cooked",
+        "text": "Ground ginger behaves differently from fresh because the pungent compounds have already changed form. Fresh ginger contains gingerol; drying converts it to shogaol (more intense, more heat-stable) and zingerone (milder, slightly sweet). Frying causes further conversion — which is why the spiced coating here has a different character from fresh ginger. It penetrates and holds through the high heat of frying in a way fresh ginger wouldn't."
       }
     ],
     "firstAttemptNotes": {
@@ -6813,6 +6489,10 @@
       {
         "keyword": "Leftovers",
         "text": "Slice well cold and work in wraps or on rice the next day."
+      },
+      {
+        "keyword": "Dry rub as a quick brine",
+        "text": "The salt in the spice rub draws moisture to the surface via osmosis within minutes, then that salty liquid gets reabsorbed into the meat over 20–30 min. This is a rapid dry-brine effect — the salt that re-enters denatures surface proteins slightly, helping the crust form faster in the air fryer while keeping the interior juicier than unsalted chicken."
       }
     ],
     "firstAttemptNotes": {
@@ -7079,6 +6759,10 @@
       {
         "keyword": "Overnight marinade",
         "text": "Makes a genuine difference here more than in most recipes. The allspice and thyme need time to work into the meat. If you're doing meal prep, marinate the night before."
+      },
+      {
+        "keyword": "Why allspice tastes like a blend",
+        "text": "Allspice is a single berry (Pimenta dioica) whose flavor profile naturally contains eugenol (the dominant compound in cloves), cineole (shared with cinnamon and nutmeg), and myrcene (a terpene it shares with black pepper and hops). Calling it \"allspice\" is literally accurate — it produces the same flavor molecules as multiple spices simultaneously, which is why it defines jerk so completely on its own."
       }
     ],
     "firstAttemptNotes": {
@@ -7200,6 +6884,10 @@
       {
         "keyword": "Slice thickness",
         "text": "¾–1 inch is the target. Thinner and the inside cooks dry before the outside caramelizes — you lose the jammy center. Thicker and the outside scorches before the center softens. The diagonal cut helps too — it increases the flat caramelizing surface area relative to the thickness, so you get more browning per bite."
+      },
+      {
+        "keyword": "Starch-to-sugar conversion",
+        "text": "Plantain ripening is driven by amylase enzymes that convert complex starches into simple sugars (sucrose, glucose, fructose) as the fruit matures. A green plantain is roughly 75% starch, 5% sugar; a fully black one is nearly the reverse. Maduros caramelize the way they do only because those sugars are present — frying an under-ripe plantain just produces a dense, starchy interior with no sweetness or caramelization."
       }
     ],
     "firstAttemptNotes": {
@@ -7373,6 +7061,10 @@
       {
         "keyword": "Oil depth",
         "text": "The ½ cm shallow pool isn't arbitrary — it lets oil contact the sides of the disc, not just the flat bottom. A thin film like you'd use for a fried egg only fries the contact surface; the edges steam instead of crisping. For maduros (where you want soft and jammy) a thin film is fine. For tostones, where the goal is full crunch including the edges, the shallow pool matters especially on the second fry."
+      },
+      {
+        "keyword": "Why the double fry works",
+        "text": "First fry gelatinizes the starch in the plantain surface and cooks the interior through. Smashing then exposes fresh interior surface area that was never fried. Second fry at higher heat runs the Maillard reaction across those new surfaces while driving off moisture from the first fry. A single fry at any temperature can't replicate this — you'd either undercook the center or burn the outside before achieving the crust."
       }
     ],
     "firstAttemptNotes": {
@@ -7538,6 +7230,10 @@
       {
         "keyword": "Microwave timing",
         "text": "Microwave briefly (not fully thawing) gives you a cold, thick smoothie without destroying the blender motor on rock-solid frozen chunks."
+      },
+      {
+        "keyword": "Two protein absorption rates",
+        "text": "This smoothie delivers protein at two different speeds. Whey (from the powder) is rapidly digested — blood amino acid levels peak within 60–90 min, making it ideal post-workout. Greek yogurt is mostly casein, which forms a slow-digesting gel in the stomach and releases amino acids steadily over 4–5 hours. Together you get an immediate spike and a sustained plateau — better for muscle protein synthesis than either source alone."
       }
     ],
     "firstAttemptNotes": {
@@ -7752,6 +7448,10 @@
       {
         "keyword": "Whey version",
         "text": "The bread will be slightly denser and less springy than the all-flour version. Still good — just don't expect it to be identical. Add a handful of walnuts if using whey; they improve the texture."
+      },
+      {
+        "keyword": "Maillard reaction in baking",
+        "text": "The brown crust on banana bread is the Maillard reaction — which requires temperatures above ~140°C. The interior of the loaf never reaches that temperature during baking (it stays around 90–95°C, limited by water content and the batter's thermal mass). This is why the crust is deeply browned and complex-flavored while the crumb stays pale and moist — same loaf, two entirely different chemical environments separated by a few millimetres."
       }
     ],
     "firstAttemptNotes": {

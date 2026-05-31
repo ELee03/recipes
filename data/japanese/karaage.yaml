@@ -140,6 +140,8 @@ tips:
     text: A light spray of neutral oil on top of the coated pieces before cooking helps achieve a more even golden color.
   - keyword: Double fry (deep fry method)
     text: The first fry cooks the chicken through at lower temp; the second fry at high heat crisps the crust. Worth doing if you're already frying in oil.
+  - keyword: Why the double fry works
+    text: First fry (~170°C) gelatinizes the cornstarch coating and cooks the chicken through. The rest period lets internal steam escape — skip it and re-frying immediately traps that steam, which softens the crust from inside. Second fry at higher heat drives off surface moisture and runs the Maillard reaction across the now-dry crust. Two separate reactions, two separate temperature windows.
 
 firstAttemptNotes:
   date: null

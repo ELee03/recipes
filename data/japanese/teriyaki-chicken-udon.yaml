@@ -113,6 +113,8 @@ tips:
     text: Fresh うどん from the refrigerator section is much better than dried. Most Asian grocery stores carry it.
   - keyword: Tofu
     text: Tofu can replace or supplement the chicken for additional protein variety.
+  - keyword: Caramelization vs Maillard
+    text: The teriyaki glaze browns via two simultaneous reactions at high heat. Caramelization (sugar only, above ~160°C) produces sweetness and butter-like notes. The Maillard reaction (amino acids + reducing sugars, above ~140°C) produces savory, meaty, complex flavor compounds. They're chemically distinct processes happening at the same time — which is why caramelized teriyaki tastes far richer than the raw sauce alone.
 
 firstAttemptNotes:
   date: null

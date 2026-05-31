@@ -123,6 +123,8 @@ tips:
     text: Wrap tightly and leave at room temperature up to 3 days, or freeze individual slices. Reheat from frozen at 150°C (300°F) for ~10 min, or just toast it.
   - keyword: Whey version
     text: The bread will be slightly denser and less springy than the all-flour version. Still good — just don't expect it to be identical. Add a handful of walnuts if using whey; they improve the texture.
+  - keyword: Maillard reaction in baking
+    text: The brown crust on banana bread is the Maillard reaction — which requires temperatures above ~140°C. The interior of the loaf never reaches that temperature during baking (it stays around 90–95°C, limited by water content and the batter's thermal mass). This is why the crust is deeply browned and complex-flavored while the crumb stays pale and moist — same loaf, two entirely different chemical environments separated by a few millimetres.
 
 firstAttemptNotes:
   date: null

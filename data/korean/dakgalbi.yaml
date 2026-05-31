@@ -123,6 +123,8 @@ tips:
     text: Cheese topping (mozzarella) is popular in restaurants. Skip it to keep things lighter, or add it as a treat.
   - keyword: leftover 닭갈비
     text: Leftover 닭갈비 makes incredible fried rice the next day.
+  - keyword: Maillard reaction
+    text: The char on 닭갈비 is the Maillard reaction — a cascade of hundreds of chemical reactions between amino acids and reducing sugars above ~140°C. It's distinct from caramelization (which is sugar only) and from burning. Those dark, slightly bitter, deeply savory edges are hundreds of new flavor compounds that don't exist anywhere in the raw ingredients.
 
 firstAttemptNotes:
   date: null

@@ -119,6 +119,8 @@ tips:
     text: This dish should be cooked on high heat the whole time. You want some char, not steaming.
   - keyword: Add a splash of water
     text: If the sauce gets too thick or sticky, a small splash of water loosens it immediately.
+  - keyword: Wok hei approximation
+    text: The smoky, slightly charred aroma of authentic pad kra pao is "wok hei" (鑊氣) — caused by oil droplets becoming airborne and partially combusting in a commercial wok at temperatures home stoves can't reach. The closest home approximation is cooking a small amount of meat in a very hot pan so the pan surface stays extremely hot. More meat = more temperature drop = less wok hei.
 
 firstAttemptNotes:
   date: null
