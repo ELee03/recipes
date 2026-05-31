@@ -59,7 +59,7 @@ ingredientGroups:
     label: Protein
     actionNote: cook whole, then shred with two forks after cooling slightly
     ingredients:
-      - amount: "300–400g"
+      - amount: "450–500g"
         name: chicken breast
         note: null
         alternatives: []

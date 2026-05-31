@@ -50,11 +50,11 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: 200g
+      - amount: 300–350g
         name: chicken breast, sliced thin
         note: null
         alternatives:
-          - amount: 200g
+          - amount: 300–350g
             name: firm tofu, cubed
             note: replace or supplement the chicken — same sauce, works well
 

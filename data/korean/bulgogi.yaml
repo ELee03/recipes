@@ -68,11 +68,11 @@ ingredientGroups:
     label: Protein & aromatics
     actionNote: add to marinade, toss well, marinate 30 min–overnight
     ingredients:
-      - amount: 300g
+      - amount: "350–400g"
         name: beef
         note: ribeye, sirloin, or any thin-sliced cut
         alternatives:
-          - amount: 300g
+          - amount: "350–400g"
             name: bulgogi-cut beef from Korean grocery store
             note: comes pre-sliced, saves a lot of work
       - amount: ½

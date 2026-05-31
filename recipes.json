@@ -98,12 +98,12 @@
         "actionNote": "toss in marinade and marinate at least 30 min",
         "ingredients": [
           {
-            "amount": "400g",
+            "amount": "550g",
             "name": "pork shoulder, thinly sliced",
             "note": "lean, good caramelization — the everyday choice",
             "alternatives": [
               {
-                "amount": "400g",
+                "amount": "550g",
                 "name": "pork belly, thinly sliced",
                 "note": "fattier, richer, more traditional; trim if you want it lighter"
               },
@@ -229,14 +229,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 563,
-      "protein": 36.4,
-      "fat": 35.3,
+      "cal": 713,
+      "protein": 49.1,
+      "fat": 45.8,
       "carbs": 23.9,
       "breakdown": [
         {
           "name": "pork shoulder",
-          "protein": 34.0
+          "protein": 46.8
         }
       ]
     }
@@ -946,16 +946,9 @@
         "actionNote": "drain well before adding to the pan",
         "ingredients": [
           {
-            "amount": "1 can (~150g)",
+            "amount": "2 cans (~300g)",
             "name": "tuna in water",
-            "note": "drained",
-            "alternatives": [
-              {
-                "amount": "2 cans",
-                "name": "tuna in water",
-                "note": "use two cans to boost protein"
-              }
-            ]
+            "note": "drained"
           }
         ]
       },
@@ -1084,14 +1077,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 376,
-      "protein": 33.0,
-      "fat": 5.1,
+      "cal": 463,
+      "protein": 52.5,
+      "fat": 5.8,
       "carbs": 49.1,
       "breakdown": [
         {
           "name": "tuna",
-          "protein": 19.5
+          "protein": 39.0
         },
         {
           "name": "pasta",
@@ -1662,12 +1655,12 @@
         "actionNote": "add to marinade, toss well, marinate 30 min–overnight",
         "ingredients": [
           {
-            "amount": "300g",
+            "amount": "350–400g",
             "name": "beef",
             "note": "ribeye, sirloin, or any thin-sliced cut",
             "alternatives": [
               {
-                "amount": "300g",
+                "amount": "350–400g",
                 "name": "bulgogi-cut beef from Korean grocery store",
                 "note": "comes pre-sliced, saves a lot of work"
               }
@@ -1772,14 +1765,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 542,
-      "protein": 42.4,
-      "fat": 29.8,
+      "cal": 636,
+      "protein": 52.2,
+      "fat": 35.4,
       "carbs": 24.9,
       "breakdown": [
         {
           "name": "beef",
-          "protein": 39.0
+          "protein": 48.8
         },
         {
           "name": "soy sauce",
@@ -1846,12 +1839,12 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "200g",
+            "amount": "300–350g",
             "name": "chicken breast, sliced thin",
             "note": null,
             "alternatives": [
               {
-                "amount": "200g",
+                "amount": "300–350g",
                 "name": "firm tofu, cubed",
                 "note": "replace or supplement the chicken — same sauce, works well"
               }
@@ -1957,14 +1950,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 235,
-      "protein": 33.4,
-      "fat": 3.8,
+      "cal": 338,
+      "protein": 52.7,
+      "fat": 6.0,
       "carbs": 15.9,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 31.0
+          "protein": 50.4
         },
         {
           "name": "soy sauce",
@@ -2478,12 +2471,12 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "120–150g",
+            "amount": "2 fillets (~180–200g each)",
             "name": "salmon fillet, skin on or off",
             "note": null,
             "alternatives": [
               {
-                "amount": "120–150g",
+                "amount": "2 cans (~150g each)",
                 "name": "canned salmon",
                 "note": "drain well — works in a pinch, noticeably less good but shelf-stable"
               }
@@ -2607,14 +2600,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 383,
-      "protein": 23.4,
-      "fat": 10.7,
+      "cal": 638,
+      "protein": 47.9,
+      "fat": 26.6,
       "carbs": 46.7,
       "breakdown": [
         {
           "name": "salmon",
-          "protein": 13.5
+          "protein": 38.0
         },
         {
           "name": "pasta",
@@ -3119,7 +3112,7 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "150–200g",
+            "amount": "250–300g",
             "name": "chicken breast or thigh, cut into bite-sized pieces",
             "note": "thigh is juicier; breast is leaner",
             "alternatives": []
@@ -3218,14 +3211,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 336,
-      "protein": 40.7,
-      "fat": 12.2,
+      "cal": 418,
+      "protein": 56.2,
+      "fat": 14.0,
       "carbs": 14.5,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 27.1
+          "protein": 42.6
         },
         {
           "name": "eggs",
@@ -3315,7 +3308,7 @@
         "actionNote": "cooked with a splash of water, no oil; drain liquid after",
         "ingredients": [
           {
-            "amount": "250–300g",
+            "amount": "550g",
             "name": "ground chicken or pork",
             "note": "both are traditional; chicken is leaner",
             "alternatives": []
@@ -3420,14 +3413,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 294,
-      "protein": 26.2,
-      "fat": 15.2,
+      "cal": 527,
+      "protein": 49.5,
+      "fat": 30.3,
       "carbs": 13.2,
       "breakdown": [
         {
           "name": "ground chicken",
-          "protein": 23.4
+          "protein": 46.8
         },
         {
           "name": "shallot",
@@ -3503,7 +3496,7 @@
         "actionNote": "cook first, drain fat, return to pan",
         "ingredients": [
           {
-            "amount": "250–300g",
+            "amount": "550g",
             "name": "ground chicken, pork, or beef",
             "note": null,
             "alternatives": []
@@ -3621,14 +3614,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 263,
-      "protein": 24.7,
-      "fat": 15.2,
+      "cal": 496,
+      "protein": 48.1,
+      "fat": 30.3,
       "carbs": 6.1,
       "breakdown": [
         {
           "name": "ground chicken",
-          "protein": 23.4
+          "protein": 46.8
         }
       ]
     }
@@ -3907,12 +3900,12 @@
         "actionNote": "season before searing",
         "ingredients": [
           {
-            "amount": "150–200g",
+            "amount": "350g",
             "name": "shrimp, peeled and deveined",
             "note": "fresh or thawed from frozen",
             "alternatives": [
               {
-                "amount": "150–200g",
+                "amount": "300g",
                 "name": "chicken breast",
                 "note": "sliced thin, seared separately — same dish, more protein"
               }
@@ -4049,14 +4042,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 464,
-      "protein": 29.3,
-      "fat": 18.7,
-      "carbs": 45.2,
+      "cal": 550,
+      "protein": 50.3,
+      "fat": 19.0,
+      "carbs": 45.4,
       "breakdown": [
         {
           "name": "shrimp",
-          "protein": 21.0
+          "protein": 42.0
         },
         {
           "name": "pasta",
@@ -5132,7 +5125,7 @@
         "actionNote": "cook whole, then shred with two forks after cooling slightly",
         "ingredients": [
           {
-            "amount": "300–400g",
+            "amount": "450–500g",
             "name": "chicken breast",
             "note": null,
             "alternatives": []
@@ -5257,14 +5250,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 219,
-      "protein": 37.3,
-      "fat": 4.9,
+      "cal": 288,
+      "protein": 50.2,
+      "fat": 6.4,
       "carbs": 4.6,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 36.2
+          "protein": 49.1
         }
       ]
     }
@@ -6776,7 +6769,7 @@
         "actionNote": "pat dry before applying rub",
         "ingredients": [
           {
-            "amount": "1–2",
+            "amount": "2 large",
             "name": "chicken breasts",
             "note": null,
             "alternatives": []
@@ -6831,14 +6824,14 @@
       ]
     },
     "computedMacros": {
-      "cal": 232,
-      "protein": 39.6,
-      "fat": 6.8,
+      "cal": 302,
+      "protein": 52.8,
+      "fat": 8.4,
       "carbs": 0.4,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 39.5
+          "protein": 52.7
         }
       ]
     }

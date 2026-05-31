@@ -76,11 +76,11 @@ ingredientGroups:
     label: Protein
     actionNote: toss in marinade and marinate at least 30 min
     ingredients:
-      - amount: 400g
+      - amount: 550g
         name: pork shoulder, thinly sliced
         note: lean, good caramelization — the everyday choice
         alternatives:
-          - amount: 400g
+          - amount: 550g
             name: pork belly, thinly sliced
             note: fattier, richer, more traditional; trim if you want it lighter
           - amount: 400g

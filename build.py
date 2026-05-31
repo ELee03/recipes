@@ -338,7 +338,7 @@ def main():
     if errors:
         print(f"\n{len(errors)} error(s) found:")
         for e in errors:
-            print(f"  ✗ {e}")
+            print(f"  ERROR: {e}")
         print()
 
     recipes = sort_recipes(recipes)

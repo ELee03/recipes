@@ -61,7 +61,7 @@ ingredientGroups:
     label: Protein
     actionNote: cooked with a splash of water, no oil; drain liquid after
     ingredients:
-      - amount: "250–300g"
+      - amount: "550g"
         name: ground chicken or pork
         note: both are traditional; chicken is leaner
         alternatives: []

@@ -47,11 +47,11 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: "120–150g"
+      - amount: "2 fillets (~180–200g each)"
         name: salmon fillet, skin on or off
         note: null
         alternatives:
-          - amount: "120–150g"
+          - amount: "2 cans (~150g each)"
             name: canned salmon
             note: drain well — works in a pinch, noticeably less good but shelf-stable
       - amount: null

@@ -34,13 +34,9 @@ ingredientGroups:
     label: Protein
     actionNote: drain well before adding to the pan
     ingredients:
-      - amount: 1 can (~150g)
+      - amount: 2 cans (~300g)
         name: tuna in water
         note: drained
-        alternatives:
-          - amount: 2 cans
-            name: tuna in water
-            note: use two cans to boost protein
 
   - emoji: 🥬
     label: Pan additions
