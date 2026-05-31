@@ -4550,6 +4550,189 @@
     }
   },
   {
+    "id": "carbonara",
+    "name": "Carbonara",
+    "cuisine": "italian",
+    "difficulty": "medium",
+    "time": 25,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "sauté",
+      "toss"
+    ],
+    "tags": [
+      "high-protein",
+      "no-marinate"
+    ],
+    "description": "The most technically demanding weeknight pasta — but once you get it, it's untouchable. Guanciale (or pancetta or bacon) renders down in its own fat, then pasta and a whisked egg-and-pecorino mixture get tossed together off the heat, using the residual warmth and starchy pasta water to emulsify into a glossy, silky sauce. No cream. Never cream. The whole point is that eggs and cheese become the sauce — and if you keep the heat off, it works perfectly every time.\n",
+    "keyIngredients": [
+      "guanciale",
+      "pecorino romano",
+      "eggs",
+      "rigatoni",
+      "black pepper"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "rendered in the pan first — the fat becomes the cooking fat for everything else",
+        "ingredients": [
+          {
+            "amount": "100–150g",
+            "name": "guanciale, cut into lardons or cubes",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "100–150g",
+                "name": "pancetta",
+                "note": "very similar, slightly less funky; nearly identical result"
+              },
+              {
+                "amount": "100–150g",
+                "name": "bacon",
+                "note": "more widely available; smokier flavor, works great"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🫙",
+        "label": "Egg mixture",
+        "actionNote": "whisked together in a bowl before you start cooking — must be ready to go",
+        "ingredients": [
+          {
+            "amount": "2 whole + 2 yolks",
+            "name": "eggs",
+            "note": "yolks add richness and emulsification",
+            "alternatives": []
+          },
+          {
+            "amount": "50g",
+            "name": "pecorino romano, very finely grated",
+            "note": "the finer the better — it needs to melt into the sauce",
+            "alternatives": [
+              {
+                "amount": "50g",
+                "name": "parmesan",
+                "note": "milder and slightly less sharp; works well"
+              },
+              {
+                "amount": "50g",
+                "name": "half pecorino, half parmesan",
+                "note": "the classic restaurant approach"
+              }
+            ]
+          },
+          {
+            "amount": "at least 1 tsp",
+            "name": "freshly cracked black pepper",
+            "note": "generous amount — this is a flavor, not a seasoning",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍝",
+        "label": "Pasta",
+        "actionNote": "cook until 1–2 min before al dente; it finishes in the pan",
+        "ingredients": [
+          {
+            "amount": "180–200g",
+            "name": "rigatoni or spaghetti",
+            "note": "rigatoni holds the sauce inside the tubes and is highly recommended; spaghetti is more traditional",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Bring a large pot of well-salted water to a boil. Cook pasta until 1–2 minutes before al dente (it will finish in the pan)."
+      },
+      {
+        "step": "Very finely grate pecorino and parmesan. While pasta cooks, whisk together eggs, egg yolks, grated cheese, and black pepper in a bowl. Set aside at room temperature — cold eggs scramble faster."
+      },
+      {
+        "step": "Cut guanciale (or substitute) into lardons or cubes. Cook in a large pan or skillet over medium heat until the fat has rendered and the meat is golden and slightly crispy, ~5–7 min. Turn off the heat and leave the meat and fat in the pan."
+      },
+      {
+        "step": "Reserve at least 1 full cup of pasta water before draining. Drain pasta."
+      },
+      {
+        "step": "Add pasta directly to the pan with the guanciale. Toss to coat in the fat. The pan should still be warm but off heat — wait 30 seconds if it's steaming too aggressively."
+      },
+      {
+        "step": "Pour the egg-and-cheese mixture over the pasta. Immediately toss constantly and vigorously, adding pasta water splash by splash (~4–6 tbsp total) to loosen the sauce. The starchy water helps the emulsion form."
+      },
+      {
+        "step": "Keep tossing until the sauce is glossy and clings to every piece of pasta — not wet, not dry. Add more pasta water if it tightens up too much."
+      },
+      {
+        "step": "Taste and adjust salt (the guanciale and cheese are already salty — you may not need any)."
+      },
+      {
+        "step": "Plate immediately. Crack more black pepper over the top."
+      }
+    ],
+    "protein": {
+      "grams": "~33",
+      "note": "per serving — intentionally below target; carbonara is a rich dish that doesn't take well to added protein. Serve with a light side if needed"
+    },
+    "tips": [
+      {
+        "keyword": "never add the egg mixture over direct heat",
+        "text": "This is the single rule. The eggs need warmth, not heat — off heat + pasta water is enough. If the eggs scramble, the dish is over."
+      },
+      {
+        "keyword": "room temperature eggs",
+        "text": "Room temperature eggs emulsify more easily and are less likely to seize when they hit the warm pasta. Take them out when you start cooking."
+      },
+      {
+        "keyword": "reserve more pasta water than you think",
+        "text": "You'll need at least 4–6 tbsp for the sauce, but keep a full cup on hand in case the sauce tightens."
+      },
+      {
+        "keyword": "grate the cheese very finely",
+        "text": "Coarsely grated cheese won't melt into the sauce and will clump. A microplane or fine box grater works best."
+      },
+      {
+        "keyword": "the sauce should be glossy, not runny",
+        "text": "If it's too loose, toss for another 30 seconds — the starch will thicken it. If it's too tight, add a splash more pasta water."
+      },
+      {
+        "keyword": "Egg protein coagulation window",
+        "text": "Carbonara works because egg proteins coagulate gradually — they begin thickening around 65°C and become rubbery above ~80°C. Off heat, the residual warmth of the pasta and guanciale fat keeps the eggs in the 65–75°C range, thick and glossy without scrambling. The pasta water does double duty — it loosens the sauce and lowers the overall temperature, buying you more time in the safe window while you toss."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 681,
+      "protein": 32.9,
+      "fat": 29.8,
+      "carbs": 68.5,
+      "breakdown": [
+        {
+          "name": "guanciale",
+          "protein": 12.5
+        },
+        {
+          "name": "spaghetti",
+          "protein": 12.3
+        },
+        {
+          "name": "pecorino",
+          "protein": 8.0
+        }
+      ]
+    }
+  },
+  {
     "id": "chicken-piccata",
     "name": "Chicken Piccata",
     "cuisine": "italian",
@@ -5930,6 +6113,271 @@
         {
           "name": "chicken breast",
           "protein": 54.2
+        }
+      ]
+    }
+  },
+  {
+    "id": "keema",
+    "name": "Keema (Indian Spiced Ground Meat)",
+    "cuisine": "indian",
+    "difficulty": "medium",
+    "time": 35,
+    "servings": 2,
+    "methods": [
+      "sauté",
+      "simmer"
+    ],
+    "tags": [
+      "high-protein",
+      "one-pan",
+      "no-marinate",
+      "meal-prep"
+    ],
+    "description": "Keema is a dry-ish spiced ground meat dish — one of the most satisfying things you can make with ground beef or lamb. The whole spice base (cumin, coriander, garam masala, ginger, garlic) does the work. This is exactly the right dish for the drain-and-rinse technique: remove the fat, keep the meat, let the spices carry everything. Serve with rice, roti, naan, or just eat it with a spoon.\n",
+    "keyIngredients": [
+      "ground beef",
+      "cumin",
+      "coriander",
+      "garam masala",
+      "ginger",
+      "garlic",
+      "tomato paste"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🥄",
+        "label": "Bowl 1 — Bloom spices",
+        "actionNote": "combine dry; added to pan with aromatics to bloom in oil",
+        "ingredients": [
+          {
+            "amount": "1 tsp",
+            "name": "cumin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "coriander (ground)",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "½ tsp",
+            "name": "turmeric",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "½ tsp",
+            "name": "smoked paprika or Kashmiri chili powder",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "cooked first, fat drained, set aside; returned to pan after spice base is built",
+        "ingredients": [
+          {
+            "amount": "450g",
+            "name": "ground beef or lamb",
+            "note": "lamb is richer; beef works great",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🧅",
+        "label": "Aromatics",
+        "actionNote": "sautéed together in oil until onion is golden",
+        "ingredients": [
+          {
+            "amount": "½",
+            "name": "onion, finely diced",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "3–4 cloves",
+            "name": "garlic, minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "jarred minced garlic",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "ginger, grated or minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "jarred minced ginger",
+                "note": "or grate directly from a frozen knob"
+              }
+            ]
+          },
+          {
+            "amount": 1,
+            "name": "green chili (serrano or jalapeño), minced",
+            "note": "optional — adjust heat to taste",
+            "alternatives": [
+              {
+                "amount": "¼ tsp",
+                "name": "cayenne powder",
+                "note": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🍅",
+        "label": "Tomato",
+        "actionNote": "added after spices bloom; cook until darkened",
+        "ingredients": [
+          {
+            "amount": "2 tbsp",
+            "name": "tomato paste (tube recommended)",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "~100ml",
+                "name": "canned diced tomatoes",
+                "note": null
+              },
+              {
+                "amount": "1 medium",
+                "name": "fresh tomato, diced",
+                "note": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥣",
+        "label": "Add-ins",
+        "actionNote": "added once meat is returned to pan",
+        "ingredients": [
+          {
+            "amount": "80g",
+            "name": "frozen peas",
+            "note": "optional but traditional; add straight from frozen",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Finish",
+        "actionNote": "added completely off heat",
+        "ingredients": [
+          {
+            "amount": "½ tsp",
+            "name": "garam masala",
+            "note": "always added at the end — cooking it too long kills the fragrance",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "juice of ½ lemon",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "bottled lemon juice",
+                "note": "fine here since it's stirred in at the end of a hot dish"
+              }
+            ]
+          },
+          {
+            "amount": null,
+            "name": "fresh cilantro",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "plain yogurt on top",
+            "note": "optional — balances the heat and adds protein",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Cook ground meat in a pan over medium-high heat. Break it up as it cooks. Once done, drain fat and rinse if preferred. Set aside."
+      },
+      {
+        "step": "Finely dice onion. Mince garlic, grate or mince ginger, and mince green chili if using. In the same pan, sauté onion in a little oil over medium heat until golden, ~5–7 min. Don't rush this — browned onion is flavor."
+      },
+      {
+        "step": "Add garlic, ginger, and green chili. Cook ~2 min."
+      },
+      {
+        "step": "Add cumin, coriander, turmeric, and paprika. Stir and cook ~1 min — the spices bloom in the oil. This is an important step."
+      },
+      {
+        "step": "Add tomato paste or diced tomato. Cook ~3 min until it darkens slightly."
+      },
+      {
+        "step": "Return ground meat to the pan. Stir to coat everything in the spice base."
+      },
+      {
+        "step": "Add frozen peas if using. Add a splash of water if too dry. Simmer ~5–8 min for flavors to meld."
+      },
+      {
+        "step": "Off heat, add garam masala, lemon juice, and cilantro. Taste and adjust salt."
+      }
+    ],
+    "protein": {
+      "grams": "40–45",
+      "note": "per serving with 225g ground beef; a side of plain yogurt adds another ~10–15g and balances the heat"
+    },
+    "tips": [
+      {
+        "keyword": "Browning the onion properly",
+        "text": "Is the difference between a flat keema and a good one. Medium heat, patience, ~6–7 min until golden."
+      },
+      {
+        "keyword": "Garam masala goes in at the end",
+        "text": "Cooking it too long kills the fragrance. Add it off heat and stir through."
+      },
+      {
+        "keyword": "Keema is excellent the next day",
+        "text": "Reheat with a splash of water. Great for meal prep."
+      },
+      {
+        "keyword": "Keema on toast",
+        "text": "Like a spiced sloppy joe — an underrated quick lunch option."
+      },
+      {
+        "keyword": "Blooming spices in oil",
+        "text": "Adding cumin, coriander, and turmeric to hot oil (step 4) extracts far more flavor than adding them to liquid. The active flavor compounds — terpenes, aldehydes, curcumin — are fat-soluble; they dissolve in oil but barely in water. A minute in hot oil releases them fully and distributes them throughout the fat that will coat every bite. Adding spices directly to the liquid leaves most of the flavor locked in the powder."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 520,
+      "protein": 42.0,
+      "fat": 33.9,
+      "carbs": 8.3,
+      "breakdown": [
+        {
+          "name": "ground beef",
+          "protein": 40.5
         }
       ]
     }
