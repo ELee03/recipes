@@ -5652,7 +5652,7 @@
           {
             "name": "Greek yogurt",
             "amount": "2–3 tbsp per bowl",
-            "note": "sour cream substitute"
+            "note": "sour cream substitute — can dollop on top or fold into the rice at the rest step for a creamier, more integrated result; same nutrition either way"
           }
         ]
       },
@@ -5701,7 +5701,7 @@
         "step": "Reduce heat to low, cover, and cook until rice is done — about 18 minutes for long-grain, 20–22 for short-grain. Don't lift the lid while it cooks."
       },
       {
-        "step": "Pull off heat. Lift the lid, stir in the beef (and beans and/or corn if using), cover again, and rest for 5 minutes — the residual heat warms everything through and the beef absorbs the spiced rice flavour. Taste and adjust salt now."
+        "step": "Pull off heat. Lift the lid, stir in the beef (and beans and/or corn if using). Optional — fold in the Greek yogurt now instead of topping with it later; the residual heat is enough to integrate it without curdling, and it coats the rice for a creamier result. Cover and rest for 5 minutes. Taste and adjust salt now."
       },
       {
         "step": "Scoop into bowls. Top with shredded cheddar (melts from the heat), a generous dollop of Greek yogurt, and a squeeze of lime."
@@ -5747,7 +5747,7 @@
       },
       {
         "keyword": "Yogurt",
-        "text": "Full-fat Greek yogurt works better here than expected — tangier and thicker than sour cream. Low-fat is fine too."
+        "text": "Full-fat Greek yogurt works better here than expected — tangier and thicker than sour cream. You can dollop it on top at serving or fold it into the rice at the rest step (off heat) for a creamier, more integrated result. Either way the nutrition is identical — folded-in yogurt just coats the rice and \"disappears\" visually but is fully present. Helps with blandness since the tang gets into the rice itself rather than just sitting on top."
       }
     ],
     "computedMacros": {
