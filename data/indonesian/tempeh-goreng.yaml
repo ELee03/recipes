@@ -1,0 +1,128 @@
+id: tempeh-goreng
+name: Tempeh Goreng (Fried Tempeh)
+cuisine: indonesian
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - marinate
+  - pan-fry
+
+tags:
+  - quick
+  - high-protein
+  - one-pan
+
+description: >
+  Tempeh sliced thin, marinated in a spiced kecap manis mixture, then pan-fried until crispy
+  and caramelized. Tempeh goreng is the most common way tempeh gets cooked in Indonesia — and
+  for good reason. The fermented slab soaks up marinade deeply and fries into something dense,
+  chewy on the inside and crispy on the edges. High protein, fast, and works as a side or
+  a main over rice.
+
+keyIngredients:
+  - tempeh
+  - kecap manis
+  - garlic
+  - coriander
+  - turmeric
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Marinade
+    actionNote: mix together; pour over sliced tempeh and let sit 10+ min (or longer in fridge)
+    ingredients:
+      - amount: 2 tbsp
+        name: kecap manis (sweet soy sauce)
+        note: null
+        alternatives:
+          - amount: 1½ tbsp soy sauce + ½ tsp brown sugar
+            name: soy sauce + brown sugar
+            note: null
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 3 cloves
+        name: garlic, minced or grated
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: garlic powder
+            note: null
+      - amount: ½ tsp
+        name: ground coriander
+        note: null
+        alternatives: []
+      - amount: ¼ tsp
+        name: turmeric
+        note: adds color and a faint earthiness
+        alternatives: []
+      - amount: ¼ tsp
+        name: cayenne or chili powder
+        note: optional for heat
+        alternatives: []
+      - amount: 2 tbsp
+        name: water
+        note: thins the marinade so it coats evenly
+        alternatives: []
+
+  - emoji: 🫘
+    label: Tempeh
+    actionNote: slice about ½ cm thick; thinner crisps more, thicker stays chewier
+    ingredients:
+      - amount: "250–300g"
+        name: tempeh
+        note: one standard block; available at Asian grocery stores or health food stores
+        alternatives: []
+
+  - emoji: 🫙
+    label: Frying
+    actionNote: null
+    ingredients:
+      - amount: "3–4 tbsp"
+        name: neutral oil
+        note: enough for a shallow fry
+        alternatives: []
+
+  - emoji: 🌿
+    label: Serving
+    actionNote: null
+    ingredients:
+      - amount: null
+        name: steamed rice
+        note: null
+        alternatives: []
+      - amount: null
+        name: sambal on the side
+        note: null
+        alternatives: []
+      - amount: null
+        name: sliced cucumber or tomato
+        note: traditional alongside
+        alternatives: []
+
+instructions:
+  - step: Slice tempeh into ½ cm thick slabs.
+  - step: Mix marinade ingredients in a shallow dish or bowl. Add tempeh slices and toss to coat. Let sit at least 10 min at room temperature, or up to overnight in the fridge.
+  - step: Heat oil in a skillet over medium-high heat. Add tempeh slices in a single layer. Fry 2–3 min per side until deep golden brown and slightly crispy on the edges.
+  - step: The marinade will caramelize — watch that it doesn't burn. Reduce heat slightly if it darkens too fast.
+  - step: Drain on paper towel. Serve over rice with sambal and cucumber.
+
+protein:
+  grams: "~30"
+  note: per serving (~19g protein per 100g tempeh)
+
+tips:
+  - keyword: Steam before marinating (optional)
+    text: Steaming tempeh slices for 5 min before marinating opens the structure slightly, allowing the marinade to penetrate more deeply. This is traditional in some preparations. Skip if short on time — still delicious without.
+  - keyword: Caramelization happens fast
+    text: Kecap manis has high sugar content and will start to burn before you expect it. Medium-high heat is right for the first side; drop to medium for the second if the pan looks too dark.
+  - keyword: Bitter tempeh
+    text: If your tempeh tastes bitter or sharp raw, a brief simmer in lightly salted water for 5 min before slicing tones it down. This is common with older or more assertive tempeh blocks.
+  - keyword: Tempeh vs tofu for protein
+    text: Tempeh is fermented whole soybeans, not pressed soy milk — which gives it fundamentally different nutrition than tofu. The Rhizopus mold (Rhizopus oligosporus) pre-digests the proteins during fermentation, breaking them into shorter peptide chains that the body absorbs more efficiently. It also eliminates most of the phytic acid — the compound in legumes that binds minerals and blocks absorption. The result is that tempeh's protein and minerals (zinc, iron, calcium) are substantially more bioavailable than the equivalent amount in unfermented soy or tofu. Higher fiber content is a further benefit.
+
+firstAttemptNotes:
+  date: null
+  notes: []

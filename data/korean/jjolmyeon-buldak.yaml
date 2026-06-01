@@ -1,0 +1,126 @@
+id: jjolmyeon-buldak
+name: Jjolmyeon with Buldak Carbonara
+cuisine: korean
+difficulty: easy
+time: 15
+servings: 1
+methods:
+  - boil
+  - toss
+
+tags:
+  - quick
+  - high-protein
+  - fusion
+  - no-marinate
+
+description: >
+  Jjolmyeon (쫄면) — chewy, elastic Korean wheat noodles — tossed in buldak carbonara sauce
+  cut with Greek yogurt. This is a fusion hack that hits surprisingly well: the thick, spicy-creamy
+  sauce packet from Samyang buldak carbonara ramen, thinned with yogurt and noodle cooking water,
+  clings perfectly to jjolmyeon's rough, chewy surface. A soft-boiled egg adds protein and
+  makes the sauce feel richer. Takes 15 minutes.
+
+keyIngredients:
+  - jjolmyeon noodles
+  - buldak carbonara sauce
+  - Greek yogurt
+  - egg
+
+ingredientGroups:
+  - emoji: 🍜
+    label: Noodles
+    actionNote: cook per package; do NOT rinse — surface starch helps sauce cling
+    ingredients:
+      - amount: "100–120g"
+        name: jjolmyeon (쫄면) noodles, dried
+        note: available at Korean grocery stores; thick, chewy wheat noodles
+        alternatives:
+          - amount: "100g"
+            name: udon noodles (thick)
+            note: similar chew; slightly smoother surface but close enough
+          - amount: "100g"
+            name: any thick chewy wheat noodle
+            note: glass noodles or thin pasta won't work here — need the chew
+
+  - emoji: 🌶️
+    label: Sauce
+    actionNote: mix together in a bowl while noodles cook; adjust consistency with noodle water
+    ingredients:
+      - amount: 1 packet
+        name: Samyang buldak carbonara sauce
+        note: from a package of Samyang Buldak Carbonara Ramen — use only the sauce packet; the included noodles can be saved or discarded
+        alternatives:
+          - amount: "1 tbsp gochujang + 1 tsp sesame oil + ½ tsp sugar"
+            name: gochujang base sauce
+            note: less creamy, different flavor, but works as a backup
+      - amount: "2–3 tbsp"
+        name: plain Greek yogurt
+        note: cuts the heat and adds creaminess and protein; use full-fat for best texture
+        alternatives:
+          - amount: "2 tbsp"
+            name: sour cream
+            note: similar effect, less protein
+      - amount: "2–3 tbsp"
+        name: noodle cooking water
+        note: starchy and hot — thins the sauce without diluting flavor
+
+  - emoji: 🥚
+    label: Toppings
+    actionNote: egg is essential for protein and richness; everything else is optional
+    ingredients:
+      - amount: 1
+        name: soft-boiled egg (jammy yolk)
+        note: 6.5–7 min in boiling water, then ice bath; halved over the bowl
+        alternatives:
+          - amount: 1
+            name: fried egg, runny yolk
+            note: null
+      - amount: null
+        name: sliced green onion
+        note: null
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+      - amount: null
+        name: nori strips
+        note: optional but good with the carbonara sauce
+        alternatives: []
+      - amount: "100g"
+        name: cooked chicken breast, sliced or shredded
+        note: optional — adds ~30g protein and makes it a full meal
+        alternatives:
+          - amount: "100g"
+            name: canned tuna, drained
+            note: easy pantry protein boost
+
+instructions:
+  - step: Bring a small pot of water to a boil. No need to heavily salt jjolmyeon — the sauce is salty.
+  - step: Soft-boil egg — lower into boiling water and cook 6.5 min. Transfer to ice water. Peel and halve.
+  - step: Cook jjolmyeon noodles per package instructions (typically 4–5 min). Before draining, scoop out ¼ cup of cooking water.
+  - step: Drain noodles but do NOT rinse them. Let them sit in the colander for 30 seconds to steam off excess surface water.
+  - step: In the bowl you'll eat from, mix the buldak carbonara sauce packet with Greek yogurt and 2 tbsp noodle cooking water. Stir until smooth.
+  - step: Add the hot noodles to the sauce bowl. Toss vigorously until every strand is coated. Add more noodle water splash by splash if the sauce is too thick.
+  - step: Top with the halved soft-boiled egg, green onion, sesame seeds, and nori. Add sliced chicken or tuna if using.
+
+protein:
+  grams: "~25"
+  note: base (egg + yogurt + noodles); ~55g with chicken breast added
+
+tips:
+  - keyword: Buy the ramen, use only the sauce
+    text: Samyang Buldak Carbonara ramen comes with a sauce packet and the included noodles. Use the sauce packet here and either save or discard the ramen noodles — jjolmyeon is a much better noodle for this preparation. One package of ramen has exactly one sauce packet.
+  - keyword: Don't rinse the noodles
+    text: Rinsing washes off the surface starch that helps the sauce cling. With a thick sauce like buldak carbonara, every bit of starch helps. Shake the colander to shed excess water, then go straight into the sauce bowl.
+  - keyword: Mix sauce in the eating bowl
+    text: Mix the sauce directly in the bowl you'll serve in, then add the hot noodles — the noodle heat loosens the sauce slightly. This avoids the sauce clumping when it hits cold noodles.
+  - keyword: Greek yogurt cuts the heat
+    text: Buldak carbonara is very spicy. The Greek yogurt doesn't just add creaminess — it contains casein proteins, which bind to capsaicin molecules (the compound responsible for heat). Capsaicin is fat-soluble and nonpolar; the fat and protein in dairy trap and coat it, reducing the number of molecules available to activate TRPV1 receptors on the tongue. This is why dairy is the correct heat antidote while water provides essentially no relief.
+  - keyword: Jjolmyeon vs pasta for sauce retention
+    text: Jjolmyeon retains more sauce per bite than smooth pasta via two mechanisms — surface texture and noodle elasticity. The rough, slightly irregular surface of jjolmyeon mechanically traps sauce in microscopic grooves rather than letting it run off. And the elastic, bouncy structure of the noodle creates more surface-to-mass ratio than a limp pasta strand. Together these mean you get more sauce flavor with every bite compared to a smooth linguine or spaghetti carrying the same amount of sauce.
+
+firstAttemptNotes:
+  date: null
+  notes: []

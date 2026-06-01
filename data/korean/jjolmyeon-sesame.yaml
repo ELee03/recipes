@@ -1,0 +1,149 @@
+id: jjolmyeon-sesame
+name: Spicy Sesame Jjolmyeon (쫄면)
+cuisine: korean
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - boil
+  - toss
+
+tags:
+  - quick
+  - high-protein
+  - no-marinate
+
+description: >
+  Jjolmyeon (쫄면) — thick, chewy Korean wheat noodles — tossed in a gochujang-sesame sauce
+  with ground chicken or thinly sliced chicken, soft-boiled egg, and julienned cucumber.
+  This is the more traditional jjolmyeon preparation (compared to the buldak carbonara version)
+  — sharp from vinegar, spicy from gochujang, rich from sesame oil, with the cucumber cutting
+  through everything. Works warm or at room temperature, which makes it good for meal prep too.
+
+keyIngredients:
+  - jjolmyeon noodles
+  - gochujang
+  - sesame oil
+  - rice vinegar
+  - ground chicken
+  - cucumber
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Sauce
+    actionNote: mix together in a bowl; taste before tossing — adjust heat and acid
+    ingredients:
+      - amount: 2 tbsp
+        name: gochujang
+        note: the primary flavor and heat source
+        alternatives: []
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: sesame oil
+        note: adds richness and the characteristic sesame depth
+        alternatives: []
+      - amount: 1 tbsp
+        name: rice vinegar
+        note: brightness and sharpness; cuts through the gochujang
+        alternatives:
+          - amount: 2 tsp
+            name: apple cider vinegar
+            note: slightly more aggressive acid
+      - amount: 1 tsp
+        name: honey or sugar
+        note: balances the heat and vinegar
+        alternatives: []
+      - amount: 1 tsp
+        name: garlic, minced or grated
+        note: null
+        alternatives:
+          - amount: ½ tsp
+            name: garlic powder
+            note: null
+      - amount: "1–2 tbsp"
+        name: noodle cooking water
+        note: starchy; thins the sauce and helps it coat the noodles evenly
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: cook before noodles; season simply — the sauce carries the dish
+    ingredients:
+      - amount: "300–350g"
+        name: ground chicken or pork
+        note: cook with a little garlic and soy over medium-high heat until cooked through and slightly browned; drain fat
+        alternatives:
+          - amount: "300g"
+            name: chicken breast, thinly sliced across the grain
+            note: cook 2–3 min per side in oil; slice into strips after
+          - amount: "1 can (170g)"
+            name: canned tuna, drained
+            note: fold in at the end; quick and easy
+
+  - emoji: 🍜
+    label: Noodles
+    actionNote: cook per package; do NOT rinse — surface starch helps the sauce cling
+    ingredients:
+      - amount: "200g"
+        name: jjolmyeon (쫄면) noodles, dried
+        note: thick, elastic Korean wheat noodles; available at Korean grocery stores
+        alternatives:
+          - amount: "200g"
+            name: thick udon noodles
+            note: close enough; slightly smoother but same general approach
+
+  - emoji: 🥒
+    label: Toppings
+    actionNote: null
+    ingredients:
+      - amount: "½"
+        name: cucumber, julienned
+        note: traditional and essential — the cool crunch balances the spice and richness
+        alternatives: []
+      - amount: 2
+        name: soft-boiled eggs, halved
+        note: 6.5–7 min boil, then ice bath
+        alternatives:
+          - amount: 2
+            name: fried eggs, yolk still soft
+            note: null
+      - amount: null
+        name: sliced green onion
+        note: null
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Soft-boil eggs — lower into boiling water and cook 6.5 min. Transfer to ice water. Peel and halve.
+  - step: Cook protein. For ground chicken or pork — brown in a pan over medium-high heat with a small splash of soy sauce and 1 clove of minced garlic. Drain fat. Set aside.
+  - step: Cook jjolmyeon per package instructions. Before draining, scoop out ¼ cup of starchy cooking water.
+  - step: Drain noodles but do NOT rinse. Let sit in colander 30 seconds.
+  - step: Mix sauce ingredients in a large bowl. Add the starchy noodle water and stir to combine. Taste — adjust gochujang for heat, vinegar for sharpness, honey for sweetness.
+  - step: Add hot noodles to the sauce bowl. Toss vigorously until every strand is coated. Add more noodle water if too thick.
+  - step: Divide into bowls. Top with protein, julienned cucumber, soft-boiled egg, green onion, and sesame seeds. Serve immediately, or let cool to room temperature before serving.
+
+protein:
+  grams: "~45"
+  note: per serving with ground chicken and egg
+
+tips:
+  - keyword: Taste the sauce before tossing
+    text: Gochujang varies in heat between brands, and the balance of acid, sweet, and spice is very personal here. Taste the sauce before the noodles go in — it should be punchy and slightly over-seasoned, because the noodles dilute it.
+  - keyword: Don't skip the cucumber
+    text: Jjolmyeon is spicy, rich, and dense. The julienned cucumber is not optional garnish — it's a textural and flavor counterbalance. The cool crunch and water content of the cucumber reset the palate between bites.
+  - keyword: Room temperature works
+    text: Unlike most noodle dishes, jjolmyeon holds up at room temperature because the sauce is thick and sticky enough to stay on the noodles without breaking. This makes it a solid meal-prep option — portion into containers and eat cold or at room temp.
+  - keyword: Julienning cucumber fast
+    text: Slice the cucumber lengthwise into planks, stack them, then cut across into thin strips. You don't need a mandoline. A 3–4 cm matchstick is the target length — long enough to fork with noodles, short enough not to be awkward.
+  - keyword: Viscosity without emulsification
+    text: Jjolmyeon sauce clings via different mechanics than a carbonara or cream sauce. There is no fat-water emulsion here — the gochujang and honey provide inherent viscosity from their natural polymer content (gochujang is a thick paste; honey contains glucose and fructose chains). The rough surface of jjolmyeon then mechanically traps this viscous sauce in its grooves rather than relying on surface tension or emulsification. Adding starchy noodle water contributes some additional thickness, but the primary mechanism is the paste itself adhering to a textured surface — which is why this approach would work less well on smooth, slick noodles.
+
+firstAttemptNotes:
+  date: null
+  notes: []

@@ -1,0 +1,157 @@
+id: nasi-goreng
+name: Nasi Goreng (Indonesian Fried Rice)
+cuisine: indonesian
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - stir-fry
+  - pan-fry
+
+tags:
+  - quick
+  - meal-prep
+  - one-pan
+  - pantry-friendly
+
+description: >
+  Indonesia's most iconic dish — fried rice seasoned with kecap manis (sweet soy sauce)
+  and a whisper of shrimp paste, finished with a fried egg on top. Similar territory to
+  kimchi fried rice but completely different in flavor: sweeter, smokier, more rounded.
+  Day-old rice is mandatory. Everything else is flexible — it's one of the best fridge-clearing
+  fried rice dishes you can make.
+
+keyIngredients:
+  - day-old rice
+  - kecap manis
+  - shrimp paste
+  - garlic
+  - shallots
+  - egg
+
+ingredientGroups:
+  - emoji: 🍳
+    label: Sauce
+    actionNote: mix together in a small bowl before you start cooking
+    ingredients:
+      - amount: 2 tbsp
+        name: kecap manis (sweet soy sauce)
+        note: the defining ingredient — thick, sweet, molasses-forward
+        alternatives:
+          - amount: 1½ tbsp soy sauce + ½ tbsp brown sugar
+            name: soy sauce + brown sugar
+            note: mixes into a rough substitute; thinner and less complex but works
+      - amount: 1 tbsp
+        name: soy sauce
+        note: adds saltiness and depth to balance the sweet kecap
+        alternatives: []
+      - amount: ½ tsp
+        name: shrimp paste (terasi/belacan), crumbled
+        note: toasted briefly in a dry pan before adding for more depth; small amount goes a long way
+        alternatives:
+          - amount: 1 tsp
+            name: fish sauce
+            note: different character but provides the fermented depth; slightly thinner result
+
+  - emoji: 🥩
+    label: Protein (optional)
+    actionNote: cook first, set aside; returned at the end
+    ingredients:
+      - amount: "200g"
+        name: chicken breast or shrimp
+        note: optional but recommended for a full meal; cut chicken into small cubes
+        alternatives:
+          - amount: "200g"
+            name: shrimp, peeled
+            note: 2–3 min in the pan, done
+          - amount: null
+            name: skip entirely
+            note: still a complete dish with egg on top
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: stir-fry over high heat before adding rice
+    ingredients:
+      - amount: 3 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced garlic
+            note: null
+      - amount: "2–3"
+        name: shallots, thinly sliced
+        note: more traditional than onion; use both if you have them
+        alternatives:
+          - amount: ¼
+            name: small white onion, finely diced
+            note: null
+      - amount: "1–2"
+        name: bird's eye chilies, sliced
+        note: optional — adjust to heat preference
+        alternatives:
+          - amount: ½ tsp
+            name: sambal oelek
+            note: null
+
+  - emoji: 🍚
+    label: Rice
+    actionNote: must be cold and day-old — freshly cooked rice steams instead of frying
+    ingredients:
+      - amount: "2 cups (about 300–350g cooked)"
+        name: day-old cooked jasmine rice
+        note: refrigerator-cold, broken up into loose grains before adding
+        alternatives: []
+
+  - emoji: 🥚
+    label: Garnish
+    actionNote: fried egg goes on top of each plate just before serving
+    ingredients:
+      - amount: 2
+        name: eggs
+        note: fried sunny-side up; runny yolk mixes into the rice as you eat
+        alternatives: []
+      - amount: null
+        name: crispy fried shallots
+        note: store-bought or homemade; adds crunch and sweetness
+        alternatives: []
+      - amount: null
+        name: sliced green onion
+        note: null
+        alternatives: []
+      - amount: null
+        name: cucumber slices
+        note: traditional cooling accompaniment
+        alternatives: []
+      - amount: null
+        name: sambal on the side
+        note: optional heat
+        alternatives: []
+
+instructions:
+  - step: If using chicken or shrimp, cook in a lightly oiled pan over medium-high heat until just done. Season with a pinch of salt. Set aside.
+  - step: Mix sauce ingredients (kecap manis, soy sauce, shrimp paste) in a small bowl. Set aside.
+  - step: "Heat oil in a wok or large skillet over high heat until shimmering. Add shallots and stir-fry 1–2 min until softened. Add garlic and chili; stir-fry 30 seconds."
+  - step: Add cold rice. Break up any clumps and toss to coat in the aromatics. Press the rice against the pan occasionally — let it sit for 20–30 seconds to develop some color and heat.
+  - step: Add the sauce mixture. Toss constantly for 1–2 min until the rice is evenly coated and smells caramelized.
+  - step: Return protein to the pan. Toss to combine. Taste and adjust salt if needed.
+  - step: Divide into plates. In the same pan (or a separate one), fry the eggs sunny-side up.
+  - step: Top each plate with a fried egg. Garnish with crispy shallots, green onion, and cucumber. Serve with sambal on the side.
+
+protein:
+  grams: "~15"
+  note: egg only (base); ~40g+ with 200g chicken breast added
+
+tips:
+  - keyword: Day-old rice is non-negotiable
+    text: Fresh rice has too much surface moisture — it steams and clumps instead of frying. Cold rice from the fridge has dried out slightly and fries into separate grains. If you need to use fresh rice, spread it on a sheet pan and refrigerate uncovered for 1–2 hours.
+  - keyword: Toast the shrimp paste
+    text: Crumbling terasi into a dry pan for 30–60 seconds before adding aromatics activates the flavor compounds and reduces the raw fermented smell. It smells strong during toasting — keep a window open.
+  - keyword: High heat matters
+    text: Nasi goreng needs high heat to develop color and the slight char on the rice grains that gives it its characteristic flavor. Medium heat just steams everything.
+  - keyword: Kecap manis caramelization
+    text: Kecap manis gets its characteristic gloss and deep flavor because its sugar content — dominated by palm sugar and inverted sugars from fermentation — caramelizes at lower temperatures than sucrose. Inverted sugars (glucose and fructose) also participate in the Maillard reaction more readily than sucrose. This means a quick stir-fry is enough to develop the complex sweetness without burning, which is why nasi goreng tastes richer and more layered than a plain soy sauce fried rice at the same cook time.
+
+firstAttemptNotes:
+  date: null
+  notes: []

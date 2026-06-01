@@ -1,0 +1,185 @@
+id: shakshuka
+name: Shakshuka (Eggs in Spiced Tomato Sauce)
+cuisine: middle-eastern
+difficulty: easy
+time: 30
+servings: 2
+methods:
+  - sauté
+  - simmer
+
+tags:
+  - high-protein
+  - one-pan
+  - pantry-friendly
+  - no-marinate
+
+description: >
+  Eggs poached directly in a spiced, garlicky tomato sauce — one of the most satisfying
+  one-pan meals in the collection. The sauce is built fast (onion, pepper, garlic, cumin,
+  smoked paprika, canned tomatoes) and the eggs cook right in the sauce with the lid on.
+  Serve with rice or flatbread to scoop everything up. Optional ground beef or lamb turns
+  it into a proper high-protein meal.
+
+keyIngredients:
+  - canned crushed tomatoes
+  - eggs
+  - cumin
+  - smoked paprika
+  - garlic
+  - onion
+
+ingredientGroups:
+  - emoji: 🥩
+    label: Optional protein boost
+    actionNote: cook first in the pan, then build the sauce on top
+    ingredients:
+      - amount: "225–300g"
+        name: ground beef or lamb
+        note: cook until browned, drain fat if needed; sauce goes on top of the meat
+        alternatives:
+          - amount: "200g"
+            name: merguez sausage, sliced
+            note: traditional; adds spice directly to the sauce
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: sautéed in olive oil before adding spices
+    ingredients:
+      - amount: 1
+        name: onion, finely diced
+        note: null
+        alternatives: []
+      - amount: 1
+        name: bell pepper (red or green), diced
+        note: null
+        alternatives: []
+      - amount: 4 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced garlic
+            note: null
+
+  - emoji: 🥄
+    label: Spice base
+    actionNote: bloom in the pan after aromatics are softened
+    ingredients:
+      - amount: 1½ tsp
+        name: cumin (ground)
+        note: null
+        alternatives: []
+      - amount: 1 tsp
+        name: smoked paprika
+        note: adds depth and slight smokiness
+        alternatives:
+          - amount: 1 tsp
+            name: sweet paprika
+            note: milder
+      - amount: ½ tsp
+        name: coriander (ground)
+        note: null
+        alternatives: []
+      - amount: ¼ tsp
+        name: cayenne
+        note: optional — adjust to preference
+        alternatives:
+          - amount: ½ tsp
+            name: chili flakes
+            note: null
+      - amount: ½ tsp
+        name: sugar
+        note: balances the acidity of canned tomatoes
+        alternatives: []
+
+  - emoji: 🍅
+    label: Tomato sauce
+    actionNote: added after spices bloom; simmer 8–10 min before adding eggs
+    ingredients:
+      - amount: 400g (1 can)
+        name: crushed tomatoes or whole peeled tomatoes, crushed by hand
+        note: whole peeled tomatoes crushed in the can taste fresher; crushed are more convenient
+        alternatives:
+          - amount: 400g
+            name: fresh tomatoes, grated or blended
+            note: use when in season
+      - amount: 1 tbsp
+        name: tomato paste
+        note: adds body and intensifies the tomato flavor
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: water or stock
+        note: adjust consistency — sauce should be thick but pourable
+        alternatives: []
+
+  - emoji: 🥚
+    label: Eggs
+    actionNote: cracked directly into wells in the sauce; lid on to steam
+    ingredients:
+      - amount: "4–6"
+        name: eggs
+        note: 4 for a lighter meal; 6 for generous servings
+        alternatives: []
+
+  - emoji: 🧀
+    label: Garnish
+    actionNote: added after eggs are done
+    ingredients:
+      - amount: "50g"
+        name: feta, crumbled
+        note: optional but highly recommended — creamy, salty, cooling
+        alternatives: []
+      - amount: null
+        name: fresh parsley or cilantro, chopped
+        note: null
+        alternatives: []
+      - amount: null
+        name: chili flakes
+        note: null
+        alternatives: []
+      - amount: null
+        name: drizzle of olive oil
+        note: null
+        alternatives: []
+
+  - emoji: 🍚
+    label: Serving
+    actionNote: null
+    ingredients:
+      - amount: null
+        name: steamed rice or flatbread
+        note: rice makes it a complete high-protein meal; flatbread is more traditional
+        alternatives: []
+
+instructions:
+  - step: If using ground beef or lamb, cook in the pan over medium-high heat, breaking it up, until browned. Drain excess fat. Set aside but leave the pan with any fond.
+  - step: Add a drizzle of olive oil to the pan over medium heat. Sauté onion and bell pepper until softened, ~5 min. Add garlic and cook 1 min.
+  - step: Add cumin, smoked paprika, coriander, cayenne, and sugar. Stir into the aromatics and cook 1 min to bloom the spices.
+  - step: Add tomato paste. Stir and cook 1 min until slightly darkened.
+  - step: Add crushed tomatoes and water. Return ground meat if using. Stir to combine. Simmer uncovered over medium heat 8–10 min, stirring occasionally, until the sauce thickens slightly and the flavors meld.
+  - step: Taste and adjust salt and seasoning. The sauce should be boldly spiced — it carries the eggs.
+  - step: Use a spoon to create small wells in the sauce. Crack an egg into each well. Season the eggs lightly with salt.
+  - step: Cover the pan and cook on medium-low until egg whites are just set but yolks are still runny — 5–7 min. Check at 5 min; runny to set is a 1–2 min window.
+  - step: Remove from heat. Crumble feta over the top. Garnish with parsley or cilantro and chili flakes. Drizzle olive oil over everything.
+  - step: Serve straight from the pan with rice or flatbread.
+
+protein:
+  grams: "~20"
+  note: eggs only (~5g per egg × 4 eggs); ~50g+ per serving with 225g ground beef added
+
+tips:
+  - keyword: Check eggs at 5 min
+    text: The window between runny yolk and fully set is short — check the eggs at 5 min by gently shaking the pan. If the whites jiggle, give them another 1–2 min. If you're serving with runny yolks, pull them earlier than you think.
+  - keyword: Bold sauce is the point
+    text: The sauce needs to be well-seasoned on its own. The eggs dilute the flavor slightly as you eat, and the feta adds saltiness — but if the sauce tastes flat before the eggs go in, it will taste flat throughout.
+  - keyword: Don't stir after the eggs go in
+    text: Once the eggs crack in, resist stirring. The whole point is poached eggs in the sauce — you need the whites to set in place.
+  - keyword: Serve from the pan
+    text: Shakshuka doesn't transfer well. Serve directly from the skillet or pot — the eggs break and the sauce cools fast if plated.
+  - keyword: Acid and egg whites
+    text: The acidic tomato sauce does something useful to the eggs — it shifts the denaturation temperature of egg white proteins slightly upward. Egg white proteins (primarily ovalbumin) normally begin coagulating around 60–65°C in a neutral environment, but the acidic pH of the tomato sauce causes them to hold their structure a few degrees longer. In practice this means the egg whites have a slightly wider cooking window before they turn rubbery, giving more control over the final texture when cooking with the lid on.
+
+firstAttemptNotes:
+  date: null
+  notes: []

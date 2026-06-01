@@ -1,0 +1,185 @@
+id: mie-goreng
+name: Mie Goreng (Indonesian Fried Noodles)
+cuisine: indonesian
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - boil
+  - stir-fry
+
+tags:
+  - quick
+  - one-pan
+  - high-protein
+
+description: >
+  The noodle version of nasi goreng — same flavor DNA (kecap manis, garlic, shallots, shrimp paste)
+  but with egg noodles instead of rice. Faster, arguably more satisfying, and basically the
+  from-scratch version of Indomie. The sauce is nearly identical to nasi goreng with the addition
+  of oyster sauce and a dash of sesame. Everything comes together in under 20 minutes.
+
+keyIngredients:
+  - egg noodles
+  - kecap manis
+  - oyster sauce
+  - garlic
+  - shallots
+  - chicken breast
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Sauce
+    actionNote: mix together in a bowl before you start cooking
+    ingredients:
+      - amount: 2 tbsp
+        name: kecap manis (sweet soy sauce)
+        note: the defining flavor — don't skip or substitute if possible
+        alternatives:
+          - amount: 1½ tbsp soy sauce + ½ tbsp brown sugar
+            name: soy sauce + brown sugar
+            note: rough substitute; thinner and less layered but works
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: 1 tbsp
+        name: oyster sauce
+        note: adds body and savory depth
+        alternatives:
+          - amount: 1 tsp
+            name: fish sauce
+            note: more pungent but provides similar umami
+      - amount: 1 tsp
+        name: sesame oil
+        note: added to the sauce mix, not for cooking — finishes the dish
+        alternatives: []
+      - amount: ½ tsp
+        name: shrimp paste (terasi), crumbled
+        note: optional but authentic; toast briefly in a dry pan first
+        alternatives:
+          - amount: 1 tsp
+            name: fish sauce
+            note: swap in addition to the other fish sauce
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: sliced thin and cooked first in the wok; set aside before aromatics
+    ingredients:
+      - amount: "300g"
+        name: chicken breast, thinly sliced
+        note: slice across the grain for tenderness; cook over high heat 2–3 min
+        alternatives:
+          - amount: "300g"
+            name: shrimp, peeled
+            note: 2 min max in the pan
+          - amount: "1 can (170g)"
+            name: canned tuna, drained
+            note: add when sauce goes in; very pantry-friendly
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: stir-fry over high heat after protein is set aside
+    ingredients:
+      - amount: "3–4 cloves"
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced garlic
+            note: null
+      - amount: "2–3"
+        name: shallots, thinly sliced
+        note: null
+        alternatives:
+          - amount: ¼
+            name: small onion, finely diced
+            note: null
+      - amount: "1–2"
+        name: bird's eye chilies, sliced
+        note: optional
+        alternatives:
+          - amount: ½ tsp
+            name: chili flakes
+            note: null
+
+  - emoji: 🥬
+    label: Vegetables
+    actionNote: add with aromatics; quick stir-fry, don't overcook
+    ingredients:
+      - amount: "1 cup"
+        name: cabbage, roughly chopped
+        note: classic in mie goreng; adds texture
+        alternatives:
+          - amount: "1 cup"
+            name: bean sprouts
+            note: add at the very end — 30 seconds only
+      - amount: "1"
+        name: carrot, julienned or matchstick-cut
+        note: optional
+        alternatives: []
+
+  - emoji: 🍜
+    label: Noodles
+    actionNote: boil until just cooked (al dente), drain, toss with a little oil to prevent sticking
+    ingredients:
+      - amount: "200g"
+        name: fresh egg noodles (or dried egg noodles)
+        note: cook per package; typically 2–3 min for fresh, 5–6 min for dried
+        alternatives:
+          - amount: "2 packages"
+            name: Indomie instant noodles
+            note: discard or save the seasoning packets; use just the noodles — the sauce here replaces them
+
+  - emoji: 🥚
+    label: Garnish
+    actionNote: null
+    ingredients:
+      - amount: 2
+        name: eggs, fried sunny-side up
+        note: one per plate on top
+        alternatives:
+          - amount: 2
+            name: soft-boiled eggs, halved
+            note: null
+      - amount: null
+        name: sliced green onion
+        note: null
+        alternatives: []
+      - amount: null
+        name: crispy fried shallots
+        note: store-bought; highly recommended for crunch
+        alternatives: []
+      - amount: null
+        name: lime wedge
+        note: a squeeze brightens everything
+        alternatives: []
+
+instructions:
+  - step: Cook noodles per package instructions until just tender. Drain, toss with a small splash of oil, and set aside.
+  - step: Mix all sauce ingredients in a small bowl. Set aside.
+  - step: Heat oil in a wok or large skillet over high heat. Add chicken (or shrimp) and cook until just done. Season lightly with salt. Set aside.
+  - step: In the same pan over high heat, stir-fry shallots 1–2 min. Add garlic and chili; cook 30 seconds.
+  - step: Add vegetables. Stir-fry 1–2 min until just softened but still with some texture.
+  - step: Add noodles. Toss to combine with the aromatics. Let sit against the pan occasionally to develop color.
+  - step: Add the sauce mixture. Toss constantly for 1–2 min until the noodles are evenly coated.
+  - step: Return protein to the pan. Toss to combine. Taste and adjust salt if needed.
+  - step: Plate immediately. Top each bowl with a fried egg, green onion, crispy shallots, and a lime wedge.
+
+protein:
+  grams: "~45"
+  note: per serving with 300g chicken breast; ~25g base without protein added
+
+tips:
+  - keyword: Don't overcook the noodles
+    text: Pull them just before fully done — they finish in the wok. Overcooked noodles will fall apart when stir-fried.
+  - keyword: Oil on drained noodles
+    text: Toss a small splash of oil through the drained noodles immediately. This stops them sticking together before they hit the wok. Without this they clump and rip instead of frying as individual strands.
+  - keyword: Indomie hack
+    text: The noodles in an Indomie package are perfectly calibrated for mie goreng — the right thickness, wavy texture, and size. Use the noodles, skip the packets, and use this sauce instead. You get the convenience without the sodium overload.
+  - keyword: Egg noodle protein structure
+    text: Egg noodles hold up better under stir-fry heat than plain wheat noodles because the egg proteins — primarily ovalbumin and conalbumin — cross-link during boiling, forming a tighter internal network. This makes the noodle more elastic and more resistant to breaking apart when tossed at high heat. The same cross-linking is why egg pasta and egg noodles cook slightly faster than plain pasta; the protein network begins setting before the starch fully gelatinizes.
+
+firstAttemptNotes:
+  date: null
+  notes: []

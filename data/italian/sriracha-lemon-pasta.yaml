@@ -1,0 +1,143 @@
+id: sriracha-lemon-pasta
+name: Sriracha Lemon Pasta
+cuisine: italian
+difficulty: easy
+time: 20
+servings: 2
+methods:
+  - boil
+  - sauté
+
+tags:
+  - quick
+  - high-protein
+  - no-marinate
+  - fusion
+
+description: >
+  Aglio e olio logic but with sriracha heat and bright lemon acid — one of the fastest,
+  freshest pasta dishes in the collection. Thinly sliced garlic blooms in olive oil, sriracha
+  goes in for heat, then pasta with a splash of starchy water to emulsify, finished off heat
+  with butter and lemon. Shrimp or chicken makes it a full meal. Takes 20 minutes and uses
+  mostly pantry staples.
+
+keyIngredients:
+  - linguine
+  - shrimp
+  - sriracha
+  - lemon
+  - garlic
+  - olive oil
+
+ingredientGroups:
+  - emoji: 🥩
+    label: Protein
+    actionNote: cooked in the garlic oil first, set aside; returned at the end
+    ingredients:
+      - amount: "300–350g"
+        name: shrimp, peeled and deveined
+        note: large or medium; pat dry so they sear rather than steam
+        alternatives:
+          - amount: "300g"
+            name: chicken breast, thinly sliced
+            note: slice across the grain ~½ cm thick; cooks in 3–4 min
+
+  - emoji: 🧄
+    label: Sauce base
+    actionNote: garlic goes into cold oil, heat together; keeps garlic from burning
+    ingredients:
+      - amount: "4–5 cloves"
+        name: garlic, thinly sliced
+        note: sliced (not minced) — blooms gently in the oil without burning
+        alternatives: []
+      - amount: "2–3 tbsp"
+        name: olive oil
+        note: null
+        alternatives: []
+      - amount: "1–2 tbsp"
+        name: sriracha
+        note: 1 tbsp is moderate heat; 2 tbsp is noticeably spicy
+        alternatives:
+          - amount: "1–2 tbsp"
+            name: sambal oelek
+            note: less sweet and more vinegary; works well
+          - amount: ½ tsp
+            name: chili flakes
+            note: less complex but same heat function
+      - amount: 1
+        name: lemon — juice AND zest
+        note: zest goes in with the garlic oil; juice goes in off heat at the end
+        alternatives:
+          - amount: 2 tbsp
+            name: bottled lemon juice
+            note: fine but skip the zest step — no zest in a bottle
+
+  - emoji: 🍝
+    label: Pasta
+    actionNote: cook until 1–2 min before al dente; finishes in the pan
+    ingredients:
+      - amount: "160–200g"
+        name: linguine or spaghetti
+        note: linguine preferred — the flat surface catches the sauce better
+        alternatives:
+          - amount: "160–200g"
+            name: rigatoni
+            note: tubes work too; more sauce pooling inside
+
+  - emoji: ✨
+    label: Finish (off heat)
+    actionNote: add off heat after pasta is in; emulsifies into the sauce
+    ingredients:
+      - amount: 1 tbsp
+        name: butter
+        note: adds richness and gloss; bridges the sriracha heat and lemon acid
+        alternatives: []
+
+  - emoji: 🧀
+    label: Optional garnish
+    actionNote: null
+    ingredients:
+      - amount: null
+        name: parmesan, finely grated
+        note: optional — slightly unconventional with shrimp but good
+        alternatives: []
+      - amount: null
+        name: fresh parsley, chopped
+        note: null
+        alternatives: []
+      - amount: null
+        name: chili flakes
+        note: more heat if needed
+        alternatives: []
+
+instructions:
+  - step: Bring a large pot of well-salted water to a boil. Cook pasta until 1–2 min before al dente.
+  - step: Meanwhile, pat shrimp or chicken dry. Season with a pinch of salt.
+  - step: Add olive oil and sliced garlic to a cold skillet. Turn heat to medium. Let garlic bloom slowly, swirling occasionally, 2–3 min until fragrant and lightly golden. Don't let it brown.
+  - step: Add lemon zest. Cook 30 seconds.
+  - step: Increase heat to medium-high. Add shrimp or chicken. Cook until just done — shrimp 1–2 min per side, chicken 2–3 min per side. Set aside.
+  - step: Reduce heat to medium. Add sriracha to the oil. Stir and cook 30 seconds.
+  - step: Reserve 1 cup pasta water before draining. Add pasta to the pan with ½ cup pasta water. Toss constantly 1–2 min until sauce emulsifies and coats the pasta.
+  - step: Turn off heat. Add butter and lemon juice. Toss until butter melts in and the sauce is glossy. Add more pasta water if needed to loosen.
+  - step: Return protein to the pan. Toss to coat. Taste and adjust — more sriracha for heat, more lemon for brightness, salt if needed.
+  - step: Plate immediately. Garnish with parsley, chili flakes, or parmesan if desired.
+
+protein:
+  grams: "~50"
+  note: per serving with 300g shrimp; ~45g with chicken breast
+
+tips:
+  - keyword: Cold-start the garlic
+    text: Starting garlic in cold oil lets the temperature rise slowly, blooming flavor without burning. Garlic added to a hot pan can go from raw to bitter in 30 seconds.
+  - keyword: Lemon zest early, juice late
+    text: Zest contains aromatic oils that bloom best in heat — add it with the garlic. Lemon juice is pure acid and should go in off heat; prolonged heat evaporates its volatile aromatics and leaves only sourness.
+  - keyword: Pasta water is the sauce
+    text: This is an emulsified pan sauce, not a poured sauce. The starch in pasta water binds the oil and sriracha into a cohesive coating. Without pasta water, the oil sits separate and the pasta is oily rather than sauced.
+  - keyword: Butter as emulsifier
+    text: The off-heat butter hit is a standard French restaurant technique — monter au beurre. Butter contains milk proteins and lecithin from the fat globule membranes, both of which act as emulsifiers. Adding it off heat prevents the milk proteins from denaturing (which would break the sauce) and adds gloss and a rounding richness that bridges the sharp acid from lemon and the heat from sriracha.
+  - keyword: Dual acid chemistry
+    text: Sriracha contains acetic acid (from vinegar), and lemon contains citric acid — two distinct acids with different sensory profiles. Acetic acid is volatile and smell-forward; you detect it in the aroma before you taste it. Citric acid is non-volatile and purely sour on the palate. Together they create a layered brightness — the sriracha hits the nose, the lemon hits the tongue. Capsaicin from the sriracha also amplifies perceived sourness by sensitizing taste receptors, making the lemon read brighter than it would alone.
+
+firstAttemptNotes:
+  date: null
+  notes: []

@@ -1,0 +1,152 @@
+id: ayam-kecap
+name: Ayam Kecap (Sweet Soy Braised Chicken)
+cuisine: indonesian
+difficulty: easy
+time: 35
+servings: 2
+methods:
+  - pan-sear
+  - braise
+
+tags:
+  - high-protein
+  - meal-prep
+  - one-pan
+
+description: >
+  Chicken braised in a sweet soy sauce with garlic, ginger, and shallots — then reduced down
+  to a glossy, lacquered glaze. Ayam kecap is one of Indonesia's most comforting weeknight
+  dishes: deeply savory, slightly sweet, and dead simple. The sear first, braise second method
+  gives you flavorful fond in the pan and chicken that stays juicy. Serve over rice and spoon
+  the braising liquid over everything.
+
+keyIngredients:
+  - chicken breast
+  - kecap manis
+  - garlic
+  - shallots
+  - ginger
+
+ingredientGroups:
+  - emoji: 🫙
+    label: Braising sauce
+    actionNote: mix together before you start cooking
+    ingredients:
+      - amount: 3 tbsp
+        name: kecap manis (sweet soy sauce)
+        note: the primary flavor — essential
+        alternatives:
+          - amount: 2 tbsp soy sauce + 1 tbsp brown sugar
+            name: soy sauce + brown sugar
+            note: thinner and less complex, but works
+      - amount: 1 tbsp
+        name: soy sauce
+        note: null
+        alternatives: []
+      - amount: "100ml"
+        name: chicken stock or water
+        note: just enough to braise; reduces down to a glaze
+        alternatives: []
+      - amount: 1 tbsp
+        name: oyster sauce
+        note: optional but adds depth and body
+        alternatives: []
+
+  - emoji: 🥩
+    label: Protein
+    actionNote: patted dry, seared first in the pan; set aside while aromatics cook
+    ingredients:
+      - amount: 2 large
+        name: chicken breasts
+        note: pound to even thickness (~2 cm) for even cooking; or use 4 boneless thighs
+        alternatives:
+          - amount: 4
+            name: boneless, skinless chicken thighs
+            note: richer flavor and more forgiving on timing; recommended if available
+
+  - emoji: 🧅
+    label: Aromatics
+    actionNote: sautéed in the pan after searing, before adding sauce
+    ingredients:
+      - amount: 4 cloves
+        name: garlic, minced
+        note: null
+        alternatives:
+          - amount: 1 tsp
+            name: jarred minced garlic
+            note: null
+      - amount: "3"
+        name: shallots, thinly sliced
+        note: traditional; adds sweetness
+        alternatives:
+          - amount: ½
+            name: small onion, finely diced
+            note: null
+      - amount: 1 tsp
+        name: ginger, grated or minced
+        note: null
+        alternatives:
+          - amount: null
+            name: jarred minced ginger
+            note: null
+
+  - emoji: ✨
+    label: Optional whole spices
+    actionNote: add with aromatics; remove before serving
+    ingredients:
+      - amount: 1
+        name: star anise
+        note: traditional; adds a faint anise warmth to the sauce
+        alternatives: []
+      - amount: 1 small
+        name: cinnamon stick
+        note: traditional; very subtle but rounds out the sauce
+        alternatives: []
+
+  - emoji: 🌿
+    label: Garnish
+    actionNote: null
+    ingredients:
+      - amount: null
+        name: sliced green onion
+        note: null
+        alternatives: []
+      - amount: null
+        name: fried egg on top
+        note: optional but highly recommended
+        alternatives: []
+      - amount: null
+        name: sambal on the side
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Pound chicken breasts to even thickness (~2 cm) if using breasts. Pat dry with paper towel and season with a pinch of salt.
+  - step: Mix braising sauce ingredients in a small bowl. Set aside.
+  - step: Heat a drizzle of oil in a pan or skillet over medium-high heat. Sear chicken 2–3 min per side until golden. It won't be cooked through — that's fine. Set aside.
+  - step: Reduce heat to medium. In the same pan, add a small splash of oil if needed. Sauté shallots 2 min until softened. Add garlic, ginger, and whole spices if using. Cook 1 min.
+  - step: Pour in the braising sauce mixture. Bring to a simmer, scraping up any browned bits from the pan.
+  - step: Return chicken to the pan. Spoon sauce over the top. Cover and simmer on medium-low for 12–15 min, turning once halfway, until chicken is cooked through (internal temp 74°C / 165°F).
+  - step: Remove lid and increase heat to medium-high. Simmer uncovered for 3–5 min, turning chicken occasionally, until the sauce reduces to a thick glaze that coats the chicken.
+  - step: Remove whole spices if used. Taste sauce and adjust salt.
+  - step: Serve over rice, spooning the glaze generously over everything. Garnish with green onion.
+
+protein:
+  grams: "~52"
+  note: per serving with one large chicken breast (~260g raw)
+
+tips:
+  - keyword: Pat the chicken dry
+    text: Surface moisture is the enemy of a good sear. Wet chicken steams instead of browning. Even 30 seconds with a paper towel makes a difference.
+  - keyword: Don't skip the sear
+    text: The braising liquid picks up every bit of fond (browned bits) from the pan when you add it. That's why the sauce has depth that raw-chicken braises lack.
+  - keyword: Watch the glaze
+    text: Kecap manis has a high sugar content and will burn quickly once the liquid reduces. Stay at the pan during the last 3–5 min and keep things moving.
+  - keyword: Thighs vs breasts
+    text: Thighs are much more forgiving — the collagen converts and the meat stays juicy even if you go a few minutes over. Breasts will dry out if you over-braise; use a thermometer and pull at 74°C.
+  - keyword: Maillard then braise
+    text: Searing the chicken before braising isn't just for color — it creates hundreds of Maillard reaction compounds that dissolve into the braising liquid as it simmers. A chicken braised without searing produces a paler, thinner sauce because those flavor compounds never formed. The fond on the pan bottom is essentially concentrated Maillard residue, and deglazing with the sauce carries it all into the final glaze.
+
+firstAttemptNotes:
+  date: null
+  notes: []

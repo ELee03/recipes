@@ -1,5 +1,214 @@
 [
   {
+    "id": "jjolmyeon-buldak",
+    "name": "Jjolmyeon with Buldak Carbonara",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 15,
+    "servings": 1,
+    "methods": [
+      "boil",
+      "toss"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "fusion",
+      "no-marinate"
+    ],
+    "description": "Jjolmyeon (쫄면) — chewy, elastic Korean wheat noodles — tossed in buldak carbonara sauce cut with Greek yogurt. This is a fusion hack that hits surprisingly well: the thick, spicy-creamy sauce packet from Samyang buldak carbonara ramen, thinned with yogurt and noodle cooking water, clings perfectly to jjolmyeon's rough, chewy surface. A soft-boiled egg adds protein and makes the sauce feel richer. Takes 15 minutes.\n",
+    "keyIngredients": [
+      "jjolmyeon noodles",
+      "buldak carbonara sauce",
+      "Greek yogurt",
+      "egg"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🍜",
+        "label": "Noodles",
+        "actionNote": "cook per package; do NOT rinse — surface starch helps sauce cling",
+        "ingredients": [
+          {
+            "amount": "100–120g",
+            "name": "jjolmyeon (쫄면) noodles, dried",
+            "note": "available at Korean grocery stores; thick, chewy wheat noodles",
+            "alternatives": [
+              {
+                "amount": "100g",
+                "name": "udon noodles (thick)",
+                "note": "similar chew; slightly smoother surface but close enough"
+              },
+              {
+                "amount": "100g",
+                "name": "any thick chewy wheat noodle",
+                "note": "glass noodles or thin pasta won't work here — need the chew"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🌶️",
+        "label": "Sauce",
+        "actionNote": "mix together in a bowl while noodles cook; adjust consistency with noodle water",
+        "ingredients": [
+          {
+            "amount": "1 packet",
+            "name": "Samyang buldak carbonara sauce",
+            "note": "from a package of Samyang Buldak Carbonara Ramen — use only the sauce packet; the included noodles can be saved or discarded",
+            "alternatives": [
+              {
+                "amount": "1 tbsp gochujang + 1 tsp sesame oil + ½ tsp sugar",
+                "name": "gochujang base sauce",
+                "note": "less creamy, different flavor, but works as a backup"
+              }
+            ]
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "plain Greek yogurt",
+            "note": "cuts the heat and adds creaminess and protein; use full-fat for best texture",
+            "alternatives": [
+              {
+                "amount": "2 tbsp",
+                "name": "sour cream",
+                "note": "similar effect, less protein"
+              }
+            ]
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "noodle cooking water",
+            "note": "starchy and hot — thins the sauce without diluting flavor"
+          }
+        ]
+      },
+      {
+        "emoji": "🥚",
+        "label": "Toppings",
+        "actionNote": "egg is essential for protein and richness; everything else is optional",
+        "ingredients": [
+          {
+            "amount": 1,
+            "name": "soft-boiled egg (jammy yolk)",
+            "note": "6.5–7 min in boiling water, then ice bath; halved over the bowl",
+            "alternatives": [
+              {
+                "amount": 1,
+                "name": "fried egg, runny yolk",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": null,
+            "name": "sliced green onion",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame seeds",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "nori strips",
+            "note": "optional but good with the carbonara sauce",
+            "alternatives": []
+          },
+          {
+            "amount": "100g",
+            "name": "cooked chicken breast, sliced or shredded",
+            "note": "optional — adds ~30g protein and makes it a full meal",
+            "alternatives": [
+              {
+                "amount": "100g",
+                "name": "canned tuna, drained",
+                "note": "easy pantry protein boost"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Bring a small pot of water to a boil. No need to heavily salt jjolmyeon — the sauce is salty."
+      },
+      {
+        "step": "Soft-boil egg — lower into boiling water and cook 6.5 min. Transfer to ice water. Peel and halve."
+      },
+      {
+        "step": "Cook jjolmyeon noodles per package instructions (typically 4–5 min). Before draining, scoop out ¼ cup of cooking water."
+      },
+      {
+        "step": "Drain noodles but do NOT rinse them. Let them sit in the colander for 30 seconds to steam off excess surface water."
+      },
+      {
+        "step": "In the bowl you'll eat from, mix the buldak carbonara sauce packet with Greek yogurt and 2 tbsp noodle cooking water. Stir until smooth."
+      },
+      {
+        "step": "Add the hot noodles to the sauce bowl. Toss vigorously until every strand is coated. Add more noodle water splash by splash if the sauce is too thick."
+      },
+      {
+        "step": "Top with the halved soft-boiled egg, green onion, sesame seeds, and nori. Add sliced chicken or tuna if using."
+      }
+    ],
+    "protein": {
+      "grams": "~25",
+      "note": "base (egg + yogurt + noodles); ~55g with chicken breast added"
+    },
+    "tips": [
+      {
+        "keyword": "Buy the ramen, use only the sauce",
+        "text": "Samyang Buldak Carbonara ramen comes with a sauce packet and the included noodles. Use the sauce packet here and either save or discard the ramen noodles — jjolmyeon is a much better noodle for this preparation. One package of ramen has exactly one sauce packet."
+      },
+      {
+        "keyword": "Don't rinse the noodles",
+        "text": "Rinsing washes off the surface starch that helps the sauce cling. With a thick sauce like buldak carbonara, every bit of starch helps. Shake the colander to shed excess water, then go straight into the sauce bowl."
+      },
+      {
+        "keyword": "Mix sauce in the eating bowl",
+        "text": "Mix the sauce directly in the bowl you'll serve in, then add the hot noodles — the noodle heat loosens the sauce slightly. This avoids the sauce clumping when it hits cold noodles."
+      },
+      {
+        "keyword": "Greek yogurt cuts the heat",
+        "text": "Buldak carbonara is very spicy. The Greek yogurt doesn't just add creaminess — it contains casein proteins, which bind to capsaicin molecules (the compound responsible for heat). Capsaicin is fat-soluble and nonpolar; the fat and protein in dairy trap and coat it, reducing the number of molecules available to activate TRPV1 receptors on the tongue. This is why dairy is the correct heat antidote while water provides essentially no relief."
+      },
+      {
+        "keyword": "Jjolmyeon vs pasta for sauce retention",
+        "text": "Jjolmyeon retains more sauce per bite than smooth pasta via two mechanisms — surface texture and noodle elasticity. The rough, slightly irregular surface of jjolmyeon mechanically traps sauce in microscopic grooves rather than letting it run off. And the elastic, bouncy structure of the noodle creates more surface-to-mass ratio than a limp pasta strand. Together these mean you get more sauce flavor with every bite compared to a smooth linguine or spaghetti carrying the same amount of sauce."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 273,
+      "protein": 42.5,
+      "fat": 9.8,
+      "carbs": 1.8,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 31.0
+        },
+        {
+          "name": "egg",
+          "protein": 7.8
+        },
+        {
+          "name": "greek yogurt",
+          "protein": 3.8
+        }
+      ]
+    }
+  },
+  {
     "id": "spicy-korean-pork",
     "name": "Spicy Korean Pork (돼지불고기)",
     "cuisine": "korean",
@@ -241,6 +450,244 @@
         {
           "name": "pork shoulder",
           "protein": 46.8
+        }
+      ]
+    }
+  },
+  {
+    "id": "jjolmyeon-sesame",
+    "name": "Spicy Sesame Jjolmyeon (쫄면)",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "toss"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "no-marinate"
+    ],
+    "description": "Jjolmyeon (쫄면) — thick, chewy Korean wheat noodles — tossed in a gochujang-sesame sauce with ground chicken or thinly sliced chicken, soft-boiled egg, and julienned cucumber. This is the more traditional jjolmyeon preparation (compared to the buldak carbonara version) — sharp from vinegar, spicy from gochujang, rich from sesame oil, with the cucumber cutting through everything. Works warm or at room temperature, which makes it good for meal prep too.\n",
+    "keyIngredients": [
+      "jjolmyeon noodles",
+      "gochujang",
+      "sesame oil",
+      "rice vinegar",
+      "ground chicken",
+      "cucumber"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Sauce",
+        "actionNote": "mix together in a bowl; taste before tossing — adjust heat and acid",
+        "ingredients": [
+          {
+            "amount": "2 tbsp",
+            "name": "gochujang",
+            "note": "the primary flavor and heat source",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "sesame oil",
+            "note": "adds richness and the characteristic sesame depth",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "rice vinegar",
+            "note": "brightness and sharpness; cuts through the gochujang",
+            "alternatives": [
+              {
+                "amount": "2 tsp",
+                "name": "apple cider vinegar",
+                "note": "slightly more aggressive acid"
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "honey or sugar",
+            "note": "balances the heat and vinegar",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "garlic, minced or grated",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "garlic powder",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1–2 tbsp",
+            "name": "noodle cooking water",
+            "note": "starchy; thins the sauce and helps it coat the noodles evenly",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "cook before noodles; season simply — the sauce carries the dish",
+        "ingredients": [
+          {
+            "amount": "300–350g",
+            "name": "ground chicken or pork",
+            "note": "cook with a little garlic and soy over medium-high heat until cooked through and slightly browned; drain fat",
+            "alternatives": [
+              {
+                "amount": "300g",
+                "name": "chicken breast, thinly sliced across the grain",
+                "note": "cook 2–3 min per side in oil; slice into strips after"
+              },
+              {
+                "amount": "1 can (170g)",
+                "name": "canned tuna, drained",
+                "note": "fold in at the end; quick and easy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🍜",
+        "label": "Noodles",
+        "actionNote": "cook per package; do NOT rinse — surface starch helps the sauce cling",
+        "ingredients": [
+          {
+            "amount": "200g",
+            "name": "jjolmyeon (쫄면) noodles, dried",
+            "note": "thick, elastic Korean wheat noodles; available at Korean grocery stores",
+            "alternatives": [
+              {
+                "amount": "200g",
+                "name": "thick udon noodles",
+                "note": "close enough; slightly smoother but same general approach"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥒",
+        "label": "Toppings",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": "½",
+            "name": "cucumber, julienned",
+            "note": "traditional and essential — the cool crunch balances the spice and richness",
+            "alternatives": []
+          },
+          {
+            "amount": 2,
+            "name": "soft-boiled eggs, halved",
+            "note": "6.5–7 min boil, then ice bath",
+            "alternatives": [
+              {
+                "amount": 2,
+                "name": "fried eggs, yolk still soft",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": null,
+            "name": "sliced green onion",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame seeds",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Soft-boil eggs — lower into boiling water and cook 6.5 min. Transfer to ice water. Peel and halve."
+      },
+      {
+        "step": "Cook protein. For ground chicken or pork — brown in a pan over medium-high heat with a small splash of soy sauce and 1 clove of minced garlic. Drain fat. Set aside."
+      },
+      {
+        "step": "Cook jjolmyeon per package instructions. Before draining, scoop out ¼ cup of starchy cooking water."
+      },
+      {
+        "step": "Drain noodles but do NOT rinse. Let sit in colander 30 seconds."
+      },
+      {
+        "step": "Mix sauce ingredients in a large bowl. Add the starchy noodle water and stir to combine. Taste — adjust gochujang for heat, vinegar for sharpness, honey for sweetness."
+      },
+      {
+        "step": "Add hot noodles to the sauce bowl. Toss vigorously until every strand is coated. Add more noodle water if too thick."
+      },
+      {
+        "step": "Divide into bowls. Top with protein, julienned cucumber, soft-boiled egg, green onion, and sesame seeds. Serve immediately, or let cool to room temperature before serving."
+      }
+    ],
+    "protein": {
+      "grams": "~45",
+      "note": "per serving with ground chicken and egg"
+    },
+    "tips": [
+      {
+        "keyword": "Taste the sauce before tossing",
+        "text": "Gochujang varies in heat between brands, and the balance of acid, sweet, and spice is very personal here. Taste the sauce before the noodles go in — it should be punchy and slightly over-seasoned, because the noodles dilute it."
+      },
+      {
+        "keyword": "Don't skip the cucumber",
+        "text": "Jjolmyeon is spicy, rich, and dense. The julienned cucumber is not optional garnish — it's a textural and flavor counterbalance. The cool crunch and water content of the cucumber reset the palate between bites."
+      },
+      {
+        "keyword": "Room temperature works",
+        "text": "Unlike most noodle dishes, jjolmyeon holds up at room temperature because the sauce is thick and sticky enough to stay on the noodles without breaking. This makes it a solid meal-prep option — portion into containers and eat cold or at room temp."
+      },
+      {
+        "keyword": "Julienning cucumber fast",
+        "text": "Slice the cucumber lengthwise into planks, stack them, then cut across into thin strips. You don't need a mandoline. A 3–4 cm matchstick is the target length — long enough to fork with noodles, short enough not to be awkward."
+      },
+      {
+        "keyword": "Viscosity without emulsification",
+        "text": "Jjolmyeon sauce clings via different mechanics than a carbonara or cream sauce. There is no fat-water emulsion here — the gochujang and honey provide inherent viscosity from their natural polymer content (gochujang is a thick paste; honey contains glucose and fructose chains). The rough surface of jjolmyeon then mechanically traps this viscous sauce in its grooves rather than relying on surface tension or emulsification. Adding starchy noodle water contributes some additional thickness, but the primary mechanism is the paste itself adhering to a textured surface — which is why this approach would work less well on smooth, slick noodles."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 472,
+      "protein": 37.1,
+      "fat": 31.1,
+      "carbs": 10.6,
+      "breakdown": [
+        {
+          "name": "ground chicken",
+          "protein": 27.6
+        },
+        {
+          "name": "eggs",
+          "protein": 7.8
         }
       ]
     }
@@ -5147,6 +5594,237 @@
     }
   },
   {
+    "id": "sriracha-lemon-pasta",
+    "name": "Sriracha Lemon Pasta",
+    "cuisine": "italian",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "sauté"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "no-marinate",
+      "fusion"
+    ],
+    "description": "Aglio e olio logic but with sriracha heat and bright lemon acid — one of the fastest, freshest pasta dishes in the collection. Thinly sliced garlic blooms in olive oil, sriracha goes in for heat, then pasta with a splash of starchy water to emulsify, finished off heat with butter and lemon. Shrimp or chicken makes it a full meal. Takes 20 minutes and uses mostly pantry staples.\n",
+    "keyIngredients": [
+      "linguine",
+      "shrimp",
+      "sriracha",
+      "lemon",
+      "garlic",
+      "olive oil"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "cooked in the garlic oil first, set aside; returned at the end",
+        "ingredients": [
+          {
+            "amount": "300–350g",
+            "name": "shrimp, peeled and deveined",
+            "note": "large or medium; pat dry so they sear rather than steam",
+            "alternatives": [
+              {
+                "amount": "300g",
+                "name": "chicken breast, thinly sliced",
+                "note": "slice across the grain ~½ cm thick; cooks in 3–4 min"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧄",
+        "label": "Sauce base",
+        "actionNote": "garlic goes into cold oil, heat together; keeps garlic from burning",
+        "ingredients": [
+          {
+            "amount": "4–5 cloves",
+            "name": "garlic, thinly sliced",
+            "note": "sliced (not minced) — blooms gently in the oil without burning",
+            "alternatives": []
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "olive oil",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1–2 tbsp",
+            "name": "sriracha",
+            "note": "1 tbsp is moderate heat; 2 tbsp is noticeably spicy",
+            "alternatives": [
+              {
+                "amount": "1–2 tbsp",
+                "name": "sambal oelek",
+                "note": "less sweet and more vinegary; works well"
+              },
+              {
+                "amount": "½ tsp",
+                "name": "chili flakes",
+                "note": "less complex but same heat function"
+              }
+            ]
+          },
+          {
+            "amount": 1,
+            "name": "lemon — juice AND zest",
+            "note": "zest goes in with the garlic oil; juice goes in off heat at the end",
+            "alternatives": [
+              {
+                "amount": "2 tbsp",
+                "name": "bottled lemon juice",
+                "note": "fine but skip the zest step — no zest in a bottle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🍝",
+        "label": "Pasta",
+        "actionNote": "cook until 1–2 min before al dente; finishes in the pan",
+        "ingredients": [
+          {
+            "amount": "160–200g",
+            "name": "linguine or spaghetti",
+            "note": "linguine preferred — the flat surface catches the sauce better",
+            "alternatives": [
+              {
+                "amount": "160–200g",
+                "name": "rigatoni",
+                "note": "tubes work too; more sauce pooling inside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Finish (off heat)",
+        "actionNote": "add off heat after pasta is in; emulsifies into the sauce",
+        "ingredients": [
+          {
+            "amount": "1 tbsp",
+            "name": "butter",
+            "note": "adds richness and gloss; bridges the sriracha heat and lemon acid",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🧀",
+        "label": "Optional garnish",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "parmesan, finely grated",
+            "note": "optional — slightly unconventional with shrimp but good",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "fresh parsley, chopped",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "chili flakes",
+            "note": "more heat if needed",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Bring a large pot of well-salted water to a boil. Cook pasta until 1–2 min before al dente."
+      },
+      {
+        "step": "Meanwhile, pat shrimp or chicken dry. Season with a pinch of salt."
+      },
+      {
+        "step": "Add olive oil and sliced garlic to a cold skillet. Turn heat to medium. Let garlic bloom slowly, swirling occasionally, 2–3 min until fragrant and lightly golden. Don't let it brown."
+      },
+      {
+        "step": "Add lemon zest. Cook 30 seconds."
+      },
+      {
+        "step": "Increase heat to medium-high. Add shrimp or chicken. Cook until just done — shrimp 1–2 min per side, chicken 2–3 min per side. Set aside."
+      },
+      {
+        "step": "Reduce heat to medium. Add sriracha to the oil. Stir and cook 30 seconds."
+      },
+      {
+        "step": "Reserve 1 cup pasta water before draining. Add pasta to the pan with ½ cup pasta water. Toss constantly 1–2 min until sauce emulsifies and coats the pasta."
+      },
+      {
+        "step": "Turn off heat. Add butter and lemon juice. Toss until butter melts in and the sauce is glossy. Add more pasta water if needed to loosen."
+      },
+      {
+        "step": "Return protein to the pan. Toss to coat. Taste and adjust — more sriracha for heat, more lemon for brightness, salt if needed."
+      },
+      {
+        "step": "Plate immediately. Garnish with parsley, chili flakes, or parmesan if desired."
+      }
+    ],
+    "protein": {
+      "grams": "~50",
+      "note": "per serving with 300g shrimp; ~45g with chicken breast"
+    },
+    "tips": [
+      {
+        "keyword": "Cold-start the garlic",
+        "text": "Starting garlic in cold oil lets the temperature rise slowly, blooming flavor without burning. Garlic added to a hot pan can go from raw to bitter in 30 seconds."
+      },
+      {
+        "keyword": "Lemon zest early, juice late",
+        "text": "Zest contains aromatic oils that bloom best in heat — add it with the garlic. Lemon juice is pure acid and should go in off heat; prolonged heat evaporates its volatile aromatics and leaves only sourness."
+      },
+      {
+        "keyword": "Pasta water is the sauce",
+        "text": "This is an emulsified pan sauce, not a poured sauce. The starch in pasta water binds the oil and sriracha into a cohesive coating. Without pasta water, the oil sits separate and the pasta is oily rather than sauced."
+      },
+      {
+        "keyword": "Butter as emulsifier",
+        "text": "The off-heat butter hit is a standard French restaurant technique — monter au beurre. Butter contains milk proteins and lecithin from the fat globule membranes, both of which act as emulsifiers. Adding it off heat prevents the milk proteins from denaturing (which would break the sauce) and adds gloss and a rounding richness that bridges the sharp acid from lemon and the heat from sriracha."
+      },
+      {
+        "keyword": "Dual acid chemistry",
+        "text": "Sriracha contains acetic acid (from vinegar), and lemon contains citric acid — two distinct acids with different sensory profiles. Acetic acid is volatile and smell-forward; you detect it in the aroma before you taste it. Citric acid is non-volatile and purely sour on the palate. Together they create a layered brightness — the sriracha hits the nose, the lemon hits the tongue. Capsaicin from the sriracha also amplifies perceived sourness by sensitizing taste receptors, making the lemon read brighter than it would alone."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 707,
+      "protein": 51.7,
+      "fat": 25.2,
+      "carbs": 71.1,
+      "breakdown": [
+        {
+          "name": "shrimp",
+          "protein": 39.0
+        },
+        {
+          "name": "spaghetti",
+          "protein": 11.7
+        }
+      ]
+    }
+  },
+  {
     "id": "chicken-tinga",
     "name": "Chicken Tinga",
     "cuisine": "mexican",
@@ -7528,6 +8206,1308 @@
         {
           "name": "plantain",
           "protein": 3.9
+        }
+      ]
+    }
+  },
+  {
+    "id": "ayam-kecap",
+    "name": "Ayam Kecap (Sweet Soy Braised Chicken)",
+    "cuisine": "indonesian",
+    "difficulty": "easy",
+    "time": 35,
+    "servings": 2,
+    "methods": [
+      "pan-sear",
+      "braise"
+    ],
+    "tags": [
+      "high-protein",
+      "meal-prep",
+      "one-pan"
+    ],
+    "description": "Chicken braised in a sweet soy sauce with garlic, ginger, and shallots — then reduced down to a glossy, lacquered glaze. Ayam kecap is one of Indonesia's most comforting weeknight dishes: deeply savory, slightly sweet, and dead simple. The sear first, braise second method gives you flavorful fond in the pan and chicken that stays juicy. Serve over rice and spoon the braising liquid over everything.\n",
+    "keyIngredients": [
+      "chicken breast",
+      "kecap manis",
+      "garlic",
+      "shallots",
+      "ginger"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Braising sauce",
+        "actionNote": "mix together before you start cooking",
+        "ingredients": [
+          {
+            "amount": "3 tbsp",
+            "name": "kecap manis (sweet soy sauce)",
+            "note": "the primary flavor — essential",
+            "alternatives": [
+              {
+                "amount": "2 tbsp soy sauce + 1 tbsp brown sugar",
+                "name": "soy sauce + brown sugar",
+                "note": "thinner and less complex, but works"
+              }
+            ]
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "100ml",
+            "name": "chicken stock or water",
+            "note": "just enough to braise; reduces down to a glaze",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "oyster sauce",
+            "note": "optional but adds depth and body",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "patted dry, seared first in the pan; set aside while aromatics cook",
+        "ingredients": [
+          {
+            "amount": "2 large",
+            "name": "chicken breasts",
+            "note": "pound to even thickness (~2 cm) for even cooking; or use 4 boneless thighs",
+            "alternatives": [
+              {
+                "amount": 4,
+                "name": "boneless, skinless chicken thighs",
+                "note": "richer flavor and more forgiving on timing; recommended if available"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧅",
+        "label": "Aromatics",
+        "actionNote": "sautéed in the pan after searing, before adding sauce",
+        "ingredients": [
+          {
+            "amount": "4 cloves",
+            "name": "garlic, minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "jarred minced garlic",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "3",
+            "name": "shallots, thinly sliced",
+            "note": "traditional; adds sweetness",
+            "alternatives": [
+              {
+                "amount": "½",
+                "name": "small onion, finely diced",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "ginger, grated or minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "jarred minced ginger",
+                "note": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Optional whole spices",
+        "actionNote": "add with aromatics; remove before serving",
+        "ingredients": [
+          {
+            "amount": 1,
+            "name": "star anise",
+            "note": "traditional; adds a faint anise warmth to the sauce",
+            "alternatives": []
+          },
+          {
+            "amount": "1 small",
+            "name": "cinnamon stick",
+            "note": "traditional; very subtle but rounds out the sauce",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🌿",
+        "label": "Garnish",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "sliced green onion",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "fried egg on top",
+            "note": "optional but highly recommended",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sambal on the side",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Pound chicken breasts to even thickness (~2 cm) if using breasts. Pat dry with paper towel and season with a pinch of salt."
+      },
+      {
+        "step": "Mix braising sauce ingredients in a small bowl. Set aside."
+      },
+      {
+        "step": "Heat a drizzle of oil in a pan or skillet over medium-high heat. Sear chicken 2–3 min per side until golden. It won't be cooked through — that's fine. Set aside."
+      },
+      {
+        "step": "Reduce heat to medium. In the same pan, add a small splash of oil if needed. Sauté shallots 2 min until softened. Add garlic, ginger, and whole spices if using. Cook 1 min."
+      },
+      {
+        "step": "Pour in the braising sauce mixture. Bring to a simmer, scraping up any browned bits from the pan."
+      },
+      {
+        "step": "Return chicken to the pan. Spoon sauce over the top. Cover and simmer on medium-low for 12–15 min, turning once halfway, until chicken is cooked through (internal temp 74°C / 165°F)."
+      },
+      {
+        "step": "Remove lid and increase heat to medium-high. Simmer uncovered for 3–5 min, turning chicken occasionally, until the sauce reduces to a thick glaze that coats the chicken."
+      },
+      {
+        "step": "Remove whole spices if used. Taste sauce and adjust salt."
+      },
+      {
+        "step": "Serve over rice, spooning the glaze generously over everything. Garnish with green onion."
+      }
+    ],
+    "protein": {
+      "grams": "~52",
+      "note": "per serving with one large chicken breast (~260g raw)"
+    },
+    "tips": [
+      {
+        "keyword": "Pat the chicken dry",
+        "text": "Surface moisture is the enemy of a good sear. Wet chicken steams instead of browning. Even 30 seconds with a paper towel makes a difference."
+      },
+      {
+        "keyword": "Don't skip the sear",
+        "text": "The braising liquid picks up every bit of fond (browned bits) from the pan when you add it. That's why the sauce has depth that raw-chicken braises lack."
+      },
+      {
+        "keyword": "Watch the glaze",
+        "text": "Kecap manis has a high sugar content and will burn quickly once the liquid reduces. Stay at the pan during the last 3–5 min and keep things moving."
+      },
+      {
+        "keyword": "Thighs vs breasts",
+        "text": "Thighs are much more forgiving — the collagen converts and the meat stays juicy even if you go a few minutes over. Breasts will dry out if you over-braise; use a thermometer and pull at 74°C."
+      },
+      {
+        "keyword": "Maillard then braise",
+        "text": "Searing the chicken before braising isn't just for color — it creates hundreds of Maillard reaction compounds that dissolve into the braising liquid as it simmers. A chicken braised without searing produces a paler, thinner sauce because those flavor compounds never formed. The fond on the pan bottom is essentially concentrated Maillard residue, and deglazing with the sauce carries it all into the final glaze."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 350,
+      "protein": 57.2,
+      "fat": 6.3,
+      "carbs": 14.0,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 52.7
+        },
+        {
+          "name": "soy sauce",
+          "protein": 2.6
+        },
+        {
+          "name": "shallot",
+          "protein": 1.1
+        }
+      ]
+    }
+  },
+  {
+    "id": "mie-goreng",
+    "name": "Mie Goreng (Indonesian Fried Noodles)",
+    "cuisine": "indonesian",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "stir-fry"
+    ],
+    "tags": [
+      "quick",
+      "one-pan",
+      "high-protein"
+    ],
+    "description": "The noodle version of nasi goreng — same flavor DNA (kecap manis, garlic, shallots, shrimp paste) but with egg noodles instead of rice. Faster, arguably more satisfying, and basically the from-scratch version of Indomie. The sauce is nearly identical to nasi goreng with the addition of oyster sauce and a dash of sesame. Everything comes together in under 20 minutes.\n",
+    "keyIngredients": [
+      "egg noodles",
+      "kecap manis",
+      "oyster sauce",
+      "garlic",
+      "shallots",
+      "chicken breast"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Sauce",
+        "actionNote": "mix together in a bowl before you start cooking",
+        "ingredients": [
+          {
+            "amount": "2 tbsp",
+            "name": "kecap manis (sweet soy sauce)",
+            "note": "the defining flavor — don't skip or substitute if possible",
+            "alternatives": [
+              {
+                "amount": "1½ tbsp soy sauce + ½ tbsp brown sugar",
+                "name": "soy sauce + brown sugar",
+                "note": "rough substitute; thinner and less layered but works"
+              }
+            ]
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "oyster sauce",
+            "note": "adds body and savory depth",
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "fish sauce",
+                "note": "more pungent but provides similar umami"
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "sesame oil",
+            "note": "added to the sauce mix, not for cooking — finishes the dish",
+            "alternatives": []
+          },
+          {
+            "amount": "½ tsp",
+            "name": "shrimp paste (terasi), crumbled",
+            "note": "optional but authentic; toast briefly in a dry pan first",
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "fish sauce",
+                "note": "swap in addition to the other fish sauce"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein",
+        "actionNote": "sliced thin and cooked first in the wok; set aside before aromatics",
+        "ingredients": [
+          {
+            "amount": "300g",
+            "name": "chicken breast, thinly sliced",
+            "note": "slice across the grain for tenderness; cook over high heat 2–3 min",
+            "alternatives": [
+              {
+                "amount": "300g",
+                "name": "shrimp, peeled",
+                "note": "2 min max in the pan"
+              },
+              {
+                "amount": "1 can (170g)",
+                "name": "canned tuna, drained",
+                "note": "add when sauce goes in; very pantry-friendly"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧅",
+        "label": "Aromatics",
+        "actionNote": "stir-fry over high heat after protein is set aside",
+        "ingredients": [
+          {
+            "amount": "3–4 cloves",
+            "name": "garlic, minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "jarred minced garlic",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "2–3",
+            "name": "shallots, thinly sliced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "¼",
+                "name": "small onion, finely diced",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1–2",
+            "name": "bird's eye chilies, sliced",
+            "note": "optional",
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "chili flakes",
+                "note": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥬",
+        "label": "Vegetables",
+        "actionNote": "add with aromatics; quick stir-fry, don't overcook",
+        "ingredients": [
+          {
+            "amount": "1 cup",
+            "name": "cabbage, roughly chopped",
+            "note": "classic in mie goreng; adds texture",
+            "alternatives": [
+              {
+                "amount": "1 cup",
+                "name": "bean sprouts",
+                "note": "add at the very end — 30 seconds only"
+              }
+            ]
+          },
+          {
+            "amount": "1",
+            "name": "carrot, julienned or matchstick-cut",
+            "note": "optional",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍜",
+        "label": "Noodles",
+        "actionNote": "boil until just cooked (al dente), drain, toss with a little oil to prevent sticking",
+        "ingredients": [
+          {
+            "amount": "200g",
+            "name": "fresh egg noodles (or dried egg noodles)",
+            "note": "cook per package; typically 2–3 min for fresh, 5–6 min for dried",
+            "alternatives": [
+              {
+                "amount": "2 packages",
+                "name": "Indomie instant noodles",
+                "note": "discard or save the seasoning packets; use just the noodles — the sauce here replaces them"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥚",
+        "label": "Garnish",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": 2,
+            "name": "eggs, fried sunny-side up",
+            "note": "one per plate on top",
+            "alternatives": [
+              {
+                "amount": 2,
+                "name": "soft-boiled eggs, halved",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": null,
+            "name": "sliced green onion",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "crispy fried shallots",
+            "note": "store-bought; highly recommended for crunch",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "lime wedge",
+            "note": "a squeeze brightens everything",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Cook noodles per package instructions until just tender. Drain, toss with a small splash of oil, and set aside."
+      },
+      {
+        "step": "Mix all sauce ingredients in a small bowl. Set aside."
+      },
+      {
+        "step": "Heat oil in a wok or large skillet over high heat. Add chicken (or shrimp) and cook until just done. Season lightly with salt. Set aside."
+      },
+      {
+        "step": "In the same pan over high heat, stir-fry shallots 1–2 min. Add garlic and chili; cook 30 seconds."
+      },
+      {
+        "step": "Add vegetables. Stir-fry 1–2 min until just softened but still with some texture."
+      },
+      {
+        "step": "Add noodles. Toss to combine with the aromatics. Let sit against the pan occasionally to develop color."
+      },
+      {
+        "step": "Add the sauce mixture. Toss constantly for 1–2 min until the noodles are evenly coated."
+      },
+      {
+        "step": "Return protein to the pan. Toss to combine. Taste and adjust salt if needed."
+      },
+      {
+        "step": "Plate immediately. Top each bowl with a fried egg, green onion, crispy shallots, and a lime wedge."
+      }
+    ],
+    "protein": {
+      "grams": "~45",
+      "note": "per serving with 300g chicken breast; ~25g base without protein added"
+    },
+    "tips": [
+      {
+        "keyword": "Don't overcook the noodles",
+        "text": "Pull them just before fully done — they finish in the wok. Overcooked noodles will fall apart when stir-fried."
+      },
+      {
+        "keyword": "Oil on drained noodles",
+        "text": "Toss a small splash of oil through the drained noodles immediately. This stops them sticking together before they hit the wok. Without this they clump and rip instead of frying as individual strands."
+      },
+      {
+        "keyword": "Indomie hack",
+        "text": "The noodles in an Indomie package are perfectly calibrated for mie goreng — the right thickness, wavy texture, and size. Use the noodles, skip the packets, and use this sauce instead. You get the convenience without the sodium overload."
+      },
+      {
+        "keyword": "Egg noodle protein structure",
+        "text": "Egg noodles hold up better under stir-fry heat than plain wheat noodles because the egg proteins — primarily ovalbumin and conalbumin — cross-link during boiling, forming a tighter internal network. This makes the noodle more elastic and more resistant to breaking apart when tossed at high heat. The same cross-linking is why egg pasta and egg noodles cook slightly faster than plain pasta; the protein network begins setting before the starch fully gelatinizes."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 581,
+      "protein": 71.8,
+      "fat": 23.9,
+      "carbs": 19.4,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 46.5
+        },
+        {
+          "name": "egg",
+          "protein": 13.0
+        },
+        {
+          "name": "eggs",
+          "protein": 7.8
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
+    }
+  },
+  {
+    "id": "nasi-goreng",
+    "name": "Nasi Goreng (Indonesian Fried Rice)",
+    "cuisine": "indonesian",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "stir-fry",
+      "pan-fry"
+    ],
+    "tags": [
+      "quick",
+      "meal-prep",
+      "one-pan",
+      "pantry-friendly"
+    ],
+    "description": "Indonesia's most iconic dish — fried rice seasoned with kecap manis (sweet soy sauce) and a whisper of shrimp paste, finished with a fried egg on top. Similar territory to kimchi fried rice but completely different in flavor: sweeter, smokier, more rounded. Day-old rice is mandatory. Everything else is flexible — it's one of the best fridge-clearing fried rice dishes you can make.\n",
+    "keyIngredients": [
+      "day-old rice",
+      "kecap manis",
+      "shrimp paste",
+      "garlic",
+      "shallots",
+      "egg"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🍳",
+        "label": "Sauce",
+        "actionNote": "mix together in a small bowl before you start cooking",
+        "ingredients": [
+          {
+            "amount": "2 tbsp",
+            "name": "kecap manis (sweet soy sauce)",
+            "note": "the defining ingredient — thick, sweet, molasses-forward",
+            "alternatives": [
+              {
+                "amount": "1½ tbsp soy sauce + ½ tbsp brown sugar",
+                "name": "soy sauce + brown sugar",
+                "note": "mixes into a rough substitute; thinner and less complex but works"
+              }
+            ]
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": "adds saltiness and depth to balance the sweet kecap",
+            "alternatives": []
+          },
+          {
+            "amount": "½ tsp",
+            "name": "shrimp paste (terasi/belacan), crumbled",
+            "note": "toasted briefly in a dry pan before adding for more depth; small amount goes a long way",
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "fish sauce",
+                "note": "different character but provides the fermented depth; slightly thinner result"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥩",
+        "label": "Protein (optional)",
+        "actionNote": "cook first, set aside; returned at the end",
+        "ingredients": [
+          {
+            "amount": "200g",
+            "name": "chicken breast or shrimp",
+            "note": "optional but recommended for a full meal; cut chicken into small cubes",
+            "alternatives": [
+              {
+                "amount": "200g",
+                "name": "shrimp, peeled",
+                "note": "2–3 min in the pan, done"
+              },
+              {
+                "amount": null,
+                "name": "skip entirely",
+                "note": "still a complete dish with egg on top"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧅",
+        "label": "Aromatics",
+        "actionNote": "stir-fry over high heat before adding rice",
+        "ingredients": [
+          {
+            "amount": "3 cloves",
+            "name": "garlic, minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "jarred minced garlic",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "2–3",
+            "name": "shallots, thinly sliced",
+            "note": "more traditional than onion; use both if you have them",
+            "alternatives": [
+              {
+                "amount": "¼",
+                "name": "small white onion, finely diced",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1–2",
+            "name": "bird's eye chilies, sliced",
+            "note": "optional — adjust to heat preference",
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "sambal oelek",
+                "note": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🍚",
+        "label": "Rice",
+        "actionNote": "must be cold and day-old — freshly cooked rice steams instead of frying",
+        "ingredients": [
+          {
+            "amount": "2 cups (about 300–350g cooked)",
+            "name": "day-old cooked jasmine rice",
+            "note": "refrigerator-cold, broken up into loose grains before adding",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥚",
+        "label": "Garnish",
+        "actionNote": "fried egg goes on top of each plate just before serving",
+        "ingredients": [
+          {
+            "amount": 2,
+            "name": "eggs",
+            "note": "fried sunny-side up; runny yolk mixes into the rice as you eat",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "crispy fried shallots",
+            "note": "store-bought or homemade; adds crunch and sweetness",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sliced green onion",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "cucumber slices",
+            "note": "traditional cooling accompaniment",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sambal on the side",
+            "note": "optional heat",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "If using chicken or shrimp, cook in a lightly oiled pan over medium-high heat until just done. Season with a pinch of salt. Set aside."
+      },
+      {
+        "step": "Mix sauce ingredients (kecap manis, soy sauce, shrimp paste) in a small bowl. Set aside."
+      },
+      {
+        "step": "Heat oil in a wok or large skillet over high heat until shimmering. Add shallots and stir-fry 1–2 min until softened. Add garlic and chili; stir-fry 30 seconds."
+      },
+      {
+        "step": "Add cold rice. Break up any clumps and toss to coat in the aromatics. Press the rice against the pan occasionally — let it sit for 20–30 seconds to develop some color and heat."
+      },
+      {
+        "step": "Add the sauce mixture. Toss constantly for 1–2 min until the rice is evenly coated and smells caramelized."
+      },
+      {
+        "step": "Return protein to the pan. Toss to combine. Taste and adjust salt if needed."
+      },
+      {
+        "step": "Divide into plates. In the same pan (or a separate one), fry the eggs sunny-side up."
+      },
+      {
+        "step": "Top each plate with a fried egg. Garnish with crispy shallots, green onion, and cucumber. Serve with sambal on the side."
+      }
+    ],
+    "protein": {
+      "grams": "~15",
+      "note": "egg only (base); ~40g+ with 200g chicken breast added"
+    },
+    "tips": [
+      {
+        "keyword": "Day-old rice is non-negotiable",
+        "text": "Fresh rice has too much surface moisture — it steams and clumps instead of frying. Cold rice from the fridge has dried out slightly and fries into separate grains. If you need to use fresh rice, spread it on a sheet pan and refrigerate uncovered for 1–2 hours."
+      },
+      {
+        "keyword": "Toast the shrimp paste",
+        "text": "Crumbling terasi into a dry pan for 30–60 seconds before adding aromatics activates the flavor compounds and reduces the raw fermented smell. It smells strong during toasting — keep a window open."
+      },
+      {
+        "keyword": "High heat matters",
+        "text": "Nasi goreng needs high heat to develop color and the slight char on the rice grains that gives it its characteristic flavor. Medium heat just steams everything."
+      },
+      {
+        "keyword": "Kecap manis caramelization",
+        "text": "Kecap manis gets its characteristic gloss and deep flavor because its sugar content — dominated by palm sugar and inverted sugars from fermentation — caramelizes at lower temperatures than sucrose. Inverted sugars (glucose and fructose) also participate in the Maillard reaction more readily than sucrose. This means a quick stir-fry is enough to develop the complex sweetness without burning, which is why nasi goreng tastes richer and more layered than a plain soy sauce fried rice at the same cook time."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 813,
+      "protein": 24.2,
+      "fat": 7.4,
+      "carbs": 159.0,
+      "breakdown": [
+        {
+          "name": "rice",
+          "protein": 13.2
+        },
+        {
+          "name": "eggs",
+          "protein": 7.8
+        },
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
+    }
+  },
+  {
+    "id": "tempeh-goreng",
+    "name": "Tempeh Goreng (Fried Tempeh)",
+    "cuisine": "indonesian",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "marinate",
+      "pan-fry"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "one-pan"
+    ],
+    "description": "Tempeh sliced thin, marinated in a spiced kecap manis mixture, then pan-fried until crispy and caramelized. Tempeh goreng is the most common way tempeh gets cooked in Indonesia — and for good reason. The fermented slab soaks up marinade deeply and fries into something dense, chewy on the inside and crispy on the edges. High protein, fast, and works as a side or a main over rice.\n",
+    "keyIngredients": [
+      "tempeh",
+      "kecap manis",
+      "garlic",
+      "coriander",
+      "turmeric"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫙",
+        "label": "Marinade",
+        "actionNote": "mix together; pour over sliced tempeh and let sit 10+ min (or longer in fridge)",
+        "ingredients": [
+          {
+            "amount": "2 tbsp",
+            "name": "kecap manis (sweet soy sauce)",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1½ tbsp soy sauce + ½ tsp brown sugar",
+                "name": "soy sauce + brown sugar",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "3 cloves",
+            "name": "garlic, minced or grated",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "garlic powder",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "½ tsp",
+            "name": "ground coriander",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "¼ tsp",
+            "name": "turmeric",
+            "note": "adds color and a faint earthiness",
+            "alternatives": []
+          },
+          {
+            "amount": "¼ tsp",
+            "name": "cayenne or chili powder",
+            "note": "optional for heat",
+            "alternatives": []
+          },
+          {
+            "amount": "2 tbsp",
+            "name": "water",
+            "note": "thins the marinade so it coats evenly",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🫘",
+        "label": "Tempeh",
+        "actionNote": "slice about ½ cm thick; thinner crisps more, thicker stays chewier",
+        "ingredients": [
+          {
+            "amount": "250–300g",
+            "name": "tempeh",
+            "note": "one standard block; available at Asian grocery stores or health food stores",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🫙",
+        "label": "Frying",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": "3–4 tbsp",
+            "name": "neutral oil",
+            "note": "enough for a shallow fry",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🌿",
+        "label": "Serving",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "steamed rice",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sambal on the side",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sliced cucumber or tomato",
+            "note": "traditional alongside",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Slice tempeh into ½ cm thick slabs."
+      },
+      {
+        "step": "Mix marinade ingredients in a shallow dish or bowl. Add tempeh slices and toss to coat. Let sit at least 10 min at room temperature, or up to overnight in the fridge."
+      },
+      {
+        "step": "Heat oil in a skillet over medium-high heat. Add tempeh slices in a single layer. Fry 2–3 min per side until deep golden brown and slightly crispy on the edges."
+      },
+      {
+        "step": "The marinade will caramelize — watch that it doesn't burn. Reduce heat slightly if it darkens too fast."
+      },
+      {
+        "step": "Drain on paper towel. Serve over rice with sambal and cucumber."
+      }
+    ],
+    "protein": {
+      "grams": "~30",
+      "note": "per serving (~19g protein per 100g tempeh)"
+    },
+    "tips": [
+      {
+        "keyword": "Steam before marinating (optional)",
+        "text": "Steaming tempeh slices for 5 min before marinating opens the structure slightly, allowing the marinade to penetrate more deeply. This is traditional in some preparations. Skip if short on time — still delicious without."
+      },
+      {
+        "keyword": "Caramelization happens fast",
+        "text": "Kecap manis has high sugar content and will start to burn before you expect it. Medium-high heat is right for the first side; drop to medium for the second if the pan looks too dark."
+      },
+      {
+        "keyword": "Bitter tempeh",
+        "text": "If your tempeh tastes bitter or sharp raw, a brief simmer in lightly salted water for 5 min before slicing tones it down. This is common with older or more assertive tempeh blocks."
+      },
+      {
+        "keyword": "Tempeh vs tofu for protein",
+        "text": "Tempeh is fermented whole soybeans, not pressed soy milk — which gives it fundamentally different nutrition than tofu. The Rhizopus mold (Rhizopus oligosporus) pre-digests the proteins during fermentation, breaking them into shorter peptide chains that the body absorbs more efficiently. It also eliminates most of the phytic acid — the compound in legumes that binds minerals and blocks absorption. The result is that tempeh's protein and minerals (zinc, iron, calcium) are substantially more bioavailable than the equivalent amount in unfermented soy or tofu. Higher fiber content is a further benefit."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 238,
+      "protein": 2.2,
+      "fat": 24.5,
+      "carbs": 3.4,
+      "breakdown": [
+        {
+          "name": "soy sauce",
+          "protein": 1.9
+        }
+      ]
+    }
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka (Eggs in Spiced Tomato Sauce)",
+    "cuisine": "middle-eastern",
+    "difficulty": "easy",
+    "time": 30,
+    "servings": 2,
+    "methods": [
+      "sauté",
+      "simmer"
+    ],
+    "tags": [
+      "high-protein",
+      "one-pan",
+      "pantry-friendly",
+      "no-marinate"
+    ],
+    "description": "Eggs poached directly in a spiced, garlicky tomato sauce — one of the most satisfying one-pan meals in the collection. The sauce is built fast (onion, pepper, garlic, cumin, smoked paprika, canned tomatoes) and the eggs cook right in the sauce with the lid on. Serve with rice or flatbread to scoop everything up. Optional ground beef or lamb turns it into a proper high-protein meal.\n",
+    "keyIngredients": [
+      "canned crushed tomatoes",
+      "eggs",
+      "cumin",
+      "smoked paprika",
+      "garlic",
+      "onion"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🥩",
+        "label": "Optional protein boost",
+        "actionNote": "cook first in the pan, then build the sauce on top",
+        "ingredients": [
+          {
+            "amount": "225–300g",
+            "name": "ground beef or lamb",
+            "note": "cook until browned, drain fat if needed; sauce goes on top of the meat",
+            "alternatives": [
+              {
+                "amount": "200g",
+                "name": "merguez sausage, sliced",
+                "note": "traditional; adds spice directly to the sauce"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🧅",
+        "label": "Aromatics",
+        "actionNote": "sautéed in olive oil before adding spices",
+        "ingredients": [
+          {
+            "amount": 1,
+            "name": "onion, finely diced",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": 1,
+            "name": "bell pepper (red or green), diced",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "4 cloves",
+            "name": "garlic, minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "jarred minced garlic",
+                "note": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🥄",
+        "label": "Spice base",
+        "actionNote": "bloom in the pan after aromatics are softened",
+        "ingredients": [
+          {
+            "amount": "1½ tsp",
+            "name": "cumin (ground)",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tsp",
+            "name": "smoked paprika",
+            "note": "adds depth and slight smokiness",
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "sweet paprika",
+                "note": "milder"
+              }
+            ]
+          },
+          {
+            "amount": "½ tsp",
+            "name": "coriander (ground)",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "¼ tsp",
+            "name": "cayenne",
+            "note": "optional — adjust to preference",
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "chili flakes",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "½ tsp",
+            "name": "sugar",
+            "note": "balances the acidity of canned tomatoes",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍅",
+        "label": "Tomato sauce",
+        "actionNote": "added after spices bloom; simmer 8–10 min before adding eggs",
+        "ingredients": [
+          {
+            "amount": "400g (1 can)",
+            "name": "crushed tomatoes or whole peeled tomatoes, crushed by hand",
+            "note": "whole peeled tomatoes crushed in the can taste fresher; crushed are more convenient",
+            "alternatives": [
+              {
+                "amount": "400g",
+                "name": "fresh tomatoes, grated or blended",
+                "note": "use when in season"
+              }
+            ]
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "tomato paste",
+            "note": "adds body and intensifies the tomato flavor",
+            "alternatives": []
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "water or stock",
+            "note": "adjust consistency — sauce should be thick but pourable",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥚",
+        "label": "Eggs",
+        "actionNote": "cracked directly into wells in the sauce; lid on to steam",
+        "ingredients": [
+          {
+            "amount": "4–6",
+            "name": "eggs",
+            "note": "4 for a lighter meal; 6 for generous servings",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🧀",
+        "label": "Garnish",
+        "actionNote": "added after eggs are done",
+        "ingredients": [
+          {
+            "amount": "50g",
+            "name": "feta, crumbled",
+            "note": "optional but highly recommended — creamy, salty, cooling",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "fresh parsley or cilantro, chopped",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "chili flakes",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "drizzle of olive oil",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍚",
+        "label": "Serving",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "steamed rice or flatbread",
+            "note": "rice makes it a complete high-protein meal; flatbread is more traditional",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "If using ground beef or lamb, cook in the pan over medium-high heat, breaking it up, until browned. Drain excess fat. Set aside but leave the pan with any fond."
+      },
+      {
+        "step": "Add a drizzle of olive oil to the pan over medium heat. Sauté onion and bell pepper until softened, ~5 min. Add garlic and cook 1 min."
+      },
+      {
+        "step": "Add cumin, smoked paprika, coriander, cayenne, and sugar. Stir into the aromatics and cook 1 min to bloom the spices."
+      },
+      {
+        "step": "Add tomato paste. Stir and cook 1 min until slightly darkened."
+      },
+      {
+        "step": "Add crushed tomatoes and water. Return ground meat if using. Stir to combine. Simmer uncovered over medium heat 8–10 min, stirring occasionally, until the sauce thickens slightly and the flavors meld."
+      },
+      {
+        "step": "Taste and adjust salt and seasoning. The sauce should be boldly spiced — it carries the eggs."
+      },
+      {
+        "step": "Use a spoon to create small wells in the sauce. Crack an egg into each well. Season the eggs lightly with salt."
+      },
+      {
+        "step": "Cover the pan and cook on medium-low until egg whites are just set but yolks are still runny — 5–7 min. Check at 5 min; runny to set is a 1–2 min window."
+      },
+      {
+        "step": "Remove from heat. Crumble feta over the top. Garnish with parsley or cilantro and chili flakes. Drizzle olive oil over everything."
+      },
+      {
+        "step": "Serve straight from the pan with rice or flatbread."
+      }
+    ],
+    "protein": {
+      "grams": "~20",
+      "note": "eggs only (~5g per egg × 4 eggs); ~50g+ per serving with 225g ground beef added"
+    },
+    "tips": [
+      {
+        "keyword": "Check eggs at 5 min",
+        "text": "The window between runny yolk and fully set is short — check the eggs at 5 min by gently shaking the pan. If the whites jiggle, give them another 1–2 min. If you're serving with runny yolks, pull them earlier than you think."
+      },
+      {
+        "keyword": "Bold sauce is the point",
+        "text": "The sauce needs to be well-seasoned on its own. The eggs dilute the flavor slightly as you eat, and the feta adds saltiness — but if the sauce tastes flat before the eggs go in, it will taste flat throughout."
+      },
+      {
+        "keyword": "Don't stir after the eggs go in",
+        "text": "Once the eggs crack in, resist stirring. The whole point is poached eggs in the sauce — you need the whites to set in place."
+      },
+      {
+        "keyword": "Serve from the pan",
+        "text": "Shakshuka doesn't transfer well. Serve directly from the skillet or pot — the eggs break and the sauce cools fast if plated."
+      },
+      {
+        "keyword": "Acid and egg whites",
+        "text": "The acidic tomato sauce does something useful to the eggs — it shifts the denaturation temperature of egg white proteins slightly upward. Egg white proteins (primarily ovalbumin) normally begin coagulating around 60–65°C in a neutral environment, but the acidic pH of the tomato sauce causes them to hold their structure a few degrees longer. In practice this means the egg whites have a slightly wider cooking window before they turn rubbery, giving more control over the final texture when cooking with the lid on."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 351,
+      "protein": 25.0,
+      "fat": 15.8,
+      "carbs": 30.4,
+      "breakdown": [
+        {
+          "name": "eggs",
+          "protein": 19.5
+        },
+        {
+          "name": "crushed tomatoes",
+          "protein": 3.2
         }
       ]
     }

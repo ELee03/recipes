@@ -31,7 +31,8 @@ NUTRIENTS_FILE = Path(__file__).parent / "nutrients.json"
 
 CUISINE_ORDER = [
     "korean", "japanese", "thai", "italian", "mexican",
-    "indian", "west-african", "caribbean", "smoothies", "baking"
+    "indian", "west-african", "caribbean", "indonesian", "middle-eastern",
+    "smoothies", "baking"
 ]
 
 # Adjective words that describe how an ingredient is prepared/sized but are
