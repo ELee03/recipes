@@ -6558,6 +6558,219 @@
     }
   },
   {
+    "id": "salsa-verde-chicken",
+    "name": "Salsa Verde Chicken",
+    "cuisine": "mexican",
+    "difficulty": "easy",
+    "time": 30,
+    "servings": 2,
+    "methods": [
+      "braise",
+      "shred"
+    ],
+    "tags": [
+      "high-protein",
+      "meal-prep",
+      "one-pan",
+      "pantry-friendly"
+    ],
+    "description": "The laziest high-protein meal in the collection. Raw chicken goes in the pan, a jar of salsa verde goes over it, lid on, 20 minutes, shred. The tomatillo-based sauce braises the chicken completely — tangy, herbaceous, and bright in a way that's completely different from chicken tinga's chipotle-red profile. Works over rice, in tacos, in burrito bowls, in quesadillas. Gets better overnight.\n",
+    "keyIngredients": [
+      "chicken breast",
+      "salsa verde",
+      "garlic",
+      "cumin"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🍗",
+        "label": "Protein",
+        "actionNote": "place in pan raw; the salsa braises it completely",
+        "ingredients": [
+          {
+            "amount": "350–400g",
+            "name": "chicken breast",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "350–400g",
+                "name": "boneless chicken thighs",
+                "note": "richer and more forgiving on timing; shreds just as well"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🫙",
+        "label": "Braising sauce",
+        "actionNote": "pour over the chicken; no mixing needed",
+        "ingredients": [
+          {
+            "amount": "400–450g (1 jar)",
+            "name": "jarred salsa verde (tomatillo salsa)",
+            "note": "medium heat recommended; mild works too — the sauce is the dish so use one you like",
+            "alternatives": []
+          },
+          {
+            "amount": "3–4 cloves",
+            "name": "garlic, minced",
+            "note": "optional if the salsa already has garlic — adds depth if yours doesn't",
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "garlic powder",
+                "note": "stir into the salsa before pouring"
+              }
+            ]
+          },
+          {
+            "amount": "½ tsp",
+            "name": "cumin",
+            "note": "optional — rounds out the sauce",
+            "alternatives": []
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "chicken broth or water",
+            "note": "adds a little liquid for braising; not needed if your salsa is very runny",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🌿",
+        "label": "Garnish",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "fresh cilantro",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "lime wedge",
+            "note": "a squeeze brightens the finished dish",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sliced avocado or guacamole",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sliced jalapeño",
+            "note": "for heat",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "crumbled queso fresco or sour cream",
+            "note": "optional — adds creaminess and cuts the tartness",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍚",
+        "label": "Serving",
+        "actionNote": null,
+        "ingredients": [
+          {
+            "amount": null,
+            "name": "steamed rice",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "corn tortillas",
+                "note": "for tacos"
+              },
+              {
+                "amount": null,
+                "name": "rice + black beans",
+                "note": "for a more complete bowl"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Place chicken breasts in a single layer in a pan or medium pot. If using garlic, scatter over the top."
+      },
+      {
+        "step": "Sprinkle cumin over the chicken if using. Pour salsa verde over everything. Add a splash of broth or water if the salsa looks thick."
+      },
+      {
+        "step": "Bring to a simmer over medium heat. Cover with a lid, reduce to medium-low, and cook 18–22 min until chicken is cooked through (internal temp 74°C / 165°F). Breasts this size won't need more — don't overcook or they'll shred dry."
+      },
+      {
+        "step": "Remove chicken to a cutting board. Let rest 3–5 min, then shred with two forks."
+      },
+      {
+        "step": "Return shredded chicken to the pan and stir into the sauce. Simmer uncovered 2–3 min over medium heat until the sauce reduces slightly and coats the chicken."
+      },
+      {
+        "step": "Taste and adjust — more lime for brightness, salt if needed."
+      },
+      {
+        "step": "Serve over rice (or in tacos) with cilantro, lime, and any toppings."
+      }
+    ],
+    "protein": {
+      "grams": "~44–50",
+      "note": "per serving with chicken breast; serve with black beans for another ~8g"
+    },
+    "tips": [
+      {
+        "keyword": "The sear option",
+        "text": "For more depth, sear the chicken breasts 2 min per side in a hot pan before adding the salsa. The fond dissolves into the sauce the same way it does in ayam kecap — Maillard compounds carry into the braise. The dump-and-simmer version is still good; searing just adds a layer. Takes 5 extra minutes."
+      },
+      {
+        "keyword": "Salsa choice matters more than usual",
+        "text": "Since this is a one-ingredient sauce dish, the salsa you use is essentially the entire flavor profile. Herdez is widely available and reliable. Trader Joe's and Frontera salsa verde are both excellent. Avoid anything labeled \"mild/medium\" that tastes thin and sweet — you want a salsa with real tomatillo tartness."
+      },
+      {
+        "keyword": "Don't skip the final simmer",
+        "text": "Returning the shredded chicken to the sauce and cooking uncovered 2–3 min is the step that makes it feel cohesive rather than \"chicken sitting in salsa.\" The sauce reduces slightly and clings to the shredded meat."
+      },
+      {
+        "keyword": "Gets better the next day",
+        "text": "Like all braises, the chicken absorbs more flavor as it sits. Make a double batch and use it across 2–3 meals during the week."
+      },
+      {
+        "keyword": "Tomatillo acid and braised chicken",
+        "text": "Tomatillos get their distinctive tartness from citric and malic acids — both non-volatile, meaning they don't cook off the way acetic acid (vinegar) does. This is why salsa verde keeps its bright, sharp character even after 20 minutes of braising, unlike a vinegar-based sauce which mellows into the background. The acids also help keep the chicken moist; the slightly acidic environment mildly inhibits the muscle proteins from contracting as aggressively during cooking, reducing moisture loss compared to dry-heat methods at the same internal temperature."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 394,
+      "protein": 62.1,
+      "fat": 7.2,
+      "carbs": 16.8,
+      "breakdown": [
+        {
+          "name": "chicken breast",
+          "protein": 58.1
+        },
+        {
+          "name": "salsa",
+          "protein": 3.6
+        }
+      ]
+    }
+  },
+  {
     "id": "chicken-tikka",
     "name": "Chicken Tikka (Marinated & Grilled Chicken)",
     "cuisine": "indian",
