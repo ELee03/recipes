@@ -791,9 +791,20 @@
         "ingredients": [
           {
             "amount": "120–160g",
-            "name": "pasta",
-            "note": "rigatoni, cavatappi, or fusilli recommended; lower end for lighter days, higher end on training days",
-            "alternatives": []
+            "name": "rigatoni",
+            "note": "the thick sauce clings to the ridges and fills the tubes; lower end for lighter days, higher end on training days",
+            "alternatives": [
+              {
+                "amount": "120–160g",
+                "name": "cavatappi or fusilli",
+                "note": "spiral shapes catch the sauce well — interchangeable here"
+              },
+              {
+                "amount": "120–160g",
+                "name": "spaghetti",
+                "note": "works but the sauce sits on top rather than clinging; less satisfying"
+              }
+            ]
           },
           {
             "amount": "~3–4 tbsp",
@@ -891,7 +902,7 @@
           "protein": 58.1
         },
         {
-          "name": "pasta",
+          "name": "rigatoni",
           "protein": 9.1
         },
         {
@@ -1447,9 +1458,15 @@
         "ingredients": [
           {
             "amount": "120g",
-            "name": "pasta",
-            "note": null,
-            "alternatives": []
+            "name": "spaghetti",
+            "note": "the light stir-fry-style sauce coats strands cleanly; rigatoni also works if you want the kimchi pieces to collect in the tubes",
+            "alternatives": [
+              {
+                "amount": "120g",
+                "name": "rigatoni",
+                "note": "catches kimchi and tuna in the tubes — messier but satisfying"
+              }
+            ]
           },
           {
             "amount": "~3–4 tbsp",
@@ -1541,7 +1558,7 @@
           "protein": 39.0
         },
         {
-          "name": "pasta",
+          "name": "spaghetti",
           "protein": 7.8
         },
         {
@@ -1872,8 +1889,8 @@
         "ingredients": [
           {
             "amount": "200g",
-            "name": "pasta",
-            "note": "spaghetti, linguine, or any long pasta",
+            "name": "spaghetti",
+            "note": "best choice — the silky butter emulsion coats long strands evenly; linguine is a close second; rigatoni works if you want a short pasta",
             "alternatives": []
           },
           {
@@ -2010,7 +2027,7 @@
           "protein": 31.0
         },
         {
-          "name": "pasta",
+          "name": "spaghetti",
           "protein": 13.0
         },
         {
@@ -2991,9 +3008,20 @@
         "ingredients": [
           {
             "amount": "120g",
-            "name": "pasta",
-            "note": null,
-            "alternatives": []
+            "name": "linguine",
+            "note": "the light miso-milk sauce coats the flat strands evenly without being overwhelmed; spaghetti is a fine substitute",
+            "alternatives": [
+              {
+                "amount": "120g",
+                "name": "spaghetti",
+                "note": "slightly rounder — works well, marginally less surface contact with the sauce"
+              },
+              {
+                "amount": "120g",
+                "name": "fettuccine",
+                "note": "richer feel; good if you want to lean into the creamy side of the sauce"
+              }
+            ]
           },
           {
             "amount": "~4 tbsp",
@@ -3082,7 +3110,7 @@
           "protein": 38.0
         },
         {
-          "name": "pasta",
+          "name": "linguine",
           "protein": 7.8
         }
       ]
@@ -4435,9 +4463,15 @@
         "ingredients": [
           {
             "amount": "120g",
-            "name": "pasta",
-            "note": "spaghetti or linguine is traditional",
-            "alternatives": []
+            "name": "spaghetti",
+            "note": "the correct choice for aglio e olio — the thin strands pick up the emulsified garlic oil without clumping; linguine is a close and acceptable second",
+            "alternatives": [
+              {
+                "amount": "120g",
+                "name": "linguine",
+                "note": "slightly wider; works well"
+              }
+            ]
           },
           {
             "amount": "~4–6 tbsp",
@@ -4533,7 +4567,7 @@
           "protein": 42.0
         },
         {
-          "name": "pasta",
+          "name": "spaghetti",
           "protein": 7.8
         }
       ]
@@ -5441,9 +5475,20 @@
         "ingredients": [
           {
             "amount": "180–200g",
-            "name": "spaghetti or rigatoni",
-            "note": null,
-            "alternatives": []
+            "name": "spaghetti",
+            "note": "the classic and correct choice — the smooth tomato sauce coats individual strands without weighing them down",
+            "alternatives": [
+              {
+                "amount": "180–200g",
+                "name": "rigatoni",
+                "note": "tube option; sauce pools inside — different feel but works well"
+              },
+              {
+                "amount": "180–200g",
+                "name": "penne",
+                "note": "fine in a pinch but the ridges don't grip a smooth tomato sauce as well as rigatoni"
+              }
+            ]
           }
         ]
       },

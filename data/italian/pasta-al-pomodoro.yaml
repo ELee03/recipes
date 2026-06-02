@@ -69,9 +69,15 @@ ingredientGroups:
     actionNote: boil in well-salted water; reserve pasta water before draining
     ingredients:
       - amount: "180–200g"
-        name: spaghetti or rigatoni
-        note: null
-        alternatives: []
+        name: spaghetti
+        note: the classic and correct choice — the smooth tomato sauce coats individual strands without weighing them down
+        alternatives:
+          - amount: "180–200g"
+            name: rigatoni
+            note: tube option; sauce pools inside — different feel but works well
+          - amount: "180–200g"
+            name: penne
+            note: fine in a pinch but the ridges don't grip a smooth tomato sauce as well as rigatoni
 
   - emoji: 🌿
     label: Finish

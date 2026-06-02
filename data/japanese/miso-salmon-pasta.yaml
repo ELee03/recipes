@@ -80,9 +80,15 @@ ingredientGroups:
     actionNote: cook pasta and reserve water before draining
     ingredients:
       - amount: 120g
-        name: pasta
-        note: null
-        alternatives: []
+        name: linguine
+        note: the light miso-milk sauce coats the flat strands evenly without being overwhelmed; spaghetti is a fine substitute
+        alternatives:
+          - amount: 120g
+            name: spaghetti
+            note: slightly rounder — works well, marginally less surface contact with the sauce
+          - amount: 120g
+            name: fettuccine
+            note: richer feel; good if you want to lean into the creamy side of the sauce
       - amount: ~4 tbsp
         name: pasta water
         note: reserve before draining

@@ -88,8 +88,15 @@ ingredientGroups:
     actionNote: boil in salted water; reserve pasta water before draining
     ingredients:
       - amount: 200g
-        name: pasta
-        note: spaghetti, linguine, or any long pasta
+        name: spaghetti
+        note: best choice — the silky butter emulsion coats long strands evenly; linguine is a close second; rigatoni works if you want a short pasta
+        alternatives:
+          - amount: 200g
+            name: linguine
+            note: slightly flatter surface, holds the sauce a little differently — both good
+          - amount: 200g
+            name: rigatoni
+            note: sauce pools inside the tubes; changes the feel but works well
         alternatives: []
       - amount: ½ cup
         name: pasta water

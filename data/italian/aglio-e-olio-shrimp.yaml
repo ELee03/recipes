@@ -72,9 +72,12 @@ ingredientGroups:
     actionNote: cook in well-salted water; reserve pasta water before draining — this is the sauce base
     ingredients:
       - amount: 120g
-        name: pasta
-        note: spaghetti or linguine is traditional
-        alternatives: []
+        name: spaghetti
+        note: the correct choice for aglio e olio — the thin strands pick up the emulsified garlic oil without clumping; linguine is a close and acceptable second
+        alternatives:
+          - amount: 120g
+            name: linguine
+            note: slightly wider; works well
       - amount: "~4–6 tbsp"
         name: pasta water
         note: reserve before draining

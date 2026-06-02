@@ -80,9 +80,15 @@ ingredientGroups:
     actionNote: cook in salted water; reserve pasta water before draining
     ingredients:
       - amount: "120–160g"
-        name: pasta
-        note: rigatoni, cavatappi, or fusilli recommended; lower end for lighter days, higher end on training days
-        alternatives: []
+        name: rigatoni
+        note: the thick sauce clings to the ridges and fills the tubes; lower end for lighter days, higher end on training days
+        alternatives:
+          - amount: "120–160g"
+            name: cavatappi or fusilli
+            note: spiral shapes catch the sauce well — interchangeable here
+          - amount: "120–160g"
+            name: spaghetti
+            note: works but the sauce sits on top rather than clinging; less satisfying
       - amount: "~3–4 tbsp"
         name: pasta water
         note: reserve before draining

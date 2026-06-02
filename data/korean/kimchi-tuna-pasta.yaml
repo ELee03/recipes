@@ -67,9 +67,12 @@ ingredientGroups:
     actionNote: cook in salted water; reserve pasta water before draining
     ingredients:
       - amount: 120g
-        name: pasta
-        note: null
-        alternatives: []
+        name: spaghetti
+        note: the light stir-fry-style sauce coats strands cleanly; rigatoni also works if you want the kimchi pieces to collect in the tubes
+        alternatives:
+          - amount: 120g
+            name: rigatoni
+            note: catches kimchi and tuna in the tubes — messier but satisfying
       - amount: "~3–4 tbsp"
         name: pasta water
         note: reserve before draining
