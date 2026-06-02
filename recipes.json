@@ -192,10 +192,10 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 417,
-      "protein": 69.7,
-      "fat": 12.9,
-      "carbs": 1.8,
+      "cal": 403,
+      "protein": 68.4,
+      "fat": 11.9,
+      "carbs": 1.7,
       "breakdown": [
         {
           "name": "chicken breast",
@@ -203,7 +203,7 @@
         },
         {
           "name": "egg",
-          "protein": 7.8
+          "protein": 6.5
         },
         {
           "name": "greek yogurt",
@@ -675,10 +675,10 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 578,
-      "protein": 47.7,
-      "fat": 38.0,
-      "carbs": 10.6,
+      "cal": 564,
+      "protein": 46.4,
+      "fat": 37.0,
+      "carbs": 10.5,
       "breakdown": [
         {
           "name": "ground chicken",
@@ -686,7 +686,7 @@
         },
         {
           "name": "eggs",
-          "protein": 7.8
+          "protein": 6.5
         }
       ]
     }
@@ -1357,18 +1357,18 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 403,
-      "protein": 14.0,
-      "fat": 7.9,
-      "carbs": 68.4,
+      "cal": 392,
+      "protein": 13.0,
+      "fat": 7.1,
+      "carbs": 68.3,
       "breakdown": [
-        {
-          "name": "eggs",
-          "protein": 5.9
-        },
         {
           "name": "cooked rice",
           "protein": 5.0
+        },
+        {
+          "name": "eggs",
+          "protein": 4.9
         },
         {
           "name": "kimchi",
@@ -1553,9 +1553,9 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 401,
-      "protein": 38.5,
-      "fat": 5.2,
+      "cal": 394,
+      "protein": 37.9,
+      "fat": 4.7,
       "carbs": 49.1,
       "breakdown": [
         {
@@ -1568,7 +1568,7 @@
         },
         {
           "name": "egg",
-          "protein": 3.9
+          "protein": 3.2
         },
         {
           "name": "kimchi",
@@ -1989,7 +1989,7 @@
       }
     ],
     "protein": {
-      "note": "pasta base alone (egg + parmesan) is ~20–25g — chicken is what gets this to target"
+      "note": "pasta base alone (egg + parmesan) provides solid protein — chicken is what makes this a high-protein meal"
     },
     "tips": [
       {
@@ -2614,7 +2614,7 @@
       }
     ],
     "protein": {
-      "note": "soba noodles alone — buckwheat is relatively protein-rich; add cold chicken (+30–35g) or a soft-boiled egg (+6g) to hit a meaningful target"
+      "note": "soba noodles alone — buckwheat is relatively protein-rich; add cold chicken (+30–35g) or a soft-boiled egg (+~6g) to hit a meaningful target"
     },
     "tips": [
       {
@@ -2852,7 +2852,7 @@
       }
     ],
     "protein": {
-      "note": "pork loin is similar at ~40–50g"
+      "note": "pork loin is similar in protein"
     },
     "tips": [
       {
@@ -2885,10 +2885,10 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 473,
-      "protein": 60.3,
-      "fat": 9.7,
-      "carbs": 32.1,
+      "cal": 466,
+      "protein": 59.7,
+      "fat": 9.2,
+      "carbs": 32.0,
       "breakdown": [
         {
           "name": "chicken breast",
@@ -2896,7 +2896,7 @@
         },
         {
           "name": "egg",
-          "protein": 3.9
+          "protein": 3.2
         },
         {
           "name": "panko",
@@ -3531,9 +3531,9 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 562,
-      "protein": 52.0,
-      "fat": 29.3,
+      "cal": 555,
+      "protein": 51.3,
+      "fat": 28.8,
       "carbs": 17.9,
       "breakdown": [
         {
@@ -3542,7 +3542,7 @@
         },
         {
           "name": "egg",
-          "protein": 3.9
+          "protein": 3.2
         },
         {
           "name": "soy sauce",
@@ -3719,10 +3719,10 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 501,
-      "protein": 71.7,
-      "fat": 15.8,
-      "carbs": 14.5,
+      "cal": 479,
+      "protein": 69.8,
+      "fat": 14.3,
+      "carbs": 14.4,
       "breakdown": [
         {
           "name": "chicken breast",
@@ -3730,7 +3730,7 @@
         },
         {
           "name": "eggs",
-          "protein": 11.7
+          "protein": 9.8
         },
         {
           "name": "soy sauce",
@@ -4779,7 +4779,7 @@
       }
     ],
     "protein": {
-      "note": "pasta adds ~6g on top of the meat"
+      "note": "pasta contributes additional protein on top of the meat"
     },
     "tips": [
       {
@@ -4938,7 +4938,7 @@
       }
     ],
     "protein": {
-      "note": "from cheese only; low on its own — add a fried egg (+7g) or serve alongside grilled chicken (+30–40g)"
+      "note": "from cheese only; low on its own — add a fried egg (+~6g) or serve alongside grilled chicken (+30–40g)"
     },
     "tips": [
       {
@@ -5544,7 +5544,7 @@
       }
     ],
     "protein": {
-      "note": "from pasta only; intentionally low — treat as a base or side; easy additions are pan-seared shrimp (+25–30g), grilled chicken (+30–40g), or a fried egg (+7g)"
+      "note": "from pasta only; intentionally low — treat as a base or side; easy additions are pan-seared shrimp (+25–30g), grilled chicken (+30–40g), or a fried egg (+~6g)"
     },
     "tips": [
       {
@@ -6961,7 +6961,7 @@
       }
     ],
     "protein": {
-      "note": "adding a yogurt dip adds another 10–15g"
+      "note": "a yogurt dip on the side adds meaningful extra protein"
     },
     "tips": [
       {
@@ -8931,10 +8931,10 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 643,
-      "protein": 83.4,
-      "fat": 25.2,
-      "carbs": 19.4,
+      "cal": 629,
+      "protein": 82.1,
+      "fat": 24.2,
+      "carbs": 19.3,
       "breakdown": [
         {
           "name": "chicken breast",
@@ -8946,7 +8946,7 @@
         },
         {
           "name": "eggs",
-          "protein": 7.8
+          "protein": 6.5
         },
         {
           "name": "soy sauce",
@@ -9189,10 +9189,10 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 813,
-      "protein": 24.2,
-      "fat": 7.4,
-      "carbs": 159.0,
+      "cal": 799,
+      "protein": 22.9,
+      "fat": 6.4,
+      "carbs": 158.9,
       "breakdown": [
         {
           "name": "rice",
@@ -9200,7 +9200,7 @@
         },
         {
           "name": "eggs",
-          "protein": 7.8
+          "protein": 6.5
         },
         {
           "name": "soy sauce",
@@ -9676,14 +9676,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 351,
-      "protein": 25.0,
-      "fat": 15.8,
-      "carbs": 30.4,
+      "cal": 316,
+      "protein": 21.8,
+      "fat": 13.3,
+      "carbs": 30.2,
       "breakdown": [
         {
           "name": "eggs",
-          "protein": 19.5
+          "protein": 16.2
         },
         {
           "name": "crushed tomatoes",
@@ -10065,9 +10065,9 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 260,
-      "protein": 5.4,
-      "fat": 9.4,
+      "cal": 257,
+      "protein": 5.0,
+      "fat": 9.1,
       "carbs": 39.8,
       "breakdown": [
         {
@@ -10076,7 +10076,7 @@
         },
         {
           "name": "eggs",
-          "protein": 1.9
+          "protein": 1.6
         }
       ]
     }

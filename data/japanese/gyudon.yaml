@@ -109,7 +109,7 @@ instructions:
   - step: Slice green onion thin. Top with green onion, pickled ginger, and egg if using. Eat immediately.
 
 protein:
-  note: add a soft-boiled egg for an extra ~6g
+  note: add a soft-boiled egg for an extra {egg_each}
 
 tips:
   - keyword: Season the broth aggressively

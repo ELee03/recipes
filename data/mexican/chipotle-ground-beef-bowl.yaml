@@ -138,7 +138,7 @@ instructions:
   - step: Serve over rice with your toppings.
 
 protein:
-  note: add a fried or soft-boiled egg for an extra ~6g
+  note: add a fried or soft-boiled egg for an extra {egg_each}
 
 tips:
   - keyword: The water rinse after draining

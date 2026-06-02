@@ -329,6 +329,49 @@ def compute_macros(recipe, nutrients):
 
 
 # ============================================================
+# PROTEIN HINT TEMPLATES
+# ============================================================
+
+def build_protein_hints(nutrients):
+    """
+    Build a flat dict of protein-per-unit values for {template} substitution
+    in protein.note fields.  Keys are  {normalised_name}_{unit}, e.g.:
+      egg_each, tuna_can, greek_yogurt_tbsp, black_beans_can
+
+    Name normalisation: lowercase, whitespace / hyphens / slashes → underscore.
+    This makes nutrients.json the single source of truth for any gram figure
+    that appears in a protein note.
+    """
+    hints = {}
+    for name, data in nutrients.items():
+        if name.startswith('_'):
+            continue
+        protein_per_100g = data.get('protein', 0)
+        norm = re.sub(r'[\s\-/.]', '_', name.lower().strip())
+        for unit, grams in (data.get('units') or {}).items():
+            hints[f"{norm}_{unit}"] = protein_per_100g * grams / 100
+    return hints
+
+
+def substitute_protein_hints(text, hints):
+    """
+    Replace {key} placeholders in a protein note string with values resolved
+    from the hints dict.  Rounds to the nearest gram and prepends '~'.
+    Unknown keys are left as-is so bad references are visible in the output.
+    """
+    if not text:
+        return text
+
+    def replace(m):
+        val = hints.get(m.group(1))
+        if val is None:
+            return m.group(0)          # unknown key — leave placeholder intact
+        return f"~{round(val):d}g"
+
+    return re.sub(r'\{([\w]+)\}', replace, text)
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -354,12 +397,17 @@ def main():
     if nutrients:
         n_entries = len([k for k in nutrients if not k.startswith('_')])
         print(f"  Loaded nutrient DB ({n_entries} entries)")
+        protein_hints = build_protein_hints(nutrients)
         macro_count = 0
         for recipe in recipes:
             macros = compute_macros(recipe, nutrients)
             if macros:
                 recipe['computedMacros'] = macros
                 macro_count += 1
+            # Resolve {template} placeholders in protein.note from the nutrient DB
+            protein = recipe.get('protein')
+            if isinstance(protein, dict) and protein.get('note'):
+                protein['note'] = substitute_protein_hints(protein['note'], protein_hints)
         print(f"  Computed macros for {macro_count}/{len(recipes)} recipes")
     else:
         print("  (nutrients.json not found — skipping macro computation)")

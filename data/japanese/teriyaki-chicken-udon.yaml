@@ -103,7 +103,7 @@ instructions:
   - step: Chop green onions. Top with green onion. Serve immediately.
 
 protein:
-  note: add a soft-boiled egg for another ~6g
+  note: add a soft-boiled egg for another {egg_each}
 
 tips:
   - keyword: High heat

@@ -21,8 +21,8 @@
   "guanciale":             { "cal": 400, "protein": 20.0, "fat": 35.0, "carbs": 0.0,  "units": {} },
   "pancetta":              { "cal": 380, "protein": 19.0, "fat": 33.0, "carbs": 0.0,  "units": {} },
   "bacon":                 { "cal": 417, "protein": 12.0, "fat": 42.0, "carbs": 0.0,  "units": {} },
-  "eggs":                  { "cal": 143, "protein": 13.0, "fat": 10.0, "carbs": 0.7,  "units": { "each": 60 } },
-  "egg":                   { "cal": 143, "protein": 13.0, "fat": 10.0, "carbs": 0.7,  "units": { "each": 60 } },
+  "eggs":                  { "cal": 143, "protein": 13.0, "fat": 10.0, "carbs": 0.7,  "units": { "each": 50 } },
+  "egg":                   { "cal": 143, "protein": 13.0, "fat": 10.0, "carbs": 0.7,  "units": { "each": 50 } },
 
   "pasta":                 { "cal": 352, "protein": 13.0, "fat": 1.5,  "carbs": 71.0, "units": {} },
   "spaghetti":             { "cal": 352, "protein": 13.0, "fat": 1.5,  "carbs": 71.0, "units": {} },

@@ -111,7 +111,7 @@ instructions:
       - Proceed from step 4 of the quick version.
 
 protein:
-  note: from pasta only; intentionally low — treat as a base or side; easy additions are pan-seared shrimp (+25–30g), grilled chicken (+30–40g), or a fried egg (+7g)
+  note: from pasta only; intentionally low — treat as a base or side; easy additions are pan-seared shrimp (+25–30g), grilled chicken (+30–40g), or a fried egg (+{egg_each})
 
 tips:
   - keyword: Use good canned tomatoes

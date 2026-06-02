@@ -107,7 +107,7 @@ instructions:
   - step: Fry an egg separately (over-easy or sunny side up, runny yolk). Serve over rice with the egg on top and the yolk running into the meat.
 
 protein:
-  note: the fried egg adds another ~6g
+  note: the fried egg adds another {egg_each}
 
 tips:
   - keyword: Holy basil (krapao)
