@@ -34,9 +34,9 @@ ingredientGroups:
     label: Protein
     actionNote: drain well before adding to the pan
     ingredients:
-      - amount: 2 cans (~300g)
+      - amount: "2 cans"
         name: tuna in water
-        note: drained
+        note: drained; ~150g per can
 
   - emoji: 🥬
     label: Pan additions
@@ -104,7 +104,7 @@ instructions:
   - step: Finish with a few drops of sesame oil. Top with soft egg and green onion.
 
 protein:
-  note: use two cans of tuna or add a second egg to push toward 45g
+  note: add a soft-boiled egg on top for another ~6g; or use 3 cans total to push higher
 
 tips:
   - keyword: well-fermented 김치

@@ -73,9 +73,9 @@ ingredientGroups:
           - amount: "300g"
             name: shrimp, peeled
             note: 2 min max in the pan
-          - amount: "1 can (170g)"
+          - amount: "1 can"
             name: canned tuna, drained
-            note: add when sauce goes in; very pantry-friendly
+            note: add when sauce goes in; very pantry-friendly (~150g can)
 
   - emoji: 🧅
     label: Aromatics

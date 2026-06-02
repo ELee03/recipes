@@ -16,7 +16,7 @@
   "beef":                  { "cal": 250, "protein": 26.0, "fat": 15.0, "carbs": 0.0,  "units": {} },
   "salmon":                { "cal": 208, "protein": 20.0, "fat": 13.0, "carbs": 0.0,  "units": {} },
   "shrimp":                { "cal": 99,  "protein": 24.0, "fat": 0.3,  "carbs": 0.2,  "units": {} },
-  "tuna":                  { "cal": 116, "protein": 26.0, "fat": 1.0,  "carbs": 0.0,  "units": { "can": 150 } },
+  "tuna":                  { "cal": 75,  "protein": 16.7, "fat": 0.6,  "carbs": 0.0,  "units": { "can": 150 } },
   "spam":                  { "cal": 309, "protein": 13.5, "fat": 27.0, "carbs": 2.5,  "units": {} },
   "guanciale":             { "cal": 400, "protein": 20.0, "fat": 35.0, "carbs": 0.0,  "units": {} },
   "pancetta":              { "cal": 380, "protein": 19.0, "fat": 33.0, "carbs": 0.0,  "units": {} },

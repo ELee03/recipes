@@ -560,9 +560,9 @@
                 "note": "cook 2–3 min per side in oil; slice into strips after"
               },
               {
-                "amount": "1 can (170g)",
+                "amount": "1 can",
                 "name": "canned tuna, drained",
-                "note": "fold in at the end; quick and easy"
+                "note": "fold in at the end; quick and easy (~150g can)"
               }
             ]
           }
@@ -1413,9 +1413,9 @@
         "actionNote": "drain well before adding to the pan",
         "ingredients": [
           {
-            "amount": "2 cans (~300g)",
+            "amount": "2 cans",
             "name": "tuna in water",
-            "note": "drained"
+            "note": "drained; ~150g per can"
           }
         ]
       },
@@ -1528,7 +1528,7 @@
       }
     ],
     "protein": {
-      "note": "use two cans of tuna or add a second egg to push toward 45g"
+      "note": "add a soft-boiled egg on top for another ~6g; or use 3 cans total to push higher"
     },
     "tips": [
       {
@@ -1553,14 +1553,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 463,
-      "protein": 52.5,
-      "fat": 5.8,
+      "cal": 401,
+      "protein": 38.5,
+      "fat": 5.2,
       "carbs": 49.1,
       "breakdown": [
         {
           "name": "tuna",
-          "protein": 39.0
+          "protein": 25.0
         },
         {
           "name": "spaghetti",
@@ -8746,9 +8746,9 @@
                 "note": "2 min max in the pan"
               },
               {
-                "amount": "1 can (170g)",
+                "amount": "1 can",
                 "name": "canned tuna, drained",
-                "note": "add when sauce goes in; very pantry-friendly"
+                "note": "add when sauce goes in; very pantry-friendly (~150g can)"
               }
             ]
           }
