@@ -107,7 +107,7 @@ ingredientGroups:
         name: chicken thighs
         note: skin-on adds flavor and char; boneless/skinless is easier to slice
         alternatives:
-          - amount: 2 large
+          - amount: "350–400g"
             name: chicken breasts
             note: leaner but dries out faster — reduce cook time by ~3 min per side
 

@@ -88,11 +88,11 @@ ingredientGroups:
     label: Protein
     actionNote: add to marinade and toss well
     ingredients:
-      - amount: "300–400g"
+      - amount: "350–400g"
         name: chicken breast, cut into large chunks
         note: null
         alternatives:
-          - amount: "300–400g"
+          - amount: "350–400g"
             name: boneless chicken thighs
             note: more flavor and slightly more forgiving on high heat
 

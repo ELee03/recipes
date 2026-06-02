@@ -66,7 +66,7 @@ ingredientGroups:
     label: Protein
     actionNote: add after aromatics have infused; thin slices cook fast
     ingredients:
-      - amount: "250–300g"
+      - amount: "350–400g"
         name: chicken breast, sliced thin
         note: null
         alternatives:

@@ -56,9 +56,9 @@ ingredientGroups:
     label: Protein
     actionNote: patted dry, seared first in the pan; set aside while aromatics cook
     ingredients:
-      - amount: 2 large
+      - amount: "350–400g"
         name: chicken breasts
-        note: pound to even thickness (~2 cm) for even cooking; or use 4 boneless thighs
+        note: pound to even thickness (~2 cm) for even cooking; ~175–200g per breast. Or use 4 boneless thighs
         alternatives:
           - amount: 4
             name: boneless, skinless chicken thighs
@@ -132,8 +132,8 @@ instructions:
   - step: Serve over rice, spooning the glaze generously over everything. Garnish with green onion.
 
 protein:
-  grams: "~52"
-  note: per serving with one large chicken breast (~260g raw)
+  grams: "~44–50"
+  note: per serving with 175–200g chicken breast per serving
 
 tips:
   - keyword: Pat the chicken dry

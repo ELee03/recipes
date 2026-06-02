@@ -50,11 +50,11 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: 300–350g
+      - amount: "350–400g"
         name: chicken breast, sliced thin
         note: null
         alternatives:
-          - amount: 300–350g
+          - amount: "350–400g"
             name: firm tofu, cubed
             note: replace or supplement the chicken — same sauce, works well
 
@@ -103,8 +103,8 @@ instructions:
   - step: Chop green onions. Top with green onion. Serve immediately.
 
 protein:
-  grams: "~33"
-  note: per serving — below target; add a soft-boiled egg (+6g) or increase chicken to push higher
+  grams: "~44"
+  note: per serving with chicken breast; add a soft-boiled egg for another ~6g
 
 tips:
   - keyword: High heat

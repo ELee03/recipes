@@ -66,7 +66,7 @@ ingredientGroups:
     label: Protein
     actionNote: sliced thin and cooked first in the wok; set aside before aromatics
     ingredients:
-      - amount: "300g"
+      - amount: "350–400g"
         name: chicken breast, thinly sliced
         note: slice across the grain for tenderness; cook over high heat 2–3 min
         alternatives:
@@ -167,8 +167,8 @@ instructions:
   - step: Plate immediately. Top each bowl with a fried egg, green onion, crispy shallots, and a lime wedge.
 
 protein:
-  grams: "~45"
-  note: per serving with 300g chicken breast; ~25g base without protein added
+  grams: "~50"
+  note: per serving with 350–400g chicken breast total; ~25g base without protein added
 
 tips:
   - keyword: Don't overcook the noodles

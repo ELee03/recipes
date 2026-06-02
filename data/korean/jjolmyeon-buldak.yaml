@@ -88,9 +88,9 @@ ingredientGroups:
         name: nori strips
         note: optional but good with the carbonara sauce
         alternatives: []
-      - amount: "100g"
+      - amount: "175–200g"
         name: cooked chicken breast, sliced or shredded
-        note: optional — adds ~30g protein and makes it a full meal
+        note: optional — adds ~44–50g protein and makes it a full meal
         alternatives:
           - amount: "100g"
             name: canned tuna, drained
@@ -107,7 +107,7 @@ instructions:
 
 protein:
   grams: "~25"
-  note: base (egg + yogurt + noodles); ~55g with chicken breast added
+  note: base (egg + yogurt + noodles); ~60g with chicken breast added
 
 tips:
   - keyword: Buy the ramen, use only the sauce

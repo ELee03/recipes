@@ -59,7 +59,7 @@ ingredientGroups:
     label: Protein
     actionNote: cook whole, then shred with two forks after cooling slightly
     ingredients:
-      - amount: "450–500g"
+      - amount: "525–600g"
         name: chicken breast
         note: null
         alternatives: []
@@ -120,8 +120,8 @@ instructions:
   - step: Taste and adjust salt. Serve in your preferred format.
 
 protein:
-  grams: "~37"
-  note: per serving (2 of 3 servings from this batch) — below target; serve with black beans or a fried egg to push toward 50g
+  grams: "~44–50"
+  note: per serving from this 3-serving batch; serve with black beans or a fried egg to push higher
 
 tips:
   - keyword: Chipotles in adobo

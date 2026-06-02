@@ -57,11 +57,11 @@ ingredientGroups:
     label: Protein (optional)
     actionNote: cook first, set aside; returned at the end
     ingredients:
-      - amount: "200g"
-        name: chicken breast or shrimp
-        note: optional but recommended for a full meal; cut chicken into small cubes
+      - amount: "350–400g"
+        name: chicken breast
+        note: optional but recommended for a full meal; cut into small cubes
         alternatives:
-          - amount: "200g"
+          - amount: "250–300g"
             name: shrimp, peeled
             note: 2–3 min in the pan, done
           - amount: null
@@ -140,7 +140,7 @@ instructions:
 
 protein:
   grams: "~15"
-  note: egg only (base); ~40g+ with 200g chicken breast added
+  note: egg only (base); ~50g+ with 350–400g chicken breast added
 
 tips:
   - keyword: Day-old rice is non-negotiable

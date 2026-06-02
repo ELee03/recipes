@@ -56,7 +56,7 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: "250–300g"
+      - amount: "350–400g"
         name: chicken breast or thigh, cut into bite-sized pieces
         note: thigh is juicier; breast is leaner
         alternatives: []
@@ -102,8 +102,8 @@ instructions:
   - step: Slice green onion thin. Slide over a bowl of rice. Garnish with green onion. Eat immediately.
 
 protein:
-  grams: "~41"
-  note: per serving (3 eggs + 75–100g chicken breast) — add more chicken or a fourth egg to push toward 50g
+  grams: "~60"
+  note: per serving (3 eggs + 175–200g chicken breast)
 
 tips:
   - keyword: Soft eggs

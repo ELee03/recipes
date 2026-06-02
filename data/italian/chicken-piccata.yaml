@@ -34,9 +34,9 @@ ingredientGroups:
     label: Protein prep
     actionNote: season and dredge before searing
     ingredients:
-      - amount: 2
+      - amount: "350–400g (2 breasts)"
         name: chicken breasts, halved horizontally and pounded thin
-        note: butterflied into cutlets
+        note: butterflied into cutlets; aim for ~175–200g per breast
         alternatives: []
       - amount: null
         name: salt and pepper

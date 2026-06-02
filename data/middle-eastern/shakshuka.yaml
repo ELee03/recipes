@@ -34,7 +34,7 @@ ingredientGroups:
     label: Optional protein boost
     actionNote: cook first in the pan, then build the sauce on top
     ingredients:
-      - amount: "225–300g"
+      - amount: "450g"
         name: ground beef or lamb
         note: cook until browned, drain fat if needed; sauce goes on top of the meat
         alternatives:
@@ -166,7 +166,7 @@ instructions:
 
 protein:
   grams: "~20"
-  note: eggs only (~5g per egg × 4 eggs); ~50g+ per serving with 225g ground beef added
+  note: eggs only (~5g per egg × 4 eggs); ~65g+ per serving with 450g ground beef added
 
 tips:
   - keyword: Check eggs at 5 min

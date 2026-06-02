@@ -85,7 +85,7 @@ ingredientGroups:
     label: Protein
     actionNote: pat dry before applying rub
     ingredients:
-      - amount: "2 large"
+      - amount: "350–400g"
         name: chicken breasts
         note: null
         alternatives: []
@@ -105,8 +105,8 @@ instructions:
       - Rest 3–5 min before serving.
 
 protein:
-  grams: "~40"
-  note: per serving (one large chicken breast) — below target; pairs with jollof rice, add a fried egg or serve with beans to reach 50g
+  grams: "~44–50"
+  note: per serving with 350–400g chicken total; pairs well with jollof rice
 
 tips:
   - keyword: The bouillon cube in the rub sounds unusual

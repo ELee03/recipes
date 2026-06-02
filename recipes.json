@@ -120,9 +120,9 @@
             "alternatives": []
           },
           {
-            "amount": "100g",
+            "amount": "175–200g",
             "name": "cooked chicken breast, sliced or shredded",
-            "note": "optional — adds ~30g protein and makes it a full meal",
+            "note": "optional — adds ~44–50g protein and makes it a full meal",
             "alternatives": [
               {
                 "amount": "100g",
@@ -159,7 +159,7 @@
     ],
     "protein": {
       "grams": "~25",
-      "note": "base (egg + yogurt + noodles); ~55g with chicken breast added"
+      "note": "base (egg + yogurt + noodles); ~60g with chicken breast added"
     },
     "tips": [
       {
@@ -188,14 +188,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 273,
-      "protein": 42.5,
-      "fat": 9.8,
+      "cal": 417,
+      "protein": 69.7,
+      "fat": 12.9,
       "carbs": 1.8,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 31.0
+          "protein": 58.1
         },
         {
           "name": "egg",
@@ -547,12 +547,12 @@
         "actionNote": "cook before noodles; season simply — the sauce carries the dish",
         "ingredients": [
           {
-            "amount": "300–350g",
+            "amount": "450g",
             "name": "ground chicken or pork",
             "note": "cook with a little garlic and soy over medium-high heat until cooked through and slightly browned; drain fat",
             "alternatives": [
               {
-                "amount": "300g",
+                "amount": "350–400g",
                 "name": "chicken breast, thinly sliced across the grain",
                 "note": "cook 2–3 min per side in oil; slice into strips after"
               },
@@ -646,7 +646,7 @@
       }
     ],
     "protein": {
-      "grams": "~45",
+      "grams": "~55",
       "note": "per serving with ground chicken and egg"
     },
     "tips": [
@@ -676,14 +676,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 472,
-      "protein": 37.1,
-      "fat": 31.1,
+      "cal": 578,
+      "protein": 47.7,
+      "fat": 38.0,
       "carbs": 10.6,
       "breakdown": [
         {
           "name": "ground chicken",
-          "protein": 27.6
+          "protein": 38.2
         },
         {
           "name": "eggs",
@@ -1602,7 +1602,7 @@
         "actionNote": "mix together, let sit 15+ min",
         "ingredients": [
           {
-            "amount": "300–350g",
+            "amount": "350–400g",
             "name": "chicken breast",
             "note": "cut into bite-sized pieces",
             "alternatives": []
@@ -1761,14 +1761,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 374,
-      "protein": 52.9,
-      "fat": 8.4,
+      "cal": 415,
+      "protein": 60.6,
+      "fat": 9.3,
       "carbs": 19.0,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 50.4
+          "protein": 58.1
         }
       ]
     }
@@ -2318,12 +2318,12 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "300–350g",
+            "amount": "350–400g",
             "name": "chicken breast, sliced thin",
             "note": null,
             "alternatives": [
               {
-                "amount": "300–350g",
+                "amount": "350–400g",
                 "name": "firm tofu, cubed",
                 "note": "replace or supplement the chicken — same sauce, works well"
               }
@@ -2407,8 +2407,8 @@
       }
     ],
     "protein": {
-      "grams": "~33",
-      "note": "per serving — below target; add a soft-boiled egg (+6g) or increase chicken to push higher"
+      "grams": "~44",
+      "note": "per serving with chicken breast; add a soft-boiled egg for another ~6g"
     },
     "tips": [
       {
@@ -2433,14 +2433,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 338,
-      "protein": 52.7,
-      "fat": 6.0,
+      "cal": 380,
+      "protein": 60.5,
+      "fat": 6.9,
       "carbs": 15.9,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 50.4
+          "protein": 58.1
         },
         {
           "name": "soy sauce",
@@ -2693,8 +2693,8 @@
         "actionNote": "pound to even thickness before breading",
         "ingredients": [
           {
-            "amount": "1–2",
-            "name": "boneless chicken breasts (150–180g each), pounded to ~1.5cm thickness",
+            "amount": "2",
+            "name": "boneless chicken breasts (175–200g each), pounded to ~1.5cm thickness",
             "note": null,
             "alternatives": [
               {
@@ -2885,14 +2885,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 403,
-      "protein": 47.2,
-      "fat": 8.2,
+      "cal": 473,
+      "protein": 60.3,
+      "fat": 9.7,
       "carbs": 32.1,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 39.5
+          "protein": 52.7
         },
         {
           "name": "egg",
@@ -3615,7 +3615,7 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "250–300g",
+            "amount": "350–400g",
             "name": "chicken breast or thigh, cut into bite-sized pieces",
             "note": "thigh is juicier; breast is leaner",
             "alternatives": []
@@ -3692,8 +3692,8 @@
       }
     ],
     "protein": {
-      "grams": "~41",
-      "note": "per serving (3 eggs + 75–100g chicken breast) — add more chicken or a fourth egg to push toward 50g"
+      "grams": "~60",
+      "note": "per serving (3 eggs + 175–200g chicken breast)"
     },
     "tips": [
       {
@@ -3718,14 +3718,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 418,
-      "protein": 56.2,
-      "fat": 14.0,
+      "cal": 501,
+      "protein": 71.7,
+      "fat": 15.8,
       "carbs": 14.5,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 42.6
+          "protein": 58.1
         },
         {
           "name": "eggs",
@@ -3815,7 +3815,7 @@
         "actionNote": "cooked with a splash of water, no oil; drain liquid after",
         "ingredients": [
           {
-            "amount": "550g",
+            "amount": "450g",
             "name": "ground chicken or pork",
             "note": "both are traditional; chicken is leaner",
             "alternatives": []
@@ -3894,8 +3894,8 @@
       }
     ],
     "protein": {
-      "grams": "~26",
-      "note": "per serving — below target; increase ground meat to 400–450g total to push toward 50g per serving"
+      "grams": "~50",
+      "note": "per serving with 450g ground chicken total (225g per serving)"
     },
     "tips": [
       {
@@ -3924,14 +3924,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 527,
-      "protein": 49.5,
-      "fat": 30.3,
+      "cal": 442,
+      "protein": 41.0,
+      "fat": 24.8,
       "carbs": 13.2,
       "breakdown": [
         {
           "name": "ground chicken",
-          "protein": 46.8
+          "protein": 38.2
         },
         {
           "name": "shallot",
@@ -4007,7 +4007,7 @@
         "actionNote": "cook first, drain fat, return to pan",
         "ingredients": [
           {
-            "amount": "550g",
+            "amount": "450g",
             "name": "ground chicken, pork, or beef",
             "note": null,
             "alternatives": []
@@ -4099,8 +4099,8 @@
       }
     ],
     "protein": {
-      "grams": "~25",
-      "note": "per serving — below target; increase meat to 400–450g total, or add a second fried egg to push higher"
+      "grams": "~50",
+      "note": "per serving with 450g ground meat total; the fried egg adds another ~6g"
     },
     "tips": [
       {
@@ -4129,14 +4129,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 496,
-      "protein": 48.1,
-      "fat": 30.3,
+      "cal": 411,
+      "protein": 39.6,
+      "fat": 24.8,
       "carbs": 6.1,
       "breakdown": [
         {
           "name": "ground chicken",
-          "protein": 46.8
+          "protein": 38.2
         }
       ]
     }
@@ -4228,7 +4228,7 @@
         "actionNote": "add after aromatics have infused; thin slices cook fast",
         "ingredients": [
           {
-            "amount": "250–300g",
+            "amount": "350–400g",
             "name": "chicken breast, sliced thin",
             "note": null,
             "alternatives": [
@@ -4362,14 +4362,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 336,
-      "protein": 47.9,
-      "fat": 5.6,
+      "cal": 418,
+      "protein": 63.4,
+      "fat": 7.4,
       "carbs": 29.9,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 42.6
+          "protein": 58.1
         },
         {
           "name": "mushrooms",
@@ -5212,9 +5212,9 @@
         "actionNote": "season and dredge before searing",
         "ingredients": [
           {
-            "amount": 2,
+            "amount": "350–400g (2 breasts)",
             "name": "chicken breasts, halved horizontally and pounded thin",
-            "note": "butterflied into cutlets",
+            "note": "butterflied into cutlets; aim for ~175–200g per breast",
             "alternatives": []
           },
           {
@@ -5386,14 +5386,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 414,
-      "protein": 53.9,
-      "fat": 16.7,
+      "cal": 443,
+      "protein": 59.3,
+      "fat": 17.4,
       "carbs": 8.6,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 52.7
+          "protein": 58.1
         },
         {
           "name": "flour",
@@ -5631,7 +5631,7 @@
             "note": "large or medium; pat dry so they sear rather than steam",
             "alternatives": [
               {
-                "amount": "300g",
+                "amount": "350–400g",
                 "name": "chicken breast, thinly sliced",
                 "note": "slice across the grain ~½ cm thick; cooks in 3–4 min"
               }
@@ -5899,7 +5899,7 @@
         "actionNote": "cook whole, then shred with two forks after cooling slightly",
         "ingredients": [
           {
-            "amount": "450–500g",
+            "amount": "525–600g",
             "name": "chicken breast",
             "note": null,
             "alternatives": []
@@ -6002,8 +6002,8 @@
       }
     ],
     "protein": {
-      "grams": "~37",
-      "note": "per serving (2 of 3 servings from this batch) — below target; serve with black beans or a fried egg to push toward 50g"
+      "grams": "~44–50",
+      "note": "per serving from this 3-serving batch; serve with black beans or a fried egg to push higher"
     },
     "tips": [
       {
@@ -6028,14 +6028,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 288,
-      "protein": 50.2,
-      "fat": 6.4,
+      "cal": 336,
+      "protein": 59.2,
+      "fat": 7.4,
       "carbs": 4.6,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 49.1
+          "protein": 58.1
         }
       ]
     }
@@ -6675,12 +6675,12 @@
         "actionNote": "add to marinade and toss well",
         "ingredients": [
           {
-            "amount": "300–400g",
+            "amount": "350–400g",
             "name": "chicken breast, cut into large chunks",
             "note": null,
             "alternatives": [
               {
-                "amount": "300–400g",
+                "amount": "350–400g",
                 "name": "boneless chicken thighs",
                 "note": "more flavor and slightly more forgiving on high heat"
               }
@@ -6783,14 +6783,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 316,
-      "protein": 54.6,
-      "fat": 8.6,
+      "cal": 337,
+      "protein": 58.4,
+      "fat": 9.0,
       "carbs": 1.7,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 54.2
+          "protein": 58.1
         }
       ]
     }
@@ -7571,7 +7571,7 @@
         "actionNote": "pat dry before applying rub",
         "ingredients": [
           {
-            "amount": "2 large",
+            "amount": "350–400g",
             "name": "chicken breasts",
             "note": null,
             "alternatives": []
@@ -7600,8 +7600,8 @@
       }
     ],
     "protein": {
-      "grams": "~40",
-      "note": "per serving (one large chicken breast) — below target; pairs with jollof rice, add a fried egg or serve with beans to reach 50g"
+      "grams": "~44–50",
+      "note": "per serving with 350–400g chicken total; pairs well with jollof rice"
     },
     "tips": [
       {
@@ -7630,14 +7630,14 @@
       ]
     },
     "computedMacros": {
-      "cal": 302,
-      "protein": 52.8,
-      "fat": 8.4,
+      "cal": 331,
+      "protein": 58.2,
+      "fat": 9.0,
       "carbs": 0.4,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 52.7
+          "protein": 58.1
         }
       ]
     }
@@ -7793,7 +7793,7 @@
             "note": "skin-on adds flavor and char; boneless/skinless is easier to slice",
             "alternatives": [
               {
-                "amount": "2 large",
+                "amount": "350–400g",
                 "name": "chicken breasts",
                 "note": "leaner but dries out faster — reduce cook time by ~3 min per side"
               }
@@ -8278,9 +8278,9 @@
         "actionNote": "patted dry, seared first in the pan; set aside while aromatics cook",
         "ingredients": [
           {
-            "amount": "2 large",
+            "amount": "350–400g",
             "name": "chicken breasts",
-            "note": "pound to even thickness (~2 cm) for even cooking; or use 4 boneless thighs",
+            "note": "pound to even thickness (~2 cm) for even cooking; ~175–200g per breast. Or use 4 boneless thighs",
             "alternatives": [
               {
                 "amount": 4,
@@ -8409,8 +8409,8 @@
       }
     ],
     "protein": {
-      "grams": "~52",
-      "note": "per serving with one large chicken breast (~260g raw)"
+      "grams": "~44–50",
+      "note": "per serving with 175–200g chicken breast per serving"
     },
     "tips": [
       {
@@ -8439,14 +8439,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 350,
-      "protein": 57.2,
-      "fat": 6.3,
+      "cal": 379,
+      "protein": 62.6,
+      "fat": 6.9,
       "carbs": 14.0,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 52.7
+          "protein": 58.1
         },
         {
           "name": "soy sauce",
@@ -8546,7 +8546,7 @@
         "actionNote": "sliced thin and cooked first in the wok; set aside before aromatics",
         "ingredients": [
           {
-            "amount": "300g",
+            "amount": "350–400g",
             "name": "chicken breast, thinly sliced",
             "note": "slice across the grain for tenderness; cook over high heat 2–3 min",
             "alternatives": [
@@ -8719,8 +8719,8 @@
       }
     ],
     "protein": {
-      "grams": "~45",
-      "note": "per serving with 300g chicken breast; ~25g base without protein added"
+      "grams": "~50",
+      "note": "per serving with 350–400g chicken breast total; ~25g base without protein added"
     },
     "tips": [
       {
@@ -8745,14 +8745,14 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 581,
-      "protein": 71.8,
-      "fat": 23.9,
+      "cal": 643,
+      "protein": 83.4,
+      "fat": 25.2,
       "carbs": 19.4,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 46.5
+          "protein": 58.1
         },
         {
           "name": "egg",
@@ -8839,12 +8839,12 @@
         "actionNote": "cook first, set aside; returned at the end",
         "ingredients": [
           {
-            "amount": "200g",
-            "name": "chicken breast or shrimp",
-            "note": "optional but recommended for a full meal; cut chicken into small cubes",
+            "amount": "350–400g",
+            "name": "chicken breast",
+            "note": "optional but recommended for a full meal; cut into small cubes",
             "alternatives": [
               {
-                "amount": "200g",
+                "amount": "250–300g",
                 "name": "shrimp, peeled",
                 "note": "2–3 min in the pan, done"
               },
@@ -8979,7 +8979,7 @@
     ],
     "protein": {
       "grams": "~15",
-      "note": "egg only (base); ~40g+ with 200g chicken breast added"
+      "note": "egg only (base); ~50g+ with 350–400g chicken breast added"
     },
     "tips": [
       {
@@ -9251,7 +9251,7 @@
         "actionNote": "cook first in the pan, then build the sauce on top",
         "ingredients": [
           {
-            "amount": "225–300g",
+            "amount": "450g",
             "name": "ground beef or lamb",
             "note": "cook until browned, drain fat if needed; sauce goes on top of the meat",
             "alternatives": [
@@ -9467,7 +9467,7 @@
     ],
     "protein": {
       "grams": "~20",
-      "note": "eggs only (~5g per egg × 4 eggs); ~50g+ per serving with 225g ground beef added"
+      "note": "eggs only (~5g per egg × 4 eggs); ~65g+ per serving with 450g ground beef added"
     },
     "tips": [
       {
