@@ -6899,7 +6899,7 @@
       "no-marinate",
       "meal-prep"
     ],
-    "description": "Ground beef, drained and rinsed to cut the grease, then hit with chipotle, cumin, garlic, and tomato. Served over rice with whatever toppings you have. A meal-prep-friendly, weeknight go-to — simple, filling, and extremely adjustable.\n",
+    "description": "Ground beef cooked down with chipotle, cumin, garlic, and tomato. Served over rice with whatever toppings you have. A meal-prep-friendly, weeknight go-to — simple, filling, and extremely adjustable.\n",
     "keyIngredients": [
       "ground beef",
       "chipotle peppers in adobo",
@@ -6936,7 +6936,7 @@
       {
         "emoji": "🥩",
         "label": "Protein",
-        "actionNote": "cook first, drain fat, optionally rinse, then continue",
+        "actionNote": "cook first, drain excess fat, then continue",
         "ingredients": [
           {
             "amount": "450g",
@@ -7070,7 +7070,7 @@
         "step": "Cook ground beef in a pan over medium-high heat, breaking it up. Cook until no longer pink."
       },
       {
-        "step": "Drain fat thoroughly. Optional — do a water rinse by adding a cup of hot water to the pan, stir, then drain through a fine strainer. Return beef to pan."
+        "step": "Drain excess fat from the pan — tilt and spoon it out, or drain through a strainer briefly. Don't chase every drop; the remaining fat carries flavor and will absorb the spices."
       },
       {
         "step": "Dice onion and mince garlic. Add onion and cook ~3 min until softened. Add garlic and cook 1 more min."
@@ -7089,10 +7089,6 @@
       "note": "add a fried or soft-boiled egg for an extra ~6g"
     },
     "tips": [
-      {
-        "keyword": "The water rinse after draining",
-        "text": "Is optional — it removes more fat but doesn't meaningfully affect protein content."
-      },
       {
         "keyword": "Chipotle in adobo can vary in heat",
         "text": "Taste the sauce as you add it and adjust the number of peppers accordingly."
