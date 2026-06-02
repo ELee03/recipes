@@ -72,6 +72,11 @@ def load_recipes():
                 errors.append(f"{yaml_file.name}: missing fields: {missing}")
                 continue
 
+            # Warn if dead field is present — protein.grams is ignored by the UI
+            # (computedMacros provides the number); having it here causes drift.
+            if isinstance(recipe.get("protein"), dict) and "grams" in recipe["protein"]:
+                errors.append(f"{yaml_file.name}: WARNING — 'protein.grams' is dead code. Remove it. The UI uses computedMacros only.")
+
             recipes.append(recipe)
 
         except yaml.YAMLError as e:

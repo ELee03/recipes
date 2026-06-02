@@ -7,8 +7,8 @@
 
 id: kebab-case-name               # unique slug; must match filename (without .yaml)
 name: Human Readable Recipe Name
-cuisine: korean                   # allowed: korean | japanese | thai | italian | mexican | indian | west-african | caribbean | smoothies | baking
-                                  # New cuisine categories can be added as needed — update this comment, CUISINE_ORDER in build.py, and CLAUDE.md when adding one
+cuisine: korean                   # allowed: korean | japanese | thai | italian | mexican | indian | west-african | caribbean | indonesian | middle-eastern | smoothies | baking
+                                  # New cuisine categories can be added as needed — update this comment, CUISINE_ORDER in build.py, CUISINE_LABELS in app.js, and CLAUDE.md when adding one
 difficulty: easy                  # allowed: easy | medium | hard
 time: 20                          # total time in minutes, integer (use longest path for multi-method recipes)
 servings: 2                       # integer
@@ -82,8 +82,13 @@ instructions:
       - Second step in this section.
 
 protein:
-  grams: "45–55"                  # always a string to allow ranges; quote it
-  note: per serving with one chicken breast  # brief context note
+  # DO NOT add a 'grams' field — protein numbers come from computedMacros (auto-calculated
+  # by build.py from ingredients). Manual grams are dead code and will be ignored by the UI.
+  note: optional additive context only  # use ONLY for info the computed macros can't show:
+                                        # - optional proteins excluded from the main count (e.g. "add beans for +8g")
+                                        # - carb-side caveats (e.g. "this is a carb side")
+                                        # - variant protein info (e.g. "~10-12g with whey substitution")
+                                        # DO NOT restate the computed number or say "per serving with X"
 
 tips:
   - keyword: the key phrase       # the bolded term from the .md tips format
