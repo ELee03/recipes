@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macro Guide — Eugene's Recipes</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    /* ── Calculator ── */
+    .calc-card {
+      background: var(--card-bg, #fff);
+      border: 1px solid var(--border, #e8e4de);
+      border-radius: 10px;
+      padding: 28px 32px 32px;
+      margin-bottom: 32px;
+    }
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px 20px;
+      margin-bottom: 20px;
+    }
+    .calc-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .calc-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #888;
+    }
+    .calc-label .optional {
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0;
+      color: #aaa;
+      font-size: 0.75rem;
+    }
+    .calc-input,
+    .calc-select {
+      padding: 9px 12px;
+      border: 1.5px solid var(--border, #ddd);
+      border-radius: 7px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      background: #fafaf9;
+      color: inherit;
+      transition: border-color 0.15s;
+    }
+    .calc-input:focus,
+    .calc-select:focus {
+      outline: none;
+      border-color: var(--accent, #b8621a);
+    }
+    .calc-radio-group {
+      display: flex;
+      gap: 8px;
+    }
+    .calc-radio-group label {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 9px 10px;
+      border: 1.5px solid var(--border, #ddd);
+      border-radius: 7px;
+      font-size: 0.93rem;
+      cursor: pointer;
+      background: #fafaf9;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .calc-radio-group input[type="radio"] {
+      accent-color: var(--accent, #b8621a);
+    }
+    .calc-radio-group label:has(input:checked) {
+      border-color: var(--accent, #b8621a);
+      background: #fdf6f0;
+    }
+    .calc-btn {
+      padding: 11px 32px;
+      background: var(--accent, #b8621a);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .calc-btn:hover { opacity: 0.88; }
+    .calc-error {
+      display: none;
+      margin-top: 8px;
+      color: #c0392b;
+      font-size: 0.87rem;
+    }
+
+    /* ── Results ── */
+    .calc-results {
+      display: none;
+      margin-top: 28px;
+      border-top: 1px solid var(--border, #e8e4de);
+      padding-top: 24px;
+    }
+    .result-formula-note {
+      font-size: 0.82rem;
+      color: #888;
+      margin-bottom: 16px;
+    }
+    .result-summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .result-summary-item {
+      background: #f5f3f0;
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+    .result-summary-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #888;
+      margin-bottom: 4px;
+    }
+    .result-summary-value {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #2a2522;
+    }
+    .result-summary-value .unit {
+      font-size: 0.78rem;
+      font-weight: 400;
+      color: #888;
+      margin-left: 2px;
+    }
+    .result-summary-item--target .result-summary-value {
+      color: var(--accent, #b8621a);
+    }
+    .macro-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .macro-card {
+      border: 2px solid var(--border, #e8e4de);
+      border-top: 3px solid var(--accent, #b8621a);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fff;
+    }
+    .macro-card--protein { border-top-color: #2e7d9c; }
+    .macro-card--fat     { border-top-color: #b8621a; }
+    .macro-card--carbs   { border-top-color: #5a8a3e; }
+    .macro-card-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    .macro-card-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #2a2522;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+    .macro-card-value .g { font-size: 1rem; font-weight: 400; color: #888; }
+    .macro-card-sub {
+      font-size: 0.78rem;
+      color: #888;
+      line-height: 1.6;
+      margin-top: 6px;
+    }
+    .macro-card-sub strong { color: #555; }
+    .result-footnote {
+      font-size: 0.80rem;
+      color: #999;
+      line-height: 1.6;
+    }
+
+    /* ── Ranges table ── */
+    .ranges-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .ranges-table th {
+      text-align: left;
+      padding: 10px 14px;
+      background: #f5f3f0;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #666;
+      border-bottom: 1px solid var(--border, #e8e4de);
+    }
+    .ranges-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid #f0ece7;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .ranges-table tr:last-child td { border-bottom: none; }
+    .ranges-table .macro-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .ranges-table .range-value {
+      font-weight: 600;
+      color: var(--accent, #b8621a);
+    }
+
+    /* ── Macro tips ── */
+    .macro-tip-blocks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .macro-tip-block {
+      background: var(--card-bg, #fff);
+      border: 1px solid var(--border, #e8e4de);
+      border-radius: 10px;
+      padding: 20px 22px;
+    }
+    .macro-tip-block h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 4px;
+    }
+    .macro-tip-block .tip-subtitle {
+      font-size: 0.78rem;
+      color: #888;
+      margin-bottom: 14px;
+      line-height: 1.4;
+    }
+    .macro-tip-block ul {
+      margin: 0;
+      padding-left: 1.1em;
+      line-height: 1.7;
+      font-size: 0.87rem;
+      color: #444;
+    }
+    .macro-tip-block ul li { margin-bottom: 3px; }
+    .macro-tip-block .tip-note {
+      margin-top: 12px;
+      font-size: 0.80rem;
+      color: #888;
+      line-height: 1.5;
+      font-style: italic;
+    }
+    .macro-tip-block--protein h3 { color: #2e7d9c; }
+    .macro-tip-block--fat     h3 { color: #b8621a; }
+    .macro-tip-block--carbs   h3 { color: #5a8a3e; }
+
+    /* ── Protein source table (macros-focused) ── */
+    .leverage-badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .leverage-badge--high   { background: #e8f5e9; color: #2e7d32; }
+    .leverage-badge--mid    { background: #fff8e1; color: #8a6200; }
+    .leverage-badge--low    { background: #fce4ec; color: #b71c1c; }
+
+    @media (max-width: 680px) {
+      .calc-grid { grid-template-columns: 1fr 1fr; }
+      .result-summary { grid-template-columns: 1fr; }
+      .macro-cards { grid-template-columns: 1fr; }
+      .calc-card { padding: 20px 18px 24px; }
+    }
+    @media (max-width: 420px) {
+      .calc-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <h1>Eugene's Recipes</h1>
+      </div>
+      <nav class="site-nav">
+        <a href="../" class="nav-link">Recipes</a>
+        <a href="../pantry/" class="nav-link">Pantry Guide</a>
+        <a href="./" class="nav-link nav-link--active">Macro Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main-content">
+
+    <!-- HERO -->
+    <div class="pantry-hero">
+      <div class="pantry-hero-title">Macro Guide</div>
+      <p class="pantry-hero-desc">
+        Daily targets, sweet spot ranges, and a calculator based on your weight, body composition, and goal.
+        Protein source comparison sorted by protein leverage — the metric that actually matters for goal-focused eating.
+      </p>
+    </div>
+
+    <div class="pantry-sections">
+
+      <!-- CALCULATOR -->
+      <section>
+        <div class="pantry-section-title">Daily Macro Calculator</div>
+        <p class="pantry-section-note">
+          Body fat % is optional — if provided, uses the more accurate Katch-McArdle formula (BMR from lean mass).
+          Without it, falls back to Mifflin-St Jeor.
+        </p>
+
+        <div class="calc-card">
+          <div class="calc-grid">
+
+            <div class="calc-field" style="grid-column: 1 / -1;">
+              <div class="calc-label">Gender</div>
+              <div class="calc-radio-group">
+                <label>
+                  <input type="radio" name="gender" value="male" checked> Male
+                </label>
+                <label>
+                  <input type="radio" name="gender" value="female"> Female
+                </label>
+              </div>
+            </div>
+
+            <div class="calc-field">
+              <label class="calc-label" for="c-weight">Weight <span class="optional">(kg)</span></label>
+              <input class="calc-input" type="number" id="c-weight" min="30" max="300" step="0.5" placeholder="e.g. 80">
+            </div>
+
+            <div class="calc-field">
+              <label class="calc-label" for="c-height">Height <span class="optional">(cm)</span></label>
+              <input class="calc-input" type="number" id="c-height" min="130" max="230" step="1" value="177">
+            </div>
+
+            <div class="calc-field">
+              <label class="calc-label" for="c-age">Age</label>
+              <input class="calc-input" type="number" id="c-age" min="15" max="100" step="1" placeholder="e.g. 23">
+            </div>
+
+            <div class="calc-field">
+              <label class="calc-label" for="c-bf">Body Fat % <span class="optional">(optional)</span></label>
+              <input class="calc-input" type="number" id="c-bf" min="2" max="60" step="0.5" placeholder="e.g. 18">
+            </div>
+
+            <div class="calc-field">
+              <label class="calc-label" for="c-activity">Activity Level</label>
+              <select class="calc-select" id="c-activity">
+                <option value="1.2">Sedentary (desk job, minimal exercise)</option>
+                <option value="1.375">Light (1–3 workouts/week)</option>
+                <option value="1.55" selected>Moderate (3–5 workouts/week)</option>
+                <option value="1.725">Very active (6–7 hard sessions/week)</option>
+                <option value="1.9">Athlete (2× daily training)</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label class="calc-label" for="c-goal">Goal</label>
+              <select class="calc-select" id="c-goal">
+                <option value="-500">Aggressive cut (−500 cal/day)</option>
+                <option value="-300">Moderate cut (−300 cal/day)</option>
+                <option value="0" selected>Maintenance</option>
+                <option value="200">Lean bulk (+200 cal/day)</option>
+                <option value="400">Bulk (+400 cal/day)</option>
+              </select>
+            </div>
+
+          </div>
+
+          <button class="calc-btn" onclick="calculate()">Calculate</button>
+          <div class="calc-error" id="calcError">Please fill in weight, height, and age.</div>
+
+          <!-- Results -->
+          <div class="calc-results" id="calcResults">
+
+            <div class="result-formula-note" id="formulaNote"></div>
+
+            <div class="result-summary">
+              <div class="result-summary-item">
+                <div class="result-summary-label">BMR (at rest)</div>
+                <div class="result-summary-value" id="rBMR">—<span class="unit">kcal</span></div>
+              </div>
+              <div class="result-summary-item">
+                <div class="result-summary-label">TDEE (maintenance)</div>
+                <div class="result-summary-value" id="rTDEE">—<span class="unit">kcal</span></div>
+              </div>
+              <div class="result-summary-item result-summary-item--target">
+                <div class="result-summary-label" id="rGoalLabel">Target</div>
+                <div class="result-summary-value" id="rTarget">—<span class="unit">kcal</span></div>
+              </div>
+            </div>
+
+            <div class="macro-cards">
+              <div class="macro-card macro-card--protein">
+                <div class="macro-card-label">Protein</div>
+                <div class="macro-card-value" id="rProtein">—<span class="g">g</span></div>
+                <div class="macro-card-sub" id="rProteinSub"></div>
+              </div>
+              <div class="macro-card macro-card--fat">
+                <div class="macro-card-label">Fat</div>
+                <div class="macro-card-value" id="rFat">—<span class="g">g</span></div>
+                <div class="macro-card-sub" id="rFatSub"></div>
+              </div>
+              <div class="macro-card macro-card--carbs">
+                <div class="macro-card-label">Carbs</div>
+                <div class="macro-card-value" id="rCarbs">—<span class="g">g</span></div>
+                <div class="macro-card-sub" id="rCarbsSub"></div>
+              </div>
+            </div>
+
+            <div class="result-footnote" id="rFootnote"></div>
+
+          </div><!-- end calc-results -->
+        </div><!-- end calc-card -->
+      </section>
+
+      <!-- SWEET SPOT RANGES -->
+      <section>
+        <div class="pantry-section-title">Sweet Spot Ranges</div>
+        <p class="pantry-section-note">
+          Evidence-based ranges for active individuals building or maintaining lean muscle.
+          These are starting points — adjust based on results over 3–4 weeks.
+        </p>
+        <div class="pantry-table-wrap">
+          <table class="ranges-table">
+            <thead>
+              <tr>
+                <th>Macro</th>
+                <th>Target range</th>
+                <th>Hard minimum</th>
+                <th>What happens below minimum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="macro-name" style="color:#2e7d9c">Protein</span></td>
+                <td><span class="range-value">1.6–2.2g / kg LBM</span><br>
+                    <small style="color:#888">Higher end when cutting (to preserve muscle)</small></td>
+                <td>~0.8g / kg bodyweight</td>
+                <td>Muscle protein synthesis rate drops; harder to maintain muscle during a cut, harder to build during a surplus</td>
+              </tr>
+              <tr>
+                <td><span class="macro-name" style="color:#b8621a">Fat</span></td>
+                <td><span class="range-value">25–35% of total calories</span><br>
+                    <small style="color:#888">Minimum ~0.5g / kg bodyweight</small></td>
+                <td>~20% of total calories</td>
+                <td>Testosterone and steroid hormone production is impaired (they're synthesized from cholesterol, which requires dietary fat); fat-soluble vitamins (A, D, E, K) don't absorb adequately; satiety signals weaken</td>
+              </tr>
+              <tr>
+                <td><span class="macro-name" style="color:#5a8a3e">Carbs</span></td>
+                <td><span class="range-value">Fill remaining calories</span><br>
+                    <small style="color:#888">Prioritise protein and fat first</small></td>
+                <td>~100g / day (unless intentionally keto)</td>
+                <td>High-intensity exercise performance drops; muscle glycogen depletes faster; cognitive function can suffer during early restriction</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pantry-callout" style="margin-top:14px">
+          💡 <strong>For this recipe collection specifically:</strong> protein is well-covered by most recipes at specified amounts.
+          Fat is the common shortfall — chicken breast-heavy days can land at 25–40g total fat without deliberate additions.
+          Carbs (rice, pasta, noodles) handle themselves.
+        </div>
+      </section>
+
+      <!-- HITTING YOUR TARGETS -->
+      <section>
+        <div class="pantry-section-title">Hitting Your Targets</div>
+        <p class="pantry-section-note">Practical adds, ranked by impact, relevant to what's in this collection.</p>
+        <div class="macro-tip-blocks">
+
+          <div class="macro-tip-block macro-tip-block--protein">
+            <h3>Protein</h3>
+            <div class="tip-subtitle">Typical shortfall: rare if using specified amounts. Most likely gap is breakfast.</div>
+            <ul>
+              <li><strong>Chicken breast</strong> — 31g/100g, leanest option per gram</li>
+              <li><strong>Shrimp</strong> — 24g/100g, extremely lean, 2–3 min cook time</li>
+              <li><strong>Canned tuna</strong> — ~25g per can, shelf-stable, zero prep</li>
+              <li><strong>Greek yogurt 0%</strong> — 10g/100g; works as sauce base, marinade, or breakfast</li>
+              <li><strong>Eggs</strong> — ~6.5g each; fast and cheap; works as a topper on most dishes</li>
+              <li><strong>Whey protein</strong> — 24g/scoop; useful if breakfast is low-protein</li>
+            </ul>
+            <div class="tip-note">Hitting 160–180g protein/day is realistic across 3 meals at the recipe amounts. The gap is usually breakfast — a smoothie with Greek yogurt and protein powder closes it fast.</div>
+          </div>
+
+          <div class="macro-tip-block macro-tip-block--fat">
+            <h3>Fat</h3>
+            <div class="tip-subtitle">Typical shortfall: real. Chicken breast days can land at 25–40g total without deliberate adds.</div>
+            <ul>
+              <li><strong>Salmon</strong> — 13g/100g, omega-3-rich; best fat source in the collection</li>
+              <li><strong>Peanut butter</strong> — ~16g fat per 2 tbsp, mostly monounsaturated</li>
+              <li><strong>Avocado</strong> — ~15g fat per 100g; pairs with Mexican dishes naturally</li>
+              <li><strong>Sesame oil</strong> — ~4.5g/tsp as a finishing drizzle on any Korean/Japanese dish</li>
+              <li><strong>Eggs</strong> — ~5g fat each (all in the yolk)</li>
+              <li><strong>Olive oil</strong> — best for cooking and finishing Italian dishes</li>
+              <li><strong>Full-fat vs 0% Greek yogurt</strong> — switching adds ~5–8g fat per serving</li>
+            </ul>
+            <div class="tip-note">The goal isn't to chase fat — it's to not chronically avoid it. The minimum (0.5g/kg bodyweight) exists for hormonal reasons, not aesthetics. If you're eating chicken breast for 2–3 meals a day, you need deliberate fat sources.</div>
+          </div>
+
+          <div class="macro-tip-block macro-tip-block--carbs">
+            <h3>Carbs</h3>
+            <div class="tip-subtitle">Typical shortfall: not a problem. Rice, pasta, and noodles handle it automatically.</div>
+            <ul>
+              <li><strong>White rice</strong> — ~80g carbs / 100g dry; high GI, fast energy</li>
+              <li><strong>Pasta / soba</strong> — ~71g carbs / 100g dry; lower GI than rice</li>
+              <li><strong>Oats</strong> — ~60g carbs / 100g; good breakfast base, slow-digesting</li>
+              <li><strong>Sweet potato</strong> — ~20g carbs / 100g; high fiber, good with bowls</li>
+            </ul>
+            <div class="tip-note">If intentionally reducing carbs: sub cauliflower rice in bowls, use lettuce wraps for Mexican dishes, skip noodles in tom yum. The collection works low-carb — just swap the base.</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PROTEIN SOURCE COMPARISON -->
+      <section>
+        <div class="pantry-section-title">Protein Source Comparison</div>
+        <p class="pantry-section-note">
+          Per 100g. Sorted by <strong>protein leverage</strong> — grams of protein per 100 calories —
+          the most useful single metric for goal-focused eating. High leverage means more protein for fewer calories.
+        </p>
+        <div class="pantry-legend">
+          <span class="pantry-legend-item">🟢 Lean (&lt;5g fat / 100g)</span>
+          <span class="pantry-legend-item">🟡 Moderate (5–15g)</span>
+          <span class="pantry-legend-item">🔴 Fatty (&gt;15g)</span>
+        </div>
+        <div class="pantry-legend" style="margin-top:0.4rem">
+          <span class="pantry-legend-item">
+            <span class="leverage-badge leverage-badge--high">High leverage</span> &gt;15g protein / 100 cal &nbsp;
+          </span>
+          <span class="pantry-legend-item">
+            <span class="leverage-badge leverage-badge--mid">Mid</span> 9–15g &nbsp;
+          </span>
+          <span class="pantry-legend-item">
+            <span class="leverage-badge leverage-badge--low">Low</span> &lt;9g
+          </span>
+        </div>
+        <div class="pantry-table-wrap">
+          <table class="pantry-table">
+            <thead>
+              <tr>
+                <th>Protein</th>
+                <th>Cal / 100g</th>
+                <th>Protein / 100g</th>
+                <th>Fat / 100g</th>
+                <th>Fat tier</th>
+                <th>Leverage</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Shrimp</strong></td>
+                <td>99</td>
+                <td>24g</td>
+                <td>0.3g</td>
+                <td>🟢</td>
+                <td><span class="leverage-badge leverage-badge--high">24.2</span></td>
+                <td><span class="note-text">Best leverage of any protein. Extremely lean, 2–3 min cook time. Buy pre-frozen. Almost pure protein — relies on sauce for flavor.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Canned tuna <small>(in water, drained)</small></strong></td>
+                <td>~116</td>
+                <td>~26g</td>
+                <td>~1g</td>
+                <td>🟢</td>
+                <td><span class="leverage-badge leverage-badge--high">22.4</span></td>
+                <td><span class="note-text">Best pantry protein by value. Shelf-stable, zero prep, ~25g protein per 150g can. Drain well before using.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Chicken breast</strong></td>
+                <td>165</td>
+                <td>31g</td>
+                <td>3.6g</td>
+                <td>🟢</td>
+                <td><span class="leverage-badge leverage-badge--high">18.8</span></td>
+                <td><span class="note-text">Core protein of this collection. Highest absolute protein per 100g of any common meat. Slice thin and cook fast to avoid drying out.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Greek yogurt (0%)</strong></td>
+                <td>59</td>
+                <td>10g</td>
+                <td>0.4g</td>
+                <td>🟢</td>
+                <td><span class="leverage-badge leverage-badge--high">16.9</span></td>
+                <td><span class="note-text">High protein per calorie, essentially zero fat at 0%. Used as sauce base, marinade, topping. Daily smoothie staple. Switching to 2% adds fat without much calorie cost.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Pork tenderloin</strong></td>
+                <td>143</td>
+                <td>22g</td>
+                <td>3g</td>
+                <td>🟢</td>
+                <td><span class="leverage-badge leverage-badge--high">15.4</span></td>
+                <td><span class="note-text">Leanest pork cut. Comparable to chicken breast in macro profile. Easy to overcook — use internal temp (63°C). Not common in Korean cooking but excellent for katsu.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Chicken thigh <small>(boneless, skinless)</small></strong></td>
+                <td>209</td>
+                <td>26g</td>
+                <td>11g</td>
+                <td>🟡</td>
+                <td><span class="leverage-badge leverage-badge--mid">12.4</span></td>
+                <td><span class="note-text">More flavorful and forgiving than breast. Better for high-heat (karaage, dakgalbi). Slightly less protein leverage but the fat adds satiety. Often cheaper than breast.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Ground beef (90/10)</strong></td>
+                <td>176</td>
+                <td>20g</td>
+                <td>10g</td>
+                <td>🟡</td>
+                <td><span class="leverage-badge leverage-badge--mid">11.4</span></td>
+                <td><span class="note-text">Better macro profile than 80/20. Less forgiving in long cooks (dries out); better for quick dishes. Drain after cooking.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Ground chicken</strong></td>
+                <td>170</td>
+                <td>17g</td>
+                <td>11g</td>
+                <td>🟡</td>
+                <td><span class="leverage-badge leverage-badge--mid">10.0</span></td>
+                <td><span class="note-text">Leanest of the ground meats. Mild flavor — relies heavily on seasoning. Good for pad kra pao, larb, jjolmyeon, peanut noodles.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Salmon</strong></td>
+                <td>208</td>
+                <td>20g</td>
+                <td>13g</td>
+                <td>🟡</td>
+                <td><span class="leverage-badge leverage-badge--mid">9.6</span></td>
+                <td><span class="note-text">Lower leverage but the fat is omega-3 (EPA/DHA) — beneficial, not comparable to saturated fat. Worth the calories. Buy frozen to save money; quality holds well.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Eggs</strong></td>
+                <td>143</td>
+                <td>13g</td>
+                <td>10g</td>
+                <td>🟡</td>
+                <td><span class="leverage-badge leverage-badge--mid">9.1</span></td>
+                <td><span class="note-text">~6.5g protein each. Fat is in the yolk. Versatile — fried, soft-boiled, poached. Runny yolk adds richness without heaviness. Cheap and fast.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Pork shoulder</strong></td>
+                <td>199</td>
+                <td>17g</td>
+                <td>14g</td>
+                <td>🟡</td>
+                <td><span class="leverage-badge leverage-badge--mid">8.5</span></td>
+                <td><span class="note-text">돼지불고기 cut. Fat keeps it from drying out under high heat. Slice thin, marinate, stir-fry — good flavor balance.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Ground beef (80/20)</strong></td>
+                <td>254</td>
+                <td>17g</td>
+                <td>20g</td>
+                <td>🔴</td>
+                <td><span class="leverage-badge leverage-badge--low">6.8</span></td>
+                <td><span class="note-text">Low leverage but drain-and-rinse after cooking significantly cuts the fat. The fat is what gives it flavor — going leaner (90/10) costs taste. Best for bolognese, keema, chipotle bowl.</span></td>
+              </tr>
+              <tr>
+                <td><strong>Pork belly</strong></td>
+                <td>518</td>
+                <td>9g</td>
+                <td>53g</td>
+                <td>🔴</td>
+                <td><span class="leverage-badge leverage-badge--low">1.7</span></td>
+                <td><span class="note-text">삼겹살. The fat IS the dish — don't try to make this lean. Eat in moderation with 김치 and lettuce wraps. Self-limiting due to richness.</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div><!-- end pantry-sections -->
+  </main>
+
+  <script>
+    function calculate() {
+      const errorEl = document.getElementById('calcError');
+      const resultsEl = document.getElementById('calcResults');
+      errorEl.style.display = 'none';
+
+      const gender   = document.querySelector('input[name="gender"]:checked').value;
+      const weight   = parseFloat(document.getElementById('c-weight').value);
+      const height   = parseFloat(document.getElementById('c-height').value);
+      const age      = parseFloat(document.getElementById('c-age').value);
+      const bfRaw    = document.getElementById('c-bf').value;
+      const bf       = bfRaw !== '' ? parseFloat(bfRaw) : NaN;
+      const activity = parseFloat(document.getElementById('c-activity').value);
+      const goalAdj  = parseInt(document.getElementById('c-goal').value);
+
+      if (!weight || !height || !age || isNaN(weight) || isNaN(height) || isNaN(age)) {
+        errorEl.style.display = 'block';
+        resultsEl.style.display = 'none';
+        return;
+      }
+
+      let bmr, lbm = null, formulaUsed;
+
+      if (!isNaN(bf) && bf > 0 && bf < 70) {
+        // Katch-McArdle — more accurate when BF% is known
+        lbm = weight * (1 - bf / 100);
+        bmr = 370 + (21.6 * lbm);
+        formulaUsed = `Katch-McArdle (body fat provided) — LBM: <strong>${lbm.toFixed(1)} kg</strong>`;
+      } else {
+        // Mifflin-St Jeor
+        if (gender === 'male') {
+          bmr = (10 * weight) + (6.25 * height) - (5 * age) + 5;
+        } else {
+          bmr = (10 * weight) + (6.25 * height) - (5 * age) - 161;
+        }
+        formulaUsed = 'Mifflin-St Jeor (add body fat % for more accuracy)';
+      }
+
+      const tdee = Math.round(bmr * activity);
+      const targetCal = tdee + goalAdj;
+      const bmrRounded = Math.round(bmr);
+
+      // Protein target — based on LBM if available, else bodyweight
+      // Higher multiplier when cutting to preserve muscle
+      const refWeight = lbm || weight;
+      let proteinMult;
+      if (goalAdj <= -300)      proteinMult = 2.2;
+      else if (goalAdj < 0)     proteinMult = 2.0;
+      else if (goalAdj === 0)   proteinMult = 1.8;
+      else                      proteinMult = 1.7;
+
+      const protein    = Math.round(proteinMult * refWeight);
+      const proteinCal = protein * 4;
+
+      // Fat target — 27.5% of target calories; minimum 0.5g/kg bodyweight
+      const fatFromPct = Math.round((targetCal * 0.275) / 9);
+      const fatMin     = Math.round(weight * 0.5);
+      const fat        = Math.max(fatFromPct, fatMin);
+      const fatCal     = fat * 9;
+
+      // Carbs — remainder
+      const carbCal = targetCal - proteinCal - fatCal;
+      const carbs   = Math.max(0, Math.round(carbCal / 4));
+
+      // Goal label
+      const goalLabels = {
+        '-500': 'Aggressive cut (−500 cal)',
+        '-300': 'Moderate cut (−300 cal)',
+        '0':    'Maintenance',
+        '200':  'Lean bulk (+200 cal)',
+        '400':  'Bulk (+400 cal)'
+      };
+      const goalLabel = goalLabels[String(goalAdj)] || 'Target';
+
+      // Per-meal (assume 3 meals)
+      const pProtein = Math.round(protein / 3);
+      const pFat     = Math.round(fat     / 3);
+      const pCarbs   = Math.round(carbs   / 3);
+
+      // Percentages
+      const pctProtein = Math.round((proteinCal / targetCal) * 100);
+      const pctFat     = Math.round((fatCal     / targetCal) * 100);
+      const pctCarbs   = Math.round((carbCal    / targetCal) * 100);
+
+      // Write results
+      document.getElementById('formulaNote').innerHTML = 'Formula: ' + formulaUsed;
+
+      document.getElementById('rBMR').innerHTML   = bmrRounded.toLocaleString() + '<span class="unit"> kcal</span>';
+      document.getElementById('rTDEE').innerHTML  = tdee.toLocaleString()       + '<span class="unit"> kcal</span>';
+      document.getElementById('rTarget').innerHTML = targetCal.toLocaleString() + '<span class="unit"> kcal</span>';
+      document.getElementById('rGoalLabel').textContent = goalLabel;
+
+      document.getElementById('rProtein').innerHTML = protein + '<span class="g">g</span>';
+      document.getElementById('rProteinSub').innerHTML =
+        `<strong>${pctProtein}%</strong> of calories<br>~${pProtein}g per meal<br>` +
+        (lbm ? `${proteinMult}g × ${lbm.toFixed(1)}kg LBM` : `${proteinMult}g × ${weight}kg bodyweight`);
+
+      document.getElementById('rFat').innerHTML = fat + '<span class="g">g</span>';
+      document.getElementById('rFatSub').innerHTML =
+        `<strong>${pctFat}%</strong> of calories<br>~${pFat}g per meal<br>` +
+        (fatFromPct < fatMin ? `<em style="color:#b8621a">Floored to 0.5g/kg minimum</em>` : '27.5% of target calories');
+
+      document.getElementById('rCarbs').innerHTML = carbs + '<span class="g">g</span>';
+      document.getElementById('rCarbsSub').innerHTML =
+        `<strong>${pctCarbs}%</strong> of calories<br>~${pCarbs}g per meal`;
+
+      let footnote = '';
+      if (carbs < 100) {
+        footnote += '⚠️ Carbs are below 100g/day — performance may drop on high-intensity training. Consider increasing target calories or reducing the deficit. ';
+      }
+      if (pctFat < 20) {
+        footnote += '⚠️ Fat is below 20% of calories — approaching the threshold where hormonal effects may appear. ';
+      }
+      footnote += '<br>These are starting-point estimates. Adjust based on how you feel and look over 3–4 weeks — bodyweight trends and energy levels are better signals than exact numbers.';
+      document.getElementById('rFootnote').innerHTML = footnote;
+
+      resultsEl.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>

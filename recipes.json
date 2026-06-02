@@ -458,6 +458,280 @@
     }
   },
   {
+    "id": "spicy-peanut-noodles",
+    "name": "Spicy Peanut Noodles",
+    "cuisine": "korean",
+    "difficulty": "easy",
+    "time": 20,
+    "servings": 2,
+    "methods": [
+      "boil",
+      "toss",
+      "sauté"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "fusion"
+    ],
+    "description": "A gochujang-peanut sauce noodle dish — creamy, spicy, slightly tangy, and deliberately fat-rich in a way most of the Korean pasta dishes aren't. Peanut butter and sesame oil carry most of the fat, ground chicken or breast carries the protein, and the cucumber and vinegar keep it from feeling heavy. Serve hot for a saucier, richer result; let it cool to room temperature for something closer to cold sesame noodles.\n",
+    "keyIngredients": [
+      "peanut butter",
+      "gochujang",
+      "sesame oil",
+      "soy sauce",
+      "rice vinegar",
+      "ground chicken"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🥜",
+        "label": "Bowl 1 — Peanut sauce",
+        "actionNote": "whisk together; add warm water last, tablespoon by tablespoon, until the sauce runs off a spoon in a slow coating ribbon",
+        "ingredients": [
+          {
+            "amount": "3 tbsp",
+            "name": "natural peanut butter (smooth)",
+            "note": "natural (just peanuts + salt) emulsifies more cleanly; regular works but is noticeably sweeter — reduce honey if using",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "gochujang",
+            "note": "primary heat and depth — taste and add more if you want it spicier",
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "soy sauce",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "sesame oil",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "rice vinegar",
+            "note": "brightness — cuts through the richness of the peanut butter",
+            "alternatives": [
+              {
+                "amount": "2 tsp",
+                "name": "apple cider vinegar",
+                "note": "slightly sharper acid"
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "honey",
+            "note": "balances the heat and acid",
+            "alternatives": []
+          },
+          {
+            "amount": "2 cloves",
+            "name": "garlic, grated or finely minced",
+            "note": null,
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "garlic powder",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "1 tsp",
+            "name": "ginger, grated",
+            "note": "optional but recommended — adds lift and warmth",
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "jarred minced ginger",
+                "note": null
+              }
+            ]
+          },
+          {
+            "amount": "3–5 tbsp",
+            "name": "warm water",
+            "note": "add gradually to thin — target is a sauce that coats a spoon and runs off slowly, not a paste and not watery",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍗",
+        "label": "Protein",
+        "actionNote": "cook separately; season simply — the sauce is the star",
+        "ingredients": [
+          {
+            "amount": "450g",
+            "name": "ground chicken",
+            "note": "cook over medium-high in a lightly oiled pan, breaking up, until browned through; drain excess fat",
+            "alternatives": [
+              {
+                "amount": "350–400g",
+                "name": "chicken breast, thinly sliced",
+                "note": "pan-sear 2–3 min per side; slice into strips after resting"
+              },
+              {
+                "amount": "1 can",
+                "name": "canned tuna, drained",
+                "note": "fold in at the end; quick option (~150g can)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "🍝",
+        "label": "Noodles",
+        "actionNote": "cook in salted water; reserve pasta water before draining; do NOT rinse",
+        "ingredients": [
+          {
+            "amount": "180–200g",
+            "name": "spaghetti",
+            "note": "best for hot serving — sauce clings to long strands",
+            "alternatives": [
+              {
+                "amount": "180–200g",
+                "name": "soba noodles",
+                "note": "best for room-temp or cold serving; earthy nuttiness pairs perfectly with peanut sauce"
+              },
+              {
+                "amount": "180–200g",
+                "name": "linguine",
+                "note": "works well; slightly wider surface"
+              }
+            ]
+          },
+          {
+            "amount": "2–3 tbsp",
+            "name": "pasta water",
+            "note": "reserved before draining; use to loosen the sauce when tossing",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "label": "Toppings",
+        "actionNote": "add at serving",
+        "ingredients": [
+          {
+            "amount": "½",
+            "name": "cucumber, julienned",
+            "note": "not optional — the cool crunch and water content cut through the richness; without it the dish gets heavy by the second third",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "green onion, sliced thin",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "sesame seeds",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "crushed roasted peanuts",
+            "note": "optional — adds crunch and reinforces the flavor",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "chili oil or gochugaru flakes",
+            "note": "optional — for extra heat",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "lime wedge",
+            "note": "a squeeze brightens everything",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Whisk peanut butter, gochujang, soy sauce, sesame oil, rice vinegar, honey, garlic, and ginger together in a bowl. Add warm water one tablespoon at a time, whisking after each addition, until the sauce coats a spoon and runs off slowly. Taste — more gochujang for heat, more vinegar for brightness, more honey to balance."
+      },
+      {
+        "step": "Cook protein. Ground chicken — oil a pan over medium-high, add chicken, break up and cook until browned through, ~6–7 min. Season with a small pinch of salt. Drain fat. Set aside. Chicken breast — season with salt, sear 2–3 min per side in a lightly oiled pan, rest 2 min, then slice into strips."
+      },
+      {
+        "step": "Cook noodles in well-salted water per package instructions. Reserve 3 tbsp pasta water before draining."
+      },
+      {
+        "step": "Drain noodles. Do NOT rinse — surface starch helps the sauce adhere."
+      },
+      {
+        "step": "Add sauce to the noodles. Toss vigorously, adding pasta water a splash at a time until the sauce coats every strand evenly."
+      },
+      {
+        "step": "Add protein and toss to combine. Taste and adjust seasoning."
+      },
+      {
+        "step": "Julienne cucumber. Divide into bowls. Top with cucumber, green onion, sesame seeds, crushed peanuts, chili oil if using, and a lime wedge."
+      }
+    ],
+    "tips": [
+      {
+        "keyword": "Sauce consistency is everything",
+        "text": "Too thick and it clumps on the noodles, leaving patches bare. Too thin and it slides off. Add water tablespoon by tablespoon until the sauce runs off a spoon slowly — like thick cream. You'll almost always use all 5 tbsp."
+      },
+      {
+        "keyword": "Natural peanut butter vs regular",
+        "text": "Natural peanut butter (just peanuts + salt) has a cleaner flavor and emulsifies more predictably. Regular peanut butter has added sugar and stabilizers — it works but results in a noticeably sweeter sauce. Reduce or skip the honey if using regular."
+      },
+      {
+        "keyword": "Hot or cold",
+        "text": "Served immediately, this is saucy and warm — the sauce is glossy and clings aggressively. At room temperature, flavors sharpen and the peanut-sesame character comes forward more. Cold from the fridge the next day, it's closer to cold sesame noodles. All three are good."
+      },
+      {
+        "keyword": "The cucumber is structural, not garnish",
+        "text": "This is a fat-forward dish by design. The julienned cucumber provides water content and crunch that resets the palate between bites — the same role it plays in jjolmyeon. Without it the dish starts to feel rich and one-note by halfway through the bowl."
+      },
+      {
+        "keyword": "Why this dish is deliberately fatty",
+        "text": "Three tablespoons of natural peanut butter provides roughly 24g fat — mostly monounsaturated oleic acid, the same fat profile as olive oil. The fat here serves a purpose beyond flavor. Fat-soluble compounds in gochujang and sesame oil dissolve and distribute through the peanut butter fat during mixing, making the sauce taste more complex than its ingredient count suggests. This is also why the dish is intentionally different from the lean Korean pasta dishes in this collection — it fills the fat gap those dishes leave."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 955,
+      "protein": 57.7,
+      "fat": 45.4,
+      "carbs": 80.2,
+      "breakdown": [
+        {
+          "name": "ground chicken",
+          "protein": 38.2
+        },
+        {
+          "name": "spaghetti",
+          "protein": 12.3
+        },
+        {
+          "name": "peanut butter",
+          "protein": 5.8
+        }
+      ]
+    }
+  },
+  {
     "id": "jjolmyeon-sesame",
     "name": "Spicy Sesame Jjolmyeon (쫄면)",
     "cuisine": "korean",
@@ -744,6 +1018,12 @@
             "alternatives": []
           },
           {
+            "amount": "1 tsp",
+            "name": "sesame oil",
+            "note": "adds fat and depth; keeps the sauce from tasting flat",
+            "alternatives": []
+          },
+          {
             "amount": "2–3 tbsp",
             "name": "Greek yogurt",
             "note": "plain, full-fat or low-fat both work",
@@ -897,9 +1177,9 @@
       ]
     },
     "computedMacros": {
-      "cal": 619,
+      "cal": 639,
       "protein": 70.9,
-      "fat": 8.0,
+      "fat": 10.3,
       "carbs": 62.0,
       "breakdown": [
         {
@@ -6652,9 +6932,9 @@
             "alternatives": []
           },
           {
-            "amount": null,
-            "name": "sliced avocado or guacamole",
-            "note": null,
+            "amount": "¼–½",
+            "name": "avocado, sliced (per serving)",
+            "note": "strongly recommended — primary fat source in an otherwise very lean dish; adds creaminess that rounds out the tart salsa",
             "alternatives": []
           },
           {

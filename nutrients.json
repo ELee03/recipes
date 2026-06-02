@@ -98,5 +98,7 @@
   "corn":                  { "cal": 86,  "protein": 3.3,  "fat": 1.2,  "carbs": 19.0, "units": { "cup": 154 } },
 
   "whey protein":          { "cal": 400, "protein": 80.0, "fat": 5.0,  "carbs": 8.0,  "units": { "scoop": 30, "tbsp": 10 } },
-  "protein powder":        { "cal": 400, "protein": 80.0, "fat": 5.0,  "carbs": 8.0,  "units": { "scoop": 30, "tbsp": 10 } }
+  "protein powder":        { "cal": 400, "protein": 80.0, "fat": 5.0,  "carbs": 8.0,  "units": { "scoop": 30, "tbsp": 10 } },
+
+  "peanut butter":         { "cal": 588, "protein": 24.1, "fat": 50.4, "carbs": 21.4, "units": { "tbsp": 16, "tsp": 5.3 } }
 }

@@ -45,6 +45,10 @@ ingredientGroups:
         name: honey or sugar
         note: null
         alternatives: []
+      - amount: 1 tsp
+        name: sesame oil
+        note: adds fat and depth; keeps the sauce from tasting flat
+        alternatives: []
       - amount: "2–3 tbsp"
         name: Greek yogurt
         note: plain, full-fat or low-fat both work

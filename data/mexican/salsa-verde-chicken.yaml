@@ -76,9 +76,9 @@ ingredientGroups:
         name: lime wedge
         note: a squeeze brightens the finished dish
         alternatives: []
-      - amount: null
-        name: sliced avocado or guacamole
-        note: null
+      - amount: "¼–½"
+        name: avocado, sliced (per serving)
+        note: strongly recommended — primary fat source in an otherwise very lean dish; adds creaminess that rounds out the tart salsa
         alternatives: []
       - amount: null
         name: sliced jalapeño
