@@ -5,8 +5,8 @@
 let allRecipes = [];
 let activeFilters = {
   search: '',
-  cuisine: null,
-  difficulty: null,
+  cuisine: new Set(),
+  difficulty: new Set(),
   time: null,
   tags: new Set(),
 };
@@ -148,21 +148,19 @@ function bindEvents() {
     const value = pill.dataset.value;
 
     if (filter === 'cuisine') {
-      if (activeFilters.cuisine === value) {
-        activeFilters.cuisine = null;
+      if (activeFilters.cuisine.has(value)) {
+        activeFilters.cuisine.delete(value);
         pill.classList.remove('active');
       } else {
-        document.querySelectorAll('[data-filter="cuisine"]').forEach(p => p.classList.remove('active'));
-        activeFilters.cuisine = value;
+        activeFilters.cuisine.add(value);
         pill.classList.add('active');
       }
     } else if (filter === 'difficulty') {
-      if (activeFilters.difficulty === value) {
-        activeFilters.difficulty = null;
+      if (activeFilters.difficulty.has(value)) {
+        activeFilters.difficulty.delete(value);
         pill.classList.remove('active');
       } else {
-        document.querySelectorAll('[data-filter="difficulty"]').forEach(p => p.classList.remove('active'));
-        activeFilters.difficulty = value;
+        activeFilters.difficulty.add(value);
         pill.classList.add('active');
       }
     } else if (filter === 'time') {
@@ -207,8 +205,8 @@ function bindEvents() {
 
 function updateClearButton() {
   const hasFilters = activeFilters.search ||
-    activeFilters.cuisine ||
-    activeFilters.difficulty ||
+    activeFilters.cuisine.size > 0 ||
+    activeFilters.difficulty.size > 0 ||
     activeFilters.time ||
     activeFilters.tags.size > 0;
 
@@ -216,7 +214,7 @@ function updateClearButton() {
 }
 
 function clearAllFilters() {
-  activeFilters = { search: '', cuisine: null, difficulty: null, time: null, tags: new Set() };
+  activeFilters = { search: '', cuisine: new Set(), difficulty: new Set(), time: null, tags: new Set() };
   document.getElementById('searchInput').value = '';
   document.getElementById('searchClear').classList.remove('visible');
   document.querySelectorAll('.pill.active').forEach(p => p.classList.remove('active'));
@@ -242,8 +240,8 @@ function filterRecipes() {
       if (!searchable.includes(q)) return false;
     }
 
-    if (activeFilters.cuisine && r.cuisine !== activeFilters.cuisine) return false;
-    if (activeFilters.difficulty && r.difficulty !== activeFilters.difficulty) return false;
+    if (activeFilters.cuisine.size > 0 && !activeFilters.cuisine.has(r.cuisine)) return false;
+    if (activeFilters.difficulty.size > 0 && !activeFilters.difficulty.has(r.difficulty)) return false;
     if (activeFilters.time && r.time > activeFilters.time) return false;
 
     if (activeFilters.tags.size > 0) {

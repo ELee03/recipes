@@ -194,27 +194,21 @@ body {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border-light);
-  overflow-x: auto;
-  scrollbar-width: none;
 }
-
-.filters-bar::-webkit-scrollbar { display: none; }
 
 .filters-inner {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 10px 24px;
+  padding: 10px 24px 12px;
   display: flex;
-  align-items: center;
-  gap: 20px;
-  white-space: nowrap;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .filter-group {
   display: flex;
   align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
+  gap: 10px;
 }
 
 .filter-label {
@@ -223,11 +217,14 @@ body {
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  flex-shrink: 0;
+  min-width: 74px;
 }
 
 .filter-pills {
   display: flex;
   gap: 5px;
+  flex-wrap: wrap;
 }
 
 .pill {
@@ -257,8 +254,7 @@ body {
 }
 
 .clear-filters {
-  margin-left: auto;
-  flex-shrink: 0;
+  align-self: flex-end;
   height: 28px;
   padding: 0 11px;
   border: none;
