@@ -272,7 +272,7 @@ def compute_macros(recipe, nutrients):
     servings = recipe.get('servings') or 1
     total    = {'cal': 0.0, 'protein': 0.0, 'fat': 0.0, 'carbs': 0.0}
     matched  = 0
-    breakdown_raw = {}  # key -> protein grams (total, pre-serving-divide)
+    breakdown_raw = {}  # key -> {protein, fat, carbs} grams (total, pre-serving-divide)
 
     for group in (recipe.get('ingredientGroups') or []):
         # Skip groups labelled as optional
@@ -304,19 +304,26 @@ def compute_macros(recipe, nutrients):
             total['carbs']   += n['carbs']   * factor
             matched          += 1
 
-            protein_contrib = n['protein'] * factor
-            if protein_contrib > 0:
-                breakdown_raw[key] = breakdown_raw.get(key, 0.0) + protein_contrib
+            if key not in breakdown_raw:
+                breakdown_raw[key] = {'protein': 0.0, 'fat': 0.0, 'carbs': 0.0}
+            breakdown_raw[key]['protein'] += n['protein']          * factor
+            breakdown_raw[key]['fat']     += n.get('fat',   0.0)   * factor
+            breakdown_raw[key]['carbs']   += n.get('carbs', 0.0)   * factor
 
     if matched == 0:
         return None
 
-    # Build per-serving breakdown; only include items contributing >= 1g protein/serving
+    # Build per-serving breakdown; include if any macro contribution clears threshold
     breakdown = []
-    for key, total_protein in breakdown_raw.items():
-        per_serving = round(total_protein / servings, 1)
-        if per_serving >= 1.0:
-            breakdown.append({'name': key, 'protein': per_serving})
+    for key, totals in breakdown_raw.items():
+        item = {
+            'name':    key,
+            'protein': round(totals['protein'] / servings, 1),
+            'fat':     round(totals['fat']     / servings, 1),
+            'carbs':   round(totals['carbs']   / servings, 1),
+        }
+        if item['protein'] >= 1.0 or item['fat'] >= 1.0 or item['carbs'] >= 2.0:
+            breakdown.append(item)
     breakdown.sort(key=lambda x: -x['protein'])
 
     return {

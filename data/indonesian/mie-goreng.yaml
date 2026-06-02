@@ -60,7 +60,7 @@ ingredientGroups:
         alternatives:
           - amount: 1 tsp
             name: fish sauce
-            note: swap in addition to the other fish sauce
+            note: if you also swapped fish sauce for oyster sauce above, that's fine — 2 tsp fish sauce total in the dish works
 
   - emoji: 🥩
     label: Protein

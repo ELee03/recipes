@@ -844,12 +844,36 @@ body {
   letter-spacing: 0.06em;
 }
 
-.protein-breakdown {
+.macro-cal-split {
+  margin-top: 6px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.cals-protein { color: #2e7d9c; font-weight: 500; }
+.cals-fat     { color: #b8621a; font-weight: 500; }
+.cals-carbs   { color: #5a8a3e; font-weight: 500; }
+
+.macro-breakdown {
   margin-top: 8px;
   font-size: 0.72rem;
   color: var(--text-muted);
-  line-height: 1.4;
+  line-height: 1.7;
 }
+.breakdown-row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.breakdown-label {
+  font-weight: 600;
+  flex-shrink: 0;
+  min-width: 48px;
+}
+.breakdown-label--protein { color: #2e7d9c; }
+.breakdown-label--fat     { color: #b8621a; }
+.breakdown-label--carbs   { color: #5a8a3e; }
 
 /* FIRST ATTEMPT NOTES */
 

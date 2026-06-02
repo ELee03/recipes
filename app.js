@@ -688,10 +688,36 @@ function renderMacroValues(macros, scale) {
   `;
 }
 
-function renderProteinBreakdown(breakdown) {
+function renderCalSplit(macros) {
+  const proteinCal = Math.round(macros.protein * 4);
+  const fatCal     = Math.round(macros.fat     * 9);
+  const carbsCal   = Math.round(macros.carbs   * 4);
+  return `<div class="macro-cal-split"><span class="cals-protein">protein ${proteinCal}</span> · <span class="cals-fat">fat ${fatCal}</span> · <span class="cals-carbs">carbs ${carbsCal}</span> kcal</div>`;
+}
+
+function renderMacroBreakdown(breakdown) {
   if (!breakdown || breakdown.length === 0) return '';
-  const parts = breakdown.map(b => `${b.name} ${b.protein}g`).join(' · ');
-  return `<div class="protein-breakdown">protein from: ${parts}</div>`;
+
+  const topBy = (key, threshold) =>
+    breakdown
+      .filter(b => (b[key] || 0) >= threshold)
+      .sort((a, b) => (b[key] || 0) - (a[key] || 0))
+      .slice(0, 4);
+
+  const fmt = (items, key) =>
+    items.map(b => `${b.name} ${b[key]}g`).join(' · ');
+
+  const proteinItems = topBy('protein', 1.0);
+  const fatItems     = topBy('fat',     1.0);
+  const carbsItems   = topBy('carbs',   2.0);
+
+  const rows = [];
+  if (proteinItems.length) rows.push(`<div class="breakdown-row"><span class="breakdown-label breakdown-label--protein">protein</span> ${fmt(proteinItems, 'protein')}</div>`);
+  if (fatItems.length)     rows.push(`<div class="breakdown-row"><span class="breakdown-label breakdown-label--fat">fat</span> ${fmt(fatItems, 'fat')}</div>`);
+  if (carbsItems.length)   rows.push(`<div class="breakdown-row"><span class="breakdown-label breakdown-label--carbs">carbs</span> ${fmt(carbsItems, 'carbs')}</div>`);
+
+  if (!rows.length) return '';
+  return `<div class="macro-breakdown">${rows.join('')}</div>`;
 }
 
 function renderMacros(macros) {
@@ -705,7 +731,8 @@ function renderMacros(macros) {
       <div id="macrosBox" class="macros-grid">
         ${renderMacroValues(macros, 1)}
       </div>
-      ${renderProteinBreakdown(macros.breakdown)}
+      ${renderCalSplit(macros)}
+      ${renderMacroBreakdown(macros.breakdown)}
     </div>
   `;
 }

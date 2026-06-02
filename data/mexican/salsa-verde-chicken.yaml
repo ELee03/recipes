@@ -84,9 +84,13 @@ ingredientGroups:
         name: sliced jalapeño
         note: for heat
         alternatives: []
+      - amount: "1–2 tbsp"
+        name: pepitas (roasted pumpkin seeds)
+        note: shelf-stable fat source — adds crunch and a nutty note that fits the dish
+        alternatives: []
       - amount: null
-        name: crumbled queso fresco or sour cream
-        note: optional — adds creaminess and cuts the tartness
+        name: crumbled queso fresco or full-fat sour cream
+        note: sour cream adds more fat and cuts the tartness well
         alternatives: []
 
   - emoji: 🍚
