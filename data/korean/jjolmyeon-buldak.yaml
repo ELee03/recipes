@@ -47,10 +47,13 @@ ingredientGroups:
     label: Sauce
     actionNote: mix together in a bowl while noodles cook; adjust consistency with noodle water
     ingredients:
-      - amount: 1 packet
-        name: Samyang buldak carbonara sauce
-        note: from a package of Samyang Buldak Carbonara Ramen — use only the sauce packet; the included noodles can be saved or discarded
+      - amount: "2–3 tbsp"
+        name: Samyang Buldak Carbonara sauce (bottled)
+        note: sold as a standalone sauce bottle at Korean/Asian grocery stores — no noodles included. Start with 2 tbsp, add more to taste; the bottle gives you full control
         alternatives:
+          - amount: 1 packet
+            name: Samyang Buldak Carbonara Ramen sauce packet
+            note: if you can't find the bottle — buy a ramen package and use only the sauce packet; discard or save the included noodles
           - amount: "1 tbsp gochujang + 1 tsp sesame oil + ½ tsp sugar"
             name: gochujang base sauce
             note: less creamy, different flavor, but works as a backup
@@ -109,8 +112,8 @@ protein:
   note: base (egg + yogurt + noodles); ~60g with optional chicken breast added
 
 tips:
-  - keyword: Buy the ramen, use only the sauce
-    text: Samyang Buldak Carbonara ramen comes with a sauce packet and the included noodles. Use the sauce packet here and either save or discard the ramen noodles — jjolmyeon is a much better noodle for this preparation. One package of ramen has exactly one sauce packet.
+  - keyword: Get the sauce bottle, not the ramen
+    text: Samyang sells Buldak Carbonara as a standalone sauce bottle (look for it at Korean or Asian grocery stores, usually near the ramen). The bottle gives you way more flexibility — you can dial in the exact amount per serving without committing to a full packet, and you're not buying ramen just for the sauce. If you can only find the ramen packages, use the sauce packet and discard or save the included noodles.
   - keyword: Don't rinse the noodles
     text: Rinsing washes off the surface starch that helps the sauce cling. With a thick sauce like buldak carbonara, every bit of starch helps. Shake the colander to shed excess water, then go straight into the sauce bowl.
   - keyword: Mix sauce in the eating bowl
