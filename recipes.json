@@ -158,8 +158,7 @@
       }
     ],
     "protein": {
-      "grams": "~25",
-      "note": "base (egg + yogurt + noodles); ~60g with chicken breast added"
+      "note": "base (egg + yogurt + noodles); ~60g with optional chicken breast added"
     },
     "tips": [
       {
@@ -404,8 +403,7 @@
       }
     ],
     "protein": {
-      "grams": "~36",
-      "note": "per serving with pork shoulder — below target; pork belly will be lower still due to fat ratio. Add a fried egg or side of Greek yogurt to push higher"
+      "note": "pork belly will be lower due to fat ratio. Add a fried egg or side of Greek yogurt to push higher"
     },
     "tips": [
       {
@@ -645,10 +643,6 @@
         "step": "Divide into bowls. Top with protein, julienned cucumber, soft-boiled egg, green onion, and sesame seeds. Serve immediately, or let cool to room temperature before serving."
       }
     ],
-    "protein": {
-      "grams": "~55",
-      "note": "per serving with ground chicken and egg"
-    },
     "tips": [
       {
         "keyword": "Taste the sauce before tossing",
@@ -859,10 +853,6 @@
         "step": "Plate and top with green onion or sesame seeds if using."
       }
     ],
-    "protein": {
-      "grams": "~71",
-      "note": "per serving with 350–400g chicken breast total + Greek yogurt — well above target"
-    },
     "tips": [
       {
         "keyword": "thin-sliced chicken",
@@ -1076,8 +1066,7 @@
       }
     ],
     "protein": {
-      "grams": "~40",
-      "note": "per serving with 2 fillets (~150–180g each) — close to target; add a soft-boiled egg or side of Greek yogurt to close the gap. Rich in omega-3s"
+      "note": "add a soft-boiled egg or side of Greek yogurt to close the gap. Rich in omega-3s"
     },
     "tips": [
       {
@@ -1319,8 +1308,7 @@
       }
     ],
     "protein": {
-      "grams": "~14",
-      "note": "per serving — intentionally low; rice-forward dish. Add a second egg or switch to two cans of tuna to push toward 30g; still needs a protein side to hit the 50g target"
+      "note": "intentionally low; rice-forward dish. Add a second egg or switch to two cans of tuna to push toward 30g; still needs a protein side to hit the 50g target"
     },
     "tips": [
       {
@@ -1518,8 +1506,7 @@
       }
     ],
     "protein": {
-      "grams": "~33",
-      "note": "per serving — below target; use two cans of tuna or add a second egg to push toward 45g"
+      "note": "use two cans of tuna or add a second egg to push toward 45g"
     },
     "tips": [
       {
@@ -1734,10 +1721,6 @@
         "step": "Chop green onion. Top with green onion. Serve with rice or eat as-is."
       }
     ],
-    "protein": {
-      "grams": "55–65",
-      "note": "per serving with chicken breast + rice on the side"
-    },
     "tips": [
       {
         "keyword": "don't crowd the pan",
@@ -1984,8 +1967,7 @@
       }
     ],
     "protein": {
-      "grams": "45–50",
-      "note": "per serving with chicken breast; pasta base alone (egg + parmesan) is ~20–25g — chicken is what gets this to target"
+      "note": "pasta base alone (egg + parmesan) is ~20–25g — chicken is what gets this to target"
     },
     "tips": [
       {
@@ -2218,8 +2200,7 @@
       }
     ],
     "protein": {
-      "grams": "~42",
-      "note": "per serving — below target; pair with a fried egg or rice + egg to push toward 50g"
+      "note": "pair with a fried egg or rice + egg to push toward 50g"
     },
     "tips": [
       {
@@ -2407,8 +2388,7 @@
       }
     ],
     "protein": {
-      "grams": "~44",
-      "note": "per serving with chicken breast; add a soft-boiled egg for another ~6g"
+      "note": "add a soft-boiled egg for another ~6g"
     },
     "tips": [
       {
@@ -2612,7 +2592,6 @@
       }
     ],
     "protein": {
-      "grams": "15–20",
       "note": "soba noodles alone — buckwheat is relatively protein-rich; add cold chicken (+30–35g) or a soft-boiled egg (+6g) to hit a meaningful target"
     },
     "tips": [
@@ -2851,8 +2830,7 @@
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving with chicken breast; pork loin is similar at ~40–50g"
+      "note": "pork loin is similar at ~40–50g"
     },
     "tips": [
       {
@@ -3069,8 +3047,7 @@
       }
     ],
     "protein": {
-      "grams": "~23",
-      "note": "per serving — below target; the salmon portion (60–75g per serving) is modest. Add a second fillet or serve with a soft-boiled egg to push higher"
+      "note": "salmon portion is modest. Add a second fillet or serve with a soft-boiled egg to push higher"
     },
     "tips": [
       {
@@ -3289,10 +3266,6 @@
         ]
       }
     ],
-    "protein": {
-      "grams": "~61",
-      "note": "per serving (200–250g chicken thigh per serving) — above target"
-    },
     "tips": [
       {
         "keyword": "Cornstarch is the secret",
@@ -3496,8 +3469,7 @@
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving (150–200g beef each); add a soft-boiled egg for an extra ~6g"
+      "note": "add a soft-boiled egg for an extra ~6g"
     },
     "tips": [
       {
@@ -3691,10 +3663,6 @@
         "step": "Slice green onion thin. Slide over a bowl of rice. Garnish with green onion. Eat immediately."
       }
     ],
-    "protein": {
-      "grams": "~60",
-      "note": "per serving (3 eggs + 175–200g chicken breast)"
-    },
     "tips": [
       {
         "keyword": "Soft eggs",
@@ -3893,10 +3861,6 @@
         "step": "Serve immediately with rice or lettuce."
       }
     ],
-    "protein": {
-      "grams": "~50",
-      "note": "per serving with 450g ground chicken total (225g per serving)"
-    },
     "tips": [
       {
         "keyword": "Toasted rice powder",
@@ -4099,8 +4063,7 @@
       }
     ],
     "protein": {
-      "grams": "~50",
-      "note": "per serving with 450g ground meat total; the fried egg adds another ~6g"
+      "note": "the fried egg adds another ~6g"
     },
     "tips": [
       {
@@ -4331,10 +4294,6 @@
         "step": "Ladle into bowls. Top with cilantro and green onion. Eat with rice or just the soup."
       }
     ],
-    "protein": {
-      "grams": "45–55",
-      "note": "per serving"
-    },
     "tips": [
       {
         "keyword": "The aromatics are for flavor only",
@@ -4535,8 +4494,7 @@
       }
     ],
     "protein": {
-      "grams": "~29",
-      "note": "per serving — below target; shrimp is lean but the portion is modest. Double the shrimp or add a soft-boiled egg on the side to push higher"
+      "note": "shrimp is lean but the portion is modest. Double the shrimp or add a soft-boiled egg on the side to push higher"
     },
     "tips": [
       {
@@ -4782,8 +4740,7 @@
       }
     ],
     "protein": {
-      "grams": "45–55",
-      "note": "per serving with 225g ground beef; pasta adds another ~6g on top of the meat"
+      "note": "pasta adds ~6g on top of the meat"
     },
     "tips": [
       {
@@ -4942,7 +4899,6 @@
       }
     ],
     "protein": {
-      "grams": "20–25",
       "note": "from cheese only; low on its own — add a fried egg (+7g) or serve alongside grilled chicken (+30–40g)"
     },
     "tips": [
@@ -5125,8 +5081,7 @@
       }
     ],
     "protein": {
-      "grams": "~33",
-      "note": "per serving — intentionally below target; carbonara is a rich dish that doesn't take well to added protein. Serve with a light side if needed"
+      "note": "intentionally low — carbonara is a rich dish that doesn't take well to added protein. Serve with a light side if needed"
     },
     "tips": [
       {
@@ -5355,10 +5310,6 @@
         "step": "Chop parsley. Return chicken to the pan and spoon sauce over it. Finish with parsley."
       }
     ],
-    "protein": {
-      "grams": "55–65",
-      "note": "per serving with two chicken breast cutlets"
-    },
     "tips": [
       {
         "keyword": "pound the chicken thin",
@@ -5543,7 +5494,6 @@
       }
     ],
     "protein": {
-      "grams": "10–12",
       "note": "from pasta only; intentionally low — treat as a base or side; easy additions are pan-seared shrimp (+25–30g), grilled chicken (+30–40g), or a fried egg (+7g)"
     },
     "tips": [
@@ -5778,8 +5728,7 @@
       }
     ],
     "protein": {
-      "grams": "~50",
-      "note": "per serving with 300g shrimp; ~45g with chicken breast"
+      "note": "~45g with chicken breast as alternative protein"
     },
     "tips": [
       {
@@ -6002,8 +5951,7 @@
       }
     ],
     "protein": {
-      "grams": "~44–50",
-      "note": "per serving from this 3-serving batch; serve with black beans or a fried egg to push higher"
+      "note": "serve with black beans or a fried egg to push higher"
     },
     "tips": [
       {
@@ -6244,8 +6192,7 @@
       }
     ],
     "protein": {
-      "grams": "40–45",
-      "note": "per serving with 225g ground beef; add a fried or soft-boiled egg for an extra ~6g"
+      "note": "add a fried or soft-boiled egg for an extra ~6g"
     },
     "tips": [
       {
@@ -6490,8 +6437,7 @@
       }
     ],
     "protein": {
-      "grams": "50–55",
-      "note": "per serving with 225g ground beef 90/10; add beans for another ~8g per serving"
+      "note": "add beans for another ~8g per serving"
     },
     "firstAttemptNotes": {
       "date": "2026-05-29",
@@ -6724,8 +6670,7 @@
       }
     ],
     "protein": {
-      "grams": "~44–50",
-      "note": "per serving with chicken breast; serve with black beans for another ~8g"
+      "note": "serve with black beans for another ~8g"
     },
     "tips": [
       {
@@ -6966,8 +6911,7 @@
       }
     ],
     "protein": {
-      "grams": "55–70",
-      "note": "per serving with chicken breast; adding a yogurt dip adds another 10–15g"
+      "note": "adding a yogurt dip adds another 10–15g"
     },
     "tips": [
       {
@@ -7231,8 +7175,7 @@
       }
     ],
     "protein": {
-      "grams": "40–45",
-      "note": "per serving with 225g ground beef; a side of plain yogurt adds another ~10–15g and balances the heat"
+      "note": "a side of plain yogurt adds another ~10–15g and balances the heat"
     },
     "tips": [
       {
@@ -7459,7 +7402,6 @@
       }
     ],
     "protein": {
-      "grams": null,
       "note": "jollof rice itself is mostly carbs — serve with protein on the side (spiced chicken, chicken tikka, etc.)"
     },
     "tips": [
@@ -7620,7 +7562,6 @@
       }
     ],
     "protein": {
-      "grams": "2",
       "note": "this is a carb/snack side — ~30–35g carbs per serving"
     },
     "tips": [
@@ -7812,10 +7753,6 @@
         ]
       }
     ],
-    "protein": {
-      "grams": "~44–50",
-      "note": "per serving with 350–400g chicken total; pairs well with jollof rice"
-    },
     "tips": [
       {
         "keyword": "The bouillon cube in the rub sounds unusual",
@@ -8078,10 +8015,6 @@
         ]
       }
     ],
-    "protein": {
-      "grams": "55–70",
-      "note": "per serving with 2 boneless chicken thighs (~160–180g each)"
-    },
     "tips": [
       {
         "keyword": "Allspice",
@@ -8200,7 +8133,6 @@
       }
     ],
     "protein": {
-      "grams": "2",
       "note": "this is a carb side — ~30–35g carbs per serving, roughly equivalent to a medium potato"
     },
     "tips": [
@@ -8369,7 +8301,6 @@
       }
     ],
     "protein": {
-      "grams": "2",
       "note": "this is a starchy carb side — ~35–40g carbs per serving"
     },
     "tips": [
@@ -8621,10 +8552,6 @@
         "step": "Serve over rice, spooning the glaze generously over everything. Garnish with green onion."
       }
     ],
-    "protein": {
-      "grams": "~44–50",
-      "note": "per serving with 175–200g chicken breast per serving"
-    },
     "tips": [
       {
         "keyword": "Pat the chicken dry",
@@ -8931,10 +8858,6 @@
         "step": "Plate immediately. Top each bowl with a fried egg, green onion, crispy shallots, and a lime wedge."
       }
     ],
-    "protein": {
-      "grams": "~50",
-      "note": "per serving with 350–400g chicken breast total; ~25g base without protein added"
-    },
     "tips": [
       {
         "keyword": "Don't overcook the noodles",
@@ -9191,8 +9114,7 @@
       }
     ],
     "protein": {
-      "grams": "~15",
-      "note": "egg only (base); ~50g+ with 350–400g chicken breast added"
+      "note": "egg only (base); ~50g+ with optional 350–400g chicken breast added"
     },
     "tips": [
       {
@@ -9392,10 +9314,6 @@
         "step": "Drain on paper towel. Serve over rice with sambal and cucumber."
       }
     ],
-    "protein": {
-      "grams": "~30",
-      "note": "per serving (~19g protein per 100g tempeh)"
-    },
     "tips": [
       {
         "keyword": "Steam before marinating (optional)",
@@ -9679,8 +9597,7 @@
       }
     ],
     "protein": {
-      "grams": "~20",
-      "note": "eggs only (~5g per egg × 4 eggs); ~65g+ per serving with 450g ground beef added"
+      "note": "eggs only (base); ~65g+ per serving with 450g optional ground beef added"
     },
     "tips": [
       {
@@ -9848,7 +9765,6 @@
       }
     ],
     "protein": {
-      "grams": "45–50",
       "note": "Greek yogurt (~15g) + protein powder (~25g) + milk (~7g); one of the highest-protein breakfasts you can make with minimal effort"
     },
     "tips": [
@@ -10062,8 +9978,7 @@
       }
     ],
     "protein": {
-      "grams": "6–8",
-      "note": "per slice (standard); ~10–12g per slice with the whey substitution"
+      "note": "~10–12g per slice with the whey protein substitution"
     },
     "tips": [
       {

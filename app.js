@@ -26,6 +26,9 @@ const CUISINE_LABELS = {
   mexican: 'Mexican',
   indian: 'Indian',
   'west-african': 'West African',
+  caribbean: 'Caribbean',
+  indonesian: 'Indonesian',
+  'middle-eastern': 'Middle Eastern',
   smoothies: 'Smoothies',
   baking: 'Baking',
 };
