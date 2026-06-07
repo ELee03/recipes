@@ -1,0 +1,182 @@
+id: garlic-soy-beef-fried-rice
+name: Garlic Soy Beef Fried Rice
+cuisine: korean
+difficulty: easy
+time: 25
+servings: 4
+
+methods:
+  - stir-fry
+  - pan-fry
+
+tags:
+  - quick
+  - meal-prep
+  - high-protein
+  - one-pan
+  - no-marinate
+  - pantry-friendly
+  - fusion
+
+description: >
+  A high-protein ground beef fried rice built around Eugene's default 900g beef batch:
+  browned hard, drained if needed, then tossed with day-old rice, eggs, garlic, ginger,
+  scallions, soy, oyster sauce, and sesame oil. It is fast, salty-savory, meal-prep friendly,
+  and less greasy than takeout if the beef is drained well.
+
+keyIngredients:
+  - ground beef
+  - day-old rice
+  - eggs
+  - soy sauce
+  - oyster sauce
+  - garlic
+  - ginger
+  - green onion
+  - sesame oil
+
+ingredientGroups:
+  - emoji: "🥩"
+    label: Protein
+    actionNote: brown hard first; drain excess fat before building the fried rice
+    ingredients:
+      - amount: 900g
+        name: ground beef 90/10
+        note: Eugene default for 4 servings; drain well after browning
+        alternatives:
+          - amount: 900g
+            name: ground beef 80/20
+            note: works, but drain aggressively and optionally rinse under hot water if it feels greasy
+          - amount: 900g
+            name: ground chicken or turkey
+            note: leaner, but less beefy; add 1 extra tbsp oil if the pan is dry
+
+  - emoji: "🍚"
+    label: Rice & Eggs
+    actionNote: rice should be cold and broken up before it hits the pan
+    ingredients:
+      - amount: "3½–4 cups"
+        name: cooked rice
+        note: day-old refrigerated rice; break up clumps with your hands before cooking
+        alternatives:
+          - amount: "3½–4 cups"
+            name: fresh cooked rice
+            note: spread on a tray 15-20 min to steam off; still softer than day-old
+      - amount: 4
+        name: eggs
+        note: beaten; scramble in the pan after the beef is cooked
+        alternatives:
+          - amount: "2–3"
+            name: eggs
+            note: lighter version; protein drops slightly
+
+  - emoji: "🧄"
+    label: Aromatics
+    actionNote: cook briefly after the beef so they hit hot fat/fond without burning
+    ingredients:
+      - amount: "4–5 cloves"
+        name: garlic
+        note: minced
+        alternatives:
+          - amount: "2 tsp"
+            name: jarred minced garlic
+            note: shelf-stable-ish and fine here
+      - amount: "1 tbsp"
+        name: ginger
+        note: minced or grated
+        alternatives:
+          - amount: "1 tsp"
+            name: ground ginger
+            note: less fresh, but works in the sauce
+      - amount: 4
+        name: green onion
+        note: whites sliced for cooking; greens sliced for garnish
+        alternatives:
+          - amount: "½ small"
+            name: onion
+            note: finely diced; cook a little longer before garlic
+
+  - emoji: "🥣"
+    label: Bowl 1 — Sauce
+    actionNote: mix before cooking; add near the end so the rice fries before it steams
+    ingredients:
+      - amount: "3 tbsp"
+        name: soy sauce
+        note: use 2 tbsp first if sensitive to salt, then adjust
+        alternatives: []
+      - amount: "1½ tbsp"
+        name: oyster sauce
+        note: adds savory depth and gloss
+        alternatives:
+          - amount: "1 tbsp"
+            name: hoisin sauce
+            note: sweeter; reduce any added sugar and expect a different profile
+      - amount: "1 tsp"
+        name: sugar or honey
+        note: optional, but helps browning and balances salt
+        alternatives: []
+      - amount: "½–1 tsp"
+        name: gochujang or sriracha
+        note: optional background heat; do not overdo it unless you want spicy fried rice
+        alternatives:
+          - amount: "½ tsp"
+            name: chili flakes
+            note: drier heat, less sweetness
+
+  - emoji: "🥕"
+    label: Optional Vegetables
+    actionNote: add after aromatics; cook off moisture before rice goes in
+    ingredients:
+      - amount: "1–2 cups"
+        name: frozen peas, carrots, or mixed vegetables
+        note: optional but good for fiber and meal-prep balance
+        alternatives:
+          - amount: 1
+            name: carrot
+            note: finely diced; cook 2-3 min before rice
+
+  - emoji: "✨"
+    label: Finish
+    actionNote: add after heat is off or right at the end
+    ingredients:
+      - amount: "2 tsp"
+        name: sesame oil
+        note: finish only; too much makes it heavy fast
+        alternatives: []
+      - amount: null
+        name: sesame seeds
+        note: optional
+        alternatives: []
+      - amount: null
+        name: green onion tops
+        note: sliced
+        alternatives: []
+
+instructions:
+  - step: Break up cold rice clumps before cooking. Mince garlic and ginger. Slice green onions, separating whites from greens. Beat eggs in a small bowl. Mix soy sauce, oyster sauce, sugar or honey, and optional gochujang or sriracha in another bowl.
+  - step: Heat a wide skillet, wok, or wide pot over medium-high to high heat. Add ground beef and break it apart. Let it sit in contact with the pan between stirs so it browns instead of steaming.
+  - step: Cook beef until no longer pink and some browned bits form, ~7-9 min. Drain excess fat; if using 80/20 or if the pan looks greasy, rinse the beef under hot water and return it to the pan.
+  - step: Push beef to one side if there is room, or remove it briefly. Add beaten eggs and scramble until just set, then fold into the beef.
+  - step: Add green onion whites, garlic, and ginger. Stir-fry 30-60 seconds until fragrant. If using frozen vegetables, add them now and cook until their moisture mostly evaporates.
+  - step: Add cold rice. Spread it across the pan and let it sit 30-60 seconds before tossing so the bottom gets a little fry instead of just steaming.
+  - step: Pour sauce around the edges of the pan and toss hard until the rice is evenly coated, glossy, and hot. Taste before adding salt; soy and oyster sauce may already be enough.
+  - step: Turn off heat. Add sesame oil, green onion tops, and sesame seeds if using. Toss once more and portion into 4 high-protein servings.
+
+protein:
+  note: built around 900g ground beef for 4 servings; eggs and rice push the computed protein well past the 50g target
+
+tips:
+  - keyword: Surface area beats pot size
+    text: A wide skillet or wok gives better fried rice than a deep pot because moisture can escape. A big pot still works, but cook hot and in phases so the rice does not steam into mush.
+  - keyword: Brown the beef hard
+    text: The flavor comes from browned beef fond, not just soy sauce. Let the beef sit between stirs so Maillard browning happens; constant stirring keeps it gray and watery.
+  - keyword: Drain without fear
+    text: Draining 90/10 beef is worth it for this recipe because the sauces, garlic, ginger, and sesame oil carry the flavor. Keeping all the rendered fat makes the rice feel heavy.
+  - keyword: Sauce late
+    text: Add sauce after the rice has had pan contact. If sauce goes in too early, the rice absorbs liquid before it fries and the dish turns softer.
+  - keyword: Day-old rice
+    text: Refrigerated rice has drier, firmer grains because of starch retrogradation. That structure survives stir-frying better than fresh rice, which is why fresh rice tends to clump and steam.
+
+firstAttemptNotes:
+  date: null
+  notes: []

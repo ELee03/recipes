@@ -13,6 +13,7 @@ let activeFilters = {
 
 let drawerRecipe = null;
 let drawerServings = 1;
+const MAX_DRAWER_SERVINGS = 20;
 
 // ============================================================
 // CUISINE DISPLAY NAMES
@@ -467,7 +468,7 @@ function openDetail(recipe) {
     if (drawerServings > 1) { drawerServings--; updateIngredients(); }
   });
   if (plus) plus.addEventListener('click', () => {
-    if (drawerServings < 10) { drawerServings++; updateIngredients(); }
+    if (drawerServings < MAX_DRAWER_SERVINGS) { drawerServings++; updateIngredients(); }
   });
 
   drawer.classList.add('open');
@@ -493,7 +494,7 @@ function updateIngredients() {
   const minus = document.getElementById('servingsMinus');
   const plus  = document.getElementById('servingsPlus');
   if (minus) minus.disabled = drawerServings <= 1;
-  if (plus)  plus.disabled  = drawerServings >= 10;
+  if (plus)  plus.disabled  = drawerServings >= MAX_DRAWER_SERVINGS;
 
   // Macros always show per-serving — do not rescale with servings count
   const macrosBox = document.getElementById('macrosBox');
@@ -544,7 +545,7 @@ function renderDetail(r) {
       <button class="servings-btn" id="servingsMinus" aria-label="Fewer servings"${drawerServings <= 1 ? ' disabled' : ''}>−</button>
       <span id="servingsCount">${drawerServings}</span>
       <span id="servingsLabel">${drawerServings === 1 ? 'serving' : 'servings'}</span>
-      <button class="servings-btn" id="servingsPlus" aria-label="More servings"${drawerServings >= 10 ? ' disabled' : ''}>+</button>
+      <button class="servings-btn" id="servingsPlus" aria-label="More servings"${drawerServings >= MAX_DRAWER_SERVINGS ? ' disabled' : ''}>+</button>
     </span>
   ` : '';
 
