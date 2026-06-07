@@ -55,11 +55,11 @@ ingredientGroups:
     label: Rice & Eggs
     actionNote: rice should be cold and broken up before it hits the pan
     ingredients:
-      - amount: "3½–4 cups"
+      - amount: "650–750g"
         name: cooked rice
         note: day-old refrigerated rice; break up clumps with your hands before cooking
         alternatives:
-          - amount: "3½–4 cups"
+          - amount: "650–750g"
             name: fresh cooked rice
             note: spread on a tray 15-20 min to steam off; still softer than day-old
       - amount: 4
