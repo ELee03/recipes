@@ -706,7 +706,7 @@ function renderMacroBreakdown(breakdown) {
       .slice(0, 4);
 
   const fmt = (items, key) =>
-    items.map(b => `${b.name} ${b[key]}g`).join(' · ');
+    items.map(b => `${b.name}: ${b[key]}g ${key}`).join(' · ');
 
   const proteinItems = topBy('protein', 1.0);
   const fatItems     = topBy('fat',     1.0);
