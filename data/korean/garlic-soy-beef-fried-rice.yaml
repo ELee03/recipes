@@ -108,6 +108,9 @@ ingredientGroups:
         name: oyster sauce
         note: adds savory depth and gloss
         alternatives:
+          - amount: "1–2 tsp fish sauce + 1 tsp sugar or honey"
+            name: fish sauce
+            note: saltier, thinner, and funkier than oyster sauce; start with 1 tsp and add more only after tasting
           - amount: "1 tbsp"
             name: hoisin sauce
             note: sweeter; reduce any added sugar and expect a different profile
@@ -153,7 +156,7 @@ ingredientGroups:
         alternatives: []
 
 instructions:
-  - step: Break up cold rice clumps before cooking. Mince garlic and ginger. Slice green onions, separating whites from greens. Beat eggs in a small bowl. Mix soy sauce, oyster sauce, sugar or honey, and optional gochujang or sriracha in another bowl.
+  - step: Break up cold rice clumps before cooking. Mince garlic and ginger. Slice green onions, separating whites from greens. Beat eggs in a small bowl. Mix soy sauce, oyster sauce or substitute, sugar or honey, and optional gochujang or sriracha in another bowl.
   - step: Heat a wide skillet, wok, or wide pot over medium-high to high heat. Add ground beef and break it apart. Let it sit in contact with the pan between stirs so it browns instead of steaming.
   - step: Cook beef until no longer pink and some browned bits form, ~7-9 min. Drain excess fat; if using 80/20 or if the pan looks greasy, rinse the beef under hot water and return it to the pan.
   - step: Push beef to one side if there is room, or remove it briefly. Add beaten eggs and scramble until just set, then fold into the beef.
