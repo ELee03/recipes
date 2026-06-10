@@ -31,6 +31,7 @@ const CUISINE_LABELS = {
   indonesian: 'Indonesian',
   'middle-eastern': 'Middle Eastern',
   smoothies: 'Smoothies',
+  drinks: 'Drinks',
   baking: 'Baking',
 };
 

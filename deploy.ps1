@@ -4,7 +4,7 @@
 #   .\deploy.ps1                        # Auto-commit message: "Update recipes (YYYY-MM-DD)"
 #   .\deploy.ps1 "Add gochujang salmon" # Custom commit message
 #
-# Requirements: git, python (with pyyaml installed)
+# Requirements: git, Python 3.11+ with pyyaml installed
 
 param(
     [string]$Message = ""
@@ -17,8 +17,19 @@ Set-Location $PSScriptRoot
 
 # 1. Build recipes.json
 Write-Host "Building recipes.json..."
-python build.py
-if ($LASTEXITCODE -ne 0) { exit 1 }
+$built = $false
+
+try {
+    py -3.11 build.py
+    if ($LASTEXITCODE -eq 0) { $built = $true }
+} catch {
+    $built = $false
+}
+
+if (-not $built) {
+    python build.py
+    if ($LASTEXITCODE -ne 0) { exit 1 }
+}
 
 # 2. Stage all changes
 git add -A

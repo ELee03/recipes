@@ -11261,6 +11261,168 @@
     }
   },
   {
+    "id": "chamomile-milk-tea",
+    "name": "Chamomile Milk Tea",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 10,
+    "servings": 1,
+    "methods": [
+      "steep",
+      "simmer"
+    ],
+    "tags": [
+      "quick",
+      "pantry-friendly"
+    ],
+    "description": "A cozy caffeine-free milk tea built on strong chamomile, warm milk, honey, vanilla, and a tiny pinch of cinnamon. It is soft, floral, lightly sweet, and best as an evening drink when you want something gentler than coffee or black tea.\n",
+    "keyIngredients": [
+      "chamomile tea",
+      "milk",
+      "honey",
+      "vanilla extract",
+      "cinnamon"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🌼",
+        "label": "Tea base",
+        "actionNote": "steep strongly before adding milk",
+        "ingredients": [
+          {
+            "amount": "2 bags",
+            "name": "chamomile tea",
+            "note": "use 1 bag for a lighter drink; 2 bags keeps the flavor present once milk is added",
+            "alternatives": [
+              {
+                "amount": "2 tsp",
+                "name": "loose chamomile",
+                "note": "strain before adding milk"
+              }
+            ]
+          },
+          {
+            "amount": "½ cup",
+            "name": "boiling water",
+            "note": "just enough to make a concentrated tea base",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥛",
+        "label": "Milk & Sweetener",
+        "actionNote": "warm gently; do not boil hard",
+        "ingredients": [
+          {
+            "amount": "250 ml",
+            "name": "milk",
+            "note": "any dairy milk works; higher fat tastes rounder",
+            "alternatives": [
+              {
+                "amount": "250 ml",
+                "name": "soy milk",
+                "note": "good non-dairy option with some protein; warm gently"
+              }
+            ]
+          },
+          {
+            "amount": "1–2 tsp",
+            "name": "honey",
+            "note": "start with 1 tsp; ripe floral chamomile can turn candy-like if oversweetened",
+            "alternatives": [
+              {
+                "amount": "1–2 tsp",
+                "name": "sugar",
+                "note": "cleaner sweetness, less floral"
+              }
+            ]
+          },
+          {
+            "amount": "¼ tsp",
+            "name": "vanilla extract",
+            "note": "optional but makes it taste more rounded",
+            "alternatives": []
+          },
+          {
+            "amount": "pinch",
+            "name": "cinnamon",
+            "note": "optional; use a tiny amount so it does not bury the chamomile",
+            "alternatives": []
+          },
+          {
+            "amount": "pinch",
+            "name": "salt",
+            "note": "optional; makes the milk taste fuller",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Steep chamomile tea bags in ½ cup boiling water for 5-7 minutes. Use 2 bags if adding milk; the tea should taste stronger than you would drink plain."
+      },
+      {
+        "step": "Remove tea bags, squeezing gently. Add milk to the pot or mug."
+      },
+      {
+        "step": "Warm gently over low heat or microwave in short bursts until hot but not boiling. Hard boiling can make milk taste cooked and flatten the chamomile aroma."
+      },
+      {
+        "step": "Stir in honey, vanilla, cinnamon, and a tiny pinch of salt if using. Taste and adjust sweetness."
+      },
+      {
+        "step": "Drink warm. If making iced, chill the strong tea first, then shake or stir with cold milk, honey, vanilla, and ice."
+      }
+    ],
+    "protein": {
+      "note": "low-protein drink; dairy or soy milk adds a small amount, but this is mainly an evening comfort drink"
+    },
+    "tips": [
+      {
+        "keyword": "Steep stronger than normal",
+        "text": "Milk dilutes floral tea quickly. A concentrated chamomile base keeps the drink from tasting like warm milk with a rumor of tea."
+      },
+      {
+        "keyword": "Do not boil the milk",
+        "text": "Gentle heat keeps the milk sweeter and the chamomile more aromatic. A hard boil can create a cooked dairy flavor and dull the floral notes."
+      },
+      {
+        "keyword": "Honey fits chamomile",
+        "text": "Honey reinforces chamomile's floral character better than plain sugar. Start small because the drink gets cloying if the sweetness outruns the tea."
+      },
+      {
+        "keyword": "Iced version",
+        "text": "For iced chamomile milk tea, use the same strong tea base but cool it before adding milk. Pouring hot tea straight over ice weakens the drink fast."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 137,
+      "protein": 8.5,
+      "fat": 2.5,
+      "carbs": 21.1,
+      "breakdown": [
+        {
+          "name": "milk",
+          "protein": 8.5,
+          "fat": 2.5,
+          "carbs": 12.5
+        },
+        {
+          "name": "honey",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 8.6
+        }
+      ]
+    }
+  },
+  {
     "id": "banana-bread",
     "name": "Banana Bread",
     "cuisine": "baking",
