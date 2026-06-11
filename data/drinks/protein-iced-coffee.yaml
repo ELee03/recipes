@@ -1,0 +1,86 @@
+id: protein-iced-coffee
+name: Protein Iced Coffee
+cuisine: drinks
+difficulty: easy
+time: 5
+servings: 1
+
+methods:
+  - shake
+  - stir
+
+tags:
+  - quick
+  - high-protein
+  - pantry-friendly
+
+description: >
+  A quick iced coffee built around cold coffee, milk, and unflavored whey. It is useful
+  when you want caffeine plus a protein bump without making a full smoothie.
+
+keyIngredients:
+  - coffee
+  - milk
+  - whey protein
+  - vanilla extract
+
+ingredientGroups:
+  - emoji: "☕"
+    label: Coffee base
+    actionNote: use cold coffee so the whey does not clump from heat
+    ingredients:
+      - amount: "½–1 cup"
+        name: cold coffee or cold brew
+        note: use less for a milkier drink, more for stronger coffee
+        alternatives: []
+      - amount: "150–250 ml"
+        name: milk
+        note: adjust based on how strong you want it
+        alternatives:
+          - amount: "150–250 ml"
+            name: soy milk
+            note: good non-dairy option with extra protein
+
+  - emoji: "💪"
+    label: Protein & Flavor
+    actionNote: shake or blend until smooth
+    ingredients:
+      - amount: "1 scoop"
+        name: whey protein
+        note: unflavored or vanilla; unflavored may need more sweetener
+        alternatives:
+          - amount: "½ scoop"
+            name: whey protein
+            note: lighter version if texture gets too thick
+      - amount: "¼ tsp"
+        name: vanilla extract
+        note: optional, especially useful with unflavored whey
+        alternatives: []
+      - amount: "1–2 tsp"
+        name: honey or sugar
+        note: optional; depends on protein powder and coffee bitterness
+        alternatives: []
+      - amount: null
+        name: ice
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Add cold coffee, milk, whey, vanilla, and optional sweetener to a shaker bottle or blender.
+  - step: Shake or blend until smooth. If using a shaker, add liquid before powder to reduce clumps.
+  - step: Pour over ice. Taste and adjust with more coffee, milk, or sweetener.
+
+protein:
+  note: high-protein drink; whey plus milk should land around the 30g range depending brands and amounts
+
+tips:
+  - keyword: Keep it cold
+    text: Whey clumps and can taste cooked in hot coffee. Use cold coffee or cool hot coffee before mixing.
+  - keyword: Liquid first
+    text: Add coffee and milk before whey in a shaker bottle. Powder on the bottom forms stubborn dry clumps.
+  - keyword: Texture control
+    text: If a full scoop tastes too thick or chalky, use ½ scoop and get the rest of your protein from food.
+
+firstAttemptNotes:
+  date: null
+  notes: []

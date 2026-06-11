@@ -1,0 +1,105 @@
+id: masala-chai
+name: Masala Chai
+cuisine: drinks
+difficulty: medium
+time: 15
+servings: 2
+
+methods:
+  - simmer
+  - steep
+
+tags:
+  - pantry-friendly
+
+description: >
+  A strong spiced milk tea with black tea, ginger, cinnamon, cardamom, cloves, milk,
+  and sugar. More involved than a tea bag, but worth it when you want something warming and aromatic.
+
+keyIngredients:
+  - black tea
+  - milk
+  - ginger
+  - cinnamon
+  - cardamom
+  - cloves
+  - sugar
+
+ingredientGroups:
+  - emoji: "🫚"
+    label: Spice base
+    actionNote: simmer before adding tea
+    ingredients:
+      - amount: "1 cup"
+        name: water
+        note: null
+        alternatives: []
+      - amount: "1 tbsp"
+        name: ginger
+        note: sliced or grated
+        alternatives:
+          - amount: "½ tsp"
+            name: ground ginger
+            note: pantry version; use less because it disperses
+      - amount: "1 small stick"
+        name: cinnamon
+        note: or a small pinch ground cinnamon
+        alternatives:
+          - amount: "⅛ tsp"
+            name: ground cinnamon
+            note: easier but can make the drink slightly dusty
+      - amount: "3–4"
+        name: cardamom pods
+        note: lightly crushed
+        alternatives:
+          - amount: "⅛ tsp"
+            name: ground cardamom
+            note: optional; skip if you do not have it
+      - amount: "2"
+        name: cloves
+        note: optional but classic
+        alternatives: []
+
+  - emoji: "🫖"
+    label: Tea & Milk
+    actionNote: tea steeps in the spiced liquid, milk simmers gently
+    ingredients:
+      - amount: "2 bags"
+        name: black tea
+        note: strong tea is important
+        alternatives:
+          - amount: "2 tsp"
+            name: loose black tea
+            note: strain before serving
+      - amount: "1 cup"
+        name: milk
+        note: dairy milk gives the roundest flavor
+        alternatives:
+          - amount: "1 cup"
+            name: soy milk
+            note: works; simmer gently
+      - amount: "2–4 tsp"
+        name: sugar or honey
+        note: chai usually wants real sweetness; start with 2 tsp
+        alternatives: []
+
+instructions:
+  - step: Add water, ginger, cinnamon, cardamom, and cloves to a small pot. Simmer 5 minutes.
+  - step: Add black tea and simmer 2 minutes.
+  - step: Add milk and sugar or honey. Simmer gently 2-3 minutes, watching closely so it does not boil over.
+  - step: Strain into mugs. Taste and add more sweetener if needed.
+
+protein:
+  note: mostly from milk or soy milk; this is a sweet spiced tea, not a protein drink
+
+tips:
+  - keyword: Sweetness is structural
+    text: Chai tastes flat if completely unsweetened. Sugar or honey rounds the tannins, ginger heat, and milk.
+  - keyword: Watch the pot
+    text: Milk tea boils over fast. Once milk is in, keep heat gentle and stay nearby.
+  - keyword: Spice flexibility
+    text: Ginger and cinnamon carry the drink. Cardamom and cloves make it more classic, but the recipe still works without every spice.
+
+firstAttemptNotes:
+  date: null
+  notes: []

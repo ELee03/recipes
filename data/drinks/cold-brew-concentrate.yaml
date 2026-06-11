@@ -1,0 +1,80 @@
+id: cold-brew-concentrate
+name: Cold Brew Concentrate
+cuisine: drinks
+difficulty: easy
+time: 720
+servings: 4
+
+methods:
+  - steep
+
+tags:
+  - meal-prep
+  - pantry-friendly
+
+description: >
+  A simple cold brew concentrate for keeping in the fridge: coarse coffee steeped overnight,
+  strained, then diluted with water or milk. Smooth, practical, and much cheaper than buying iced coffee.
+
+keyIngredients:
+  - coffee
+  - water
+  - milk
+
+ingredientGroups:
+  - emoji: "☕"
+    label: Concentrate
+    actionNote: combine and steep in the fridge or on the counter
+    ingredients:
+      - amount: "80g"
+        name: coarse ground coffee
+        note: coarse grind strains cleaner and tastes less muddy
+        alternatives:
+          - amount: "1 cup"
+            name: coarse ground coffee
+            note: volume estimate if not weighing
+      - amount: "500 ml"
+        name: water
+        note: cold or room temperature
+        alternatives: []
+
+  - emoji: "🥛"
+    label: Serving
+    actionNote: dilute to taste
+    ingredients:
+      - amount: "½ cup"
+        name: cold brew concentrate
+        note: per serving
+        alternatives: []
+      - amount: null
+        name: water or milk
+        note: use roughly equal parts concentrate and water or milk per serving; adjust based on strength
+        alternatives:
+          - amount: null
+            name: soy milk
+            note: use roughly equal parts concentrate and soy milk; adds a little protein
+      - amount: null
+        name: ice
+        note: optional
+        alternatives: []
+
+instructions:
+  - step: Combine coarse coffee and water in a jar or container. Stir to wet all grounds.
+  - step: Cover and steep 12-18 hours in the fridge or at room temperature.
+  - step: Strain through a coffee filter, fine mesh, or cloth. Do not press hard unless you do not mind a muddier flavor.
+  - step: Refrigerate concentrate. To serve, dilute 1:1 with water or milk over ice, then adjust stronger or weaker.
+
+protein:
+  note: no meaningful protein unless served with milk or soy milk
+
+tips:
+  - keyword: Coarse grind
+    text: Fine coffee makes cold brew silty and harder to strain. Coarse grind gives a cleaner concentrate.
+  - keyword: Do not oversteep forever
+    text: Longer is not always better. Past about 18-24 hours, cold brew can taste woody or stale.
+  - keyword: Fridge life
+    text: Keep strained concentrate refrigerated and use within about 5-7 days for best flavor.
+
+firstAttemptNotes:
+  date: null
+  notes: []

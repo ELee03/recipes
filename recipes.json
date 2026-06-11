@@ -11423,6 +11423,834 @@
     }
   },
   {
+    "id": "cold-brew-concentrate",
+    "name": "Cold Brew Concentrate",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 720,
+    "servings": 4,
+    "methods": [
+      "steep"
+    ],
+    "tags": [
+      "meal-prep",
+      "pantry-friendly"
+    ],
+    "description": "A simple cold brew concentrate for keeping in the fridge: coarse coffee steeped overnight, strained, then diluted with water or milk. Smooth, practical, and much cheaper than buying iced coffee.\n",
+    "keyIngredients": [
+      "coffee",
+      "water",
+      "milk"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "☕",
+        "label": "Concentrate",
+        "actionNote": "combine and steep in the fridge or on the counter",
+        "ingredients": [
+          {
+            "amount": "80g",
+            "name": "coarse ground coffee",
+            "note": "coarse grind strains cleaner and tastes less muddy",
+            "alternatives": [
+              {
+                "amount": "1 cup",
+                "name": "coarse ground coffee",
+                "note": "volume estimate if not weighing"
+              }
+            ]
+          },
+          {
+            "amount": "500 ml",
+            "name": "water",
+            "note": "cold or room temperature",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥛",
+        "label": "Serving",
+        "actionNote": "dilute to taste",
+        "ingredients": [
+          {
+            "amount": "½ cup",
+            "name": "cold brew concentrate",
+            "note": "per serving",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "water or milk",
+            "note": "use roughly equal parts concentrate and water or milk per serving; adjust based on strength",
+            "alternatives": [
+              {
+                "amount": null,
+                "name": "soy milk",
+                "note": "use roughly equal parts concentrate and soy milk; adds a little protein"
+              }
+            ]
+          },
+          {
+            "amount": null,
+            "name": "ice",
+            "note": "optional",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Combine coarse coffee and water in a jar or container. Stir to wet all grounds."
+      },
+      {
+        "step": "Cover and steep 12-18 hours in the fridge or at room temperature."
+      },
+      {
+        "step": "Strain through a coffee filter, fine mesh, or cloth. Do not press hard unless you do not mind a muddier flavor."
+      },
+      {
+        "step": "Refrigerate concentrate. To serve, dilute 1:1 with water or milk over ice, then adjust stronger or weaker."
+      }
+    ],
+    "protein": {
+      "note": "no meaningful protein unless served with milk or soy milk"
+    },
+    "tips": [
+      {
+        "keyword": "Coarse grind",
+        "text": "Fine coffee makes cold brew silty and harder to strain. Coarse grind gives a cleaner concentrate."
+      },
+      {
+        "keyword": "Do not oversteep forever",
+        "text": "Longer is not always better. Past about 18-24 hours, cold brew can taste woody or stale."
+      },
+      {
+        "keyword": "Fridge life",
+        "text": "Keep strained concentrate refrigerated and use within about 5-7 days for best flavor."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    }
+  },
+  {
+    "id": "honey-ginger-lemon-tea",
+    "name": "Honey Ginger Lemon Tea",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 10,
+    "servings": 1,
+    "methods": [
+      "steep",
+      "simmer"
+    ],
+    "tags": [
+      "quick",
+      "pantry-friendly"
+    ],
+    "description": "A sharp, warming ginger-lemon tea sweetened with honey. It is good as a winter drink, sick-day drink, or after a heavy meal when you want something hot, bright, and not creamy.\n",
+    "keyIngredients": [
+      "ginger",
+      "lemon",
+      "honey"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫚",
+        "label": "Tea base",
+        "actionNote": "simmer ginger first, then add lemon off heat",
+        "ingredients": [
+          {
+            "amount": "1 tbsp",
+            "name": "ginger",
+            "note": "sliced, grated, or minced; use more if you want it spicy",
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "ground ginger",
+                "note": "pantry version; cloudier and less fresh, but works"
+              }
+            ]
+          },
+          {
+            "amount": "1 cup",
+            "name": "water",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🍋",
+        "label": "Finish",
+        "actionNote": "add after heat is off",
+        "ingredients": [
+          {
+            "amount": "1–2 tbsp",
+            "name": "lemon juice",
+            "note": "fresh is best, bottled is fine",
+            "alternatives": [
+              {
+                "amount": "1–2 tbsp",
+                "name": "bottled lemon juice",
+                "note": "convenient pantry version"
+              }
+            ]
+          },
+          {
+            "amount": "1–2 tsp",
+            "name": "honey",
+            "note": "start with 1 tsp and adjust",
+            "alternatives": [
+              {
+                "amount": "1–2 tsp",
+                "name": "sugar",
+                "note": "cleaner sweetness, less floral"
+              }
+            ]
+          },
+          {
+            "amount": "pinch",
+            "name": "salt",
+            "note": "optional; makes the drink taste rounder",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Add ginger and water to a small pot. Bring to a simmer and cook 5-7 minutes."
+      },
+      {
+        "step": "Turn off heat. Add lemon juice, honey, and optional pinch of salt."
+      },
+      {
+        "step": "Taste and adjust: more honey for softness, more lemon for brightness, more ginger steeping time for heat."
+      },
+      {
+        "step": "Strain if using sliced or grated ginger, or drink as-is if you do not mind bits."
+      }
+    ],
+    "protein": {
+      "note": "no meaningful protein; this is a hot drink, not a macro drink"
+    },
+    "tips": [
+      {
+        "keyword": "Lemon off heat",
+        "text": "Lemon tastes brighter when added after heating. Long boiling drives off aroma and leaves a flatter sourness."
+      },
+      {
+        "keyword": "Ginger strength",
+        "text": "Ginger gets stronger with both amount and time. If using ground ginger, start smaller because it disperses through the whole drink."
+      },
+      {
+        "keyword": "Make concentrate",
+        "text": "Simmer a larger batch of ginger water, strain, and refrigerate 3-4 days. Add lemon and honey fresh when serving."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 37,
+      "protein": 0.1,
+      "fat": 0.0,
+      "carbs": 9.7,
+      "breakdown": [
+        {
+          "name": "honey",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 8.6
+        }
+      ]
+    }
+  },
+  {
+    "id": "iced-matcha-latte",
+    "name": "Iced Matcha Latte",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 5,
+    "servings": 1,
+    "methods": [
+      "whisk",
+      "stir"
+    ],
+    "tags": [
+      "quick",
+      "pantry-friendly"
+    ],
+    "description": "A simple iced matcha latte: matcha whisked into a smooth paste, poured over cold milk, and lightly sweetened only if needed. Cleaner and less jittery-feeling than coffee for many people.\n",
+    "keyIngredients": [
+      "matcha",
+      "milk",
+      "honey"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🍵",
+        "label": "Matcha slurry",
+        "actionNote": "whisk smooth before adding milk",
+        "ingredients": [
+          {
+            "amount": "1–1½ tsp",
+            "name": "matcha powder",
+            "note": "1 tsp is gentle; 1½ tsp is stronger and more cafe-style",
+            "alternatives": []
+          },
+          {
+            "amount": "2 tbsp",
+            "name": "hot water",
+            "note": "hot but not boiling; boiling water can make matcha harsher",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥛",
+        "label": "Latte",
+        "actionNote": "pour over ice after matcha is smooth",
+        "ingredients": [
+          {
+            "amount": "250 ml",
+            "name": "milk",
+            "note": "any dairy milk works",
+            "alternatives": [
+              {
+                "amount": "250 ml",
+                "name": "soy milk",
+                "note": "good non-dairy option with some protein"
+              }
+            ]
+          },
+          {
+            "amount": "1–2 tsp",
+            "name": "honey or sugar",
+            "note": "optional; start low",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "ice",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Whisk matcha with hot water until smooth. Make sure no dry clumps remain before adding milk."
+      },
+      {
+        "step": "Fill a glass with ice and milk."
+      },
+      {
+        "step": "Pour matcha over the milk and stir. Sweeten lightly if needed."
+      }
+    ],
+    "protein": {
+      "note": "mostly from milk or soy milk; matcha itself is not a protein source"
+    },
+    "tips": [
+      {
+        "keyword": "Slurry first",
+        "text": "Matcha clumps if added straight to cold milk. A small hot-water slurry makes it smooth."
+      },
+      {
+        "keyword": "Not boiling",
+        "text": "Very hot water can make matcha taste harsher. Hot tap-to-kettle water or briefly cooled boiled water is better."
+      },
+      {
+        "keyword": "Sweetness",
+        "text": "Matcha can taste grassy or bitter if unsweetened. A little honey or sugar rounds it out without turning it into dessert."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 137,
+      "protein": 8.5,
+      "fat": 2.5,
+      "carbs": 21.1,
+      "breakdown": [
+        {
+          "name": "milk",
+          "protein": 8.5,
+          "fat": 2.5,
+          "carbs": 12.5
+        },
+        {
+          "name": "honey",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 8.6
+        }
+      ]
+    }
+  },
+  {
+    "id": "london-fog",
+    "name": "London Fog",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 10,
+    "servings": 1,
+    "methods": [
+      "steep",
+      "simmer"
+    ],
+    "tags": [
+      "quick",
+      "pantry-friendly"
+    ],
+    "description": "Earl Grey tea with warm milk, vanilla, and a little honey or sugar. It is floral, creamy, lightly caffeinated, and much easier than going out for a cafe drink.\n",
+    "keyIngredients": [
+      "earl grey tea",
+      "milk",
+      "vanilla extract",
+      "honey"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫖",
+        "label": "Tea base",
+        "actionNote": "steep strong so milk does not erase the tea",
+        "ingredients": [
+          {
+            "amount": "1 bag",
+            "name": "Earl Grey tea",
+            "note": "use 2 bags for a stronger cafe-style drink",
+            "alternatives": [
+              {
+                "amount": "1 tsp",
+                "name": "loose Earl Grey tea",
+                "note": "strain before adding milk"
+              }
+            ]
+          },
+          {
+            "amount": "½ cup",
+            "name": "boiling water",
+            "note": "concentrated tea base",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🥛",
+        "label": "Milk & Sweetener",
+        "actionNote": "warm gently",
+        "ingredients": [
+          {
+            "amount": "200–250 ml",
+            "name": "milk",
+            "note": "any dairy milk works",
+            "alternatives": [
+              {
+                "amount": "200–250 ml",
+                "name": "soy milk",
+                "note": "good non-dairy option"
+              }
+            ]
+          },
+          {
+            "amount": "¼ tsp",
+            "name": "vanilla extract",
+            "note": "artificial or pure both work; start small",
+            "alternatives": []
+          },
+          {
+            "amount": "1–2 tsp",
+            "name": "honey or sugar",
+            "note": "optional, but typical",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Steep Earl Grey in ½ cup boiling water for 4-5 minutes. Remove tea bag or strain leaves."
+      },
+      {
+        "step": "Add milk and warm gently, or microwave in short bursts until hot but not boiling."
+      },
+      {
+        "step": "Stir in vanilla and honey or sugar. Taste and adjust sweetness."
+      }
+    ],
+    "protein": {
+      "note": "mostly from milk or soy milk; this is a light cafe-style drink"
+    },
+    "tips": [
+      {
+        "keyword": "Strong tea base",
+        "text": "Earl Grey needs to be stronger than normal before milk is added, otherwise the drink tastes like warm vanilla milk."
+      },
+      {
+        "keyword": "Vanilla amount",
+        "text": "Start with ¼ tsp. More can work, but too much vanilla makes the drink taste perfumey."
+      },
+      {
+        "keyword": "Caffeine",
+        "text": "Earl Grey is black tea, so this has caffeine. It is gentler than coffee for many people but not an evening chamomile replacement."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 126,
+      "protein": 7.7,
+      "fat": 2.2,
+      "carbs": 19.9,
+      "breakdown": [
+        {
+          "name": "milk",
+          "protein": 7.6,
+          "fat": 2.2,
+          "carbs": 11.2
+        },
+        {
+          "name": "honey",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 8.6
+        }
+      ]
+    }
+  },
+  {
+    "id": "masala-chai",
+    "name": "Masala Chai",
+    "cuisine": "drinks",
+    "difficulty": "medium",
+    "time": 15,
+    "servings": 2,
+    "methods": [
+      "simmer",
+      "steep"
+    ],
+    "tags": [
+      "pantry-friendly"
+    ],
+    "description": "A strong spiced milk tea with black tea, ginger, cinnamon, cardamom, cloves, milk, and sugar. More involved than a tea bag, but worth it when you want something warming and aromatic.\n",
+    "keyIngredients": [
+      "black tea",
+      "milk",
+      "ginger",
+      "cinnamon",
+      "cardamom",
+      "cloves",
+      "sugar"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🫚",
+        "label": "Spice base",
+        "actionNote": "simmer before adding tea",
+        "ingredients": [
+          {
+            "amount": "1 cup",
+            "name": "water",
+            "note": null,
+            "alternatives": []
+          },
+          {
+            "amount": "1 tbsp",
+            "name": "ginger",
+            "note": "sliced or grated",
+            "alternatives": [
+              {
+                "amount": "½ tsp",
+                "name": "ground ginger",
+                "note": "pantry version; use less because it disperses"
+              }
+            ]
+          },
+          {
+            "amount": "1 small stick",
+            "name": "cinnamon",
+            "note": "or a small pinch ground cinnamon",
+            "alternatives": [
+              {
+                "amount": "⅛ tsp",
+                "name": "ground cinnamon",
+                "note": "easier but can make the drink slightly dusty"
+              }
+            ]
+          },
+          {
+            "amount": "3–4",
+            "name": "cardamom pods",
+            "note": "lightly crushed",
+            "alternatives": [
+              {
+                "amount": "⅛ tsp",
+                "name": "ground cardamom",
+                "note": "optional; skip if you do not have it"
+              }
+            ]
+          },
+          {
+            "amount": "2",
+            "name": "cloves",
+            "note": "optional but classic",
+            "alternatives": []
+          }
+        ]
+      },
+      {
+        "emoji": "🫖",
+        "label": "Tea & Milk",
+        "actionNote": "tea steeps in the spiced liquid, milk simmers gently",
+        "ingredients": [
+          {
+            "amount": "2 bags",
+            "name": "black tea",
+            "note": "strong tea is important",
+            "alternatives": [
+              {
+                "amount": "2 tsp",
+                "name": "loose black tea",
+                "note": "strain before serving"
+              }
+            ]
+          },
+          {
+            "amount": "1 cup",
+            "name": "milk",
+            "note": "dairy milk gives the roundest flavor",
+            "alternatives": [
+              {
+                "amount": "1 cup",
+                "name": "soy milk",
+                "note": "works; simmer gently"
+              }
+            ]
+          },
+          {
+            "amount": "2–4 tsp",
+            "name": "sugar or honey",
+            "note": "chai usually wants real sweetness; start with 2 tsp",
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Add water, ginger, cinnamon, cardamom, and cloves to a small pot. Simmer 5 minutes."
+      },
+      {
+        "step": "Add black tea and simmer 2 minutes."
+      },
+      {
+        "step": "Add milk and sugar or honey. Simmer gently 2-3 minutes, watching closely so it does not boil over."
+      },
+      {
+        "step": "Strain into mugs. Taste and add more sweetener if needed."
+      }
+    ],
+    "protein": {
+      "note": "mostly from milk or soy milk; this is a sweet spiced tea, not a protein drink"
+    },
+    "tips": [
+      {
+        "keyword": "Sweetness is structural",
+        "text": "Chai tastes flat if completely unsweetened. Sugar or honey rounds the tannins, ginger heat, and milk."
+      },
+      {
+        "keyword": "Watch the pot",
+        "text": "Milk tea boils over fast. Once milk is in, keep heat gentle and stay nearby."
+      },
+      {
+        "keyword": "Spice flexibility",
+        "text": "Ginger and cinnamon carry the drink. Cardamom and cloves make it more classic, but the recipe still works without every spice."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 85,
+      "protein": 4.2,
+      "fat": 1.2,
+      "carbs": 15.1,
+      "breakdown": [
+        {
+          "name": "milk",
+          "protein": 4.1,
+          "fat": 1.2,
+          "carbs": 6.0
+        },
+        {
+          "name": "honey",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 8.6
+        }
+      ]
+    }
+  },
+  {
+    "id": "protein-iced-coffee",
+    "name": "Protein Iced Coffee",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 5,
+    "servings": 1,
+    "methods": [
+      "shake",
+      "stir"
+    ],
+    "tags": [
+      "quick",
+      "high-protein",
+      "pantry-friendly"
+    ],
+    "description": "A quick iced coffee built around cold coffee, milk, and unflavored whey. It is useful when you want caffeine plus a protein bump without making a full smoothie.\n",
+    "keyIngredients": [
+      "coffee",
+      "milk",
+      "whey protein",
+      "vanilla extract"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "☕",
+        "label": "Coffee base",
+        "actionNote": "use cold coffee so the whey does not clump from heat",
+        "ingredients": [
+          {
+            "amount": "½–1 cup",
+            "name": "cold coffee or cold brew",
+            "note": "use less for a milkier drink, more for stronger coffee",
+            "alternatives": []
+          },
+          {
+            "amount": "150–250 ml",
+            "name": "milk",
+            "note": "adjust based on how strong you want it",
+            "alternatives": [
+              {
+                "amount": "150–250 ml",
+                "name": "soy milk",
+                "note": "good non-dairy option with extra protein"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "emoji": "💪",
+        "label": "Protein & Flavor",
+        "actionNote": "shake or blend until smooth",
+        "ingredients": [
+          {
+            "amount": "1 scoop",
+            "name": "whey protein",
+            "note": "unflavored or vanilla; unflavored may need more sweetener",
+            "alternatives": [
+              {
+                "amount": "½ scoop",
+                "name": "whey protein",
+                "note": "lighter version if texture gets too thick"
+              }
+            ]
+          },
+          {
+            "amount": "¼ tsp",
+            "name": "vanilla extract",
+            "note": "optional, especially useful with unflavored whey",
+            "alternatives": []
+          },
+          {
+            "amount": "1–2 tsp",
+            "name": "honey or sugar",
+            "note": "optional; depends on protein powder and coffee bitterness",
+            "alternatives": []
+          },
+          {
+            "amount": null,
+            "name": "ice",
+            "note": null,
+            "alternatives": []
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Add cold coffee, milk, whey, vanilla, and optional sweetener to a shaker bottle or blender."
+      },
+      {
+        "step": "Shake or blend until smooth. If using a shaker, add liquid before powder to reduce clumps."
+      },
+      {
+        "step": "Pour over ice. Taste and adjust with more coffee, milk, or sweetener."
+      }
+    ],
+    "protein": {
+      "note": "high-protein drink; whey plus milk should land around the 30g range depending brands and amounts"
+    },
+    "tips": [
+      {
+        "keyword": "Keep it cold",
+        "text": "Whey clumps and can taste cooked in hot coffee. Use cold coffee or cool hot coffee before mixing."
+      },
+      {
+        "keyword": "Liquid first",
+        "text": "Add coffee and milk before whey in a shaker bottle. Powder on the bottom forms stubborn dry clumps."
+      },
+      {
+        "keyword": "Texture control",
+        "text": "If a full scoop tastes too thick or chalky, use ½ scoop and get the rest of your protein from food."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 236,
+      "protein": 30.8,
+      "fat": 3.5,
+      "carbs": 21.0,
+      "breakdown": [
+        {
+          "name": "whey protein",
+          "protein": 24.0,
+          "fat": 1.5,
+          "carbs": 2.4
+        },
+        {
+          "name": "milk",
+          "protein": 6.8,
+          "fat": 2.0,
+          "carbs": 10.0
+        },
+        {
+          "name": "honey",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 8.6
+        }
+      ]
+    }
+  },
+  {
     "id": "banana-bread",
     "name": "Banana Bread",
     "cuisine": "baking",

@@ -1,0 +1,77 @@
+id: iced-matcha-latte
+name: Iced Matcha Latte
+cuisine: drinks
+difficulty: easy
+time: 5
+servings: 1
+
+methods:
+  - whisk
+  - stir
+
+tags:
+  - quick
+  - pantry-friendly
+
+description: >
+  A simple iced matcha latte: matcha whisked into a smooth paste, poured over cold milk,
+  and lightly sweetened only if needed. Cleaner and less jittery-feeling than coffee for many people.
+
+keyIngredients:
+  - matcha
+  - milk
+  - honey
+
+ingredientGroups:
+  - emoji: "🍵"
+    label: Matcha slurry
+    actionNote: whisk smooth before adding milk
+    ingredients:
+      - amount: "1–1½ tsp"
+        name: matcha powder
+        note: 1 tsp is gentle; 1½ tsp is stronger and more cafe-style
+        alternatives: []
+      - amount: "2 tbsp"
+        name: hot water
+        note: hot but not boiling; boiling water can make matcha harsher
+        alternatives: []
+
+  - emoji: "🥛"
+    label: Latte
+    actionNote: pour over ice after matcha is smooth
+    ingredients:
+      - amount: "250 ml"
+        name: milk
+        note: any dairy milk works
+        alternatives:
+          - amount: "250 ml"
+            name: soy milk
+            note: good non-dairy option with some protein
+      - amount: "1–2 tsp"
+        name: honey or sugar
+        note: optional; start low
+        alternatives: []
+      - amount: null
+        name: ice
+        note: null
+        alternatives: []
+
+instructions:
+  - step: Whisk matcha with hot water until smooth. Make sure no dry clumps remain before adding milk.
+  - step: Fill a glass with ice and milk.
+  - step: Pour matcha over the milk and stir. Sweeten lightly if needed.
+
+protein:
+  note: mostly from milk or soy milk; matcha itself is not a protein source
+
+tips:
+  - keyword: Slurry first
+    text: Matcha clumps if added straight to cold milk. A small hot-water slurry makes it smooth.
+  - keyword: Not boiling
+    text: Very hot water can make matcha taste harsher. Hot tap-to-kettle water or briefly cooled boiled water is better.
+  - keyword: Sweetness
+    text: Matcha can taste grassy or bitter if unsweetened. A little honey or sugar rounds it out without turning it into dessert.
+
+firstAttemptNotes:
+  date: null
+  notes: []

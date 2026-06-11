@@ -1,0 +1,84 @@
+id: honey-ginger-lemon-tea
+name: Honey Ginger Lemon Tea
+cuisine: drinks
+difficulty: easy
+time: 10
+servings: 1
+
+methods:
+  - steep
+  - simmer
+
+tags:
+  - quick
+  - pantry-friendly
+
+description: >
+  A sharp, warming ginger-lemon tea sweetened with honey. It is good as a winter drink,
+  sick-day drink, or after a heavy meal when you want something hot, bright, and not creamy.
+
+keyIngredients:
+  - ginger
+  - lemon
+  - honey
+
+ingredientGroups:
+  - emoji: "🫚"
+    label: Tea base
+    actionNote: simmer ginger first, then add lemon off heat
+    ingredients:
+      - amount: "1 tbsp"
+        name: ginger
+        note: sliced, grated, or minced; use more if you want it spicy
+        alternatives:
+          - amount: "½ tsp"
+            name: ground ginger
+            note: pantry version; cloudier and less fresh, but works
+      - amount: "1 cup"
+        name: water
+        note: null
+        alternatives: []
+
+  - emoji: "🍋"
+    label: Finish
+    actionNote: add after heat is off
+    ingredients:
+      - amount: "1–2 tbsp"
+        name: lemon juice
+        note: fresh is best, bottled is fine
+        alternatives:
+          - amount: "1–2 tbsp"
+            name: bottled lemon juice
+            note: convenient pantry version
+      - amount: "1–2 tsp"
+        name: honey
+        note: start with 1 tsp and adjust
+        alternatives:
+          - amount: "1–2 tsp"
+            name: sugar
+            note: cleaner sweetness, less floral
+      - amount: "pinch"
+        name: salt
+        note: optional; makes the drink taste rounder
+        alternatives: []
+
+instructions:
+  - step: Add ginger and water to a small pot. Bring to a simmer and cook 5-7 minutes.
+  - step: Turn off heat. Add lemon juice, honey, and optional pinch of salt.
+  - step: "Taste and adjust: more honey for softness, more lemon for brightness, more ginger steeping time for heat."
+  - step: Strain if using sliced or grated ginger, or drink as-is if you do not mind bits.
+
+protein:
+  note: no meaningful protein; this is a hot drink, not a macro drink
+
+tips:
+  - keyword: Lemon off heat
+    text: Lemon tastes brighter when added after heating. Long boiling drives off aroma and leaves a flatter sourness.
+  - keyword: Ginger strength
+    text: Ginger gets stronger with both amount and time. If using ground ginger, start smaller because it disperses through the whole drink.
+  - keyword: Make concentrate
+    text: Simmer a larger batch of ginger water, strain, and refrigerate 3-4 days. Add lemon and honey fresh when serving.
+
+firstAttemptNotes:
+  date: null
+  notes: []

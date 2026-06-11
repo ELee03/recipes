@@ -1,0 +1,81 @@
+id: london-fog
+name: London Fog
+cuisine: drinks
+difficulty: easy
+time: 10
+servings: 1
+
+methods:
+  - steep
+  - simmer
+
+tags:
+  - quick
+  - pantry-friendly
+
+description: >
+  Earl Grey tea with warm milk, vanilla, and a little honey or sugar. It is floral,
+  creamy, lightly caffeinated, and much easier than going out for a cafe drink.
+
+keyIngredients:
+  - earl grey tea
+  - milk
+  - vanilla extract
+  - honey
+
+ingredientGroups:
+  - emoji: "🫖"
+    label: Tea base
+    actionNote: steep strong so milk does not erase the tea
+    ingredients:
+      - amount: "1 bag"
+        name: Earl Grey tea
+        note: use 2 bags for a stronger cafe-style drink
+        alternatives:
+          - amount: "1 tsp"
+            name: loose Earl Grey tea
+            note: strain before adding milk
+      - amount: "½ cup"
+        name: boiling water
+        note: concentrated tea base
+        alternatives: []
+
+  - emoji: "🥛"
+    label: Milk & Sweetener
+    actionNote: warm gently
+    ingredients:
+      - amount: "200–250 ml"
+        name: milk
+        note: any dairy milk works
+        alternatives:
+          - amount: "200–250 ml"
+            name: soy milk
+            note: good non-dairy option
+      - amount: "¼ tsp"
+        name: vanilla extract
+        note: artificial or pure both work; start small
+        alternatives: []
+      - amount: "1–2 tsp"
+        name: honey or sugar
+        note: optional, but typical
+        alternatives: []
+
+instructions:
+  - step: Steep Earl Grey in ½ cup boiling water for 4-5 minutes. Remove tea bag or strain leaves.
+  - step: Add milk and warm gently, or microwave in short bursts until hot but not boiling.
+  - step: Stir in vanilla and honey or sugar. Taste and adjust sweetness.
+
+protein:
+  note: mostly from milk or soy milk; this is a light cafe-style drink
+
+tips:
+  - keyword: Strong tea base
+    text: Earl Grey needs to be stronger than normal before milk is added, otherwise the drink tastes like warm vanilla milk.
+  - keyword: Vanilla amount
+    text: Start with ¼ tsp. More can work, but too much vanilla makes the drink taste perfumey.
+  - keyword: Caffeine
+    text: Earl Grey is black tea, so this has caffeine. It is gentler than coffee for many people but not an evening chamomile replacement.
+
+firstAttemptNotes:
+  date: null
+  notes: []
