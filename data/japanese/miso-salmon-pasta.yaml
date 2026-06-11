@@ -47,7 +47,7 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: "2 fillets (~180–200g each)"
+      - amountRef: main
         name: salmon fillet, skin on or off
         note: null
         alternatives:

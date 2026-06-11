@@ -103,11 +103,11 @@ ingredientGroups:
     label: Protein
     actionNote: coat in marinade and refrigerate; bring to room temp 15 min before cooking
     ingredients:
-      - amount: 4 boneless
+      - amountRef: main
         name: chicken thighs
         note: skin-on adds flavor and char; boneless/skinless is easier to slice
         alternatives:
-          - amount: "350–400g"
+          - amountRef: main
             name: chicken breasts
             note: leaner but dries out faster — reduce cook time by ~3 min per side
 

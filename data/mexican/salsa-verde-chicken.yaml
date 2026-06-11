@@ -32,11 +32,11 @@ ingredientGroups:
     label: Protein
     actionNote: place in pan raw; the salsa braises it completely
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breast
         note: null
         alternatives:
-          - amount: "350–400g"
+          - amountRef: main
             name: boneless chicken thighs
             note: richer and more forgiving on timing; shreds just as well
 

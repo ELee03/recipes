@@ -42,6 +42,11 @@ ingredientGroups:
     actionNote: mix together and set aside before cooking  # shown in italics; describes when/how to use this group
     ingredients:
       - amount: 2 cups            # string; use null if no specific amount (e.g. "to taste" items)
+        amountRef: null           # optional; use instead of amount for shared defaults from nutrients.json
+                                  # e.g. amountRef: main on chicken breast uses that nutrient's
+                                  # defaultPortions.main x recipe servings, then build.py writes grams
+        nutrientRef: null         # optional; exact nutrients.json key when display name does not match
+                                  # e.g. name: ribeye or sirloin block, nutrientRef: beef
         name: day-old rice
         note: null                # optional clarifying note; null if not needed
         alternatives:

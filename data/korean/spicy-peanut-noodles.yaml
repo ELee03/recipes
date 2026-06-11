@@ -84,11 +84,11 @@ ingredientGroups:
     label: Protein
     actionNote: cook separately; season simply — the sauce is the star
     ingredients:
-      - amount: "450g"
+      - amountRef: main
         name: ground chicken
         note: cook over medium-high in a lightly oiled pan, breaking up, until browned through; drain excess fat
         alternatives:
-          - amount: "350–400g"
+          - amountRef: main
             name: chicken breast, thinly sliced
             note: pan-sear 2–3 min per side; slice into strips after resting
           - amount: "1 can"

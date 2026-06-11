@@ -53,15 +53,16 @@ ingredientGroups:
     label: Protein
     actionNote: use as-is; add directly to pan
     ingredients:
-      - amount: "300–400g"
+      - amountRef: main
         name: thinly sliced beef
         note: shabu-shabu or sukiyaki cut from Asian grocery
         alternatives:
-          - amount: "300–400g"
+          - amountRef: main
             name: frozen pre-sliced beef
             note: completely valid, often easier to find; thaw before use
-          - amount: "300–400g"
+          - amountRef: main
             name: ribeye or sirloin block
+            nutrientRef: beef
             note: freeze ~30 min then slice as thin as possible with a sharp knife
 
   - emoji: 🧅

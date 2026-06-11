@@ -105,6 +105,57 @@ def load_nutrients():
         return json.load(f)
 
 
+def _format_grams(grams):
+    if abs(grams - round(grams)) < 0.01:
+        return f"{round(grams):d}g"
+    return f"{grams:.1f}".rstrip('0').rstrip('.') + "g"
+
+
+def resolve_amount_refs(recipes, nutrients):
+    """Resolve ingredient amountRef values from nutrients.json.
+
+    Example:
+      amountRef: main
+      name: ground beef 90/10
+
+    If ground beef 90/10 has defaultPortions.main = 225, a 4-serving
+    recipe gets amount: 900g before macros are computed and JSON is written.
+    """
+    errors = []
+    if not nutrients:
+        return errors
+
+    def resolve_ingredient(ing, recipe, source):
+        amount_ref = ing.get("amountRef")
+        if not amount_ref:
+            return
+
+        name = (ing.get("name") or "").strip()
+        key = nutrient_key_for_ingredient(ing, nutrients)
+        if key is None:
+            errors.append(f"{source}: amountRef '{amount_ref}' could not match nutrient for '{name}'")
+            return
+
+        portions = nutrients[key].get("defaultPortions") or {}
+        per_serving_g = portions.get(amount_ref)
+        if per_serving_g is None:
+            errors.append(f"{source}: amountRef '{amount_ref}' not defined for nutrient '{key}'")
+            return
+
+        servings = recipe.get("servings") or 1
+        ing["amount"] = _format_grams(float(per_serving_g) * servings)
+
+    for recipe in recipes:
+        source = f"{recipe.get('id', '<unknown>')}.yaml"
+        for group in (recipe.get("ingredientGroups") or []):
+            for ing in (group.get("ingredients") or []):
+                resolve_ingredient(ing, recipe, source)
+                for alt in (ing.get("alternatives") or []):
+                    resolve_ingredient(alt, recipe, source)
+
+    return errors
+
+
 # ============================================================
 # AMOUNT PARSING
 # ============================================================
@@ -253,6 +304,15 @@ def find_nutrient_key(ingredient_name, nutrients):
     return best_key
 
 
+def nutrient_key_for_ingredient(ing, nutrients):
+    nutrient_ref = (ing.get("nutrientRef") or "").strip()
+    if nutrient_ref:
+        if nutrient_ref in nutrients:
+            return nutrient_ref
+        return None
+    return find_nutrient_key((ing.get("name") or "").strip(), nutrients)
+
+
 # ============================================================
 # MACRO COMPUTATION
 # ============================================================
@@ -287,7 +347,7 @@ def compute_macros(recipe, nutrients):
             if amount_raw is None:
                 continue    # "as much as you like", no amount → skip
 
-            key = find_nutrient_key(name, nutrients)
+            key = nutrient_key_for_ingredient(ing, nutrients)
             if key is None:
                 continue    # spice, herb, water, etc. — not in DB
 
@@ -357,6 +417,8 @@ def build_protein_hints(nutrients):
         norm = re.sub(r'[\s\-/.]', '_', name.lower().strip())
         for unit, grams in (data.get('units') or {}).items():
             hints[f"{norm}_{unit}"] = protein_per_100g * grams / 100
+        for portion, grams in (data.get('defaultPortions') or {}).items():
+            hints[f"{norm}_{portion}"] = protein_per_100g * grams / 100
     return hints
 
 
@@ -404,6 +466,13 @@ def main():
     if nutrients:
         n_entries = len([k for k in nutrients if not k.startswith('_')])
         print(f"  Loaded nutrient DB ({n_entries} entries)")
+        ref_errors = resolve_amount_refs(recipes, nutrients)
+        if ref_errors:
+            print(f"\n{len(ref_errors)} amountRef error(s) found:")
+            for e in ref_errors:
+                print(f"  ERROR: {e}")
+            print()
+            sys.exit(1)
         protein_hints = build_protein_hints(nutrients)
         macro_count = 0
         for recipe in recipes:

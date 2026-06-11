@@ -56,7 +56,7 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breast or thigh, cut into bite-sized pieces
         note: thigh is juicier; breast is leaner
         alternatives: []

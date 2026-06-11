@@ -34,7 +34,7 @@ ingredientGroups:
     label: Optional protein boost
     actionNote: cook first in the pan, then build the sauce on top
     ingredients:
-      - amount: "450g"
+      - amountRef: main
         name: ground beef or lamb
         note: cook until browned, drain fat if needed; sauce goes on top of the meat
         alternatives:

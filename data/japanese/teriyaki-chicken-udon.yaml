@@ -50,7 +50,7 @@ ingredientGroups:
     label: Protein
     actionNote: null
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breast, sliced thin
         note: null
         alternatives:

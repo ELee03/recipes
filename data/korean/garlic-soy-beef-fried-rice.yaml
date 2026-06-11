@@ -40,14 +40,14 @@ ingredientGroups:
     label: Protein
     actionNote: brown hard first; drain excess fat before building the fried rice
     ingredients:
-      - amount: 900g
+      - amountRef: main
         name: ground beef 90/10
         note: Eugene default for 4 servings; drain well after browning
         alternatives:
-          - amount: 900g
+          - amountRef: main
             name: ground beef 80/20
             note: works, but drain aggressively and optionally rinse under hot water if it feels greasy
-          - amount: 900g
+          - amountRef: main
             name: ground chicken or turkey
             note: leaner, but less beefy; add 1 extra tbsp oil if the pan is dry
 

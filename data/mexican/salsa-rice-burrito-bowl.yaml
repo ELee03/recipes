@@ -15,14 +15,14 @@ ingredientGroups:
     actionNote: cook in a separate pan, drain and rinse, then fold into rice during the rest
     ingredients:
       - name: ground beef 90/10
-        amount: 450g
+        amountRef: main
         note: lean — drain fat after cooking, rinse under hot water if desired; minimal weight loss
         alternatives:
           - name: ground beef 80/20
             amount: 550–575g
             note: more flavour but loses 25–35% to fat when drained and rinsed — start with more to compensate
           - name: ground chicken or turkey
-            amount: 450g
+            amountRef: main
             note: leaner, same method
           - name: canned black beans
             amount: 1 can (540ml)

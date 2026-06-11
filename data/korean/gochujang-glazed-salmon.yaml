@@ -65,9 +65,9 @@ ingredientGroups:
     label: Protein
     actionNote: pat dry before cooking — moisture is the enemy of a good sear
     ingredients:
-      - amount: "2 fillets (~150–180g each)"
+      - amountRef: main
         name: salmon
-        note: skin-on or off — skin-on is easier to handle
+        note: about 2 medium fillets; skin-on or off — skin-on is easier to handle
         alternatives: []
 
   - emoji: 🍚

@@ -85,7 +85,7 @@ ingredientGroups:
     label: Protein
     actionNote: pat dry before applying rub
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breasts
         note: null
         alternatives: []

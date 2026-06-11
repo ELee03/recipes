@@ -38,21 +38,24 @@
         "actionNote": "brown hard first; drain excess fat before building the fried rice",
         "ingredients": [
           {
-            "amount": "900g",
+            "amountRef": "main",
             "name": "ground beef 90/10",
             "note": "Eugene default for 4 servings; drain well after browning",
             "alternatives": [
               {
-                "amount": "900g",
+                "amountRef": "main",
                 "name": "ground beef 80/20",
-                "note": "works, but drain aggressively and optionally rinse under hot water if it feels greasy"
+                "note": "works, but drain aggressively and optionally rinse under hot water if it feels greasy",
+                "amount": "900g"
               },
               {
-                "amount": "900g",
+                "amountRef": "main",
                 "name": "ground chicken or turkey",
-                "note": "leaner, but less beefy; add 1 extra tbsp oil if the pan is dry"
+                "note": "leaner, but less beefy; add 1 extra tbsp oil if the pan is dry",
+                "amount": "900g"
               }
-            ]
+            ],
+            "amount": "900g"
           }
         ]
       },
@@ -635,7 +638,7 @@
         "actionNote": "toss in marinade and marinate at least 30 min",
         "ingredients": [
           {
-            "amount": "550g",
+            "amountRef": "main",
             "name": "pork shoulder, thinly sliced",
             "note": "lean, good caramelization — the everyday choice",
             "alternatives": [
@@ -649,7 +652,8 @@
                 "name": "ground pork",
                 "note": "skip the marinate; cook pork first then add sauce — fastest version"
               }
-            ]
+            ],
+            "amount": "550g"
           }
         ]
       },
@@ -925,21 +929,23 @@
         "actionNote": "cook separately; season simply — the sauce is the star",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "ground chicken",
             "note": "cook over medium-high in a lightly oiled pan, breaking up, until browned through; drain excess fat",
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "chicken breast, thinly sliced",
-                "note": "pan-sear 2–3 min per side; slice into strips after resting"
+                "note": "pan-sear 2–3 min per side; slice into strips after resting",
+                "amount": "375g"
               },
               {
                 "amount": "1 can",
                 "name": "canned tuna, drained",
                 "note": "fold in at the end; quick option (~150g can)"
               }
-            ]
+            ],
+            "amount": "450g"
           }
         ]
       },
@@ -1204,21 +1210,23 @@
         "actionNote": "cook before noodles; season simply — the sauce carries the dish",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "ground chicken or pork",
             "note": "cook with a little garlic and soy over medium-high heat until cooked through and slightly browned; drain fat",
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "chicken breast, thinly sliced across the grain",
-                "note": "cook 2–3 min per side in oil; slice into strips after"
+                "note": "cook 2–3 min per side in oil; slice into strips after",
+                "amount": "375g"
               },
               {
                 "amount": "1 can",
                 "name": "canned tuna, drained",
                 "note": "fold in at the end; quick and easy (~150g can)"
               }
-            ]
+            ],
+            "amount": "450g"
           }
         ]
       },
@@ -1439,10 +1447,11 @@
         "actionNote": "season and pan-sear before making the sauce",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast",
             "note": "sliced thin",
-            "alternatives": []
+            "alternatives": [],
+            "amount": "375g"
           }
         ]
       },
@@ -1713,10 +1722,11 @@
         "actionNote": "pat dry before cooking — moisture is the enemy of a good sear",
         "ingredients": [
           {
-            "amount": "2 fillets (~150–180g each)",
+            "amountRef": "main",
             "name": "salmon",
-            "note": "skin-on or off — skin-on is easier to handle",
-            "alternatives": []
+            "note": "about 2 medium fillets; skin-on or off — skin-on is easier to handle",
+            "alternatives": [],
+            "amount": "380g"
           }
         ]
       },
@@ -1827,15 +1837,15 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 683,
-      "protein": 40.0,
-      "fat": 24.5,
+      "cal": 735,
+      "protein": 45.0,
+      "fat": 27.7,
       "carbs": 70.2,
       "breakdown": [
         {
           "name": "salmon",
-          "protein": 33.0,
-          "fat": 21.4,
+          "protein": 38.0,
+          "fat": 24.7,
           "carbs": 0.0
         },
         {
@@ -2389,10 +2399,11 @@
         "actionNote": "mix together, let sit 15+ min",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast",
             "note": "cut into bite-sized pieces",
-            "alternatives": []
+            "alternatives": [],
+            "amount": "375g"
           },
           {
             "amount": "2 tbsp",
@@ -2974,16 +2985,18 @@
         "actionNote": "add to marinade, toss well, marinate 30 min–overnight",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "beef",
             "note": "ribeye, sirloin, or any thin-sliced cut",
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "bulgogi-cut beef from Korean grocery store",
-                "note": "comes pre-sliced, saves a lot of work"
+                "note": "comes pre-sliced, saves a lot of work",
+                "amount": "375g"
               }
-            ]
+            ],
+            "amount": "375g"
           },
           {
             "amount": "½",
@@ -3195,7 +3208,7 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast, sliced thin",
             "note": null,
             "alternatives": [
@@ -3204,7 +3217,8 @@
                 "name": "firm tofu, cubed",
                 "note": "replace or supplement the chicken — same sauce, works well"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -3612,7 +3626,7 @@
         "actionNote": "pound to even thickness before breading",
         "ingredients": [
           {
-            "amount": "2",
+            "amountRef": "main",
             "name": "boneless chicken breasts (175–200g each), pounded to ~1.5cm thickness",
             "note": null,
             "alternatives": [
@@ -3631,7 +3645,8 @@
                 "name": "pork tenderloin medallions, pounded flat",
                 "note": null
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -3803,15 +3818,15 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 466,
-      "protein": 59.7,
-      "fat": 9.2,
+      "cal": 495,
+      "protein": 65.1,
+      "fat": 9.9,
       "carbs": 32.0,
       "breakdown": [
         {
           "name": "chicken breast",
-          "protein": 52.7,
-          "fat": 6.1,
+          "protein": 58.1,
+          "fat": 6.8,
           "carbs": 0.0
         },
         {
@@ -3900,7 +3915,7 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "2 fillets (~180–200g each)",
+            "amountRef": "main",
             "name": "salmon fillet, skin on or off",
             "note": null,
             "alternatives": [
@@ -3909,7 +3924,8 @@
                 "name": "canned salmon",
                 "note": "drain well — works in a pinch, noticeably less good but shelf-stable"
               }
-            ]
+            ],
+            "amount": "380g"
           },
           {
             "amount": null,
@@ -4372,21 +4388,25 @@
         "actionNote": "use as-is; add directly to pan",
         "ingredients": [
           {
-            "amount": "300–400g",
+            "amountRef": "main",
             "name": "thinly sliced beef",
             "note": "shabu-shabu or sukiyaki cut from Asian grocery",
             "alternatives": [
               {
-                "amount": "300–400g",
+                "amountRef": "main",
                 "name": "frozen pre-sliced beef",
-                "note": "completely valid, often easier to find; thaw before use"
+                "note": "completely valid, often easier to find; thaw before use",
+                "amount": "375g"
               },
               {
-                "amount": "300–400g",
+                "amountRef": "main",
                 "name": "ribeye or sirloin block",
-                "note": "freeze ~30 min then slice as thin as possible with a sharp knife"
+                "nutrientRef": "beef",
+                "note": "freeze ~30 min then slice as thin as possible with a sharp knife",
+                "amount": "375g"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -4495,15 +4515,15 @@
       "notes": []
     },
     "computedMacros": {
-      "cal": 555,
-      "protein": 51.3,
-      "fat": 28.8,
+      "cal": 586,
+      "protein": 54.6,
+      "fat": 30.7,
       "carbs": 17.9,
       "breakdown": [
         {
           "name": "beef",
-          "protein": 45.5,
-          "fat": 26.2,
+          "protein": 48.8,
+          "fat": 28.1,
           "carbs": 0.0
         },
         {
@@ -4608,10 +4628,11 @@
         "actionNote": null,
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast or thigh, cut into bite-sized pieces",
             "note": "thigh is juicier; breast is leaner",
-            "alternatives": []
+            "alternatives": [],
+            "amount": "375g"
           }
         ]
       },
@@ -4828,10 +4849,11 @@
         "actionNote": "cooked with a splash of water, no oil; drain liquid after",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "ground chicken or pork",
             "note": "both are traditional; chicken is leaner",
-            "alternatives": []
+            "alternatives": [],
+            "amount": "450g"
           }
         ]
       },
@@ -5028,10 +5050,11 @@
         "actionNote": "cook first, drain fat, return to pan",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "ground chicken, pork, or beef",
             "note": null,
-            "alternatives": []
+            "alternatives": [],
+            "amount": "450g"
           }
         ]
       },
@@ -5256,7 +5279,7 @@
         "actionNote": "add after aromatics have infused; thin slices cook fast",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast, sliced thin",
             "note": null,
             "alternatives": [
@@ -5265,7 +5288,8 @@
                 "name": "shrimp",
                 "note": "faster-cooking; add in last 2–3 min only"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -5463,7 +5487,7 @@
         "actionNote": "season before searing",
         "ingredients": [
           {
-            "amount": "350g",
+            "amountRef": "main",
             "name": "shrimp, peeled and deveined",
             "note": "fresh or thawed from frozen",
             "alternatives": [
@@ -5472,7 +5496,8 @@
                 "name": "chicken breast",
                 "note": "sliced thin, seared separately — same dish, more protein"
               }
-            ]
+            ],
+            "amount": "350g"
           },
           {
             "amount": null,
@@ -5722,7 +5747,7 @@
         "actionNote": "browned in the pot after the soffritto, high heat, in batches if needed",
         "ingredients": [
           {
-            "amount": "900g",
+            "amountRef": "main",
             "name": "ground beef (80/20 fat ratio ideal)",
             "note": "leaner beef dries out in the long simmer",
             "alternatives": [
@@ -5731,7 +5756,8 @@
                 "name": "ground beef + ground pork",
                 "note": "the traditional mix; slightly richer and more complex"
               }
-            ]
+            ],
+            "amount": "900g"
           }
         ]
       },
@@ -6312,10 +6338,11 @@
         "actionNote": "season and dredge before searing",
         "ingredients": [
           {
-            "amount": "350–400g (2 breasts)",
+            "amountRef": "main",
             "name": "chicken breasts, halved horizontally and pounded thin",
             "note": "butterflied into cutlets; aim for ~175–200g per breast",
-            "alternatives": []
+            "alternatives": [],
+            "amount": "375g"
           },
           {
             "amount": null,
@@ -6752,16 +6779,18 @@
         "actionNote": "cooked in the garlic oil first, set aside; returned at the end",
         "ingredients": [
           {
-            "amount": "300–350g",
+            "amountRef": "main",
             "name": "shrimp, peeled and deveined",
             "note": "large or medium; pat dry so they sear rather than steam",
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "chicken breast, thinly sliced",
-                "note": "slice across the grain ~½ cm thick; cooks in 3–4 min"
+                "note": "slice across the grain ~½ cm thick; cooks in 3–4 min",
+                "amount": "375g"
               }
-            ]
+            ],
+            "amount": "350g"
           }
         ]
       },
@@ -6904,7 +6933,7 @@
       }
     ],
     "protein": {
-      "note": "~45g with chicken breast as alternative protein"
+      "note": "~58g with chicken breast as alternative protein"
     },
     "tips": [
       {
@@ -6937,16 +6966,16 @@
       ]
     },
     "computedMacros": {
-      "cal": 707,
-      "protein": 51.7,
+      "cal": 719,
+      "protein": 54.7,
       "fat": 25.2,
       "carbs": 71.1,
       "breakdown": [
         {
           "name": "shrimp",
-          "protein": 39.0,
+          "protein": 42.0,
           "fat": 0.5,
-          "carbs": 0.3
+          "carbs": 0.4
         },
         {
           "name": "spaghetti",
@@ -7056,10 +7085,11 @@
         "actionNote": "cook whole, then shred with two forks after cooling slightly",
         "ingredients": [
           {
-            "amount": "525–600g",
+            "amountRef": "main",
             "name": "chicken breast",
             "note": null,
-            "alternatives": []
+            "alternatives": [],
+            "amount": "562.5g"
           }
         ]
       },
@@ -7261,16 +7291,18 @@
         "actionNote": "cook first, drain excess fat, then continue",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "lean ground beef (80/20 or leaner)",
             "note": null,
             "alternatives": [
               {
-                "amount": "450g",
+                "amountRef": "main",
                 "name": "ground turkey or ground chicken",
-                "note": "leaner; same seasoning profile works"
+                "note": "leaner; same seasoning profile works",
+                "amount": "450g"
               }
-            ]
+            ],
+            "amount": "450g"
           }
         ]
       },
@@ -7493,7 +7525,7 @@
         "ingredients": [
           {
             "name": "ground beef 90/10",
-            "amount": "450g",
+            "amountRef": "main",
             "note": "lean — drain fat after cooking, rinse under hot water if desired; minimal weight loss",
             "alternatives": [
               {
@@ -7503,15 +7535,17 @@
               },
               {
                 "name": "ground chicken or turkey",
-                "amount": "450g",
-                "note": "leaner, same method"
+                "amountRef": "main",
+                "note": "leaner, same method",
+                "amount": "450g"
               },
               {
                 "name": "canned black beans",
                 "amount": "1 can (540ml)",
                 "note": "drained and rinsed — the vegetarian version; fold in with the rice the same way"
               }
-            ]
+            ],
+            "amount": "450g"
           }
         ]
       },
@@ -7784,16 +7818,18 @@
         "actionNote": "place in pan raw; the salsa braises it completely",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast",
             "note": null,
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "boneless chicken thighs",
-                "note": "richer and more forgiving on timing; shreds just as well"
+                "note": "richer and more forgiving on timing; shreds just as well",
+                "amount": "400g"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -8093,16 +8129,18 @@
         "actionNote": "add to marinade and toss well",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast, cut into large chunks",
             "note": null,
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "boneless chicken thighs",
-                "note": "more flavor and slightly more forgiving on high heat"
+                "note": "more flavor and slightly more forgiving on high heat",
+                "amount": "400g"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -8285,10 +8323,11 @@
         "actionNote": "cooked first, fat drained, set aside; returned to pan after spice base is built",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "ground beef or lamb",
             "note": "lamb is richer; beef works great",
-            "alternatives": []
+            "alternatives": [],
+            "amount": "450g"
           }
         ]
       },
@@ -9029,10 +9068,11 @@
         "actionNote": "pat dry before applying rub",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breasts",
             "note": null,
-            "alternatives": []
+            "alternatives": [],
+            "amount": "375g"
           }
         ]
       }
@@ -9250,16 +9290,18 @@
         "actionNote": "coat in marinade and refrigerate; bring to room temp 15 min before cooking",
         "ingredients": [
           {
-            "amount": "4 boneless",
+            "amountRef": "main",
             "name": "chicken thighs",
             "note": "skin-on adds flavor and char; boneless/skinless is easier to slice",
             "alternatives": [
               {
-                "amount": "350–400g",
+                "amountRef": "main",
                 "name": "chicken breasts",
-                "note": "leaner but dries out faster — reduce cook time by ~3 min per side"
+                "note": "leaner but dries out faster — reduce cook time by ~3 min per side",
+                "amount": "375g"
               }
-            ]
+            ],
+            "amount": "400g"
           }
         ]
       },
@@ -9772,7 +9814,7 @@
         "actionNote": "patted dry, seared first in the pan; set aside while aromatics cook",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breasts",
             "note": "pound to even thickness (~2 cm) for even cooking; ~175–200g per breast. Or use 4 boneless thighs",
             "alternatives": [
@@ -9781,7 +9823,8 @@
                 "name": "boneless, skinless chicken thighs",
                 "note": "richer flavor and more forgiving on timing; recommended if available"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -10048,7 +10091,7 @@
         "actionNote": "sliced thin and cooked first in the wok; set aside before aromatics",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast, thinly sliced",
             "note": "slice across the grain for tenderness; cook over high heat 2–3 min",
             "alternatives": [
@@ -10062,7 +10105,8 @@
                 "name": "canned tuna, drained",
                 "note": "add when sauce goes in; very pantry-friendly (~150g can)"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -10369,7 +10413,7 @@
         "actionNote": "cook first, set aside; returned at the end",
         "ingredients": [
           {
-            "amount": "350–400g",
+            "amountRef": "main",
             "name": "chicken breast",
             "note": "optional but recommended for a full meal; cut into small cubes",
             "alternatives": [
@@ -10383,7 +10427,8 @@
                 "name": "skip entirely",
                 "note": "still a complete dish with egg on top"
               }
-            ]
+            ],
+            "amount": "375g"
           }
         ]
       },
@@ -10508,7 +10553,7 @@
       }
     ],
     "protein": {
-      "note": "egg only (base); ~50g+ with optional 350–400g chicken breast added"
+      "note": "egg only (base); ~58g+ with optional standard chicken breast added"
     },
     "tips": [
       {
@@ -10796,7 +10841,7 @@
         "actionNote": "cook first in the pan, then build the sauce on top",
         "ingredients": [
           {
-            "amount": "450g",
+            "amountRef": "main",
             "name": "ground beef or lamb",
             "note": "cook until browned, drain fat if needed; sauce goes on top of the meat",
             "alternatives": [
@@ -10805,7 +10850,8 @@
                 "name": "merguez sausage, sliced",
                 "note": "traditional; adds spice directly to the sauce"
               }
-            ]
+            ],
+            "amount": "450g"
           }
         ]
       },

@@ -62,7 +62,7 @@ ingredientGroups:
     label: Protein
     actionNote: browned in the pot after the soffritto, high heat, in batches if needed
     ingredients:
-      - amount: 900g
+      - amountRef: main
         name: ground beef (80/20 fat ratio ideal)
         note: leaner beef dries out in the long simmer
         alternatives:

@@ -55,7 +55,7 @@ ingredientGroups:
     label: Protein
     actionNote: cooked first, fat drained, set aside; returned to pan after spice base is built
     ingredients:
-      - amount: 450g
+      - amountRef: main
         name: ground beef or lamb
         note: lamb is richer; beef works great
         alternatives: []

@@ -34,11 +34,11 @@ ingredientGroups:
     label: Protein
     actionNote: cooked in the garlic oil first, set aside; returned at the end
     ingredients:
-      - amount: "300–350g"
+      - amountRef: main
         name: shrimp, peeled and deveined
         note: large or medium; pat dry so they sear rather than steam
         alternatives:
-          - amount: "350–400g"
+          - amountRef: main
             name: chicken breast, thinly sliced
             note: slice across the grain ~½ cm thick; cooks in 3–4 min
 
@@ -123,7 +123,7 @@ instructions:
   - step: Plate immediately. Garnish with parsley, chili flakes, or parmesan if desired.
 
 protein:
-  note: ~45g with chicken breast as alternative protein
+  note: "{chicken_breast_main} with chicken breast as alternative protein"
 
 tips:
   - keyword: Cold-start the garlic

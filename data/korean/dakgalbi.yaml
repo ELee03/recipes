@@ -32,7 +32,7 @@ ingredientGroups:
     label: Bowl 1 — Chicken & marinade
     actionNote: mix together, let sit 15+ min
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breast
         note: cut into bite-sized pieces
         alternatives: []

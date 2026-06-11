@@ -72,11 +72,11 @@ ingredientGroups:
     label: Protein
     actionNote: cook before noodles; season simply — the sauce carries the dish
     ingredients:
-      - amount: "450g"
+      - amountRef: main
         name: ground chicken or pork
         note: cook with a little garlic and soy over medium-high heat until cooked through and slightly browned; drain fat
         alternatives:
-          - amount: "350–400g"
+          - amountRef: main
             name: chicken breast, thinly sliced across the grain
             note: cook 2–3 min per side in oil; slice into strips after
           - amount: "1 can"

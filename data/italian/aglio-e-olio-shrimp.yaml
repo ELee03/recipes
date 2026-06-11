@@ -34,7 +34,7 @@ ingredientGroups:
     label: Protein
     actionNote: season before searing
     ingredients:
-      - amount: "350g"
+      - amountRef: main
         name: shrimp, peeled and deveined
         note: fresh or thawed from frozen
         alternatives:

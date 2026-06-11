@@ -31,7 +31,7 @@ ingredientGroups:
     label: Protein
     actionNote: pound to even thickness before breading
     ingredients:
-      - amount: "2"
+      - amountRef: main
         name: boneless chicken breasts (175–200g each), pounded to ~1.5cm thickness
         note: null
         alternatives:

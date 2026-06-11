@@ -47,11 +47,11 @@ ingredientGroups:
     label: Protein
     actionNote: cook first, drain excess fat, then continue
     ingredients:
-      - amount: "450g"
+      - amountRef: main
         name: lean ground beef (80/20 or leaner)
         note: null
         alternatives:
-          - amount: "450g"
+          - amountRef: main
             name: ground turkey or ground chicken
             note: leaner; same seasoning profile works
 

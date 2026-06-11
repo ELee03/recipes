@@ -52,7 +52,7 @@ ingredientGroups:
     label: Protein
     actionNote: cook first, drain fat, return to pan
     ingredients:
-      - amount: "450g"
+      - amountRef: main
         name: ground chicken, pork, or beef
         note: null
         alternatives: []

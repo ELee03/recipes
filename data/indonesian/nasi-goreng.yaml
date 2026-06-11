@@ -57,7 +57,7 @@ ingredientGroups:
     label: Protein (optional)
     actionNote: cook first, set aside; returned at the end
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breast
         note: optional but recommended for a full meal; cut into small cubes
         alternatives:
@@ -139,7 +139,7 @@ instructions:
   - step: Top each plate with a fried egg. Garnish with crispy shallots, green onion, and cucumber. Serve with sambal on the side.
 
 protein:
-  note: egg only (base); ~50g+ with optional 350–400g chicken breast added
+  note: egg only (base); {chicken_breast_main}+ with optional standard chicken breast added
 
 tips:
   - keyword: Day-old rice is non-negotiable

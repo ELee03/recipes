@@ -56,7 +56,7 @@ ingredientGroups:
     label: Protein
     actionNote: patted dry, seared first in the pan; set aside while aromatics cook
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breasts
         note: pound to even thickness (~2 cm) for even cooking; ~175–200g per breast. Or use 4 boneless thighs
         alternatives:

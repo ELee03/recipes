@@ -58,7 +58,7 @@ ingredientGroups:
     label: Protein
     actionNote: season and pan-sear before making the sauce
     ingredients:
-      - amount: "350–400g"
+      - amountRef: main
         name: chicken breast
         note: sliced thin
         alternatives: []
