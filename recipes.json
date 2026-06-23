@@ -11583,6 +11583,140 @@
     }
   },
   {
+    "id": "homemade-electrolyte-drink",
+    "name": "Homemade Electrolyte Drink",
+    "cuisine": "drinks",
+    "difficulty": "easy",
+    "time": 5,
+    "servings": 1,
+    "methods": [
+      "mix"
+    ],
+    "tags": [
+      "quick",
+      "pantry-friendly"
+    ],
+    "description": "A cheap Gatorade-style drink for workouts, hot days, or times when plain water feels unsatisfying. It gives you water, sodium, a modest amount of potassium, light carbs, and lemon-lime acidity without paying bottled sports drink prices.\n",
+    "keyIngredients": [
+      "water",
+      "sugar",
+      "salt",
+      "potassium chloride",
+      "lemon juice",
+      "lime juice"
+    ],
+    "ingredientGroups": [
+      {
+        "emoji": "🥤",
+        "label": "Drink Base",
+        "actionNote": "shake until fully dissolved",
+        "ingredients": [
+          {
+            "amount": "1 L",
+            "name": "cold water",
+            "note": "use chilled water if drinking right away",
+            "alternatives": []
+          },
+          {
+            "amount": "2 tbsp",
+            "name": "sugar",
+            "note": "light sports-drink sweetness; use 3 tbsp if you want more workout carbs",
+            "alternatives": [
+              {
+                "amount": "2 tbsp",
+                "name": "honey",
+                "note": "works, but the flavor is more noticeable and it takes more shaking to dissolve"
+              }
+            ]
+          },
+          {
+            "amount": "1/4 tsp",
+            "name": "table salt",
+            "note": "main electrolyte; sodium matters most when sweating",
+            "alternatives": []
+          },
+          {
+            "amount": "1/8 tsp",
+            "name": "potassium chloride",
+            "note": "sold as No Salt or salt substitute; do not overdo it because it gets bitter/metallic",
+            "alternatives": [
+              {
+                "amount": "omit",
+                "name": "potassium chloride",
+                "note": "still usable; it just becomes more of a sodium-and-carb drink"
+              }
+            ]
+          },
+          {
+            "amount": "2-3 tbsp",
+            "name": "lemon or lime juice",
+            "note": "use enough to make it taste bright instead of salty-sweet",
+            "alternatives": [
+              {
+                "amount": "splash",
+                "name": "orange juice",
+                "note": "adds flavor and a little more sugar; reduce lemon/lime slightly if needed"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      {
+        "step": "Add water, sugar, salt, potassium chloride, and lemon or lime juice to a bottle or pitcher."
+      },
+      {
+        "step": "Shake or stir until the sugar and salts are fully dissolved."
+      },
+      {
+        "step": "Taste cold. Add a little more citrus if it tastes flat, or a little more sugar if it tastes too medicinal."
+      },
+      {
+        "step": "Drink chilled. For heavier sweating, use 3 tbsp sugar and up to 1/2 tsp salt per liter, but expect it to taste more salty."
+      }
+    ],
+    "protein": {
+      "note": "no meaningful protein; this is for hydration, sodium, potassium, and light carbs"
+    },
+    "tips": [
+      {
+        "keyword": "Sodium does the heavy lifting",
+        "text": "Sweat losses are mostly about water and sodium. Potassium is useful, but it should stay modest unless a clinician has told you otherwise."
+      },
+      {
+        "keyword": "Do not freestyle potassium",
+        "text": "Potassium chloride tastes harsh when overused and high supplemental potassium can be risky with kidney disease or some blood pressure medications. Keep it to a small pinch or 1/8 tsp per liter."
+      },
+      {
+        "keyword": "Adjust for the situation",
+        "text": "For casual sipping, keep the recipe light. For long sweaty sessions, increase sugar and salt slightly so it behaves more like a true sports drink."
+      },
+      {
+        "keyword": "Flavor options",
+        "text": "Lemon-lime is the easiest base. A splash of orange juice, cranberry juice, or a small amount of powdered drink mix can make it taste more like a commercial sports drink."
+      }
+    ],
+    "firstAttemptNotes": {
+      "date": null,
+      "notes": []
+    },
+    "computedMacros": {
+      "cal": 97,
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbs": 25.0,
+      "breakdown": [
+        {
+          "name": "sugar",
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 25.0
+        }
+      ]
+    }
+  },
+  {
     "id": "honey-ginger-lemon-tea",
     "name": "Honey Ginger Lemon Tea",
     "cuisine": "drinks",
